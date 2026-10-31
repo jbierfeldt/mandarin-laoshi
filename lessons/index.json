@@ -1,0 +1,40 @@
+{
+ "lessons": [
+  {
+   "id": "lm_b1_l02",
+   "title": "Lesson 02 · I Have Two Younger Brothers 我有兩個弟弟",
+   "subtitle": "Let's Learn Mandarin B1 · family",
+   "short": "L02 兩個弟弟 · prep",
+   "source": "Textbook: Let's Learn Mandarin Book 1",
+   "kind": "textbook",
+   "date": "2026-10-31T19:15-04:00",
+   "emoji": "📘",
+   "color": "#3B5BDB",
+   "tags": []
+  },
+  {
+   "id": "mftgu_s1_l05",
+   "title": "MFTGU L05 · Can you hear me? 你聽得到嗎？",
+   "subtitle": "3+3 sandhi in 我喜歡 / 你喜歡 · neutral 得 in 聽得到 · 咖啡 / 烏龍茶 tone runs",
+   "short": "MFTGU L05 你聽得到嗎",
+   "source": "Podcast: Mandarin From the Ground Up",
+   "kind": "podcast",
+   "date": "2026-10-31T18:50-04:00",
+   "emoji": "🎧",
+   "color": "#E67700",
+   "tags": []
+  },
+  {
+   "id": "lm_b1_l01",
+   "title": "Lesson 01 · Hello! 您好",
+   "subtitle": "Let's Learn Mandarin B1 · class prep",
+   "short": "L01 您好 · prep",
+   "source": "Textbook: Let's Learn Mandarin Book 1",
+   "kind": "textbook",
+   "date": "2026-10-31T17:30-04:00",
+   "emoji": "📘",
+   "color": "#3B5BDB",
+   "tags": []
+  }
+ ]
+}

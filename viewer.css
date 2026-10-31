@@ -1,0 +1,69 @@
+/* viewer styles: extracted from build_lesson_html.py + lesson_ui.py */
+
+:root{--ink:#212529;--mute:#6C757D;--line:#E9ECEF}
+body{margin:0;font:15px/1.45 -apple-system,"Helvetica Neue",Arial,"PingFang TC","Noto Sans CJK TC",sans-serif;color:var(--ink);background:#fff}
+main{max-width:860px;margin:auto;padding:16px 14px 80px}
+h1{font-size:22px;margin:4px 0} h1 span{float:right} h2{font-size:17px;margin:26px 0 8px;border-bottom:2px solid var(--ink);padding-bottom:3px} h3{font-size:13px;color:var(--mute);margin:14px 0 4px;text-transform:uppercase;letter-spacing:.04em}
+.kick{color:var(--mute);font-size:12px} .legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;background:#F8F9FA;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin:10px 0}
+.key{font-size:12px;background:#FFF9DB;border:1px solid #FFE066;border-radius:8px;padding:8px 10px}
+.pz{font-size:18px;position:absolute;margin-left:1px} .hz{position:relative} .real{white-space:nowrap;background:#2B8A3E;color:#fff;border-radius:4px;padding:1px 6px;font-size:11px;font-weight:700}
+.syn{background:#F1F3F5;color:#868E96;border:1px dashed #ADB5BD;border-radius:4px;padding:0 5px;font-size:10.5px;white-space:nowrap}
+.ln,.vw{display:flex;flex-wrap:wrap;align-items:flex-start;gap:4px 8px;padding:8px 6px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:6px}
+.ln:active,.vw:active,.playing{background:#FFF3BF}
+.spk{flex:0 0 26px;height:26px;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:700;border:1.5px solid var(--ink)} .spk.m{background:var(--ink);color:#fff}
+.sc{display:flex;flex-wrap:wrap;align-items:flex-start;flex:1 1 auto;min-width:0}
+.sy{margin-right:6px!important;display:inline-flex;flex-direction:column;align-items:center;margin:0 2px;min-width:30px}
+.sy b{font-size:18px;line-height:14px;height:14px} .sy i{font-style:normal;font-size:12.5px;color:#343A40}
+.hz{font-size:24px;line-height:1.2;border-bottom:3px solid transparent} .hz.lat{font-size:15px;line-height:29px}
+.ex{height:14px;display:flex;gap:2px;align-items:center} .pu{font-size:22px;align-self:flex-start;padding-top:28px;margin-right:4px}
+.en{box-sizing:border-box;flex:1 0 100%;padding-left:34px;color:#495057;font-size:13.5px}
+.vw .sc{flex:0 0 auto;min-width:120px} .vg{flex:1 1 150px;font-size:13.5px} .alt{color:#ADB5BD} .nt{color:var(--mute);font-size:12px} .play{color:#ADB5BD;align-self:center}
+.card{background:#F8F9FA;border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin:8px 0} .card h4{margin:2px 0} .card p{margin:4px 0;font-size:14px} summary{font-weight:600;cursor:pointer}
+.mk{font-size:11px;font-weight:800;vertical-align:super;margin-right:1px} .said{font-size:10px;color:#17A398;font-weight:700;line-height:11px}
+.fc{font-size:9.5px;color:#0B7285;border:1px solid #99E9F2;background:#E3FAFC;border-radius:3px;padding:0 3px;margin-top:1px;line-height:12px;white-space:nowrap}
+.cues{box-sizing:border-box;flex:1 0 calc(100% - 34px);max-width:calc(100% - 30px);padding-left:8px;font-size:12px;color:#495057;border-left:3px solid #E9ECEF;margin:2px 0 0 30px} .cues div{margin:1px 0} .cues b{display:inline-block;min-width:16px}
+.vg .cues{padding-left:0;margin:3px 0 0;border:0}
+.real.sm{font-size:10px;padding:0 4px}
+details.lg{background:#F8F9FA;border:1px solid var(--line);border-radius:8px;padding:6px 10px;margin:10px 0;font-size:12.5px} details.lg summary{font-size:13px}
+.lg table{border-collapse:collapse;margin:4px 0} .lg td{padding:2px 6px;vertical-align:top} .lg td:first-child{font-weight:800;text-align:center;white-space:nowrap}
+.hint{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:start;background:#F8F9FA;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin:6px 0;cursor:pointer} .hint .w{font-size:20px;white-space:nowrap} .hint .w small{display:block;font-size:12px;color:#495057} .hint p{margin:0;font-size:13.5px}
+.trk{margin:8px 0} .tl{font-size:13px;margin-bottom:3px} audio{width:100%}
+.speed button{border:1px solid #ADB5BD;background:#fff;border-radius:16px;padding:4px 12px;font-size:13px} .speed button.on{background:var(--ink);color:#fff}
+
+h2 .S,.hz .S,.h2 .T{display:none} .simp h2 .T{display:none} .simp h2 .S{display:inline} .simp .hz .T,.simp .h2 .S{display:none} .simp .hz .S,.simp .h2 .T{display:inline}
+.h2{font-size:12px;color:#ADB5BD;line-height:14px;min-height:14px} .hint .w .h2{display:block;font-size:13px}
+.pk{border:0;background:none;font-size:15px;opacity:.35;padding:0 2px;margin-left:auto;align-self:center;display:none;cursor:pointer} .hidden-some .pk{display:inline-block} .peek .pk{opacity:1}
+.off-tone .ln:not(.peek) .sy>b,.off-tone .vw:not(.peek) .sy>b{visibility:hidden}
+.off-py .ln:not(.peek) .sy i,.off-py .vw:not(.peek) .sy i,.off-py .hint .w small{visibility:hidden}
+.off-mk .ln:not(.peek) .mk:not(.k-p1):not(.k-p2):not(.k-p3),.off-mk .vw:not(.peek) .mk:not(.k-p1):not(.k-p2):not(.k-p3),.off-mk .ln:not(.peek) .said,.off-mk .vw:not(.peek) .said{display:none}
+.off-pos .ln:not(.peek) .mk.k-p1,.off-pos .ln:not(.peek) .mk.k-p2,.off-pos .ln:not(.peek) .mk.k-p3,.off-pos .vw:not(.peek) .mk.k-p1,.off-pos .vw:not(.peek) .mk.k-p2,.off-pos .vw:not(.peek) .mk.k-p3{display:none}
+.off-cue .ln:not(.peek) .cues,.off-cue .vw:not(.peek) .cues,.off-cue .vw:not(.peek) .cuex{display:none}
+.off-fc .ln:not(.peek) .fc,.off-fc .vw:not(.peek) .fc,.off-fc #hints,.off-fc #hintsh{display:none}
+.off-en .ln:not(.peek) .ent,.off-en .vw:not(.peek) .ent{visibility:hidden}
+.off-sec .ln:not(.peek) .h2,.off-sec .vw:not(.peek) .h2,.off-sec .hint .h2{visibility:hidden}
+.off-hz .ln:not(.peek) .hz,.off-hz .vw:not(.peek) .hz{visibility:hidden}
+.peek{background:#F1F8FF}
+
+.top{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);height:44px;display:flex;align-items:center;gap:8px;padding:0 10px;box-sizing:border-box}
+.top .tt{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;font-size:15px}
+.top button{border:1px solid #ADB5BD;background:#fff;border-radius:16px;height:32px;padding:0 12px;font-size:14px;color:var(--ink)}
+.top #dbtn[aria-expanded=true]{background:var(--ink);color:#fff}
+#drawer{position:fixed;left:0;right:0;top:44px;z-index:19;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 8px 20px rgba(0,0,0,.12);
+ max-height:calc(100vh - 44px - 90px);overflow:auto;transform:translateY(-110%);visibility:hidden;transition:transform .2s ease,visibility .2s}
+#drawer.open{transform:none;visibility:visible}
+#drawer .in{max-width:860px;margin:auto;padding:8px 12px 10px;box-sizing:border-box}
+#scrim{position:fixed;inset:44px 0 0 0;z-index:18;background:rgba(0,0,0,.18);display:none} #scrim.open{display:block}
+.ctl{font-size:12.5px} .ctl .row{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin:4px 0} .ctl .lab{color:#868E96;font-size:11px;flex:0 0 100%}
+.ctl button{border:1px solid #ADB5BD;background:#fff;border-radius:14px;padding:5px 10px;font-size:12.5px;color:var(--ink)} .ctl button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.ctl .pre button{border-style:dashed} .ctl .tip{color:#868E96;font-size:11px}
+#fp{position:fixed;left:0;right:0;bottom:0;z-index:21;background:#212529;color:#fff;padding:6px 10px calc(6px + env(safe-area-inset-bottom));box-sizing:border-box;display:none}
+#fp.show{display:block} #fp .w{max-width:860px;margin:auto}
+#fp .r1{display:flex;align-items:center;gap:6px} #fp .lb{flex:1;min-width:0;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#fp button{background:#343A40;color:#fff;border:0;border-radius:18px;height:34px;min-width:44px;font-size:14px;padding:0 8px}
+#fp #fpp{min-width:52px;background:#FAB005;color:#212529;font-size:16px}
+#fp .r2{display:flex;align-items:center;gap:8px;font-size:11px;color:#CED4DA;margin-top:4px} #fp input{flex:1;accent-color:#FAB005;height:16px;margin:0}
+body.fpon main{padding-bottom:120px}
+.trk{display:flex;align-items:center;gap:8px;padding:8px 6px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:6px} .trk .tl{flex:1;margin:0}
+.trk .go{border:1px solid #ADB5BD;border-radius:14px;padding:2px 10px;font-size:13px;background:#fff}
+.pb{border:1px solid #ADB5BD;background:#fff;border-radius:14px;padding:2px 9px;font-size:13px;margin-right:4px;cursor:pointer;white-space:nowrap}
+.pb.playing{background:#FFF3BF}
