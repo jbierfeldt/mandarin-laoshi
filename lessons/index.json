@@ -35,6 +35,18 @@
    "emoji": "📘",
    "color": "#3B5BDB",
    "tags": []
+  },
+  {
+   "id": "mftgu_s1_l01",
+   "title": "MFTGU L01 · Listen, can you speak Chinese? 你會說中文嗎？",
+   "subtitle": "聽 / 說 / 會 · 不會 → bú huì · 3+3 in 你好 and 一點點",
+   "short": "MFTGU L01 你會說中文嗎",
+   "source": "Podcast: Mandarin From the Ground Up",
+   "kind": "podcast",
+   "date": "2026-10-11T08:00-04:00",
+   "emoji": "🎧",
+   "color": "#E67700",
+   "tags": []
   }
  ]
 }
