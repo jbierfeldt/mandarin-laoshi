@@ -1,5 +1,6 @@
-/* Mandarin 老師 — no-build SPA. Routes: #/ (index) · #/lesson/<id> · #/practice · #/practice/<id>.
-   Lessons: lessons/<id>/lesson.json. Conversation practice: conversations/<id>/entry.json (same score schema). */
+/* Mandarin 老師 — no-build SPA. Routes: #/ (index) · #/lesson/<id> · #/practice · #/practice/<id> · #/phrasebook.
+   Lessons: lessons/<id>/lesson.json. Conversation practice: conversations/<id>/entry.json (same score schema).
+   Phrasebook: phrasebook/index.json via phrasebook/page.js. It does not load lesson or practice JSON. */
 (()=>{"use strict";
 const APPV="1";
 const C={1:"#E4572E",2:"#17A398",3:"#3B5BDB",4:"#9C36B5",5:"#868E96"},G={1:"ˉ",2:"ˊ",3:"ˇ",4:"ˋ",5:"·"};
@@ -137,9 +138,12 @@ function renderLesson(L,basePath){A={};LBL={};pageSimp=L.script==="hans"?true:nu
  $("app").innerHTML=`<article class="lesson" data-id="${esc(L.id)}" data-kind="${esc(L.kind||"")}" data-script="${esc(L.script||"")}"><div class="kick">${esc(L.kick)}</div><h1>${L.h1||esc(L.title)}</h1>${L.focus?`<div class="kick">Focus: ${esc(L.focus)}</div>`:""}
  ${window.LEGEND}<div class="key">${L.key||""}</div>${L.sections.map(s=>section(s,L)).join("")}
  <p class="kick">${esc(L.foot||"")} Markers 1 2 3 ʰ ° ~ ü ↗ ↓ and cues = house A3 Marker style; teal final chips are an HTML-only extension. Contours/sandhi idealized by rule, not measured.</p>${OWN}</article>`;apply()}
-async function route(){const h=location.hash||"#/";const m=h.match(/^#\/lesson\/([^/?]+)/);const pm=h.match(/^#\/practice\/([^/?]+)/);const pi=/^#\/practice\/?$/.test(h);dr(false);
+async function route(){const h=location.hash||"#/";const m=h.match(/^#\/lesson\/([^/?]+)/);const pm=h.match(/^#\/practice\/([^/?]+)/);const pi=/^#\/practice\/?$/.test(h);const bm=h.match(/^#\/phrasebook(?:\/([^/?]+))?\/?$/);dr(false);
  if(curK){au.pause();mark(false)}
- try{if(m){const id=decodeURIComponent(m[1]);$("back").hidden=false;$("dbtn").hidden=false;$("tt").textContent="…";
+ try{if(bm){const focus=bm[1]?decodeURIComponent(bm[1]):"";$("back").hidden=false;$("dbtn").hidden=true;$("tt").textContent="Phrasebook";document.title="Phrasebook · Mandarin 老師";
+   const show=()=>{if(!/^#\/phrasebook(?:\/|$)/.test(location.hash||"#"))return;if(!window.renderPhrasebook)return;Promise.resolve(window.renderPhrasebook(focus)).catch(err=>{$("app").innerHTML=`<div class="err">Couldn’t load phrasebook: ${esc(err.message)}. <a href="#/">All lessons</a></div>`})};
+   if(window.renderPhrasebook)show();else window.addEventListener("phrasebook-ready",show,{once:true});window.scrollTo(0,0)}
+  else if(m){const id=decodeURIComponent(m[1]);$("back").hidden=false;$("dbtn").hidden=false;$("tt").textContent="…";
    const L=await getJSON(`lessons/${encodeURIComponent(id)}/lesson.json`);document.title=(L.short||L.title)+" · Mandarin 老師";$("tt").textContent=L.short||L.title;renderLesson(L);window.scrollTo(0,0)}
   else if(pm){const id=decodeURIComponent(pm[1]);$("back").hidden=false;$("dbtn").hidden=false;$("tt").textContent="…";
    const L=await getJSON(`conversations/${encodeURIComponent(id)}/entry.json`);document.title=(L.short||L.title)+" · Mandarin 老師";$("tt").textContent=L.short||L.title;renderLesson(L,`conversations/${encodeURIComponent(id)}/`);window.scrollTo(0,0)}
