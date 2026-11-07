@@ -6,14 +6,15 @@
  "counts": {
   "lessons": 8,
   "conversations": 1,
-  "entries": 268,
+  "entries": 267,
   "words": 117,
-  "phrases": 151,
-  "senses": 331,
-  "withAudio": 267,
-  "withExamples": 110,
-  "withBreakdown": 27,
-  "multiSource": 32
+  "phrases": 150,
+  "senses": 329,
+  "withAudio": 266,
+  "withExamples": 109,
+  "withBreakdown": 26,
+  "multiSource": 32,
+  "incorrectExcluded": 1
  },
  "inputs": {
   "lessons": [
@@ -5994,14 +5995,14 @@
      ]
     },
     {
-     "trad": "我是累。",
-     "simp": "我是累。",
-     "pinyin": "Wǒ shì lèi",
-     "en": "Incorrect form. Do not say this for “I'm tired.”",
-     "note": "Incorrect. Do not use 是 before an adjective. 我是累 is not how you say “I'm tired”. Use 我很累 or 我累了. 是 is for nouns: names, identity, and categories.",
+     "trad": "我有點累。",
+     "simp": "我有点累。",
+     "pinyin": "Wǒ yǒu diǎn lèi",
+     "en": "I'm a little tired.",
+     "note": "I'm a little tired. 有点 is one chunk, “a little”. It does not mean “have” plus “tired”. The syllable that can sound like English “you” is 有 yǒu. It is not 你 nǐ. This chat did not use 一. A separate podcast page uses 有一点 for the same idea. Dictionary tones: Wǒ yǒu diǎn lèi. The marks on this card follow one 3rd-tone reading: wó yóu diǎn lèi.",
      "href": "#/practice/cp_2026_11_07",
      "sourceId": "cp_2026_11_07",
-     "itemId": "s03",
+     "itemId": "s04",
      "origin": "conversation",
      "kind": "conversation",
      "short": "Nov 7 · New shoes",
@@ -6013,10 +6014,10 @@
        "en": "I; me"
       },
       {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is; the verb “to be”"
+       "trad": "有點",
+       "simp": "有点",
+       "pinyin": "yǒudiǎn",
+       "en": "a little; a bit (one chunk, not “have tired”)"
       },
       {
        "trad": "累",
@@ -10328,28 +10329,6 @@
    "pinyinPlain": "shi",
    "senses": [
     {
-     "id": "is-the-verb-to-be",
-     "gloss": "is; the verb “to be”",
-     "sources": [
-      {
-       "origin": "conversation",
-       "id": "cp_2026_11_07",
-       "kind": "conversation",
-       "title": "New shoes & playful replies",
-       "short": "Nov 7 · New shoes",
-       "source": "Conversation Practice",
-       "date": "2026-11-07T12:00:00-05:00",
-       "href": "#/practice/cp_2026_11_07",
-       "script": "hans",
-       "sectionType": "lines",
-       "sectionTitle": "Tired, then new shoes",
-       "itemId": "s03",
-       "group": "",
-       "note": ""
-      }
-     ]
-    },
-    {
      "id": "to-be-am-is-are",
      "gloss": "to be (am / is / are)",
      "sources": [
@@ -10411,41 +10390,7 @@
     }
    ],
    "words": [],
-   "examples": [
-    {
-     "trad": "我是累。",
-     "simp": "我是累。",
-     "pinyin": "Wǒ shì lèi",
-     "en": "Incorrect form. Do not say this for “I'm tired.”",
-     "note": "Incorrect. Do not use 是 before an adjective. 我是累 is not how you say “I'm tired”. Use 我很累 or 我累了. 是 is for nouns: names, identity, and categories.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s03",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
-      },
-      {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is; the verb “to be”"
-      },
-      {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
-      }
-     ]
-    }
-   ],
+   "examples": [],
    "audio": {
     "src": "lessons/lm_b1_l01/audio/v9.mp3",
     "label": "是 · REAL",
@@ -11437,14 +11382,14 @@
      ]
     },
     {
-     "trad": "我是累。",
-     "simp": "我是累。",
-     "pinyin": "Wǒ shì lèi",
-     "en": "Incorrect form. Do not say this for “I'm tired.”",
-     "note": "Incorrect. Do not use 是 before an adjective. 我是累 is not how you say “I'm tired”. Use 我很累 or 我累了. 是 is for nouns: names, identity, and categories.",
+     "trad": "我有點累。",
+     "simp": "我有点累。",
+     "pinyin": "Wǒ yǒu diǎn lèi",
+     "en": "I'm a little tired.",
+     "note": "I'm a little tired. 有点 is one chunk, “a little”. It does not mean “have” plus “tired”. The syllable that can sound like English “you” is 有 yǒu. It is not 你 nǐ. This chat did not use 一. A separate podcast page uses 有一点 for the same idea. Dictionary tones: Wǒ yǒu diǎn lèi. The marks on this card follow one 3rd-tone reading: wó yóu diǎn lèi.",
      "href": "#/practice/cp_2026_11_07",
      "sourceId": "cp_2026_11_07",
-     "itemId": "s03",
+     "itemId": "s04",
      "origin": "conversation",
      "kind": "conversation",
      "short": "Nov 7 · New shoes",
@@ -11456,10 +11401,10 @@
        "en": "I; me"
       },
       {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is; the verb “to be”"
+       "trad": "有點",
+       "simp": "有点",
+       "pinyin": "yǒudiǎn",
+       "en": "a little; a bit (one chunk, not “have tired”)"
       },
       {
        "trad": "累",
@@ -12562,64 +12507,6 @@
     "src": "lessons/mftgu_s1_l02/audio/Np10.mp3",
     "label": "我們都累了 · ⚡ natural",
     "real": true
-   }
-  },
-  {
-   "id": "pb-wo-shi-lei-我是累",
-   "kind": "phrase",
-   "trad": "我是累。",
-   "simp": "我是累。",
-   "pinyin": "Wǒ shì lèi",
-   "pinyinPlain": "woshilei",
-   "senses": [
-    {
-     "id": "incorrect-form-do-not-say-this-for-i-m-tired",
-     "gloss": "Incorrect form. Do not say this for “I'm tired.”",
-     "sources": [
-      {
-       "origin": "conversation",
-       "id": "cp_2026_11_07",
-       "kind": "conversation",
-       "title": "New shoes & playful replies",
-       "short": "Nov 7 · New shoes",
-       "source": "Conversation Practice",
-       "date": "2026-11-07T12:00:00-05:00",
-       "href": "#/practice/cp_2026_11_07",
-       "script": "hans",
-       "sectionType": "lines",
-       "sectionTitle": "Tired, then new shoes",
-       "itemId": "s03",
-       "group": "",
-       "note": "Incorrect. Do not use 是 before an adjective. 我是累 is not how you say “I'm tired”. Use 我很累 or 我累了. 是 is for nouns: names, identity, and categories."
-      }
-     ]
-    }
-   ],
-   "words": [
-    {
-     "trad": "我",
-     "simp": "我",
-     "pinyin": "wǒ",
-     "en": "I; me"
-    },
-    {
-     "trad": "是",
-     "simp": "是",
-     "pinyin": "shì",
-     "en": "is; the verb “to be”"
-    },
-    {
-     "trad": "累",
-     "simp": "累",
-     "pinyin": "lèi",
-     "en": "tired"
-    }
-   ],
-   "examples": [],
-   "audio": {
-    "src": "conversations/cp_2026_11_07/audio/s03.mp3",
-    "label": "我是累。 · synthetic",
-    "real": false
    }
   },
   {

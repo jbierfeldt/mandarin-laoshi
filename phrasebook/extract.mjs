@@ -312,19 +312,27 @@ export function buildIndex({ lessons, conversations, fileExists }) {
   const subs = [];
   const inputs = { lessons: [], conversations: [] };
   const sources = [];
+  let incorrectExcluded = 0;
+  const keep = (occ) => {
+    if (occ.incorrect) {
+      if (!occ.subword) incorrectExcluded += 1;
+      return;
+    }
+    (occ.subword ? subs : full).push(occ);
+  };
   for (const row of lessons) {
     const meta = metaFrom(row.catalog, row.doc, "lesson");
     sources.push(publicSource({ ...meta, sectionType: "", sectionTitle: "", itemId: "", group: "", note: "" }));
     const { occurrences, stats } = lessonOccurrences(row.doc, meta, ctx);
     inputs.lessons.push({ id: meta.id, ...stats });
-    for (const occ of occurrences) (occ.subword ? subs : full).push(occ);
+    for (const occ of occurrences) keep(occ);
   }
   for (const row of conversations) {
     const meta = metaFrom(row.catalog, row.doc, "conversation");
     sources.push(publicSource({ ...meta, sectionType: "", sectionTitle: "", itemId: "", group: "", note: "" }));
     const { occurrences, stats } = conversationOccurrences(row.doc, meta, ctx);
     inputs.conversations.push({ id: meta.id, script: meta.script, ...stats });
-    for (const occ of occurrences) (occ.subword ? subs : full).push(occ);
+    for (const occ of occurrences) keep(occ);
   }
   const mapEntries = new Map();
   for (const occ of full) mergeFull(mapEntries, occ);
@@ -354,6 +362,7 @@ export function buildIndex({ lessons, conversations, fileExists }) {
       withExamples: entries.filter((e) => e.examples.length).length,
       withBreakdown: entries.filter((e) => e.words.length).length,
       multiSource: entries.filter((e) => new Set(e.senses.flatMap((s) => s.sources.map((src) => src.id))).size > 1).length,
+      incorrectExcluded,
     },
     inputs,
     charMapConflicts: conflicts,

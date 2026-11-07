@@ -37,9 +37,11 @@ Conversation entries, from `conversations/index.json` `entries[]` and `conversat
 - `words[]` on a sentence: `t` traditional, `s` simplified when it differs, `py`, `en`
 - sentence `py`, `en`, `note`, `id`, `audio`
 
-`phrasebook/adapters/conversation.mjs` is the only place those conversation fields are read. This repository's publishing script (`scripts/build_conversation.py`) is a different workflow. This generator does not validate or publish entries, and it does not invent a second copy of that schema. When a new entry is added to `conversations/index.json` in this shape, the next run picks it up.
+`phrasebook/adapters/conversation.mjs` is the only place those conversation fields are read. New entries are published with `node tools/conversation/publish.mjs path/to/entry.json --apply`, described in `tools/conversation/RUNBOOK.md`. That command writes the entry and then runs this generator. A dry run of the publisher writes nothing and only reports whether this file would change. This generator does not define a second conversation schema.
 
-Drills are skipped when they repeat a vocab item or a line. The Nov 7 incorrect sentence `我是累` is a line, so it stays in the index with the note that it is incorrect. Hints and grammar cards are not entries. The standalone HTML copy of a conversation is not read.
+`node phrasebook/build.mjs --check` is the staleness check for lesson edits, which the publisher does not write. Run `node phrasebook/build.mjs` after changing a lesson file.
+
+Drills are skipped when they repeat a vocab item or a line. A line whose English or note starts with `Incorrect` is not a phrasebook entry and is not used as an example. `我是累` is that kind of line. The practice page still shows it, with a banner that says not to learn it. Hints and grammar cards are not entries. The standalone HTML copy of a conversation is not read.
 
 If `conversations/index.json` is missing, the generator still builds the lesson index and does not guess at entries.
 

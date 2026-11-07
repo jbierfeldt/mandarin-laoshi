@@ -132,7 +132,9 @@ test("fixture merges duplicates, keeps senses, and survives missing audio", () =
   assert.equal(tired.senses[0].sources[0].script, "hans");
   assert.equal(tired.words.length, 3);
   assert.equal(index.inputs.conversations[0].drillsIndexed, 0);
-  assert.equal(findEntry(index, "我是累").senses[0].sources[0].note.includes("Incorrect"), true);
+  assert.equal(index.counts.incorrectExcluded, 1);
+  assert.equal(findEntry(index, "我是累"), undefined);
+  assert.equal(index.entries.some((e) => e.examples.some((ex) => stripPunct(ex.simp) === "我是累")), false);
   assert.equal(searchEntries(index, "BROTHER").length, 0);
   assert.equal(searchEntries(index, "zzzz-not-a-word").length, 0);
   assert.equal(searchEntries(index, "").length, index.entries.length);
@@ -165,14 +167,15 @@ test("real index counts, merges, and conversation provenance", () => {
   assert.deepEqual(index.counts, {
     lessons: 8,
     conversations: 1,
-    entries: 268,
+    entries: 267,
     words: 117,
-    phrases: 151,
-    senses: 331,
-    withAudio: 267,
-    withExamples: 110,
-    withBreakdown: 27,
+    phrases: 150,
+    senses: 329,
+    withAudio: 266,
+    withExamples: 109,
+    withBreakdown: 26,
     multiSource: 32,
+    incorrectExcluded: 1,
   });
   assert.equal(index.charMapConflicts.length, 0);
   assert.deepEqual(index.sources.map((s) => s.id).sort(), [...OLD, "cp_2026_11_07"].sort());
@@ -209,9 +212,15 @@ test("real index counts, merges, and conversation provenance", () => {
   assert.equal(src.itemId, "s01");
   assert.equal(sentence.audio.src, "conversations/cp_2026_11_07/audio/s01.mp3");
 
-  const wrong = findEntry(index, "我是累", "woshilei");
-  assert.match(wrong.senses[0].sources[0].note, /^Incorrect/);
-  assert.match(wrong.senses[0].gloss, /Incorrect form/);
+  assert.equal(findEntry(index, "我是累", "woshilei"), undefined);
+  assert.equal(searchEntries(index, "我是累").some((e) => stripPunct(e.simp) === "我是累" || e.kind === "phrase" && stripPunct(e.simp).includes("我是累")), false);
+  for (const entry of index.entries) {
+    assert.equal(entry.examples.some((ex) => stripPunct(ex.simp) === "我是累"), false);
+    assert.equal(entry.senses.some((s) => s.gloss.startsWith("Incorrect")), false);
+  }
+  const app = fs.readFileSync(path.join(root, "app.js"), "utf8");
+  assert.match(app, /data-status="incorrect"/);
+  assert.match(app, /Do not learn this sentence/);
 
   const bi = findEntry(index, "逼", "bi");
   assert.match(bi.senses[0].gloss, /stand-in/);

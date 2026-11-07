@@ -9,16 +9,18 @@ Generated lesson pages come from mandarin_kit/app_convert.py; docs in mandarin_k
 
 `#/phrasebook` searches the words and phrases already in the lessons and conversation entries. The list is the static file `phrasebook/index.json`, not a database. Open it from the Words link in the header.
 
-After a new lesson or conversation entry is added, regenerate that file:
+Publishing a conversation is a dry run, then a write. The runbook is `tools/conversation/RUNBOOK.md`.
+
+```
+node tools/conversation/publish.mjs path/to/entry.json
+node tools/conversation/publish.mjs path/to/entry.json --apply
+```
+
+The first command writes nothing. `--apply` writes the conversation files and rebuilds `phrasebook/index.json`. A lesson edit is not part of that command. After changing a lesson, run:
 
 ```
 node phrasebook/build.mjs
-```
-
-Confirm the file matches the sources:
-
-```
 node phrasebook/build.mjs --check
 ```
 
-Fields, ids, and what the generator reads are in `phrasebook/SCHEMA.md`. Publishing a conversation (`scripts/build_conversation.py`) is separate. The phrasebook command only reads `lessons/` and `conversations/` and rewrites `phrasebook/index.json`.
+`--check` fails when the index does not match the lessons and conversations on disk. Fields are in `phrasebook/SCHEMA.md`.

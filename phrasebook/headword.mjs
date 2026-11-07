@@ -184,6 +184,7 @@ export function occurrenceFromItem(item, section, meta, ctx, role) {
     syllables,
     role,
     gloss: String(item.en || "").trim(),
+    incorrect: incorrectItem(item),
     subword: false,
     words,
     wordKeys,
@@ -208,12 +209,20 @@ export function occurrenceFromWord(word, item, section, meta, ctx) {
     syllables: pinyin ? pinyin.split(/\s+/).filter(Boolean) : [],
     role: "word",
     gloss: String(word.en || "").trim(),
+    incorrect: false,
     subword: true,
     words: [],
     wordKeys: [],
     source: sourceOf(meta, section, item, ""),
     audio: null,
   };
+}
+
+export function incorrectItem(item) {
+  if (!item || typeof item !== "object") return false;
+  const note = String(item.note || "");
+  const en = String(item.en || "");
+  return note.startsWith("Incorrect") || en.startsWith("Incorrect");
 }
 
 export function lessonVocabRole(item) {

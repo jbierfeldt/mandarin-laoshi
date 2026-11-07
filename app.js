@@ -35,7 +35,9 @@ function line(it,isPod){
  else bd=au0[0]?(au0[0].real?'<span class="real">▶ REAL clip</span>':`<span class="syn">▶ synthetic · ${esc(au0[0].voice||"")} TW voice</span>`):"";
  const pyl=it.py?`<div class="pyl">${esc(it.py)}</div>`:"";
  const note=it.note?`<div class="note">${esc(it.note)}</div>`:"";
- return `<div class="ln"${da}>${spk}<div class="sc">${it.cells.map(cell).join("")}</div><div class="en">${bb}<span class="ent">${esc(it.en)}</span> ${bd}</div>${pyl}${bits(it.words)}${note}${cues(it.cues)}<button class="pk" title="peek: show all hints for this line">👁</button></div>`}
+ const bad=typeof it.note==="string"&&it.note.startsWith("Incorrect")||typeof it.en==="string"&&it.en.startsWith("Incorrect");
+ const flag=bad?'<p class="bad-flag" role="status">Incorrect. Do not learn this sentence.</p>':"";
+ return `<div class="ln${bad?" ln-incorrect":""}"${bad?' data-status="incorrect"':""}${da}>${flag}${spk}<div class="sc">${it.cells.map(cell).join("")}</div><div class="en">${bb}<span class="ent">${esc(it.en)}</span> ${bd}</div>${pyl}${bits(it.words)}${note}${cues(it.cues)}<button class="pk" title="peek: show all hints for this line">👁</button></div>`}
 function vocab(items){let h="",grp=null;for(const it of items){(it.audio||[]).forEach(reg);
  if(it.grp&&it.grp!==grp){grp=it.grp;h+=`<h3>${esc(grp)}</h3>`}
  const a=it.audio&&it.audio[0];

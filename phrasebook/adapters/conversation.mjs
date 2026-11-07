@@ -21,7 +21,7 @@
  * that route.
  */
 
-import { occurrenceFromItem, occurrenceFromWord } from "../headword.mjs";
+import { incorrectItem, occurrenceFromItem, occurrenceFromWord } from "../headword.mjs";
 
 function drillRole(section) {
   const title = String(section.title || "");
@@ -42,6 +42,8 @@ export function conversationOccurrences(doc, meta, ctx) {
       const role = section.type === "vocab" ? "word" : "phrase";
       const occ = occurrenceFromItem(item, section, meta, ctx, role);
       if (!occ) continue;
+      const bad = incorrectItem(item);
+      occ.incorrect = bad;
       occurrences.push(occ);
       seen.add(occ.key);
       if (section.type === "vocab") vocab += 1;
@@ -49,6 +51,7 @@ export function conversationOccurrences(doc, meta, ctx) {
       for (const word of item.words || []) {
         const sub = occurrenceFromWord(word, item, section, meta, ctx);
         if (!sub || sub.key === occ.key) continue;
+        sub.incorrect = bad;
         occurrences.push(sub);
       }
     }
@@ -58,6 +61,7 @@ export function conversationOccurrences(doc, meta, ctx) {
     const role = drillRole(section);
     for (const item of section.items || []) {
       const occ = occurrenceFromItem(item, section, meta, ctx, role);
+      if (occ) occ.incorrect = incorrectItem(item);
       if (!occ || seen.has(occ.key)) {
         drillsSkipped += 1;
         continue;
