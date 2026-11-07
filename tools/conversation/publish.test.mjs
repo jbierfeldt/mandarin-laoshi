@@ -88,6 +88,8 @@ test("sample fixture is generic and publishes to the live player schema", () => 
 test("dry-run writes nothing and --push is rejected", () => {
   const before = readFileSync(join(REPO_ROOT, "conversations/index.json"), "utf8");
   const shoes = readFileSync(join(REPO_ROOT, "conversations/cp_2026_11_07/entry.json"), "utf8");
+  const phrasebookPath = join(REPO_ROOT, "phrasebook/index.json");
+  const phrasebookBefore = existsSync(phrasebookPath) ? readFileSync(phrasebookPath, "utf8") : "";
   const ran = run([fixturePath]);
   assert.equal(ran.status, 0, ran.stdout + ran.stderr);
   assert.match(ran.stdout, /preflight ok/);
@@ -97,6 +99,9 @@ test("dry-run writes nothing and --push is rejected", () => {
   assert.match(ran.stdout, /publish: not performed/);
   assert.equal(readFileSync(join(REPO_ROOT, "conversations/index.json"), "utf8"), before);
   assert.equal(readFileSync(join(REPO_ROOT, "conversations/cp_2026_11_07/entry.json"), "utf8"), shoes);
+  assert.match(ran.stdout, /phrasebook:/);
+  assert.match(ran.stdout, /not written/);
+  assert.equal(existsSync(phrasebookPath) ? readFileSync(phrasebookPath, "utf8") : "", phrasebookBefore);
   assert.equal(existsSync(join(REPO_ROOT, "conversations/cp_2026_01_15_tea")), false);
   const pushed = run([fixturePath, "--push"]);
   assert.equal(pushed.status, 2);
@@ -212,8 +217,13 @@ test("explicit traditional override is kept", () => {
 });
 
 test("publisher source does not call the network, git, or a speech API", () => {
-  const blob = ["publish.mjs", "build.mjs", "validate.mjs", "pinyin.mjs", "s2t.mjs"].map((name) => readFileSync(join(here, name), "utf8")).join("\n");
-  for (const banned of ["edge-tts", "fetch(", "git push", "force-push", "child_process", "phrasebook/"]) {
-    assert.equal(blob.includes(banned), false, banned);
+  const publish = readFileSync(join(here, "publish.mjs"), "utf8");
+  const others = ["build.mjs", "validate.mjs", "pinyin.mjs", "s2t.mjs"].map((name) => readFileSync(join(here, name), "utf8")).join("\n");
+  for (const banned of ["edge-tts", "fetch(", "git push", "force-push", "child_process"]) {
+    assert.equal(publish.includes(banned), false, banned);
+    assert.equal(others.includes(banned), false, banned);
   }
+  assert.equal(others.includes("phrasebook/"), false);
+  assert.match(publish, /phrasebook\/build\.mjs/);
+  assert.match(publish, /writePhrasebook/);
 });

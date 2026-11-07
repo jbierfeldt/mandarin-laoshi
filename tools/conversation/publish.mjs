@@ -2,13 +2,16 @@
 /**
  * Dry-run by default. Writes conversation JSON only with --apply.
  * Does not push, deploy, send messages, or generate audio.
- * Does not modify cp_2026_11_07 or the phrasebook search index.
+ * Does not modify cp_2026_11_07.
+ * Dry-run does not write the phrasebook. --apply rebuilds phrasebook/index.json
+ * when this root contains the phrasebook builder, so a new entry cannot leave search stale.
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { validateAuthoring } from "./validate.mjs";
 import { toIndexRow, toPlayerEntry } from "./build.mjs";
+import { phrasebookPreview, writePhrasebook } from "../../phrasebook/build.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 export const REPO_ROOT = resolve(HERE, "../..");
@@ -164,7 +167,6 @@ function report(r) {
   lines.push(`entry: ${r.action === "unchanged" ? "unchanged" : r.action} conversations/${id}/entry.json`);
   lines.push("writes: 0 (dry-run; pass --apply to write files in the repo)");
   lines.push("publish: not performed. GitHub Pages updates only after a normal PR merge to main.");
-  lines.push("phrasebook: not written. Search index stays with the phrasebook work.");
   for (const w of r.warnings) lines.push(`warning ${w.code} ${w.path}: ${w.message}`);
   return lines.join("\n");
 }
@@ -194,7 +196,8 @@ function help() {
   return `Usage: node tools/conversation/publish.mjs <entry.json> [--apply] [--root dir]
 
 Default is a dry run: validate and print the plan. Nothing is written.
---apply writes conversations/<id>/entry.json and updates conversations/index.json.
+--apply writes conversations/<id>/entry.json, updates conversations/index.json,
+and rebuilds phrasebook/index.json when phrasebook/build.mjs is in this root.
 It does not push, open a pull request, deploy, or generate audio.
 cp_2026_11_07 is refused. Textbook and podcast lessons are not modified.`;
 }
@@ -244,17 +247,26 @@ function main() {
     console.log(`preflight failed\n- template_invariant : ${err.message}\nwrites: 0\npublish: not performed`);
     process.exit(1);
   }
+  const overlay = result.ok ? { catalog: result.row, doc: result.entry } : null;
   if (!apply) {
+    const preview = phrasebookPreview(root, overlay);
     console.log(result.report);
+    console.log(preview.line);
     process.exit(result.ok ? 0 : 1);
   }
   if (!result.ok) {
     console.log(result.report);
+    console.log("phrasebook: not written");
     process.exit(1);
   }
-  const { wrote } = applyResult(result);
+  const applied = applyResult(result);
+  const phrasebook = writePhrasebook(root);
+  const wrote = applied.wrote.concat(phrasebook.wrote || []);
+  let phraseLine = "phrasebook: not in this root";
+  if (!phrasebook.skipped) phraseLine = phrasebook.unchanged ? "phrasebook: unchanged" : "phrasebook: updated phrasebook/index.json";
   const lines = result.report.replace("writes: 0 (dry-run; pass --apply to write files in the repo)", wrote.length ? `writes: ${wrote.length}\n${wrote.map((p) => `wrote ${p}`).join("\n")}` : "writes: 0");
   console.log(lines);
+  console.log(phraseLine);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

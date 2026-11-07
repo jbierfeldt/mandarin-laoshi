@@ -41,3 +41,5 @@ h2.grp{font-size:13px;border-bottom:0;margin:18px 0 6px;padding:0;text-transform
 .off-en .ln:not(.peek) .note,.off-en .dcard .note,.off-en .dcard .ent{visibility:hidden}
 .off-py .ln:not(.peek) .pyl,.off-py .ln:not(.peek) .bit i,.off-py .dcard .pyl,.off-py .dcard .bit i{visibility:hidden}
 .lg{overflow-x:auto}
+.ln-incorrect{background:#FFF5F5;border:1px solid #FFC9C9;border-radius:8px;margin:8px 0;padding:8px}
+.bad-flag{flex:1 0 100%;box-sizing:border-box;margin:0 0 6px;background:#C92A2A;color:#fff;font-weight:700;font-size:14px;border-radius:6px;padding:8px 10px}

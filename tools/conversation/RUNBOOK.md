@@ -14,7 +14,7 @@ The player on `main` (`a70ce244`) already renders a conversation. A new entry is
 
 `cp_2026_11_07` is already published. The tool refuses that id and does not open its files. Textbook and podcast lessons are not inputs or outputs.
 
-Search is a separate phrasebook. This tool does not write a search index or a search screen. A later phrasebook build can read `entries[]` and each `entry.json` word list.
+Search is `phrasebook/index.json`, opened at `#/phrasebook`. A dry run only reports whether that file would change. `--apply` rebuilds it from the lessons and every conversation entry, including the one just written, so search cannot stay stale. The dry run writes nothing. Lines whose English or note starts with `Incorrect` are left out of the phrasebook. On the practice page they stay visible with a red "Incorrect. Do not learn this sentence." banner.
 
 Audio is optional. Leave it off and publish the text. Add clip metadata later; this command never synthesizes speech. A synthetic clip must use `"real": false` and the word `synthetic` in `label`.
 
@@ -92,4 +92,4 @@ Done on `main`: the practice route, the score cards, the drawer, the player, and
 
 Done here: validate, fill the fixed template, update the catalog idempotently, dry-run by default.
 
-Not done here: generating audio, editing `cp_2026_11_07`, building phrasebook search, or deploying. After `--apply`, commit the JSON and open a normal pull request.
+Not done here: generating audio, editing `cp_2026_11_07`, or deploying. After `--apply`, commit the conversation JSON and `phrasebook/index.json`, then open a normal pull request. A lesson change is not published by this command. Regenerate the same index with `node phrasebook/build.mjs` and commit it. `node phrasebook/build.mjs --check` fails when the file is stale.
