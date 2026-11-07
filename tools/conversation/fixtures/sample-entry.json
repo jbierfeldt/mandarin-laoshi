@@ -1,0 +1,46 @@
+{
+  "id": "cp_2026_01_15_tea",
+  "date": "2026-01-15T12:00:00-05:00",
+  "title": "Ordering tea",
+  "subtitle": "A generic counter exchange",
+  "short": "Ordering tea",
+  "focus": "想 · 杯 · 多少钱",
+  "lines": [
+    {
+      "zh": "我想喝茶。",
+      "py": "Wǒ xiǎng hē chá.",
+      "en": "I want to drink tea.",
+      "note": "想 is to want. 喝 is to drink.",
+      "words": [
+        { "zh": "我", "py": "wǒ", "en": "I; me" },
+        { "zh": "想", "py": "xiǎng", "en": "to want" },
+        { "zh": "喝", "py": "hē", "en": "to drink" },
+        { "zh": "茶", "py": "chá", "en": "tea" }
+      ]
+    },
+    {
+      "zh": "请给我一杯茶。",
+      "py": "Qǐng gěi wǒ yī bēi chá.",
+      "en": "Please give me a cup of tea.",
+      "words": [
+        { "zh": "请", "py": "qǐng", "en": "please" },
+        { "zh": "给", "py": "gěi", "en": "to give" },
+        { "zh": "我", "py": "wǒ", "en": "I; me" },
+        { "zh": "一", "py": "yī", "en": "one" },
+        { "zh": "杯", "py": "bēi", "en": "cup" },
+        { "zh": "茶", "py": "chá", "en": "tea" }
+      ]
+    },
+    {
+      "zh": "这个多少钱？",
+      "py": "Zhè gè duōshǎo qián?",
+      "en": "How much is this?",
+      "words": [
+        { "zh": "这", "py": "zhè", "en": "this" },
+        { "zh": "个", "py": "gè", "en": "measure word" },
+        { "zh": "多少", "py": "duōshǎo", "en": "how much" },
+        { "zh": "钱", "py": "qián", "en": "money" }
+      ]
+    }
+  ]
+}
