@@ -5,6 +5,7 @@ import path from "node:path";
 import { execSync } from "node:child_process";
 import { buildFromDisk, serialize } from "../phrasebook/build.mjs";
 import { buildIndex, validateIndex } from "../phrasebook/extract.mjs";
+import { cardHtml, shortMeaning } from "../phrasebook/card.mjs";
 import { foldPinyin, searchEntries, stripPunct } from "../phrasebook/search.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
@@ -319,6 +320,51 @@ test("every gloss, note, example, and link comes from a real source file", () =>
   }
 });
 
+test("list cards stay closed and keep the full meaning in the panel", () => {
+  const long = "to want; going to; must; important; the rest of this gloss stays in the panel";
+  const entry = {
+    id: "pb-yao-要",
+    kind: "word",
+    trad: "要",
+    simp: "要",
+    pinyin: "yào",
+    senses: [
+      { gloss: long, sources: [{ kind: "conversation", short: "Nov 7 · New shoes", title: "New shoes", href: "#/practice/cp_2026_11_07", sectionTitle: "Vocabulary", note: "A long usage note that should not sit in the scan line." }] },
+      { gloss: "to ask for", sources: [{ kind: "podcast", short: "MFTGU L06", title: "L06", href: "#/lesson/mftgu_s1_l06", sectionTitle: "Vocabulary", note: "" }] },
+    ],
+    words: [{ trad: "要", simp: "要", pinyin: "yào", en: "to want" }],
+    examples: [{ simp: "我要茶。", trad: "我要茶。", pinyin: "Wǒ yào chá", en: "I want tea.", note: "", href: "#/practice/cp_2026_11_07", short: "Nov 7 · New shoes", words: [] }],
+    audio: { src: "conversations/cp_2026_11_07/audio/v12.mp3", label: "要 · synthetic", real: false },
+  };
+  const html = cardHtml(entry);
+  assert.equal(html.includes("<details open"), false);
+  assert.match(html, /<summary>/);
+  const summary = html.slice(html.indexOf("<summary>"), html.indexOf("</summary>"));
+  const panel = html.slice(html.indexOf("</summary>"));
+  assert.match(summary, /要/);
+  assert.match(summary, /yào/);
+  assert.match(summary, /to want…/);
+  assert.match(summary, /\+1/);
+  assert.equal(summary.includes(long), false);
+  assert.equal(summary.includes("A long usage note"), false);
+  assert.equal(summary.includes("I want tea."), false);
+  assert.equal(summary.includes("phrase-play"), false);
+  assert.equal(summary.includes("<a "), false);
+  assert.match(panel, new RegExp(long.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.match(panel, /to ask for/);
+  assert.match(panel, /A long usage note/);
+  assert.match(panel, /I want tea\./);
+  assert.match(panel, /#\/practice\/cp_2026_11_07/);
+  assert.match(panel, /#\/lesson\/mftgu_s1_l06/);
+  assert.match(panel, /class="phrase-play"/);
+  assert.match(panel, /to want/);
+  const opened = cardHtml(entry, entry.id);
+  assert.match(opened, /<details open>/);
+  assert.equal(shortMeaning("good, fine"), "good, fine");
+  assert.equal(shortMeaning(long).endsWith("…"), true);
+  assert.equal(shortMeaning(long).includes("the rest of this gloss"), false);
+});
+
 test("existing lesson ids, practice route, and phrasebook route stay in place", () => {
   const diff = execSync("git diff --name-only origin/main -- lessons conversations/index.json conversations/cp_2026_11_07/entry.json scripts/build_conversation.py standalone", { cwd: root }).toString().trim();
   assert.equal(diff, "");
@@ -339,7 +385,7 @@ test("existing lesson ids, practice route, and phrasebook route stay in place", 
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*font-size:16px/);
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*min-height:44px/);
   const sw = fs.readFileSync(path.join(root, "sw.js"), "utf8");
-  assert.match(sw, /laoshi-20261107pb1/);
+  assert.match(sw, /laoshi-20261108pb2/);
   assert.match(sw, /phrasebook\/page\.js/);
   for (const file of ["phrasebook/page.js", "phrasebook/page.css", "phrasebook/SCHEMA.md", "README.md"]) {
     const text = fs.readFileSync(path.join(root, file), "utf8");
