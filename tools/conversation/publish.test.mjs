@@ -112,12 +112,13 @@ test("apply is idempotent and does not change the Nov 7 entry", () => {
   const root = tempRoot();
   const shoesBefore = readFileSync(join(root, "conversations/cp_2026_11_07/entry.json"), "utf8");
   const lessonsBefore = readFileSync(join(root, "lessons/index.json"), "utf8");
+  const catalogBefore = JSON.parse(readFileSync(join(root, "conversations/index.json"), "utf8"));
   const first = run([fixturePath, "--apply", "--root", root]);
   assert.equal(first.status, 0, first.stdout + first.stderr);
   assert.match(first.stdout, /action: created/);
   const index = JSON.parse(readFileSync(join(root, "conversations/index.json"), "utf8"));
-  assert.equal(index.entries.length, 2);
-  assert.deepEqual(index.entries[0], JSON.parse(readFileSync(join(REPO_ROOT, "conversations/index.json"), "utf8")).entries[0]);
+  assert.equal(index.entries.length, catalogBefore.entries.length + 1);
+  assert.deepEqual(index.entries.find((e) => e.id === "cp_2026_11_07"), catalogBefore.entries.find((e) => e.id === "cp_2026_11_07"));
   assert.equal(index.entries.filter((e) => e.id === "cp_2026_01_15_tea").length, 1);
   assert.equal(readFileSync(join(root, "conversations/cp_2026_11_07/entry.json"), "utf8"), shoesBefore);
   assert.equal(readFileSync(join(root, "lessons/index.json"), "utf8"), lessonsBefore);
@@ -128,7 +129,7 @@ test("apply is idempotent and does not change the Nov 7 entry", () => {
   assert.match(second.stdout, /action: unchanged/);
   assert.match(second.stdout, /writes: 0/);
   assert.equal(readFileSync(join(root, "conversations/cp_2026_01_15_tea/entry.json"), "utf8"), entryText);
-  assert.equal(JSON.parse(readFileSync(join(root, "conversations/index.json"), "utf8")).entries.length, 2);
+  assert.equal(JSON.parse(readFileSync(join(root, "conversations/index.json"), "utf8")).entries.length, catalogBefore.entries.length + 1);
 
   const edited = structuredClone(fixture);
   edited.title = "Ordering tea again";

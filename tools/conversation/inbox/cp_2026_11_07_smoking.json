@@ -1,0 +1,78 @@
+{
+  "id": "cp_2026_11_07_smoking",
+  "date": "2026-11-07T18:00:00-05:00",
+  "title": "Smoke less — playful replies",
+  "subtitle": "Private chat · no names",
+  "short": "Smoke less",
+  "focus": "喔唷 · 华子 · 你少抽烟 · 不要学我 · 坏坏",
+  "lines": [
+    {
+      "zh": "喔唷",
+      "py": "Ō yō",
+      "en": "Oh! / Well, well!",
+      "note": "Interjection. Pronunciation varies; this card uses ō yō.",
+      "words": [
+        { "zh": "喔唷", "py": "ō yō", "en": "Oh!; Well, well!" }
+      ]
+    },
+    {
+      "zh": "华子",
+      "py": "Huá zi",
+      "en": "Zhonghua cigarettes (nickname).",
+      "note": "The chat mixed English and Chinese: “Where did you get 华子.” 华子 is a nickname for Zhonghua cigarettes: 华 from 中华, plus the neutral suffix 子.",
+      "words": [
+        { "zh": "华子", "py": "Huá zi", "en": "Zhonghua cigarettes (nickname)" }
+      ]
+    },
+    {
+      "zh": "你少抽烟。",
+      "py": "Nǐ shǎo chōu yān.",
+      "en": "Smoke less.",
+      "words": [
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "少", "py": "shǎo", "en": "less" },
+        { "zh": "抽烟", "py": "chōu yān", "trad": "抽煙", "en": "to smoke cigarettes" }
+      ]
+    },
+    {
+      "zh": "抽烟会咳嗽。",
+      "py": "Chōu yān huì ké sou.",
+      "en": "Smoking can make you cough.",
+      "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy.",
+      "words": [
+        { "zh": "抽烟", "py": "chōu yān", "trad": "抽煙", "en": "to smoke cigarettes" },
+        { "zh": "会", "py": "huì", "en": "will; can" },
+        { "zh": "咳嗽", "py": "ké sou", "en": "cough" }
+      ]
+    },
+    {
+      "zh": "不要学我。",
+      "py": "Bù yào xué wǒ.",
+      "en": "Don't copy me.",
+      "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
+      "words": [
+        { "zh": "不要", "py": "bù yào", "en": "do not" },
+        { "zh": "学", "py": "xué", "en": "to imitate; to learn from" },
+        { "zh": "我", "py": "wǒ", "en": "I; me" }
+      ]
+    },
+    {
+      "zh": "坏坏",
+      "py": "Huài huài",
+      "en": "Naughty. / Bad bad.",
+      "note": "Playful fragment, not a full sentence.",
+      "words": [
+        { "zh": "坏坏", "py": "huài huài", "trad": "壞壞", "en": "naughty; bad bad (playful)" }
+      ]
+    },
+    {
+      "zh": "坏",
+      "py": "Huài",
+      "en": "Bad; naughty.",
+      "note": "The base word inside 坏坏. Not a separate line from the chat.",
+      "words": [
+        { "zh": "坏", "py": "huài", "trad": "壞", "en": "bad; naughty" }
+      ]
+    }
+  ]
+}

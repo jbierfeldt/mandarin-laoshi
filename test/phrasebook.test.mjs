@@ -167,24 +167,32 @@ test("real index counts, merges, and conversation provenance", () => {
   assert.equal(index.regen, "node phrasebook/build.mjs");
   assert.deepEqual(index.counts, {
     lessons: 8,
-    conversations: 1,
-    entries: 267,
-    words: 117,
-    phrases: 150,
-    senses: 329,
+    conversations: 2,
+    entries: 279,
+    words: 126,
+    phrases: 153,
+    senses: 346,
     withAudio: 266,
-    withExamples: 109,
-    withBreakdown: 26,
+    withExamples: 114,
+    withBreakdown: 33,
     multiSource: 32,
     incorrectExcluded: 1,
   });
   assert.equal(index.charMapConflicts.length, 0);
-  assert.deepEqual(index.sources.map((s) => s.id).sort(), [...OLD, "cp_2026_11_07"].sort());
-  assert.equal(index.inputs.conversations[0].vocab, 44);
-  assert.equal(index.inputs.conversations[0].lines, 27);
-  assert.equal(index.inputs.conversations[0].drillsIndexed, 0);
-  assert.equal(index.inputs.conversations[0].drillsSkipped, 140);
-  assert.equal(index.inputs.conversations[0].script, "hans");
+  assert.deepEqual(index.sources.map((s) => s.id).sort(), [...OLD, "cp_2026_11_07", "cp_2026_11_07_smoking"].sort());
+  const shoesIn = index.inputs.conversations.find((c) => c.id === "cp_2026_11_07");
+  assert.equal(shoesIn.vocab, 44);
+  assert.equal(shoesIn.lines, 27);
+  assert.equal(shoesIn.drillsIndexed, 0);
+  assert.equal(shoesIn.drillsSkipped, 140);
+  assert.equal(shoesIn.script, "hans");
+  const smoke = index.entries.find((e) => stripPunct(e.simp) === "你少抽烟");
+  assert.equal(smoke.pinyin, "Nǐ shǎo chōu yān");
+  assert.equal(smoke.senses[0].sources[0].href, "#/practice/cp_2026_11_07_smoking");
+  assert.equal(smoke.audio, null);
+  const cough = index.entries.find((e) => stripPunct(e.simp) === "抽烟会咳嗽");
+  assert.match(cough.senses[0].sources[0].note, /fully Chinese version/);
+  assert.match(cough.senses[0].sources[0].note, /抽烟会 cough/);
 
   const shenme = findEntry(index, "什么", "shenme");
   assert.equal(shenme.kind, "word");
@@ -305,8 +313,10 @@ test("every gloss, note, example, and link comes from a real source file", () =>
       assert.equal(ex.href, ex.origin === "conversation" ? `#/practice/${ex.sourceId}` : `#/lesson/${ex.sourceId}`);
     }
     for (const word of entry.words) {
-      const text = read("conversations/cp_2026_11_07/entry.json");
-      assert.equal(text.includes(JSON.stringify(word.en).slice(1, -1)), true, word.en);
+      const files = [...new Set(entry.senses.flatMap((sense) => sense.sources.map((src) =>
+        src.origin === "conversation" ? `conversations/${src.id}/entry.json` : `lessons/${src.id}/lesson.json`)))];
+      const needle = JSON.stringify(word.en).slice(1, -1);
+      assert.equal(files.some((file) => read(file).includes(needle)), true, word.en);
     }
     if (entry.audio) {
       assert.equal(entry.audio.src.includes(".."), false);
@@ -366,8 +376,12 @@ test("list cards stay closed and keep the full meaning in the panel", () => {
 });
 
 test("existing lesson ids, practice route, and phrasebook route stay in place", () => {
-  const diff = execSync("git diff --name-only origin/main -- lessons conversations/index.json conversations/cp_2026_11_07/entry.json scripts/build_conversation.py standalone", { cwd: root }).toString().trim();
+  const diff = execSync("git diff --name-only origin/main -- lessons conversations/cp_2026_11_07/entry.json scripts/build_conversation.py standalone", { cwd: root }).toString().trim();
   assert.equal(diff, "");
+  const oldCatalog = JSON.parse(execSync("git show origin/main:conversations/index.json", { cwd: root }).toString());
+  const nowCatalog = JSON.parse(fs.readFileSync(path.join(root, "conversations/index.json"), "utf8"));
+  assert.deepEqual(nowCatalog.entries.find((e) => e.id === "cp_2026_11_07"), oldCatalog.entries.find((e) => e.id === "cp_2026_11_07"));
+  assert.equal(nowCatalog.entries.filter((e) => e.id === "cp_2026_11_07_smoking").length, 1);
   const lessons = JSON.parse(fs.readFileSync(path.join(root, "lessons/index.json"), "utf8"));
   assert.deepEqual(lessons.lessons.map((l) => l.id).sort(), [...OLD].sort());
   const app = fs.readFileSync(path.join(root, "app.js"), "utf8");

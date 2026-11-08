@@ -23,9 +23,8 @@ test("Nov 7 entry is a separate conversation, not a lesson id", () => {
   const lessons = JSON.parse(fs.readFileSync(path.join(root, "lessons/index.json"), "utf8"));
   assert.equal(lessons.lessons.some((l) => l.id === "cp_2026_11_07" || l.kind === "conversation"), false);
   const conv = JSON.parse(fs.readFileSync(path.join(root, "conversations/index.json"), "utf8"));
-  assert.equal(conv.entries.length, 1);
-  const entry = conv.entries[0];
-  assert.equal(entry.id, "cp_2026_11_07");
+  const entry = conv.entries.find((e) => e.id === "cp_2026_11_07");
+  assert.ok(entry);
   assert.equal(entry.title, "New shoes & playful replies");
   assert.equal(entry.source, "Conversation Practice");
   assert.equal(entry.kind, "conversation");
