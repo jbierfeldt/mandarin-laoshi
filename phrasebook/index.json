@@ -5,14 +5,14 @@
  "description": "Words and phrases copied from lesson files and conversation entries. No extra dictionary, and no record of how well a word is known.",
  "counts": {
   "lessons": 8,
-  "conversations": 1,
-  "entries": 267,
-  "words": 117,
-  "phrases": 150,
-  "senses": 329,
+  "conversations": 2,
+  "entries": 279,
+  "words": 126,
+  "phrases": 153,
+  "senses": 346,
   "withAudio": 266,
-  "withExamples": 109,
-  "withBreakdown": 26,
+  "withExamples": 114,
+  "withBreakdown": 33,
   "multiSource": 32,
   "incorrectExcluded": 1
  },
@@ -61,6 +61,14 @@
   ],
   "conversations": [
    {
+    "id": "cp_2026_11_07_smoking",
+    "script": "hans",
+    "vocab": 12,
+    "lines": 7,
+    "drillsIndexed": 0,
+    "drillsSkipped": 38
+   },
+   {
     "id": "cp_2026_11_07",
     "script": "hans",
     "vocab": 44,
@@ -72,6 +80,22 @@
  },
  "charMapConflicts": [],
  "sources": [
+  {
+   "origin": "conversation",
+   "id": "cp_2026_11_07_smoking",
+   "kind": "conversation",
+   "title": "Smoke less — playful replies",
+   "short": "Smoke less",
+   "source": "Conversation Practice",
+   "date": "2026-11-07T18:00:00-05:00",
+   "href": "#/practice/cp_2026_11_07_smoking",
+   "script": "hans",
+   "sectionType": "",
+   "sectionTitle": "",
+   "itemId": "",
+   "group": "",
+   "note": ""
+  },
   {
    "origin": "conversation",
    "id": "cp_2026_11_07",
@@ -226,8 +250,10 @@
   "嗎": "吗",
   "國": "国",
   "圖": "图",
+  "壞": "坏",
   "妳": "你",
   "姊": "姐",
+  "學": "学",
   "對": "对",
   "張": "张",
   "換": "换",
@@ -239,12 +265,14 @@
   "灣": "湾",
   "為": "为",
   "烏": "乌",
+  "煙": "烟",
   "牠": "它",
   "現": "现",
   "聽": "听",
   "腳": "脚",
   "臺": "台",
   "興": "兴",
+  "華": "华",
   "裡": "里",
   "見": "见",
   "認": "认",
@@ -637,6 +665,129 @@
    }
   },
   {
+   "id": "pb-bu-yao-不要",
+   "kind": "word",
+   "trad": "不要",
+   "simp": "不要",
+   "pinyin": "bùyào",
+   "pinyinPlain": "buyao",
+   "senses": [
+    {
+     "id": "do-not",
+     "gloss": "do not",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v08",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "不要學我。",
+     "simp": "不要学我。",
+     "pinyin": "Bù yào xué wǒ",
+     "en": "Don't copy me.",
+     "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s05",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "不要",
+       "simp": "不要",
+       "pinyin": "bùyào",
+       "en": "do not"
+      },
+      {
+       "trad": "學",
+       "simp": "学",
+       "pinyin": "xué",
+       "en": "to imitate; to learn from"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I; me"
+      }
+     ]
+    }
+   ],
+   "audio": null
+  },
+  {
+   "id": "pb-bu-yao-xue-wo-不要学我",
+   "kind": "phrase",
+   "trad": "不要學我。",
+   "simp": "不要学我。",
+   "pinyin": "Bù yào xué wǒ",
+   "pinyinPlain": "buyaoxuewo",
+   "senses": [
+    {
+     "id": "don-t-copy-me",
+     "gloss": "Don't copy me.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s05",
+       "group": "",
+       "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "不要",
+     "simp": "不要",
+     "pinyin": "bùyào",
+     "en": "do not"
+    },
+    {
+     "trad": "學",
+     "simp": "学",
+     "pinyin": "xué",
+     "en": "to imitate; to learn from"
+    },
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I; me"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
    "id": "pb-cha-茶",
    "kind": "word",
    "trad": "茶",
@@ -674,6 +825,162 @@
     "label": "茶 · synthetic",
     "real": false
    }
+  },
+  {
+   "id": "pb-chou-yan-抽烟",
+   "kind": "word",
+   "trad": "抽煙",
+   "simp": "抽烟",
+   "pinyin": "chōuyān",
+   "pinyinPlain": "chouyan",
+   "senses": [
+    {
+     "id": "to-smoke-cigarettes",
+     "gloss": "to smoke cigarettes",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v05",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "妳少抽煙。",
+     "simp": "你少抽烟。",
+     "pinyin": "Nǐ shǎo chōu yān",
+     "en": "Smoke less.",
+     "note": "",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s03",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "少",
+       "simp": "少",
+       "pinyin": "shǎo",
+       "en": "less"
+      },
+      {
+       "trad": "抽煙",
+       "simp": "抽烟",
+       "pinyin": "chōuyān",
+       "en": "to smoke cigarettes"
+      }
+     ]
+    },
+    {
+     "trad": "抽煙會咳嗽。",
+     "simp": "抽烟会咳嗽。",
+     "pinyin": "Chōu yān huì ké sou",
+     "en": "Smoking can make you cough.",
+     "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy.",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s04",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "抽煙",
+       "simp": "抽烟",
+       "pinyin": "chōuyān",
+       "en": "to smoke cigarettes"
+      },
+      {
+       "trad": "會",
+       "simp": "会",
+       "pinyin": "huì",
+       "en": "will; can"
+      },
+      {
+       "trad": "咳嗽",
+       "simp": "咳嗽",
+       "pinyin": "késou",
+       "en": "cough"
+      }
+     ]
+    }
+   ],
+   "audio": null
+  },
+  {
+   "id": "pb-chou-yan-hui-ke-sou-抽烟会咳嗽",
+   "kind": "phrase",
+   "trad": "抽煙會咳嗽。",
+   "simp": "抽烟会咳嗽。",
+   "pinyin": "Chōu yān huì ké sou",
+   "pinyinPlain": "chouyanhuikesou",
+   "senses": [
+    {
+     "id": "smoking-can-make-you-cough",
+     "gloss": "Smoking can make you cough.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s04",
+       "group": "",
+       "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "抽煙",
+     "simp": "抽烟",
+     "pinyin": "chōuyān",
+     "en": "to smoke cigarettes"
+    },
+    {
+     "trad": "會",
+     "simp": "会",
+     "pinyin": "huì",
+     "en": "will; can"
+    },
+    {
+     "trad": "咳嗽",
+     "simp": "咳嗽",
+     "pinyin": "késou",
+     "en": "cough"
+    }
+   ],
+   "examples": [],
+   "audio": null
   },
   {
    "id": "pb-da-jia-大家",
@@ -4145,6 +4452,134 @@
    }
   },
   {
+   "id": "pb-huai-坏",
+   "kind": "word",
+   "trad": "壞",
+   "simp": "坏",
+   "pinyin": "Huài",
+   "pinyinPlain": "huai",
+   "senses": [
+    {
+     "id": "bad-naughty",
+     "gloss": "Bad; naughty.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s07",
+       "group": "",
+       "note": "The base word inside 坏坏. Not a separate line from the chat."
+      }
+     ]
+    },
+    {
+     "id": "bad-naughty-2",
+     "gloss": "bad; naughty",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v12",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "壞",
+     "simp": "坏",
+     "pinyin": "huài",
+     "en": "bad; naughty"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
+   "id": "pb-huai-huai-坏坏",
+   "kind": "word",
+   "trad": "壞壞",
+   "simp": "坏坏",
+   "pinyin": "Huài huài",
+   "pinyinPlain": "huaihuai",
+   "senses": [
+    {
+     "id": "naughty-bad-bad",
+     "gloss": "Naughty. / Bad bad.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s06",
+       "group": "",
+       "note": "Playful fragment, not a full sentence."
+      }
+     ]
+    },
+    {
+     "id": "naughty-bad-bad-playful",
+     "gloss": "naughty; bad bad (playful)",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v11",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "壞壞",
+     "simp": "坏坏",
+     "pinyin": "huàihuài",
+     "en": "naughty; bad bad (playful)"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
    "id": "pb-huan-换",
    "kind": "word",
    "trad": "換",
@@ -4321,6 +4756,70 @@
    }
   },
   {
+   "id": "pb-hua-zi-华子",
+   "kind": "word",
+   "trad": "華子",
+   "simp": "华子",
+   "pinyin": "Huá zi",
+   "pinyinPlain": "huazi",
+   "senses": [
+    {
+     "id": "zhonghua-cigarettes-nickname",
+     "gloss": "Zhonghua cigarettes (nickname)",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v02",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "zhonghua-cigarettes-nickname-2",
+     "gloss": "Zhonghua cigarettes (nickname).",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s02",
+       "group": "",
+       "note": "The chat mixed English and Chinese: “Where did you get 华子.” 华子 is a nickname for Zhonghua cigarettes: 华 from 中华, plus the neutral suffix 子."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "華子",
+     "simp": "华子",
+     "pinyin": "huázi",
+     "en": "Zhonghua cigarettes (nickname)"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
    "id": "pb-hui-会",
    "kind": "word",
    "trad": "會",
@@ -4351,6 +4850,28 @@
      ]
     },
     {
+     "id": "will-can",
+     "gloss": "will; can",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v06",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    },
+    {
      "id": "will-tends-to",
      "gloss": "will; tends to",
      "sources": [
@@ -4375,6 +4896,39 @@
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "抽煙會咳嗽。",
+     "simp": "抽烟会咳嗽。",
+     "pinyin": "Chōu yān huì ké sou",
+     "en": "Smoking can make you cough.",
+     "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy.",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s04",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "抽煙",
+       "simp": "抽烟",
+       "pinyin": "chōuyān",
+       "en": "to smoke cigarettes"
+      },
+      {
+       "trad": "會",
+       "simp": "会",
+       "pinyin": "huì",
+       "en": "will; can"
+      },
+      {
+       "trad": "咳嗽",
+       "simp": "咳嗽",
+       "pinyin": "késou",
+       "en": "cough"
+      }
+     ]
+    },
     {
      "trad": "見到妳就會晃的尾巴",
      "simp": "见到你就会晃的尾巴",
@@ -5643,6 +6197,75 @@
     "label": "看 · synthetic",
     "real": false
    }
+  },
+  {
+   "id": "pb-ke-sou-咳嗽",
+   "kind": "word",
+   "trad": "咳嗽",
+   "simp": "咳嗽",
+   "pinyin": "késou",
+   "pinyinPlain": "kesou",
+   "senses": [
+    {
+     "id": "cough",
+     "gloss": "cough",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v07",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "抽煙會咳嗽。",
+     "simp": "抽烟会咳嗽。",
+     "pinyin": "Chōu yān huì ké sou",
+     "en": "Smoking can make you cough.",
+     "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy.",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s04",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "抽煙",
+       "simp": "抽烟",
+       "pinyin": "chōuyān",
+       "en": "to smoke cigarettes"
+      },
+      {
+       "trad": "會",
+       "simp": "会",
+       "pinyin": "huì",
+       "en": "will; can"
+      },
+      {
+       "trad": "咳嗽",
+       "simp": "咳嗽",
+       "pinyin": "késou",
+       "en": "cough"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-ke-yi-可以",
@@ -7253,6 +7876,22 @@
      "sources": [
       {
        "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v03",
+       "group": "Words",
+       "note": ""
+      },
+      {
+       "origin": "conversation",
        "id": "cp_2026_11_07",
        "kind": "conversation",
        "title": "New shoes & playful replies",
@@ -7355,6 +7994,39 @@
    "words": [],
    "examples": [
     {
+     "trad": "妳少抽煙。",
+     "simp": "你少抽烟。",
+     "pinyin": "Nǐ shǎo chōu yān",
+     "en": "Smoke less.",
+     "note": "",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s03",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "少",
+       "simp": "少",
+       "pinyin": "shǎo",
+       "en": "less"
+      },
+      {
+       "trad": "抽煙",
+       "simp": "抽烟",
+       "pinyin": "chōuyān",
+       "en": "to smoke cigarettes"
+      }
+     ]
+    },
+    {
      "trad": "但是妳有腳。",
      "simp": "但是你有脚。",
      "pinyin": "Dànshì nǐ yǒu jiǎo",
@@ -7429,51 +8101,6 @@
        "simp": "脚",
        "pinyin": "jiǎo",
        "en": "foot; feet"
-      }
-     ]
-    },
-    {
-     "trad": "妳的腳很好看。",
-     "simp": "你的脚很好看。",
-     "pinyin": "Nǐ de jiǎo hěn hǎokàn",
-     "en": "Your feet look nice.",
-     "note": "Your feet look nice. 你的 means your. 的 marks possession. 好看 is one word, good-looking. No 是. This is a playful compliment, stored as a sentence pattern.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s12",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "的",
-       "simp": "的",
-       "pinyin": "de",
-       "en": "possession marker; 你的 = your"
-      },
-      {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
-      },
-      {
-       "trad": "很",
-       "simp": "很",
-       "pinyin": "hěn",
-       "en": "degree link before an adjective"
-      },
-      {
-       "trad": "好看",
-       "simp": "好看",
-       "pinyin": "hǎokàn",
-       "en": "good-looking"
       }
      ]
     }
@@ -8338,6 +8965,60 @@
     "label": "您呢 · REAL",
     "real": true
    }
+  },
+  {
+   "id": "pb-ni-shao-chou-yan-你少抽烟",
+   "kind": "phrase",
+   "trad": "妳少抽煙。",
+   "simp": "你少抽烟。",
+   "pinyin": "Nǐ shǎo chōu yān",
+   "pinyinPlain": "nishaochouyan",
+   "senses": [
+    {
+     "id": "smoke-less",
+     "gloss": "Smoke less.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s03",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "少",
+     "simp": "少",
+     "pinyin": "shǎo",
+     "en": "less"
+    },
+    {
+     "trad": "抽煙",
+     "simp": "抽烟",
+     "pinyin": "chōuyān",
+     "en": "to smoke cigarettes"
+    }
+   ],
+   "examples": [],
+   "audio": null
   },
   {
    "id": "pb-ni-shi-mei-guo-ren-ma-你是美国人吗",
@@ -9805,6 +10486,70 @@
    }
   },
   {
+   "id": "pb-o-yo-喔唷",
+   "kind": "word",
+   "trad": "喔唷",
+   "simp": "喔唷",
+   "pinyin": "ōyō",
+   "pinyinPlain": "oyo",
+   "senses": [
+    {
+     "id": "oh-well-well",
+     "gloss": "Oh! / Well, well!",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s01",
+       "group": "",
+       "note": "Interjection. Pronunciation varies; this card uses ō yō."
+      }
+     ]
+    },
+    {
+     "id": "oh-well-well-2",
+     "gloss": "Oh!; Well, well!",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v01",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "喔唷",
+     "simp": "喔唷",
+     "pinyin": "ōyō",
+     "en": "Oh!; Well, well!"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
    "id": "pb-piao-liang-漂亮",
    "kind": "word",
    "trad": "漂亮",
@@ -10199,6 +10944,75 @@
     "label": "日本人 · synthetic",
     "real": false
    }
+  },
+  {
+   "id": "pb-shao-少",
+   "kind": "word",
+   "trad": "少",
+   "simp": "少",
+   "pinyin": "shǎo",
+   "pinyinPlain": "shao",
+   "senses": [
+    {
+     "id": "less",
+     "gloss": "less",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v04",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "妳少抽煙。",
+     "simp": "你少抽烟。",
+     "pinyin": "Nǐ shǎo chōu yān",
+     "en": "Smoke less.",
+     "note": "",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s03",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "少",
+       "simp": "少",
+       "pinyin": "shǎo",
+       "en": "less"
+      },
+      {
+       "trad": "抽煙",
+       "simp": "抽烟",
+       "pinyin": "chōuyān",
+       "en": "to smoke cigarettes"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-shen-me-什么",
@@ -11274,6 +12088,22 @@
      "sources": [
       {
        "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v10",
+       "group": "Words",
+       "note": ""
+      },
+      {
+       "origin": "conversation",
        "id": "cp_2026_11_07",
        "kind": "conversation",
        "title": "New shoes & playful replies",
@@ -11315,6 +12145,39 @@
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "不要學我。",
+     "simp": "不要学我。",
+     "pinyin": "Bù yào xué wǒ",
+     "en": "Don't copy me.",
+     "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s05",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "不要",
+       "simp": "不要",
+       "pinyin": "bùyào",
+       "en": "do not"
+      },
+      {
+       "trad": "學",
+       "simp": "学",
+       "pinyin": "xué",
+       "en": "to imitate; to learn from"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I; me"
+      }
+     ]
+    },
     {
      "trad": "我累了。",
      "simp": "我累了。",
@@ -11372,39 +12235,6 @@
        "simp": "很",
        "pinyin": "hěn",
        "en": "very; the usual link before an adjective"
-      },
-      {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
-      }
-     ]
-    },
-    {
-     "trad": "我有點累。",
-     "simp": "我有点累。",
-     "pinyin": "Wǒ yǒu diǎn lèi",
-     "en": "I'm a little tired.",
-     "note": "I'm a little tired. 有点 is one chunk, “a little”. It does not mean “have” plus “tired”. The syllable that can sound like English “you” is 有 yǒu. It is not 你 nǐ. This chat did not use 一. A separate podcast page uses 有一点 for the same idea. Dictionary tones: Wǒ yǒu diǎn lèi. The marks on this card follow one 3rd-tone reading: wó yóu diǎn lèi.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s04",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
-      },
-      {
-       "trad": "有點",
-       "simp": "有点",
-       "pinyin": "yǒudiǎn",
-       "en": "a little; a bit (one chunk, not “have tired”)"
       },
       {
        "trad": "累",
@@ -15136,6 +15966,75 @@
     "label": "西雅圖在哪裡？ · ⚡ natural",
     "real": true
    }
+  },
+  {
+   "id": "pb-xue-学",
+   "kind": "word",
+   "trad": "學",
+   "simp": "学",
+   "pinyin": "xué",
+   "pinyinPlain": "xue",
+   "senses": [
+    {
+     "id": "to-imitate-to-learn-from",
+     "gloss": "to imitate; to learn from",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_07_smoking",
+       "kind": "conversation",
+       "title": "Smoke less — playful replies",
+       "short": "Smoke less",
+       "source": "Conversation Practice",
+       "date": "2026-11-07T18:00:00-05:00",
+       "href": "#/practice/cp_2026_11_07_smoking",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v09",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "不要學我。",
+     "simp": "不要学我。",
+     "pinyin": "Bù yào xué wǒ",
+     "en": "Don't copy me.",
+     "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
+     "href": "#/practice/cp_2026_11_07_smoking",
+     "sourceId": "cp_2026_11_07_smoking",
+     "itemId": "s05",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Smoke less",
+     "words": [
+      {
+       "trad": "不要",
+       "simp": "不要",
+       "pinyin": "bùyào",
+       "en": "do not"
+      },
+      {
+       "trad": "學",
+       "simp": "学",
+       "pinyin": "xué",
+       "en": "to imitate; to learn from"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I; me"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-yao-要",

@@ -1,0 +1,1741 @@
+{
+  "schema": 1,
+  "id": "cp_2026_11_07_smoking",
+  "kind": "conversation",
+  "script": "hans",
+  "source": "Conversation Practice",
+  "title": "Smoke less — playful replies",
+  "short": "Smoke less",
+  "subtitle": "Private chat · no names",
+  "date": "2026-11-07T18:00:00-05:00",
+  "emoji": "💬",
+  "color": "#0B7285",
+  "kick": "Conversation Practice · readable text first · audio optional",
+  "focus": "喔唷 · 华子 · 你少抽烟 · 不要学我 · 坏坏",
+  "key": "<span class=\"syn\">synthetic</span> audio is optional. This page is readable without clips. When a clip is added later, it is computer speech and the label says synthetic. Simplified characters are the main script on this page. Grey characters are traditional. ☰ Options flips the script and can hide pinyin or English. The pinyin line under the English is the dictionary reading with tone marks.",
+  "foot": "Study cards. Personal names, contact details, and screenshots are not included. Audio is not required to publish the entry.",
+  "sections": [
+    {
+      "type": "lines",
+      "title": "Lines",
+      "kick": "Tone-mark pinyin, English, and a word breakdown on every line",
+      "items": [
+        {
+          "id": "s01",
+          "en": "Oh! / Well, well!",
+          "py": "Ō yō",
+          "note": "Interjection. Pronunciation varies; this card uses ō yō.",
+          "cells": [
+            {
+              "ch": "喔",
+              "py": "Ō",
+              "t": 1
+            },
+            {
+              "ch": "唷",
+              "py": "yō",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喔唷",
+              "py": "ōyō",
+              "en": "Oh!; Well, well!"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s02",
+          "en": "Zhonghua cigarettes (nickname).",
+          "py": "Huá zi",
+          "note": "The chat mixed English and Chinese: “Where did you get 华子.” 华子 is a nickname for Zhonghua cigarettes: 华 from 中华, plus the neutral suffix 子.",
+          "cells": [
+            {
+              "ch": "華",
+              "py": "Huá",
+              "t": 2,
+              "s": "华"
+            },
+            {
+              "ch": "子",
+              "py": "zi",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "華子",
+              "py": "huázi",
+              "en": "Zhonghua cigarettes (nickname)",
+              "s": "华子"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s03",
+          "en": "Smoke less.",
+          "py": "Nǐ shǎo chōu yān",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "少",
+              "py": "shǎo",
+              "t": 3
+            },
+            {
+              "ch": "抽",
+              "py": "chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟",
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "少",
+              "py": "shǎo",
+              "en": "less"
+            },
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s04",
+          "en": "Smoking can make you cough.",
+          "py": "Chōu yān huì ké sou",
+          "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy.",
+          "cells": [
+            {
+              "ch": "抽",
+              "py": "Chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟"
+            },
+            {
+              "ch": "會",
+              "py": "huì",
+              "t": 4,
+              "s": "会"
+            },
+            {
+              "ch": "咳",
+              "py": "ké",
+              "t": 2
+            },
+            {
+              "ch": "嗽",
+              "py": "sou",
+              "t": 5,
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            },
+            {
+              "t": "會",
+              "py": "huì",
+              "en": "will; can",
+              "s": "会"
+            },
+            {
+              "t": "咳嗽",
+              "py": "késou",
+              "en": "cough"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s05",
+          "en": "Don't copy me.",
+          "py": "Bù yào xué wǒ",
+          "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "Bù",
+              "t": 4
+            },
+            {
+              "ch": "要",
+              "py": "yào",
+              "t": 4
+            },
+            {
+              "ch": "學",
+              "py": "xué",
+              "t": 2,
+              "s": "学"
+            },
+            {
+              "ch": "我",
+              "py": "wǒ",
+              "t": 3,
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "不要",
+              "py": "bùyào",
+              "en": "do not"
+            },
+            {
+              "t": "學",
+              "py": "xué",
+              "en": "to imitate; to learn from",
+              "s": "学"
+            },
+            {
+              "t": "我",
+              "py": "wǒ",
+              "en": "I; me"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s06",
+          "en": "Naughty. / Bad bad.",
+          "py": "Huài huài",
+          "note": "Playful fragment, not a full sentence.",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "Huài",
+              "t": 4,
+              "s": "坏"
+            },
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞壞",
+              "py": "huàihuài",
+              "en": "naughty; bad bad (playful)",
+              "s": "坏坏"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s07",
+          "en": "Bad; naughty.",
+          "py": "Huài",
+          "note": "The base word inside 坏坏. Not a separate line from the chat.",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "Huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞",
+              "py": "huài",
+              "en": "bad; naughty",
+              "s": "坏"
+            }
+          ],
+          "cues": []
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Vocabulary",
+      "zh": {
+        "t": "生詞",
+        "s": "生词"
+      },
+      "kick": "First-seen words. A repeated word stays one card.",
+      "items": [
+        {
+          "id": "v01",
+          "grp": "Words",
+          "en": "Oh!; Well, well!",
+          "py": "ōyō",
+          "cells": [
+            {
+              "ch": "喔",
+              "py": "ō",
+              "t": 1
+            },
+            {
+              "ch": "唷",
+              "py": "yō",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喔唷",
+              "py": "ōyō",
+              "en": "Oh!; Well, well!"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v02",
+          "grp": "Words",
+          "en": "Zhonghua cigarettes (nickname)",
+          "py": "huázi",
+          "cells": [
+            {
+              "ch": "華",
+              "py": "huá",
+              "t": 2,
+              "s": "华"
+            },
+            {
+              "ch": "子",
+              "py": "zi",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "華子",
+              "py": "huázi",
+              "en": "Zhonghua cigarettes (nickname)",
+              "s": "华子"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v03",
+          "grp": "Words",
+          "en": "you",
+          "py": "nǐ",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v04",
+          "grp": "Words",
+          "en": "less",
+          "py": "shǎo",
+          "cells": [
+            {
+              "ch": "少",
+              "py": "shǎo",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "少",
+              "py": "shǎo",
+              "en": "less"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v05",
+          "grp": "Words",
+          "en": "to smoke cigarettes",
+          "py": "chōuyān",
+          "cells": [
+            {
+              "ch": "抽",
+              "py": "chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟"
+            }
+          ],
+          "words": [
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v06",
+          "grp": "Words",
+          "en": "will; can",
+          "py": "huì",
+          "cells": [
+            {
+              "ch": "會",
+              "py": "huì",
+              "t": 4,
+              "s": "会"
+            }
+          ],
+          "words": [
+            {
+              "t": "會",
+              "py": "huì",
+              "en": "will; can",
+              "s": "会"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v07",
+          "grp": "Words",
+          "en": "cough",
+          "py": "késou",
+          "cells": [
+            {
+              "ch": "咳",
+              "py": "ké",
+              "t": 2
+            },
+            {
+              "ch": "嗽",
+              "py": "sou",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "咳嗽",
+              "py": "késou",
+              "en": "cough"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v08",
+          "grp": "Words",
+          "en": "do not",
+          "py": "bùyào",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "bù",
+              "t": 4
+            },
+            {
+              "ch": "要",
+              "py": "yào",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "不要",
+              "py": "bùyào",
+              "en": "do not"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v09",
+          "grp": "Words",
+          "en": "to imitate; to learn from",
+          "py": "xué",
+          "cells": [
+            {
+              "ch": "學",
+              "py": "xué",
+              "t": 2,
+              "s": "学"
+            }
+          ],
+          "words": [
+            {
+              "t": "學",
+              "py": "xué",
+              "en": "to imitate; to learn from",
+              "s": "学"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v10",
+          "grp": "Words",
+          "en": "I; me",
+          "py": "wǒ",
+          "cells": [
+            {
+              "ch": "我",
+              "py": "wǒ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "我",
+              "py": "wǒ",
+              "en": "I; me"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v11",
+          "grp": "Words",
+          "en": "naughty; bad bad (playful)",
+          "py": "huàihuài",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            },
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞壞",
+              "py": "huàihuài",
+              "en": "naughty; bad bad (playful)",
+              "s": "坏坏"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v12",
+          "grp": "Words",
+          "en": "bad; naughty",
+          "py": "huài",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞",
+              "py": "huài",
+              "en": "bad; naughty",
+              "s": "坏"
+            }
+          ],
+          "cues": []
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Vocabulary recall",
+      "lead": "Read the English. Say the Chinese. Then reveal characters, pinyin, and the meaning.",
+      "items": [
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "Oh!; Well, well!",
+          "en": "Oh!; Well, well!",
+          "py": "ōyō",
+          "cells": [
+            {
+              "ch": "喔",
+              "py": "ō",
+              "t": 1
+            },
+            {
+              "ch": "唷",
+              "py": "yō",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喔唷",
+              "py": "ōyō",
+              "en": "Oh!; Well, well!"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "Zhonghua cigarettes (nickname)",
+          "en": "Zhonghua cigarettes (nickname)",
+          "py": "huázi",
+          "cells": [
+            {
+              "ch": "華",
+              "py": "huá",
+              "t": 2,
+              "s": "华"
+            },
+            {
+              "ch": "子",
+              "py": "zi",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "華子",
+              "py": "huázi",
+              "en": "Zhonghua cigarettes (nickname)",
+              "s": "华子"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "you",
+          "en": "you",
+          "py": "nǐ",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "less",
+          "en": "less",
+          "py": "shǎo",
+          "cells": [
+            {
+              "ch": "少",
+              "py": "shǎo",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "少",
+              "py": "shǎo",
+              "en": "less"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "to smoke cigarettes",
+          "en": "to smoke cigarettes",
+          "py": "chōuyān",
+          "cells": [
+            {
+              "ch": "抽",
+              "py": "chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟"
+            }
+          ],
+          "words": [
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "will; can",
+          "en": "will; can",
+          "py": "huì",
+          "cells": [
+            {
+              "ch": "會",
+              "py": "huì",
+              "t": 4,
+              "s": "会"
+            }
+          ],
+          "words": [
+            {
+              "t": "會",
+              "py": "huì",
+              "en": "will; can",
+              "s": "会"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "cough",
+          "en": "cough",
+          "py": "késou",
+          "cells": [
+            {
+              "ch": "咳",
+              "py": "ké",
+              "t": 2
+            },
+            {
+              "ch": "嗽",
+              "py": "sou",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "咳嗽",
+              "py": "késou",
+              "en": "cough"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "do not",
+          "en": "do not",
+          "py": "bùyào",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "bù",
+              "t": 4
+            },
+            {
+              "ch": "要",
+              "py": "yào",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "不要",
+              "py": "bùyào",
+              "en": "do not"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "to imitate; to learn from",
+          "en": "to imitate; to learn from",
+          "py": "xué",
+          "cells": [
+            {
+              "ch": "學",
+              "py": "xué",
+              "t": 2,
+              "s": "学"
+            }
+          ],
+          "words": [
+            {
+              "t": "學",
+              "py": "xué",
+              "en": "to imitate; to learn from",
+              "s": "学"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "I; me",
+          "en": "I; me",
+          "py": "wǒ",
+          "cells": [
+            {
+              "ch": "我",
+              "py": "wǒ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "我",
+              "py": "wǒ",
+              "en": "I; me"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "naughty; bad bad (playful)",
+          "en": "naughty; bad bad (playful)",
+          "py": "huàihuài",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            },
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞壞",
+              "py": "huàihuài",
+              "en": "naughty; bad bad (playful)",
+              "s": "坏坏"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "bad; naughty",
+          "en": "bad; naughty",
+          "py": "huài",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞",
+              "py": "huài",
+              "en": "bad; naughty",
+              "s": "坏"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Vocabulary flip",
+      "lead": "Read the characters. Say the English. Then reveal.",
+      "items": [
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "Oh!; Well, well!",
+          "en": "Oh!; Well, well!",
+          "py": "ōyō",
+          "cells": [
+            {
+              "ch": "喔",
+              "py": "ō",
+              "t": 1
+            },
+            {
+              "ch": "唷",
+              "py": "yō",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喔唷",
+              "py": "ōyō",
+              "en": "Oh!; Well, well!"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "Zhonghua cigarettes (nickname)",
+          "en": "Zhonghua cigarettes (nickname)",
+          "py": "huázi",
+          "cells": [
+            {
+              "ch": "華",
+              "py": "huá",
+              "t": 2,
+              "s": "华"
+            },
+            {
+              "ch": "子",
+              "py": "zi",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "華子",
+              "py": "huázi",
+              "en": "Zhonghua cigarettes (nickname)",
+              "s": "华子"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "you",
+          "en": "you",
+          "py": "nǐ",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "less",
+          "en": "less",
+          "py": "shǎo",
+          "cells": [
+            {
+              "ch": "少",
+              "py": "shǎo",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "少",
+              "py": "shǎo",
+              "en": "less"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "to smoke cigarettes",
+          "en": "to smoke cigarettes",
+          "py": "chōuyān",
+          "cells": [
+            {
+              "ch": "抽",
+              "py": "chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟"
+            }
+          ],
+          "words": [
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "will; can",
+          "en": "will; can",
+          "py": "huì",
+          "cells": [
+            {
+              "ch": "會",
+              "py": "huì",
+              "t": 4,
+              "s": "会"
+            }
+          ],
+          "words": [
+            {
+              "t": "會",
+              "py": "huì",
+              "en": "will; can",
+              "s": "会"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "cough",
+          "en": "cough",
+          "py": "késou",
+          "cells": [
+            {
+              "ch": "咳",
+              "py": "ké",
+              "t": 2
+            },
+            {
+              "ch": "嗽",
+              "py": "sou",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "咳嗽",
+              "py": "késou",
+              "en": "cough"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "do not",
+          "en": "do not",
+          "py": "bùyào",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "bù",
+              "t": 4
+            },
+            {
+              "ch": "要",
+              "py": "yào",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "不要",
+              "py": "bùyào",
+              "en": "do not"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "to imitate; to learn from",
+          "en": "to imitate; to learn from",
+          "py": "xué",
+          "cells": [
+            {
+              "ch": "學",
+              "py": "xué",
+              "t": 2,
+              "s": "学"
+            }
+          ],
+          "words": [
+            {
+              "t": "學",
+              "py": "xué",
+              "en": "to imitate; to learn from",
+              "s": "学"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "I; me",
+          "en": "I; me",
+          "py": "wǒ",
+          "cells": [
+            {
+              "ch": "我",
+              "py": "wǒ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "我",
+              "py": "wǒ",
+              "en": "I; me"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "naughty; bad bad (playful)",
+          "en": "naughty; bad bad (playful)",
+          "py": "huàihuài",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            },
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞壞",
+              "py": "huàihuài",
+              "en": "naughty; bad bad (playful)",
+              "s": "坏坏"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "bad; naughty",
+          "en": "bad; naughty",
+          "py": "huài",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞",
+              "py": "huài",
+              "en": "bad; naughty",
+              "s": "坏"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Phrase recall",
+      "lead": "Read the English. Say the sentence. Then reveal the score, the dictionary pinyin, and each word.",
+      "items": [
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Oh! / Well, well!",
+          "en": "Oh! / Well, well!",
+          "py": "Ō yō",
+          "note": "Interjection. Pronunciation varies; this card uses ō yō.",
+          "cells": [
+            {
+              "ch": "喔",
+              "py": "Ō",
+              "t": 1
+            },
+            {
+              "ch": "唷",
+              "py": "yō",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喔唷",
+              "py": "ōyō",
+              "en": "Oh!; Well, well!"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Zhonghua cigarettes (nickname).",
+          "en": "Zhonghua cigarettes (nickname).",
+          "py": "Huá zi",
+          "note": "The chat mixed English and Chinese: “Where did you get 华子.” 华子 is a nickname for Zhonghua cigarettes: 华 from 中华, plus the neutral suffix 子.",
+          "cells": [
+            {
+              "ch": "華",
+              "py": "Huá",
+              "t": 2,
+              "s": "华"
+            },
+            {
+              "ch": "子",
+              "py": "zi",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "華子",
+              "py": "huázi",
+              "en": "Zhonghua cigarettes (nickname)",
+              "s": "华子"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Smoke less.",
+          "en": "Smoke less.",
+          "py": "Nǐ shǎo chōu yān",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "少",
+              "py": "shǎo",
+              "t": 3
+            },
+            {
+              "ch": "抽",
+              "py": "chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟",
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "少",
+              "py": "shǎo",
+              "en": "less"
+            },
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Smoking can make you cough.",
+          "en": "Smoking can make you cough.",
+          "py": "Chōu yān huì ké sou",
+          "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy.",
+          "cells": [
+            {
+              "ch": "抽",
+              "py": "Chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟"
+            },
+            {
+              "ch": "會",
+              "py": "huì",
+              "t": 4,
+              "s": "会"
+            },
+            {
+              "ch": "咳",
+              "py": "ké",
+              "t": 2
+            },
+            {
+              "ch": "嗽",
+              "py": "sou",
+              "t": 5,
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            },
+            {
+              "t": "會",
+              "py": "huì",
+              "en": "will; can",
+              "s": "会"
+            },
+            {
+              "t": "咳嗽",
+              "py": "késou",
+              "en": "cough"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Don't copy me.",
+          "en": "Don't copy me.",
+          "py": "Bù yào xué wǒ",
+          "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "Bù",
+              "t": 4
+            },
+            {
+              "ch": "要",
+              "py": "yào",
+              "t": 4
+            },
+            {
+              "ch": "學",
+              "py": "xué",
+              "t": 2,
+              "s": "学"
+            },
+            {
+              "ch": "我",
+              "py": "wǒ",
+              "t": 3,
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "不要",
+              "py": "bùyào",
+              "en": "do not"
+            },
+            {
+              "t": "學",
+              "py": "xué",
+              "en": "to imitate; to learn from",
+              "s": "学"
+            },
+            {
+              "t": "我",
+              "py": "wǒ",
+              "en": "I; me"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Naughty. / Bad bad.",
+          "en": "Naughty. / Bad bad.",
+          "py": "Huài huài",
+          "note": "Playful fragment, not a full sentence.",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "Huài",
+              "t": 4,
+              "s": "坏"
+            },
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞壞",
+              "py": "huàihuài",
+              "en": "naughty; bad bad (playful)",
+              "s": "坏坏"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Bad; naughty.",
+          "en": "Bad; naughty.",
+          "py": "Huài",
+          "note": "The base word inside 坏坏. Not a separate line from the chat.",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "Huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞",
+              "py": "huài",
+              "en": "bad; naughty",
+              "s": "坏"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Phrase flip",
+      "lead": "Read the characters. Say the English. Then reveal.",
+      "items": [
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Oh! / Well, well!",
+          "en": "Oh! / Well, well!",
+          "py": "Ō yō",
+          "note": "Interjection. Pronunciation varies; this card uses ō yō.",
+          "cells": [
+            {
+              "ch": "喔",
+              "py": "Ō",
+              "t": 1
+            },
+            {
+              "ch": "唷",
+              "py": "yō",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喔唷",
+              "py": "ōyō",
+              "en": "Oh!; Well, well!"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Zhonghua cigarettes (nickname).",
+          "en": "Zhonghua cigarettes (nickname).",
+          "py": "Huá zi",
+          "note": "The chat mixed English and Chinese: “Where did you get 华子.” 华子 is a nickname for Zhonghua cigarettes: 华 from 中华, plus the neutral suffix 子.",
+          "cells": [
+            {
+              "ch": "華",
+              "py": "Huá",
+              "t": 2,
+              "s": "华"
+            },
+            {
+              "ch": "子",
+              "py": "zi",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "華子",
+              "py": "huázi",
+              "en": "Zhonghua cigarettes (nickname)",
+              "s": "华子"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Smoke less.",
+          "en": "Smoke less.",
+          "py": "Nǐ shǎo chōu yān",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "少",
+              "py": "shǎo",
+              "t": 3
+            },
+            {
+              "ch": "抽",
+              "py": "chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟",
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "少",
+              "py": "shǎo",
+              "en": "less"
+            },
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Smoking can make you cough.",
+          "en": "Smoking can make you cough.",
+          "py": "Chōu yān huì ké sou",
+          "note": "The chat wrote the mixed line “抽烟会 cough.” This line is the fully Chinese version, not a verbatim copy.",
+          "cells": [
+            {
+              "ch": "抽",
+              "py": "Chōu",
+              "t": 1
+            },
+            {
+              "ch": "煙",
+              "py": "yān",
+              "t": 1,
+              "s": "烟"
+            },
+            {
+              "ch": "會",
+              "py": "huì",
+              "t": 4,
+              "s": "会"
+            },
+            {
+              "ch": "咳",
+              "py": "ké",
+              "t": 2
+            },
+            {
+              "ch": "嗽",
+              "py": "sou",
+              "t": 5,
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "抽煙",
+              "py": "chōuyān",
+              "en": "to smoke cigarettes",
+              "s": "抽烟"
+            },
+            {
+              "t": "會",
+              "py": "huì",
+              "en": "will; can",
+              "s": "会"
+            },
+            {
+              "t": "咳嗽",
+              "py": "késou",
+              "en": "cough"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Don't copy me.",
+          "en": "Don't copy me.",
+          "py": "Bù yào xué wǒ",
+          "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "Bù",
+              "t": 4
+            },
+            {
+              "ch": "要",
+              "py": "yào",
+              "t": 4
+            },
+            {
+              "ch": "學",
+              "py": "xué",
+              "t": 2,
+              "s": "学"
+            },
+            {
+              "ch": "我",
+              "py": "wǒ",
+              "t": 3,
+              "pz": "。"
+            }
+          ],
+          "words": [
+            {
+              "t": "不要",
+              "py": "bùyào",
+              "en": "do not"
+            },
+            {
+              "t": "學",
+              "py": "xué",
+              "en": "to imitate; to learn from",
+              "s": "学"
+            },
+            {
+              "t": "我",
+              "py": "wǒ",
+              "en": "I; me"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Naughty. / Bad bad.",
+          "en": "Naughty. / Bad bad.",
+          "py": "Huài huài",
+          "note": "Playful fragment, not a full sentence.",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "Huài",
+              "t": 4,
+              "s": "坏"
+            },
+            {
+              "ch": "壞",
+              "py": "huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞壞",
+              "py": "huàihuài",
+              "en": "naughty; bad bad (playful)",
+              "s": "坏坏"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Bad; naughty.",
+          "en": "Bad; naughty.",
+          "py": "Huài",
+          "note": "The base word inside 坏坏. Not a separate line from the chat.",
+          "cells": [
+            {
+              "ch": "壞",
+              "py": "Huài",
+              "t": 4,
+              "s": "坏"
+            }
+          ],
+          "words": [
+            {
+              "t": "壞",
+              "py": "huài",
+              "en": "bad; naughty",
+              "s": "坏"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
