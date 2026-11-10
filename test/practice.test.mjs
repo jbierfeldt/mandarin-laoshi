@@ -5,7 +5,7 @@ import path from "node:path";
 import { execSync } from "node:child_process";
 
 const root = path.resolve(import.meta.dirname, "..");
-const OLD = ["lm_b1_l01", "lm_b1_l02", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06"];
+const OLD = ["lm_b1_l01", "lm_b1_l02", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06", "mftgu_s1_l07"];
 const TONE = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/i;
 
 test("textbook and podcast lesson ids are unchanged", () => {

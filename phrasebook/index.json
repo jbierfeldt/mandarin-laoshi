@@ -4,20 +4,25 @@
  "regen": "node phrasebook/build.mjs",
  "description": "Words and phrases copied from lesson files and conversation entries. No extra dictionary, and no record of how well a word is known.",
  "counts": {
-  "lessons": 8,
-  "conversations": 2,
-  "entries": 279,
-  "words": 126,
-  "phrases": 153,
-  "senses": 346,
-  "withAudio": 266,
-  "withExamples": 114,
-  "withBreakdown": 33,
-  "multiSource": 32,
+  "lessons": 9,
+  "conversations": 3,
+  "entries": 326,
+  "words": 148,
+  "phrases": 178,
+  "senses": 409,
+  "withAudio": 294,
+  "withExamples": 139,
+  "withBreakdown": 46,
+  "multiSource": 42,
   "incorrectExcluded": 1
  },
  "inputs": {
   "lessons": [
+   {
+    "id": "mftgu_s1_l07",
+    "vocab": 15,
+    "lines": 31
+   },
    {
     "id": "mftgu_s1_l06",
     "vocab": 12,
@@ -61,6 +66,14 @@
   ],
   "conversations": [
    {
+    "id": "cp_2026_11_10_chat",
+    "script": "hans",
+    "vocab": 23,
+    "lines": 13,
+    "drillsIndexed": 0,
+    "drillsSkipped": 72
+   },
+   {
     "id": "cp_2026_11_07_smoking",
     "script": "hans",
     "vocab": 12,
@@ -80,6 +93,38 @@
  },
  "charMapConflicts": [],
  "sources": [
+  {
+   "origin": "conversation",
+   "id": "cp_2026_11_10_chat",
+   "kind": "conversation",
+   "title": "摸摸, 靓仔, morning, coffee or tea",
+   "short": "Nov 9–10 chat",
+   "source": "Conversation Practice",
+   "date": "2026-11-10T12:00:00-05:00",
+   "href": "#/practice/cp_2026_11_10_chat",
+   "script": "hans",
+   "sectionType": "",
+   "sectionTitle": "",
+   "itemId": "",
+   "group": "",
+   "note": ""
+  },
+  {
+   "origin": "lesson",
+   "id": "mftgu_s1_l07",
+   "kind": "podcast",
+   "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+   "short": "MFTGU L07 你問我為什麼",
+   "source": "Podcast: Mandarin From the Ground Up",
+   "date": "2026-11-09T08:06-05:00",
+   "href": "#/lesson/mftgu_s1_l07",
+   "script": "",
+   "sectionType": "",
+   "sectionTitle": "",
+   "itemId": "",
+   "group": "",
+   "note": ""
+  },
   {
    "origin": "conversation",
    "id": "cp_2026_11_07_smoking",
@@ -255,6 +300,7 @@
   "姊": "姐",
   "學": "学",
   "對": "对",
+  "帥": "帅",
   "張": "张",
   "換": "换",
   "會": "会",
@@ -284,7 +330,10 @@
   "貴": "贵",
   "這": "这",
   "還": "还",
+  "邊": "边",
   "開": "开",
+  "靚": "靓",
+  "頭": "头",
   "麼": "么",
   "點": "点",
   "龍": "龙"
@@ -397,10 +446,96 @@
        "note": "here: seeks agreement (‘…, right?’)"
       }
      ]
+    },
+    {
+     "id": "softens-a-guess",
+     "gloss": "softens a guess",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v15",
+       "group": "Words",
+       "note": ""
+      }
+     ]
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "妳那邊是早上吧？累不累？",
+     "simp": "你那边是早上吧？累不累？",
+     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+     "en": "It's morning there, right? Tired?",
+     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s10",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "softens a guess"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "不",
+       "simp": "不",
+       "pinyin": "bu",
+       "en": "not"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l01/audio/Vv12.mp3",
     "label": "吧 · synthetic",
@@ -548,13 +683,29 @@
    "kind": "word",
    "trad": "不",
    "simp": "不",
-   "pinyin": "bù",
+   "pinyin": "bu",
    "pinyinPlain": "bu",
    "senses": [
     {
      "id": "not",
      "gloss": "not",
      "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v16",
+       "group": "Words",
+       "note": ""
+      },
       {
        "origin": "lesson",
        "id": "mftgu_s1_l01",
@@ -575,7 +726,71 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "妳那邊是早上吧？累不累？",
+     "simp": "你那边是早上吧？累不累？",
+     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+     "en": "It's morning there, right? Tired?",
+     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s10",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "softens a guess"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "不",
+       "simp": "不",
+       "pinyin": "bu",
+       "en": "not"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l01/audio/Vv7.mp3",
     "label": "不 · synthetic",
@@ -788,6 +1003,74 @@
    "audio": null
   },
   {
+   "id": "pb-bu-yi-yang-不一样",
+   "kind": "word",
+   "trad": "不一樣",
+   "simp": "不一样",
+   "pinyin": "bù yī yàng",
+   "pinyinPlain": "buyiyang",
+   "senses": [
+    {
+     "id": "different",
+     "gloss": "different",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v4",
+       "group": "",
+       "note": "不 is bù; 一 here reads yī in a list, but 不一樣 is said bù yí yàng (一 rises before 4th 樣)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv4.mp3",
+    "label": "不一樣 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-cha-茶",
    "kind": "word",
    "trad": "茶",
@@ -799,6 +1082,22 @@
      "id": "tea",
      "gloss": "tea",
      "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v22",
+       "group": "Words",
+       "note": ""
+      },
       {
        "origin": "lesson",
        "id": "mftgu_s1_l05",
@@ -819,7 +1118,104 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "妳在喝咖啡還是茶？",
+     "simp": "你在喝咖啡还是茶？",
+     "pinyin": "Nǐ zài hē kā fēi hái shì chá",
+     "en": "Are you drinking coffee or tea (right now)?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s12",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "在",
+       "simp": "在",
+       "pinyin": "zài",
+       "en": "currently; -ing"
+      },
+      {
+       "trad": "喝",
+       "simp": "喝",
+       "pinyin": "hē",
+       "en": "to drink"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
+    },
+    {
+     "trad": "妳喜歡咖啡還是茶？",
+     "simp": "你喜欢咖啡还是茶？",
+     "pinyin": "Nǐ xǐ huan kā fēi hái shì chá",
+     "en": "Do you like coffee or tea?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s13",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l05/audio/Vv10.mp3",
     "label": "茶 · synthetic",
@@ -983,6 +1379,84 @@
    "audio": null
   },
   {
+   "id": "pb-chu-出",
+   "kind": "word",
+   "trad": "出",
+   "simp": "出",
+   "pinyin": "chū",
+   "pinyinPlain": "chu",
+   "senses": [
+    {
+     "id": "out",
+     "gloss": "out",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v11",
+       "group": "",
+       "note": "1st; ch retroflex + puff"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv11.mp3",
+    "label": "出 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-dai-待",
+   "kind": "word",
+   "trad": "待",
+   "simp": "待",
+   "pinyin": "dāi",
+   "pinyinPlain": "dai",
+   "senses": [
+    {
+     "id": "to-stay",
+     "gloss": "to stay",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v12",
+       "group": "",
+       "note": "1st tone in Taiwan usage (dāi), not dài; d = no puff"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv12.mp3",
+    "label": "待 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-da-jia-大家",
    "kind": "word",
    "trad": "大家",
@@ -1051,6 +1525,45 @@
    }
   },
   {
+   "id": "pb-dan-但",
+   "kind": "word",
+   "trad": "但",
+   "simp": "但",
+   "pinyin": "dàn",
+   "pinyinPlain": "dan",
+   "senses": [
+    {
+     "id": "but",
+     "gloss": "but",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v1",
+       "group": "",
+       "note": "4th, full fall; d = no puff"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv1.mp3",
+    "label": "但 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-dan-shi-但是",
    "kind": "word",
    "trad": "但是",
@@ -1062,6 +1575,22 @@
      "id": "but",
      "gloss": "but",
      "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v2",
+       "group": "",
+       "note": "4+4: the first drops only halfway, second falls fully"
+      },
       {
        "origin": "conversation",
        "id": "cp_2026_11_07",
@@ -1106,6 +1635,34 @@
    "words": [],
    "examples": [
     {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
      "trad": "但是我有新鞋。",
      "simp": "但是我有新鞋。",
      "pinyin": "Dànshì wǒ yǒu xīn xié",
@@ -1149,51 +1706,51 @@
        "en": "shoe; shoes"
       }
      ]
-    },
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv2.mp3",
+    "label": "但是 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-dan-shi-jin-tian-de-ka-fei-dian-gen-zuo-tian-de-bu-yi-yang-但是今天的咖啡店跟昨天的不一样",
+   "kind": "phrase",
+   "trad": "但是，今天的咖啡店跟昨天的不一樣",
+   "simp": "但是，今天的咖啡店跟昨天的不一样",
+   "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+   "pinyinPlain": "danshijintiandekafeidiangenzuotiandebuyiyang",
+   "senses": [
     {
-     "trad": "但是妳有腳。",
-     "simp": "但是你有脚。",
-     "pinyin": "Dànshì nǐ yǒu jiǎo",
-     "en": "But you have feet.",
-     "note": "Playful reply: But you have feet. 脚 is foot or feet. This card is language practice.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s09",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
+     "id": "but-today-s-coffee-shop-is-different-from-yester",
+     "gloss": "But today's coffee shop is different from yesterday's.",
+     "sources": [
       {
-       "trad": "但是",
-       "simp": "但是",
-       "pinyin": "dànshì",
-       "en": "but"
-      },
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "有",
-       "simp": "有",
-       "pinyin": "yǒu",
-       "en": "have"
-      },
-      {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p3",
+       "group": "",
+       "note": ""
       }
      ]
     }
    ],
+   "words": [],
+   "examples": [],
    "audio": {
-    "src": "conversations/cp_2026_11_07/audio/v08.mp3",
-    "label": "但是 · synthetic",
-    "real": false
+    "src": "lessons/mftgu_s1_l07/audio/Np3.mp3",
+    "label": "但是，今天的咖啡店跟昨天的不一樣 · ⚡ natural",
+    "real": true
    }
   },
   {
@@ -1328,6 +1885,60 @@
     "src": "conversations/cp_2026_11_07/audio/s05.mp3",
     "label": "但是我有新鞋。 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-dan-wo-mei-tian-yao-dai-zai-jia-li-但我每天要待在家里",
+   "kind": "phrase",
+   "trad": "但我每天要待在家裡",
+   "simp": "但我每天要待在家里",
+   "pinyin": "Dàn wǒ měi tiān yào dāi zài jiā lǐ",
+   "pinyinPlain": "danwomeitianyaodaizaijiali",
+   "senses": [
+    {
+     "id": "but-i-have-to-stay-home-every-day",
+     "gloss": "But I have to stay home every day.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p10",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "為什麼妳可以每天出去，但我每天要待在家裡！",
+     "simp": "为什么你可以每天出去，但我每天要待在家里！",
+     "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù dàn wǒ měi tiān yào dāi zài jiā lǐ",
+     "en": "Why can you go out every day, but I have to stay home every day?!",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np10.mp3",
+    "label": "但我每天要待在家裡 · ⚡ natural",
+    "real": true
    }
   },
   {
@@ -2168,6 +2779,22 @@
      "sources": [
       {
        "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p2",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
        "id": "mftgu_s1_l06",
        "kind": "podcast",
        "title": "MFTGU L06 · I'm still waiting 我還在等",
@@ -2231,7 +2858,7 @@
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l06/audio/Np6.mp3",
+    "src": "lessons/mftgu_s1_l07/audio/Np2.mp3",
     "label": "對啊 · ⚡ natural",
     "real": true
    }
@@ -2535,6 +3162,67 @@
    "audio": {
     "src": "lessons/mftgu_s1_l04/audio/Np1.mp3",
     "label": "對了，你叫什麼名字？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-dui-ni-kan-jin-tian-de-ka-fei-dian-you-mao-mi-对你看今天的咖啡店有猫咪",
+   "kind": "phrase",
+   "trad": "對，妳看，今天的咖啡店有貓咪！",
+   "simp": "对，你看，今天的咖啡店有猫咪！",
+   "pinyin": "Duì nǐ kàn jīn tiān de kā fēi diàn yǒu māo mī",
+   "pinyinPlain": "duinikanjintiandekafeidianyoumaomi",
+   "senses": [
+    {
+     "id": "right-look-today-s-coffee-shop-has-a-cat",
+     "gloss": "Right, look: today's coffee shop has a cat!",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d4",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "right-look-today-s-coffee-shop-has-a-cat-2",
+     "gloss": "Right, look: today's coffee shop has a cat.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p4",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np4.mp3",
+    "label": "對，你看，今天的咖啡店有貓咪 · ⚡ natural",
     "real": true
    }
   },
@@ -2936,6 +3624,69 @@
     "label": "個 · REAL",
     "real": true
    }
+  },
+  {
+   "id": "pb-ge-哥",
+   "kind": "word",
+   "trad": "哥",
+   "simp": "哥",
+   "pinyin": "gē",
+   "pinyinPlain": "ge",
+   "senses": [
+    {
+     "id": "older-brother-guy",
+     "gloss": "older brother; guy",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v07",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "帥哥",
+     "simp": "帅哥",
+     "pinyin": "Shuài gē",
+     "en": "Handsome guy.",
+     "note": "More common in Taiwan than 靓仔.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s05",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "帥",
+       "simp": "帅",
+       "pinyin": "shuài",
+       "en": "handsome"
+      },
+      {
+       "trad": "哥",
+       "simp": "哥",
+       "pinyin": "gē",
+       "en": "older brother; guy"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-ge-ge-哥哥",
@@ -3411,6 +4162,167 @@
    }
   },
   {
+   "id": "pb-hai-shi-还是",
+   "kind": "word",
+   "trad": "還是",
+   "simp": "还是",
+   "pinyin": "Hái shì",
+   "pinyinPlain": "haishi",
+   "senses": [
+    {
+     "id": "or-in-questions",
+     "gloss": "Or (in questions).",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s08",
+       "group": "",
+       "note": "Use 还是 for “or” in questions. These questions already have 还是, so you don’t add 吗 at the end."
+      }
+     ]
+    },
+    {
+     "id": "or-in-questions-2",
+     "gloss": "or (in questions)",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v10",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "還是",
+     "simp": "还是",
+     "pinyin": "háishì",
+     "en": "or (in questions)"
+    }
+   ],
+   "examples": [
+    {
+     "trad": "妳在喝咖啡還是茶？",
+     "simp": "你在喝咖啡还是茶？",
+     "pinyin": "Nǐ zài hē kā fēi hái shì chá",
+     "en": "Are you drinking coffee or tea (right now)?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s12",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "在",
+       "simp": "在",
+       "pinyin": "zài",
+       "en": "currently; -ing"
+      },
+      {
+       "trad": "喝",
+       "simp": "喝",
+       "pinyin": "hē",
+       "en": "to drink"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
+    },
+    {
+     "trad": "妳喜歡咖啡還是茶？",
+     "simp": "你喜欢咖啡还是茶？",
+     "pinyin": "Nǐ xǐ huan kā fēi hái shì chá",
+     "en": "Do you like coffee or tea?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s13",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
+    }
+   ],
+   "audio": null
+  },
+  {
    "id": "pb-hai-tun-海豚",
    "kind": "word",
    "trad": "海豚",
@@ -3673,6 +4585,45 @@
    "audio": {
     "src": "lessons/lm_b1_l01/audio/v2.mp3",
     "label": "好 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-hao-ba-好吧",
+   "kind": "phrase",
+   "trad": "好吧",
+   "simp": "好吧",
+   "pinyin": "Hǎo ba",
+   "pinyinPlain": "haoba",
+   "senses": [
+    {
+     "id": "fine",
+     "gloss": "Fine.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p16",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np16.mp3",
+    "label": "好吧 · ⚡ natural",
     "real": true
    }
   },
@@ -3950,6 +4901,22 @@
      "gloss": "to drink",
      "sources": [
       {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v20",
+       "group": "Words",
+       "note": ""
+      },
+      {
        "origin": "lesson",
        "id": "mftgu_s1_l05",
        "kind": "podcast",
@@ -3969,7 +4936,59 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "妳在喝咖啡還是茶？",
+     "simp": "你在喝咖啡还是茶？",
+     "pinyin": "Nǐ zài hē kā fēi hái shì chá",
+     "en": "Are you drinking coffee or tea (right now)?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s12",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "在",
+       "simp": "在",
+       "pinyin": "zài",
+       "en": "currently; -ing"
+      },
+      {
+       "trad": "喝",
+       "simp": "喝",
+       "pinyin": "hē",
+       "en": "to drink"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l05/audio/Vv6.mp3",
     "label": "喝 · synthetic",
@@ -4994,6 +6013,88 @@
    }
   },
   {
+   "id": "pb-jia-li-家里",
+   "kind": "word",
+   "trad": "家裡",
+   "simp": "家里",
+   "pinyin": "jiā lǐ",
+   "pinyinPlain": "jiali",
+   "senses": [
+    {
+     "id": "at-home",
+     "gloss": "at home",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v13",
+       "group": "",
+       "note": "1+3, 裡 often light → jiā li"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "……妳不喜歡待在家裡？",
+     "simp": "……你不喜欢待在家里？",
+     "pinyin": "……Nǐ bù xǐ huan dāi zài jiā lǐ",
+     "en": "...You don't like staying at home?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d12",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "沒有人喜歡待在家裡啊",
+     "simp": "没有人喜欢待在家里啊",
+     "pinyin": "Méi yǒu rén xǐ huan dāi zài jiā lǐ a",
+     "en": "Nobody likes staying at home.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "為什麼妳可以每天出去，但我每天要待在家裡！",
+     "simp": "为什么你可以每天出去，但我每天要待在家里！",
+     "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù dàn wǒ měi tiān yào dāi zài jiā lǐ",
+     "en": "Why can you go out every day, but I have to stay home every day?!",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv13.mp3",
+    "label": "家裡 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-jian-dao-见到",
    "kind": "word",
    "trad": "見到",
@@ -5757,45 +6858,45 @@
    "words": [],
    "examples": [
     {
-     "trad": "嘿，妳今天好嗎？",
-     "simp": "嘿，你今天好吗？",
-     "pinyin": "Hēi nǐ jīn tiān hǎo ma",
-     "en": "Hey, how are you today?",
+     "trad": "妳今天也在咖啡店？",
+     "simp": "你今天也在咖啡店？",
+     "pinyin": "Nǐ jīn tiān yě zài kā fēi diàn",
+     "en": "Are you at the coffee shop today too?",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
      "itemId": "d1",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     },
     {
-     "trad": "我今天還啊，妳呢？妳在哪裡啊？",
-     "simp": "我今天还啊，你呢？你在哪里啊？",
-     "pinyin": "Wǒ jīn tiān hái a nǐ ne Nǐ zài nǎ lǐ a",
-     "en": "I'm pretty OK today. You? Where are you?",
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "d2",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d3",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     },
     {
-     "trad": "嘿，妳今天好嗎？",
-     "simp": "嘿，你今天好吗？",
-     "pinyin": "Hēi nǐ jīn tiān hǎo ma",
-     "en": "Hey, how are you today?",
+     "trad": "對，妳看，今天的咖啡店有貓咪！",
+     "simp": "对，你看，今天的咖啡店有猫咪！",
+     "pinyin": "Duì nǐ kàn jīn tiān de kā fēi diàn yǒu māo mī",
+     "en": "Right, look: today's coffee shop has a cat!",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "p1",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d4",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     }
    ],
@@ -6014,13 +7115,29 @@
    "kind": "word",
    "trad": "咖啡",
    "simp": "咖啡",
-   "pinyin": "kā fēi",
+   "pinyin": "kāfēi",
    "pinyinPlain": "kafei",
    "senses": [
     {
      "id": "coffee",
      "gloss": "coffee",
      "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v21",
+       "group": "Words",
+       "note": ""
+      },
       {
        "origin": "lesson",
        "id": "mftgu_s1_l05",
@@ -6043,45 +7160,113 @@
    "words": [],
    "examples": [
     {
-     "trad": "喔對！謝謝！我的咖啡來了！",
-     "simp": "喔对！谢谢！我的咖啡来了！",
-     "pinyin": "Ō duì Xiè xie Wǒ de kā fēi lái le",
-     "en": "Oh right! (Thanks!) My coffee's here!",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "d11",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
-     "words": []
+     "trad": "妳在喝咖啡還是茶？",
+     "simp": "你在喝咖啡还是茶？",
+     "pinyin": "Nǐ zài hē kā fēi hái shì chá",
+     "en": "Are you drinking coffee or tea (right now)?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s12",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "在",
+       "simp": "在",
+       "pinyin": "zài",
+       "en": "currently; -ing"
+      },
+      {
+       "trad": "喝",
+       "simp": "喝",
+       "pinyin": "hē",
+       "en": "to drink"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
     },
     {
-     "trad": "我在咖啡店，妳看",
-     "simp": "我在咖啡店，你看",
-     "pinyin": "Wǒ zài kā fēi diàn nǐ kàn",
-     "en": "I'm at a coffee shop, look.",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "d3",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
-     "words": []
+     "trad": "妳喜歡咖啡還是茶？",
+     "simp": "你喜欢咖啡还是茶？",
+     "pinyin": "Nǐ xǐ huan kā fēi hái shì chá",
+     "en": "Do you like coffee or tea?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s13",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
     },
     {
-     "trad": "妳在喝咖啡嗎？",
-     "simp": "你在喝咖啡吗？",
-     "pinyin": "Nǐ zài hē kā fēi ma",
-     "en": "Are you drinking coffee?",
+     "trad": "妳今天也在咖啡店？",
+     "simp": "你今天也在咖啡店？",
+     "pinyin": "Nǐ jīn tiān yě zài kā fēi diàn",
+     "en": "Are you at the coffee shop today too?",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "d6",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d1",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     }
    ],
@@ -6276,6 +7461,28 @@
    "pinyinPlain": "keyi",
    "senses": [
     {
+     "id": "can-to-be-able-to",
+     "gloss": "can, to be able to",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v9",
+       "group": "",
+       "note": "3+3 → ké yǐ: first 3rd rises"
+      }
+     ]
+    },
+    {
      "id": "can-may",
      "gloss": "can; may",
      "sources": [
@@ -6300,6 +7507,34 @@
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "為什麼妳可以每天出去，但我每天要待在家裡！",
+     "simp": "为什么你可以每天出去，但我每天要待在家里！",
+     "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù dàn wǒ měi tiān yào dāi zài jiā lǐ",
+     "en": "Why can you go out every day, but I have to stay home every day?!",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "為什麼妳可以每天出去",
+     "simp": "为什么你可以每天出去",
+     "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù",
+     "en": "Why can you go out every day?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
     {
      "trad": "腳可以換鞋。",
      "simp": "脚可以换鞋。",
@@ -6341,7 +7576,7 @@
     }
    ],
    "audio": {
-    "src": "conversations/cp_2026_11_07/audio/v20.mp3",
+    "src": "lessons/mftgu_s1_l07/audio/Vv9.mp3",
     "label": "可以 · synthetic",
     "real": false
    }
@@ -6516,6 +7751,22 @@
      "sources": [
       {
        "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v13",
+       "group": "Words",
+       "note": ""
+      },
+      {
+       "origin": "conversation",
        "id": "cp_2026_11_07",
        "kind": "conversation",
        "title": "New shoes & playful replies",
@@ -6552,23 +7803,47 @@
    "words": [],
    "examples": [
     {
-     "trad": "我累了。",
-     "simp": "我累了。",
-     "pinyin": "Wǒ lèi le",
-     "en": "I'm tired. / I've gotten tired.",
-     "note": "Change of state. 了 le says the situation is new: you have gotten tired. It does not mean English “have”. 我 is a low half-third before 累 (4th). 了 is neutral, and it sits light and low after a 4th tone.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s01",
+     "trad": "妳那邊是早上。妳累嗎？",
+     "simp": "你那边是早上。你累吗？",
+     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+     "en": "It's morning where you are. Are you tired?",
+     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s09",
      "origin": "conversation",
      "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "short": "Nov 9–10 chat",
      "words": [
       {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
       },
       {
        "trad": "累",
@@ -6577,37 +7852,67 @@
        "en": "tired"
       },
       {
-       "trad": "了",
-       "simp": "了",
-       "pinyin": "le",
-       "en": "change-of-state particle: a new situation, not English “have”"
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
       }
      ]
     },
     {
-     "trad": "我很累。",
-     "simp": "我很累。",
-     "pinyin": "Wǒ hěn lèi",
-     "en": "I'm tired.",
-     "note": "A state: I'm tired. An adjective does not take 是. Say 我很累. The next card shows the form to avoid. 很 is the usual link before an adjective. Here it can be light, not a strong “very”. 我很 are two 3rd tones, so this page marks 我 as wó, and 很 stays low before 累.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s02",
+     "trad": "妳那邊是早上吧？累不累？",
+     "simp": "你那边是早上吧？累不累？",
+     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+     "en": "It's morning there, right? Tired?",
+     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s10",
      "origin": "conversation",
      "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "short": "Nov 9–10 chat",
      "words": [
       {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
       },
       {
-       "trad": "很",
-       "simp": "很",
-       "pinyin": "hěn",
-       "en": "very; the usual link before an adjective"
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "softens a guess"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "不",
+       "simp": "不",
+       "pinyin": "bu",
+       "en": "not"
       },
       {
        "trad": "累",
@@ -6618,35 +7923,59 @@
      ]
     },
     {
-     "trad": "我有點累。",
-     "simp": "我有点累。",
-     "pinyin": "Wǒ yǒu diǎn lèi",
-     "en": "I'm a little tired.",
-     "note": "I'm a little tired. 有点 is one chunk, “a little”. It does not mean “have” plus “tired”. The syllable that can sound like English “you” is 有 yǒu. It is not 你 nǐ. This chat did not use 一. A separate podcast page uses 有一点 for the same idea. Dictionary tones: Wǒ yǒu diǎn lèi. The marks on this card follow one 3rd-tone reading: wó yóu diǎn lèi.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s04",
+     "trad": "臺灣現在是早上。妳累嗎？",
+     "simp": "台湾现在是早上。你累吗？",
+     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+     "en": "It's morning in Taiwan right now. Are you tired?",
+     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s11",
      "origin": "conversation",
      "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "short": "Nov 9–10 chat",
      "words": [
       {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
+       "trad": "臺灣",
+       "simp": "台湾",
+       "pinyin": "táiwān",
+       "en": "Taiwan"
       },
       {
-       "trad": "有點",
-       "simp": "有点",
-       "pinyin": "yǒudiǎn",
-       "en": "a little; a bit (one chunk, not “have tired”)"
+       "trad": "現在",
+       "simp": "现在",
+       "pinyin": "xiànzài",
+       "en": "now"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
       },
       {
        "trad": "累",
        "simp": "累",
        "pinyin": "lèi",
        "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
       }
      ]
     }
@@ -6695,6 +8024,192 @@
     "label": "兩 · REAL",
     "real": true
    }
+  },
+  {
+   "id": "pb-liang-靓",
+   "kind": "word",
+   "trad": "靚",
+   "simp": "靓",
+   "pinyin": "liàng",
+   "pinyinPlain": "liang",
+   "senses": [
+    {
+     "id": "pretty-good-looking",
+     "gloss": "pretty; good-looking",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v03",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "靚仔",
+     "simp": "靓仔",
+     "pinyin": "Liàng zǎi",
+     "en": "Handsome guy.",
+     "note": "Slang from Cantonese (leng3 zai2), something like “good-looking dude” or “pretty boy.” Very common in Hong Kong and Guangdong; mainland internet slang picked it up too. People often use it playfully, even with strangers, the way you’d say “hey, handsome” or “hey bro.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s03",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "靚",
+       "simp": "靓",
+       "pinyin": "liàng",
+       "en": "pretty; good-looking"
+      },
+      {
+       "trad": "仔",
+       "simp": "仔",
+       "pinyin": "zǎi",
+       "en": "boy; young guy"
+      }
+     ]
+    },
+    {
+     "trad": "靚女",
+     "simp": "靓女",
+     "pinyin": "Liàng nǚ",
+     "en": "Pretty girl.",
+     "note": "The female counterpart of 靓仔.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s04",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "靚",
+       "simp": "靓",
+       "pinyin": "liàng",
+       "en": "pretty; good-looking"
+      },
+      {
+       "trad": "女",
+       "simp": "女",
+       "pinyin": "nǚ",
+       "en": "girl; woman"
+      }
+     ]
+    }
+   ],
+   "audio": null
+  },
+  {
+   "id": "pb-liang-nv-靓女",
+   "kind": "phrase",
+   "trad": "靚女",
+   "simp": "靓女",
+   "pinyin": "Liàng nǚ",
+   "pinyinPlain": "liangnv",
+   "senses": [
+    {
+     "id": "pretty-girl",
+     "gloss": "Pretty girl.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s04",
+       "group": "",
+       "note": "The female counterpart of 靓仔."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "靚",
+     "simp": "靓",
+     "pinyin": "liàng",
+     "en": "pretty; good-looking"
+    },
+    {
+     "trad": "女",
+     "simp": "女",
+     "pinyin": "nǚ",
+     "en": "girl; woman"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
+   "id": "pb-liang-zai-靓仔",
+   "kind": "phrase",
+   "trad": "靚仔",
+   "simp": "靓仔",
+   "pinyin": "Liàng zǎi",
+   "pinyinPlain": "liangzai",
+   "senses": [
+    {
+     "id": "handsome-guy",
+     "gloss": "Handsome guy.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s03",
+       "group": "",
+       "note": "Slang from Cantonese (leng3 zai2), something like “good-looking dude” or “pretty boy.” Very common in Hong Kong and Guangdong; mainland internet slang picked it up too. People often use it playfully, even with strangers, the way you’d say “hey, handsome” or “hey bro.”"
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "靚",
+     "simp": "靓",
+     "pinyin": "liàng",
+     "en": "pretty; good-looking"
+    },
+    {
+     "trad": "仔",
+     "simp": "仔",
+     "pinyin": "zǎi",
+     "en": "boy; young guy"
+    }
+   ],
+   "examples": [],
+   "audio": null
   },
   {
    "id": "pb-ma-吗",
@@ -6749,6 +8264,28 @@
      ]
     },
     {
+     "id": "question-word",
+     "gloss": "question word",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v14",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    },
+    {
      "id": "yes-no-question-particle",
      "gloss": "yes/no question particle",
      "sources": [
@@ -6773,6 +8310,120 @@
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "妳那邊是早上。妳累嗎？",
+     "simp": "你那边是早上。你累吗？",
+     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+     "en": "It's morning where you are. Are you tired?",
+     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s09",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    },
+    {
+     "trad": "臺灣現在是早上。妳累嗎？",
+     "simp": "台湾现在是早上。你累吗？",
+     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+     "en": "It's morning in Taiwan right now. Are you tired?",
+     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s11",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "臺灣",
+       "simp": "台湾",
+       "pinyin": "táiwān",
+       "en": "Taiwan"
+      },
+      {
+       "trad": "現在",
+       "simp": "现在",
+       "pinyin": "xiànzài",
+       "en": "now"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    },
     {
      "trad": "妳也喜歡嗎？",
      "simp": "你也喜欢吗？",
@@ -6931,6 +8582,88 @@
    "audio": {
     "src": "conversations/cp_2026_11_07/audio/v38.mp3",
     "label": "猫 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-mao-mi-猫咪",
+   "kind": "word",
+   "trad": "貓咪",
+   "simp": "猫咪",
+   "pinyin": "māo mī",
+   "pinyinPlain": "maomi",
+   "senses": [
+    {
+     "id": "cat",
+     "gloss": "cat",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v5",
+       "group": "",
+       "note": "1+1 plateau (Taiwan speakers also say māo mī flat)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "……妳想再看一下貓咪嗎？",
+     "simp": "……你想再看一下猫咪吗？",
+     "pinyin": "……Nǐ xiǎng zài kàn yī xià māo mī ma",
+     "en": "...Do you want to look at the cat a bit more?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d14",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "對，妳看，今天的咖啡店有貓咪！",
+     "simp": "对，你看，今天的咖啡店有猫咪！",
+     "pinyin": "Duì nǐ kàn jīn tiān de kā fēi diàn yǒu māo mī",
+     "en": "Right, look: today's coffee shop has a cat!",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "妳想再看一下貓咪嗎",
+     "simp": "你想再看一下猫咪吗",
+     "pinyin": "Nǐ xiǎng zài kàn yī xià māo mī ma",
+     "en": "Do you want to look at the cat a bit more?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p15",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv5.mp3",
+    "label": "貓咪 · synthetic",
     "real": false
    }
   },
@@ -7236,6 +8969,88 @@
    }
   },
   {
+   "id": "pb-mei-tian-每天",
+   "kind": "word",
+   "trad": "每天",
+   "simp": "每天",
+   "pinyin": "měi tiān",
+   "pinyinPlain": "meitian",
+   "senses": [
+    {
+     "id": "every-day",
+     "gloss": "every day",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v7",
+       "group": "",
+       "note": "3+1: 每 stays a low half-third before the plateau"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "為什麼妳每天都去咖啡店？",
+     "simp": "为什么你每天都去咖啡店？",
+     "pinyin": "Wèi shén me nǐ měi tiān dōu qù kā fēi diàn",
+     "en": "Why do you go to the coffee shop every day?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "為什麼妳可以每天出去，但我每天要待在家裡！",
+     "simp": "为什么你可以每天出去，但我每天要待在家里！",
+     "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù dàn wǒ měi tiān yào dāi zài jiā lǐ",
+     "en": "Why can you go out every day, but I have to stay home every day?!",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "但我每天要待在家裡",
+     "simp": "但我每天要待在家里",
+     "pinyin": "Dàn wǒ měi tiān yào dāi zài jiā lǐ",
+     "en": "But I have to stay home every day.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv7.mp3",
+    "label": "每天 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-mei-you-没有",
    "kind": "word",
    "trad": "沒有",
@@ -7313,64 +9128,45 @@
    "words": [],
    "examples": [
     {
-     "trad": "我沒有腳。",
-     "simp": "我没有脚。",
-     "pinyin": "Wǒ méiyǒu jiǎo",
-     "en": "I don't have feet.",
-     "note": "Later playful reply. The message opened with laughter, hahaha. The laughter is not a Chinese sentence, so it is not a study line. 我没有脚 means “I don't have feet”. 没有 is the negative of 有. Use 没 to negate 有. 不有 is not the pattern.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s21",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
-      },
-      {
-       "trad": "沒有",
-       "simp": "没有",
-       "pinyin": "méiyǒu",
-       "en": "do not have (the negative of 有; not 不有)"
-      },
-      {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
-      }
-     ]
-    },
-    {
-     "trad": "我沒有哥哥，也沒有弟弟。我只有一個姊姊。",
-     "simp": "我没有哥哥，也没有弟弟。我只有一个姐姐。",
-     "pinyin": "Wǒ méi yǒu gē ge yě méi yǒu dì di Wǒ zhǐ yǒu yī ge jiě jie",
-     "en": "I don’t have an older brother or a younger brother. I only have one older sister.",
+     "trad": "沒有人喜歡待在家裡啊",
+     "simp": "没有人喜欢待在家里啊",
+     "pinyin": "Méi yǒu rén xǐ huan dāi zài jiā lǐ a",
+     "en": "Nobody likes staying at home.",
      "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "d7",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d13",
      "origin": "lesson",
-     "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     },
     {
-     "trad": "我沒有弟弟，也沒有妹妹。",
-     "simp": "我没有弟弟，也没有妹妹。",
-     "pinyin": "Wǒ méi yǒu dì di yě méi yǒu mèi mei",
-     "en": "I have no younger brother and no younger sister. (template)",
+     "trad": "沒有為什麼啊",
+     "simp": "没有为什么啊",
+     "pinyin": "Méi yǒu wèi shén me a",
+     "en": "There's no why.",
      "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "y6",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d6",
      "origin": "lesson",
-     "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "沒有人喜歡待在家裡啊",
+     "simp": "没有人喜欢待在家里啊",
+     "pinyin": "Méi yǒu rén xǐ huan dāi zài jiā lǐ a",
+     "en": "Nobody likes staying at home.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p14",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     }
    ],
@@ -7378,6 +9174,138 @@
     "src": "lessons/mftgu_s1_l06/audio/Vv3.mp3",
     "label": "沒有 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-mei-you-ren-xi-huan-dai-zai-jia-li-a-没有人喜欢待在家里啊",
+   "kind": "phrase",
+   "trad": "沒有人喜歡待在家裡啊",
+   "simp": "没有人喜欢待在家里啊",
+   "pinyin": "Méi yǒu rén xǐ huan dāi zài jiā lǐ a",
+   "pinyinPlain": "meiyourenxihuandaizaijialia",
+   "senses": [
+    {
+     "id": "nobody-likes-staying-at-home",
+     "gloss": "Nobody likes staying at home.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p14",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np14.mp3",
+    "label": "沒有人喜歡待在家裡啊 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-mei-you-wei-shen-me-没有为什么",
+   "kind": "phrase",
+   "trad": "沒有為什麼",
+   "simp": "没有为什么",
+   "pinyin": "Méi yǒu wèi shén me",
+   "pinyinPlain": "meiyouweishenme",
+   "senses": [
+    {
+     "id": "there-s-no-why",
+     "gloss": "There's no why.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p6",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "沒有為什麼啊",
+     "simp": "没有为什么啊",
+     "pinyin": "Méi yǒu wèi shén me a",
+     "en": "There's no why.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np6.mp3",
+    "label": "沒有為什麼 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-mei-you-wei-shen-me-a-没有为什么啊",
+   "kind": "phrase",
+   "trad": "沒有為什麼啊",
+   "simp": "没有为什么啊",
+   "pinyin": "Méi yǒu wèi shén me a",
+   "pinyinPlain": "meiyouweishenmea",
+   "senses": [
+    {
+     "id": "there-s-no-why",
+     "gloss": "There's no why.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d6",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Fd6.mp3",
+    "label": "沒有為什麼啊 · dialogue (natural)",
+    "real": true
    }
   },
   {
@@ -7555,6 +9483,331 @@
     "label": "名字 · REAL",
     "real": true
    }
+  },
+  {
+   "id": "pb-mo-mo-摸摸",
+   "kind": "word",
+   "trad": "摸摸",
+   "simp": "摸摸",
+   "pinyin": "Mō mo",
+   "pinyinPlain": "momo",
+   "senses": [
+    {
+     "id": "to-pat-stroke-or-pet-gently",
+     "gloss": "To pat, stroke, or pet gently.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s01",
+       "group": "",
+       "note": "摸 mō (“to touch”) said twice. Doubling a verb like this makes it softer and more casual, so it comes across as “a little pat” or “give it a pet.” The second 摸 usually goes light and toneless, so it sounds like MŌ-mo. Common when petting an animal, or as a comforting pat on the head."
+      }
+     ]
+    },
+    {
+     "id": "to-pat-stroke-gently",
+     "gloss": "to pat/stroke gently",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v01",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "摸摸",
+     "simp": "摸摸",
+     "pinyin": "mōmo",
+     "en": "to pat/stroke gently"
+    }
+   ],
+   "examples": [
+    {
+     "trad": "摸摸頭",
+     "simp": "摸摸头",
+     "pinyin": "Mō mo tóu",
+     "en": "Pat on the head.",
+     "note": "A common, cute use of 摸摸: a comforting pat on the head.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s02",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "摸摸",
+       "simp": "摸摸",
+       "pinyin": "mōmo",
+       "en": "to pat/stroke gently"
+      },
+      {
+       "trad": "頭",
+       "simp": "头",
+       "pinyin": "tóu",
+       "en": "head"
+      }
+     ]
+    }
+   ],
+   "audio": null
+  },
+  {
+   "id": "pb-mo-mo-tou-摸摸头",
+   "kind": "phrase",
+   "trad": "摸摸頭",
+   "simp": "摸摸头",
+   "pinyin": "Mō mo tóu",
+   "pinyinPlain": "momotou",
+   "senses": [
+    {
+     "id": "pat-on-the-head",
+     "gloss": "Pat on the head.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s02",
+       "group": "",
+       "note": "A common, cute use of 摸摸: a comforting pat on the head."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "摸摸",
+     "simp": "摸摸",
+     "pinyin": "mōmo",
+     "en": "to pat/stroke gently"
+    },
+    {
+     "trad": "頭",
+     "simp": "头",
+     "pinyin": "tóu",
+     "en": "head"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
+   "id": "pb-na-bian-那边",
+   "kind": "word",
+   "trad": "那邊",
+   "simp": "那边",
+   "pinyin": "Nà biān",
+   "pinyinPlain": "nabian",
+   "senses": [
+    {
+     "id": "over-there-your-side",
+     "gloss": "Over there; your side.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s06",
+       "group": "",
+       "note": "In messages, 你那边 often means “where you are” or “on your side.”"
+      }
+     ]
+    },
+    {
+     "id": "over-there-your-side-2",
+     "gloss": "over there; your side",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v08",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "那邊",
+     "simp": "那边",
+     "pinyin": "nàbiān",
+     "en": "over there; your side"
+    }
+   ],
+   "examples": [
+    {
+     "trad": "妳那邊是早上。妳累嗎？",
+     "simp": "你那边是早上。你累吗？",
+     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+     "en": "It's morning where you are. Are you tired?",
+     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s09",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    },
+    {
+     "trad": "妳那邊是早上吧？累不累？",
+     "simp": "你那边是早上吧？累不累？",
+     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+     "en": "It's morning there, right? Tired?",
+     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s10",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "softens a guess"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "不",
+       "simp": "不",
+       "pinyin": "bu",
+       "en": "not"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-na-guo-ren-哪国人",
@@ -7876,6 +10129,22 @@
      "sources": [
       {
        "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v11",
+       "group": "Words",
+       "note": ""
+      },
+      {
+       "origin": "conversation",
        "id": "cp_2026_11_07_smoking",
        "kind": "conversation",
        "title": "Smoke less — playful replies",
@@ -7994,56 +10263,41 @@
    "words": [],
    "examples": [
     {
-     "trad": "妳少抽煙。",
-     "simp": "你少抽烟。",
-     "pinyin": "Nǐ shǎo chōu yān",
-     "en": "Smoke less.",
-     "note": "",
-     "href": "#/practice/cp_2026_11_07_smoking",
-     "sourceId": "cp_2026_11_07_smoking",
-     "itemId": "s03",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Smoke less",
-     "words": [
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "少",
-       "simp": "少",
-       "pinyin": "shǎo",
-       "en": "less"
-      },
-      {
-       "trad": "抽煙",
-       "simp": "抽烟",
-       "pinyin": "chōuyān",
-       "en": "to smoke cigarettes"
-      }
-     ]
-    },
-    {
-     "trad": "但是妳有腳。",
-     "simp": "但是你有脚。",
-     "pinyin": "Dànshì nǐ yǒu jiǎo",
-     "en": "But you have feet.",
-     "note": "Playful reply: But you have feet. 脚 is foot or feet. This card is language practice.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
+     "trad": "妳那邊是早上。妳累嗎？",
+     "simp": "你那边是早上。你累吗？",
+     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+     "en": "It's morning where you are. Are you tired?",
+     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
      "itemId": "s09",
      "origin": "conversation",
      "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "short": "Nov 9–10 chat",
      "words": [
       {
-       "trad": "但是",
-       "simp": "但是",
-       "pinyin": "dànshì",
-       "en": "but"
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
       },
       {
        "trad": "妳",
@@ -8052,31 +10306,31 @@
        "en": "you"
       },
       {
-       "trad": "有",
-       "simp": "有",
-       "pinyin": "yǒu",
-       "en": "have"
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
       },
       {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
       }
      ]
     },
     {
-     "trad": "妳也有腳。",
-     "simp": "你也有脚。",
-     "pinyin": "Nǐ yě yǒu jiǎo",
-     "en": "You have feet too.",
-     "note": "You have feet too. 也 means also or too, and it goes before the verb 有. Dictionary tones: nǐ yě yǒu jiǎo. One reading for this row of 3rd tones: ní yé yóu jiǎo.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s11",
+     "trad": "妳那邊是早上吧？累不累？",
+     "simp": "你那边是早上吧？累不累？",
+     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+     "en": "It's morning there, right? Tired?",
+     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s10",
      "origin": "conversation",
      "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "short": "Nov 9–10 chat",
      "words": [
       {
        "trad": "妳",
@@ -8085,22 +10339,103 @@
        "en": "you"
       },
       {
-       "trad": "也",
-       "simp": "也",
-       "pinyin": "yě",
-       "en": "also; too"
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
       },
       {
-       "trad": "有",
-       "simp": "有",
-       "pinyin": "yǒu",
-       "en": "have"
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
       },
       {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "softens a guess"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "不",
+       "simp": "不",
+       "pinyin": "bu",
+       "en": "not"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      }
+     ]
+    },
+    {
+     "trad": "臺灣現在是早上。妳累嗎？",
+     "simp": "台湾现在是早上。你累吗？",
+     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+     "en": "It's morning in Taiwan right now. Are you tired?",
+     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s11",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "臺灣",
+       "simp": "台湾",
+       "pinyin": "táiwān",
+       "en": "Taiwan"
+      },
+      {
+       "trad": "現在",
+       "simp": "现在",
+       "pinyin": "xiànzài",
+       "en": "now"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
       }
      ]
     }
@@ -8147,6 +10482,67 @@
    "audio": {
     "src": "lessons/mftgu_s1_l01/audio/Np5.mp3",
     "label": "你不會？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ni-bu-xi-huan-dai-zai-jia-li-你不喜欢待在家里",
+   "kind": "phrase",
+   "trad": "……妳不喜歡待在家裡？",
+   "simp": "……你不喜欢待在家里？",
+   "pinyin": "Nǐ bù xǐ huan dāi zài jiā lǐ",
+   "pinyinPlain": "nibuxihuandaizaijiali",
+   "senses": [
+    {
+     "id": "you-don-t-like-staying-at-home",
+     "gloss": "...You don't like staying at home?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d12",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "you-don-t-like-staying-at-home-2",
+     "gloss": "You don't like staying at home.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p13",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np13.mp3",
+    "label": "你不喜歡待在家裡 · ⚡ natural",
     "real": true
    }
   },
@@ -8652,6 +11048,45 @@
    }
   },
   {
+   "id": "pb-ni-jin-tian-ye-zai-ka-fei-dian-你今天也在咖啡店",
+   "kind": "phrase",
+   "trad": "妳今天也在咖啡店？",
+   "simp": "你今天也在咖啡店？",
+   "pinyin": "Nǐ jīn tiān yě zài kā fēi diàn",
+   "pinyinPlain": "nijintianyezaikafeidian",
+   "senses": [
+    {
+     "id": "are-you-at-the-coffee-shop-today-too",
+     "gloss": "Are you at the coffee shop today too?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p1",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np1.mp3",
+    "label": "你今天也在咖啡店？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-nin-您",
    "kind": "word",
    "trad": "您",
@@ -8689,6 +11124,168 @@
     "label": "您 · REAL",
     "real": true
    }
+  },
+  {
+   "id": "pb-ni-na-bian-shi-zao-shang-ba-lei-bu-lei-你那边是早上吧累不累",
+   "kind": "phrase",
+   "trad": "妳那邊是早上吧？累不累？",
+   "simp": "你那边是早上吧？累不累？",
+   "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+   "pinyinPlain": "ninabianshizaoshangbaleibulei",
+   "senses": [
+    {
+     "id": "it-s-morning-there-right-tired",
+     "gloss": "It's morning there, right? Tired?",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s10",
+       "group": "",
+       "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "那邊",
+     "simp": "那边",
+     "pinyin": "nàbiān",
+     "en": "over there; your side"
+    },
+    {
+     "trad": "是",
+     "simp": "是",
+     "pinyin": "shì",
+     "en": "is"
+    },
+    {
+     "trad": "早上",
+     "simp": "早上",
+     "pinyin": "zǎoshang",
+     "en": "morning"
+    },
+    {
+     "trad": "吧",
+     "simp": "吧",
+     "pinyin": "ba",
+     "en": "softens a guess"
+    },
+    {
+     "trad": "累",
+     "simp": "累",
+     "pinyin": "lèi",
+     "en": "tired"
+    },
+    {
+     "trad": "不",
+     "simp": "不",
+     "pinyin": "bu",
+     "en": "not"
+    },
+    {
+     "trad": "累",
+     "simp": "累",
+     "pinyin": "lèi",
+     "en": "tired"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
+   "id": "pb-ni-na-bian-shi-zao-shang-ni-lei-ma-你那边是早上你累吗",
+   "kind": "phrase",
+   "trad": "妳那邊是早上。妳累嗎？",
+   "simp": "你那边是早上。你累吗？",
+   "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+   "pinyinPlain": "ninabianshizaoshangnileima",
+   "senses": [
+    {
+     "id": "it-s-morning-where-you-are-are-you-tired",
+     "gloss": "It's morning where you are. Are you tired?",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s09",
+       "group": "",
+       "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”"
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "那邊",
+     "simp": "那边",
+     "pinyin": "nàbiān",
+     "en": "over there; your side"
+    },
+    {
+     "trad": "是",
+     "simp": "是",
+     "pinyin": "shì",
+     "en": "is"
+    },
+    {
+     "trad": "早上",
+     "simp": "早上",
+     "pinyin": "zǎoshang",
+     "en": "morning"
+    },
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "累",
+     "simp": "累",
+     "pinyin": "lèi",
+     "en": "tired"
+    },
+    {
+     "trad": "嗎",
+     "simp": "吗",
+     "pinyin": "ma",
+     "en": "question word"
+    }
+   ],
+   "examples": [],
+   "audio": null
   },
   {
    "id": "pb-ni-ne-ni-ting-de-dao-ma-你呢你听得到吗",
@@ -9330,6 +11927,128 @@
    }
   },
   {
+   "id": "pb-ni-wen-wo-wei-shen-me-你问我为什么",
+   "kind": "phrase",
+   "trad": "妳問我為什麼……",
+   "simp": "你问我为什么……",
+   "pinyin": "Nǐ wèn wǒ wèi shén me",
+   "pinyinPlain": "niwenwoweishenme",
+   "senses": [
+    {
+     "id": "you-re-asking-me-why",
+     "gloss": "You're asking me why.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p8",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "you-re-asking-me-why-2",
+     "gloss": "You're asking me why...",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d8",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np8.mp3",
+    "label": "你問我為什麼 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ni-xiang-zai-kan-yi-xia-mao-mi-ma-你想再看一下猫咪吗",
+   "kind": "phrase",
+   "trad": "……妳想再看一下貓咪嗎？",
+   "simp": "……你想再看一下猫咪吗？",
+   "pinyin": "Nǐ xiǎng zài kàn yī xià māo mī ma",
+   "pinyinPlain": "nixiangzaikanyixiamaomima",
+   "senses": [
+    {
+     "id": "do-you-want-to-look-at-the-cat-a-bit-more",
+     "gloss": "...Do you want to look at the cat a bit more?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d14",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "do-you-want-to-look-at-the-cat-a-bit-more-2",
+     "gloss": "Do you want to look at the cat a bit more?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p15",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np15.mp3",
+    "label": "你想再看一下貓咪嗎 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-ni-xian-zai-zai-he-cha-ma-你现在在喝茶吗",
    "kind": "phrase",
    "trad": "妳現在在喝茶嗎？",
@@ -9367,6 +12086,72 @@
     "label": "你現在在喝茶嗎？ · ⚡ natural",
     "real": true
    }
+  },
+  {
+   "id": "pb-ni-xi-huan-ka-fei-hai-shi-cha-你喜欢咖啡还是茶",
+   "kind": "phrase",
+   "trad": "妳喜歡咖啡還是茶？",
+   "simp": "你喜欢咖啡还是茶？",
+   "pinyin": "Nǐ xǐ huan kā fēi hái shì chá",
+   "pinyinPlain": "nixihuankafeihaishicha",
+   "senses": [
+    {
+     "id": "do-you-like-coffee-or-tea",
+     "gloss": "Do you like coffee or tea?",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s13",
+       "group": "",
+       "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？"
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "喜歡",
+     "simp": "喜欢",
+     "pinyin": "xǐhuan",
+     "en": "to like"
+    },
+    {
+     "trad": "咖啡",
+     "simp": "咖啡",
+     "pinyin": "kāfēi",
+     "en": "coffee"
+    },
+    {
+     "trad": "還是",
+     "simp": "还是",
+     "pinyin": "háishì",
+     "en": "or (in questions)"
+    },
+    {
+     "trad": "茶",
+     "simp": "茶",
+     "pinyin": "chá",
+     "en": "tea"
+    }
+   ],
+   "examples": [],
+   "audio": null
   },
   {
    "id": "pb-ni-xi-huan-ka-fei-ma-你喜欢咖啡吗",
@@ -9873,6 +12658,78 @@
    }
   },
   {
+   "id": "pb-ni-zai-he-ka-fei-hai-shi-cha-你在喝咖啡还是茶",
+   "kind": "phrase",
+   "trad": "妳在喝咖啡還是茶？",
+   "simp": "你在喝咖啡还是茶？",
+   "pinyin": "Nǐ zài hē kā fēi hái shì chá",
+   "pinyinPlain": "nizaihekafeihaishicha",
+   "senses": [
+    {
+     "id": "are-you-drinking-coffee-or-tea-right-now",
+     "gloss": "Are you drinking coffee or tea (right now)?",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s12",
+       "group": "",
+       "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？"
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "在",
+     "simp": "在",
+     "pinyin": "zài",
+     "en": "currently; -ing"
+    },
+    {
+     "trad": "喝",
+     "simp": "喝",
+     "pinyin": "hē",
+     "en": "to drink"
+    },
+    {
+     "trad": "咖啡",
+     "simp": "咖啡",
+     "pinyin": "kāfēi",
+     "en": "coffee"
+    },
+    {
+     "trad": "還是",
+     "simp": "还是",
+     "pinyin": "háishì",
+     "en": "or (in questions)"
+    },
+    {
+     "trad": "茶",
+     "simp": "茶",
+     "pinyin": "chá",
+     "en": "tea"
+    }
+   ],
+   "examples": [],
+   "audio": null
+  },
+  {
    "id": "pb-ni-zai-he-ka-fei-ma-你在喝咖啡吗",
    "kind": "phrase",
    "trad": "妳在喝咖啡嗎？",
@@ -10274,6 +13131,69 @@
     "label": "你真棒。 · synthetic",
     "real": false
    }
+  },
+  {
+   "id": "pb-nv-女",
+   "kind": "word",
+   "trad": "女",
+   "simp": "女",
+   "pinyin": "nǚ",
+   "pinyinPlain": "nv",
+   "senses": [
+    {
+     "id": "girl-woman",
+     "gloss": "girl; woman",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v05",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "靚女",
+     "simp": "靓女",
+     "pinyin": "Liàng nǚ",
+     "en": "Pretty girl.",
+     "note": "The female counterpart of 靓仔.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s04",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "靚",
+       "simp": "靓",
+       "pinyin": "liàng",
+       "en": "pretty; good-looking"
+      },
+      {
+       "trad": "女",
+       "simp": "女",
+       "pinyin": "nǚ",
+       "en": "girl; woman"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-o-喔",
@@ -10778,6 +13698,45 @@
    }
   },
   {
+   "id": "pb-qu-去",
+   "kind": "word",
+   "trad": "去",
+   "simp": "去",
+   "pinyin": "qù",
+   "pinyinPlain": "qu",
+   "senses": [
+    {
+     "id": "to-go",
+     "gloss": "to go",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v10",
+       "group": "",
+       "note": "4th; q = aspirated (Position 3 puff)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv10.mp3",
+    "label": "去 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-ren-人",
    "kind": "word",
    "trad": "人",
@@ -11086,45 +14045,45 @@
    "words": [],
    "examples": [
     {
-     "trad": "那是什麼茶？",
-     "simp": "那是什么茶？",
-     "pinyin": "Nà shì shén me chá",
-     "en": "What tea is that?",
+     "trad": "為什麼！妳跟我說！",
+     "simp": "为什么！你跟我说！",
+     "pinyin": "Wèi shén me Nǐ gēn wǒ shuō",
+     "en": "Why?! Tell me!",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l05",
-     "sourceId": "mftgu_s1_l05",
-     "itemId": "d14",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d11",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L05 你聽得到嗎",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     },
     {
-     "trad": "妳在喝什麼？",
-     "simp": "你在喝什么？",
-     "pinyin": "Nǐ zài hē shén me",
-     "en": "What are you drinking?",
+     "trad": "為什麼？",
+     "simp": "为什么？",
+     "pinyin": "Wèi shén me",
+     "en": "Why?",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l05",
-     "sourceId": "mftgu_s1_l05",
-     "itemId": "d9",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d5",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L05 你聽得到嗎",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     },
     {
-     "trad": "妳在喝什麼？",
-     "simp": "你在喝什么？",
-     "pinyin": "Nǐ zài hē shén me",
-     "en": "What are you drinking?",
+     "trad": "沒有為什麼啊",
+     "simp": "没有为什么啊",
+     "pinyin": "Méi yǒu wèi shén me a",
+     "en": "There's no why.",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l05",
-     "sourceId": "mftgu_s1_l05",
-     "itemId": "p10",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d6",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L05 你聽得到嗎",
+     "short": "MFTGU L07 你問我為什麼",
      "words": []
     }
    ],
@@ -11142,6 +14101,28 @@
    "pinyin": "shì",
    "pinyinPlain": "shi",
    "senses": [
+    {
+     "id": "is",
+     "gloss": "is",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v12",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    },
     {
      "id": "to-be-am-is-are",
      "gloss": "to be (am / is / are)",
@@ -11204,12 +14185,301 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "妳那邊是早上。妳累嗎？",
+     "simp": "你那边是早上。你累吗？",
+     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+     "en": "It's morning where you are. Are you tired?",
+     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s09",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    },
+    {
+     "trad": "妳那邊是早上吧？累不累？",
+     "simp": "你那边是早上吧？累不累？",
+     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+     "en": "It's morning there, right? Tired?",
+     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s10",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "softens a guess"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "不",
+       "simp": "不",
+       "pinyin": "bu",
+       "en": "not"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      }
+     ]
+    },
+    {
+     "trad": "臺灣現在是早上。妳累嗎？",
+     "simp": "台湾现在是早上。你累吗？",
+     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+     "en": "It's morning in Taiwan right now. Are you tired?",
+     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s11",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "臺灣",
+       "simp": "台湾",
+       "pinyin": "táiwān",
+       "en": "Taiwan"
+      },
+      {
+       "trad": "現在",
+       "simp": "现在",
+       "pinyin": "xiànzài",
+       "en": "now"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/lm_b1_l01/audio/v9.mp3",
     "label": "是 · REAL",
     "real": true
    }
+  },
+  {
+   "id": "pb-shuai-帅",
+   "kind": "word",
+   "trad": "帥",
+   "simp": "帅",
+   "pinyin": "shuài",
+   "pinyinPlain": "shuai",
+   "senses": [
+    {
+     "id": "handsome",
+     "gloss": "handsome",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v06",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "帥哥",
+     "simp": "帅哥",
+     "pinyin": "Shuài gē",
+     "en": "Handsome guy.",
+     "note": "More common in Taiwan than 靓仔.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s05",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "帥",
+       "simp": "帅",
+       "pinyin": "shuài",
+       "en": "handsome"
+      },
+      {
+       "trad": "哥",
+       "simp": "哥",
+       "pinyin": "gē",
+       "en": "older brother; guy"
+      }
+     ]
+    }
+   ],
+   "audio": null
+  },
+  {
+   "id": "pb-shuai-ge-帅哥",
+   "kind": "phrase",
+   "trad": "帥哥",
+   "simp": "帅哥",
+   "pinyin": "Shuài gē",
+   "pinyinPlain": "shuaige",
+   "senses": [
+    {
+     "id": "handsome-guy",
+     "gloss": "Handsome guy.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s05",
+       "group": "",
+       "note": "More common in Taiwan than 靓仔."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "帥",
+     "simp": "帅",
+     "pinyin": "shuài",
+     "en": "handsome"
+    },
+    {
+     "trad": "哥",
+     "simp": "哥",
+     "pinyin": "gē",
+     "en": "older brother; guy"
+    }
+   ],
+   "examples": [],
+   "audio": null
   },
   {
    "id": "pb-shuo-说",
@@ -11401,13 +14671,29 @@
    "kind": "word",
    "trad": "臺灣",
    "simp": "台湾",
-   "pinyin": "Tái wān",
+   "pinyin": "táiwān",
    "pinyinPlain": "taiwan",
    "senses": [
     {
      "id": "taiwan",
      "gloss": "Taiwan",
      "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v17",
+       "group": "Words",
+       "note": ""
+      },
       {
        "origin": "lesson",
        "id": "lm_b1_l01",
@@ -11446,6 +14732,63 @@
    "words": [],
    "examples": [
     {
+     "trad": "臺灣現在是早上。妳累嗎？",
+     "simp": "台湾现在是早上。你累吗？",
+     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+     "en": "It's morning in Taiwan right now. Are you tired?",
+     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s11",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "臺灣",
+       "simp": "台湾",
+       "pinyin": "táiwān",
+       "en": "Taiwan"
+      },
+      {
+       "trad": "現在",
+       "simp": "现在",
+       "pinyin": "xiànzài",
+       "en": "now"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    },
+    {
      "trad": "妳是臺灣人嗎？",
      "simp": "你是台湾人吗？",
      "pinyin": "Nǐ shì Tái wān rén ma",
@@ -11468,20 +14811,6 @@
      "href": "#/lesson/lm_b1_l01",
      "sourceId": "lm_b1_l01",
      "itemId": "d7",
-     "origin": "lesson",
-     "kind": "textbook",
-     "short": "L01 您好 · prep",
-     "words": []
-    },
-    {
-     "trad": "臺灣人",
-     "simp": "台湾人",
-     "pinyin": "Tái wān rén",
-     "en": "Taiwanese",
-     "note": "also written 台灣",
-     "href": "#/lesson/lm_b1_l01",
-     "sourceId": "lm_b1_l01",
-     "itemId": "v16",
      "origin": "lesson",
      "kind": "textbook",
      "short": "L01 您好 · prep",
@@ -11575,6 +14904,84 @@
     "label": "臺灣人 · REAL",
     "real": true
    }
+  },
+  {
+   "id": "pb-tai-wan-xian-zai-shi-zao-shang-ni-lei-ma-台湾现在是早上你累吗",
+   "kind": "phrase",
+   "trad": "臺灣現在是早上。妳累嗎？",
+   "simp": "台湾现在是早上。你累吗？",
+   "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+   "pinyinPlain": "taiwanxianzaishizaoshangnileima",
+   "senses": [
+    {
+     "id": "it-s-morning-in-taiwan-right-now-are-you-tired",
+     "gloss": "It's morning in Taiwan right now. Are you tired?",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s11",
+       "group": "",
+       "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？"
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "臺灣",
+     "simp": "台湾",
+     "pinyin": "táiwān",
+     "en": "Taiwan"
+    },
+    {
+     "trad": "現在",
+     "simp": "现在",
+     "pinyin": "xiànzài",
+     "en": "now"
+    },
+    {
+     "trad": "是",
+     "simp": "是",
+     "pinyin": "shì",
+     "en": "is"
+    },
+    {
+     "trad": "早上",
+     "simp": "早上",
+     "pinyin": "zǎoshang",
+     "en": "morning"
+    },
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "累",
+     "simp": "累",
+     "pinyin": "lèi",
+     "en": "tired"
+    },
+    {
+     "trad": "嗎",
+     "simp": "吗",
+     "pinyin": "ma",
+     "en": "question word"
+    }
+   ],
+   "examples": [],
+   "audio": null
   },
   {
    "id": "pb-ting-听",
@@ -11721,6 +15128,69 @@
     "label": "听起来 · synthetic",
     "real": false
    }
+  },
+  {
+   "id": "pb-tou-头",
+   "kind": "word",
+   "trad": "頭",
+   "simp": "头",
+   "pinyin": "tóu",
+   "pinyinPlain": "tou",
+   "senses": [
+    {
+     "id": "head",
+     "gloss": "head",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v02",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "摸摸頭",
+     "simp": "摸摸头",
+     "pinyin": "Mō mo tóu",
+     "en": "Pat on the head.",
+     "note": "A common, cute use of 摸摸: a comforting pat on the head.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s02",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "摸摸",
+       "simp": "摸摸",
+       "pinyin": "mōmo",
+       "en": "to pat/stroke gently"
+      },
+      {
+       "trad": "頭",
+       "simp": "头",
+       "pinyin": "tóu",
+       "en": "head"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-wang-王",
@@ -12028,6 +15498,342 @@
     "src": "lessons/mftgu_s1_l05/audio/Np1.mp3",
     "label": "喂？你聽得到嗎？ · ⚡ natural",
     "real": true
+   }
+  },
+  {
+   "id": "pb-wei-shen-me-为什么",
+   "kind": "word",
+   "trad": "為什麼？",
+   "simp": "为什么？",
+   "pinyin": "Wèi shén me",
+   "pinyinPlain": "weishenme",
+   "senses": [
+    {
+     "id": "why",
+     "gloss": "Why?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p5",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "why-2",
+     "gloss": "why",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v6",
+       "group": "",
+       "note": "4-2-neutral: fall, rise, light 麼"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "為什麼！妳跟我說！",
+     "simp": "为什么！你跟我说！",
+     "pinyin": "Wèi shén me Nǐ gēn wǒ shuō",
+     "en": "Why?! Tell me!",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d11",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "沒有為什麼啊",
+     "simp": "没有为什么啊",
+     "pinyin": "Méi yǒu wèi shén me a",
+     "en": "There's no why.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "為什麼妳每天都去咖啡店？",
+     "simp": "为什么你每天都去咖啡店？",
+     "pinyin": "Wèi shén me nǐ měi tiān dōu qù kā fēi diàn",
+     "en": "Why do you go to the coffee shop every day?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np5.mp3",
+    "label": "為什麼？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wei-shen-me-ni-gen-wo-shuo-为什么你跟我说",
+   "kind": "phrase",
+   "trad": "為什麼！妳跟我說！",
+   "simp": "为什么！你跟我说！",
+   "pinyin": "Wèi shén me Nǐ gēn wǒ shuō",
+   "pinyinPlain": "weishenmenigenwoshuo",
+   "senses": [
+    {
+     "id": "why-you-tell-me",
+     "gloss": "Why? You tell me!",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p12",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "why-tell-me",
+     "gloss": "Why?! Tell me!",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d11",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np12.mp3",
+    "label": "為什麼你跟我說 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wei-shen-me-ni-ke-yi-mei-tian-chu-qu-为什么你可以每天出去",
+   "kind": "phrase",
+   "trad": "為什麼妳可以每天出去",
+   "simp": "为什么你可以每天出去",
+   "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù",
+   "pinyinPlain": "weishenmenikeyimeitianchuqu",
+   "senses": [
+    {
+     "id": "why-can-you-go-out-every-day",
+     "gloss": "Why can you go out every day?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p9",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "為什麼妳可以每天出去，但我每天要待在家裡！",
+     "simp": "为什么你可以每天出去，但我每天要待在家里！",
+     "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù dàn wǒ měi tiān yào dāi zài jiā lǐ",
+     "en": "Why can you go out every day, but I have to stay home every day?!",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np9.mp3",
+    "label": "為什麼你可以每天出去 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wei-shen-me-ni-ke-yi-mei-tian-chu-qu-dan-wo-mei-tian-yao-dai-zai-jia-li-为什么你可以每天出去但我每天要待在家里",
+   "kind": "phrase",
+   "trad": "為什麼妳可以每天出去，但我每天要待在家裡！",
+   "simp": "为什么你可以每天出去，但我每天要待在家里！",
+   "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù dàn wǒ měi tiān yào dāi zài jiā lǐ",
+   "pinyinPlain": "weishenmenikeyimeitianchuqudanwomeitianyaodaizaijiali",
+   "senses": [
+    {
+     "id": "why-can-you-go-out-every-day-but-i-have-to-stay-",
+     "gloss": "Why can you go out every day, but I have to stay home every day?!",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d9",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Fd9.mp3",
+    "label": "為什麼你可以每天出去，但我每天要待在家裡？！ · dialogue (natural)",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wei-shen-me-ni-mei-tian-dou-qu-ka-fei-dian-为什么你每天都去咖啡店",
+   "kind": "phrase",
+   "trad": "為什麼妳每天都去咖啡店？",
+   "simp": "为什么你每天都去咖啡店？",
+   "pinyin": "Wèi shén me nǐ měi tiān dōu qù kā fēi diàn",
+   "pinyinPlain": "weishenmenimeitiandouqukafeidian",
+   "senses": [
+    {
+     "id": "why-do-you-go-to-the-coffee-shop-every-day",
+     "gloss": "Why do you go to the coffee shop every day?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p7",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np7.mp3",
+    "label": "為什麼你每天都去咖啡店？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wen-问",
+   "kind": "word",
+   "trad": "問",
+   "simp": "问",
+   "pinyin": "wèn",
+   "pinyinPlain": "wen",
+   "senses": [
+    {
+     "id": "to-ask",
+     "gloss": "to ask",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v8",
+       "group": "",
+       "note": "4th; 問 vs 吻 (wěn) is the tone-minimal pair in the intro"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv8.mp3",
+    "label": "問 · synthetic",
+    "real": false
    }
   },
   {
@@ -14714,17 +18520,72 @@
    }
   },
   {
+   "id": "pb-xiang-想",
+   "kind": "word",
+   "trad": "想",
+   "simp": "想",
+   "pinyin": "xiǎng",
+   "pinyinPlain": "xiang",
+   "senses": [
+    {
+     "id": "to-want-would-like-to",
+     "gloss": "to want, would like to",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v15",
+       "group": "",
+       "note": "3rd; half-third before 再 (4th)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv15.mp3",
+    "label": "想 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-xian-zai-现在",
    "kind": "word",
    "trad": "現在",
    "simp": "现在",
-   "pinyin": "xiàn zài",
+   "pinyin": "xiànzài",
    "pinyinPlain": "xianzai",
    "senses": [
     {
      "id": "now",
      "gloss": "now",
      "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v18",
+       "group": "Words",
+       "note": ""
+      },
       {
        "origin": "lesson",
        "id": "mftgu_s1_l05",
@@ -14746,6 +18607,63 @@
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "臺灣現在是早上。妳累嗎？",
+     "simp": "台湾现在是早上。你累吗？",
+     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+     "en": "It's morning in Taiwan right now. Are you tired?",
+     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s11",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "臺灣",
+       "simp": "台湾",
+       "pinyin": "táiwān",
+       "en": "Taiwan"
+      },
+      {
+       "trad": "現在",
+       "simp": "现在",
+       "pinyin": "xiànzài",
+       "en": "now"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    },
     {
      "trad": "妳現在在喝茶嗎？",
      "simp": "你现在在喝茶吗？",
@@ -15194,6 +19112,22 @@
      "sources": [
       {
        "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v23",
+       "group": "Words",
+       "note": ""
+      },
+      {
+       "origin": "conversation",
        "id": "cp_2026_11_07",
        "kind": "conversation",
        "title": "New shoes & playful replies",
@@ -15296,80 +19230,17 @@
    "words": [],
    "examples": [
     {
-     "trad": "我喜歡我的新棕色鞋子。",
-     "simp": "我喜欢我的新棕色鞋子。",
-     "pinyin": "Wǒ xǐhuan wǒ de xīn zōngsè xiézi",
-     "en": "I like my new brown shoes.",
-     "note": "I like my new brown shoes. In 喜欢 the second syllable 欢 is neutral: xǐhuan. Do not give it a full first tone. 我的 means my.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s14",
+     "trad": "妳喜歡咖啡還是茶？",
+     "simp": "你喜欢咖啡还是茶？",
+     "pinyin": "Nǐ xǐ huan kā fēi hái shì chá",
+     "en": "Do you like coffee or tea?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s13",
      "origin": "conversation",
      "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
-      },
-      {
-       "trad": "喜歡",
-       "simp": "喜欢",
-       "pinyin": "xǐhuan",
-       "en": "to like (second syllable neutral)"
-      },
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "me; my"
-      },
-      {
-       "trad": "的",
-       "simp": "的",
-       "pinyin": "de",
-       "en": "possession marker; 我的 = my"
-      },
-      {
-       "trad": "新",
-       "simp": "新",
-       "pinyin": "xīn",
-       "en": "new"
-      },
-      {
-       "trad": "棕色",
-       "simp": "棕色",
-       "pinyin": "zōngsè",
-       "en": "brown"
-      },
-      {
-       "trad": "鞋",
-       "simp": "鞋",
-       "pinyin": "xié",
-       "en": "shoe"
-      },
-      {
-       "trad": "子",
-       "simp": "子",
-       "pinyin": "zi",
-       "en": "noun suffix, neutral; 鞋子 means shoes"
-      }
-     ]
-    },
-    {
-     "trad": "妳也喜歡嗎？",
-     "simp": "你也喜欢吗？",
-     "pinyin": "Nǐ yě xǐhuan ma?",
-     "en": "Do you like them too?",
-     "note": "Question pattern: Do you like them too? The shoes are the object, and they are understood. 吗 sits at the end and makes a yes/no question. Word order stays subject 你, then 也, then 喜欢, then 吗. This asks whether you like them. The message that was actually sent is the next card, a statement, with no 吗.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s15",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "short": "Nov 9–10 chat",
      "words": [
       {
        "trad": "妳",
@@ -15378,57 +19249,58 @@
        "en": "you"
       },
       {
-       "trad": "也",
-       "simp": "也",
-       "pinyin": "yě",
-       "en": "also; too"
-      },
-      {
        "trad": "喜歡",
        "simp": "喜欢",
        "pinyin": "xǐhuan",
-       "en": "to like (the shoes are understood, not repeated)"
+       "en": "to like"
       },
       {
-       "trad": "嗎",
-       "simp": "吗",
-       "pinyin": "ma",
-       "en": "yes/no question particle"
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
       }
      ]
     },
     {
-     "trad": "妳也喜歡！",
-     "simp": "你也喜欢！",
-     "pinyin": "Nǐ yě xǐhuan!",
-     "en": "You like them too!",
-     "note": "This is the line that was sent. Meaning: You like them too. 你 is the subject. The sentence that means “I like you too” is 我也喜欢你, on the next card. In that sentence 你 comes after 喜欢 and is the object. It was a different sentence, added here for comparison.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s16",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you (the subject)"
-      },
-      {
-       "trad": "也",
-       "simp": "也",
-       "pinyin": "yě",
-       "en": "also; too"
-      },
-      {
-       "trad": "喜歡",
-       "simp": "喜欢",
-       "pinyin": "xǐhuan",
-       "en": "to like (them; the object is understood)"
-      }
-     ]
+     "trad": "……妳不喜歡待在家裡？",
+     "simp": "……你不喜欢待在家里？",
+     "pinyin": "……Nǐ bù xǐ huan dāi zài jiā lǐ",
+     "en": "...You don't like staying at home?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d12",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "沒有人喜歡待在家裡啊",
+     "simp": "没有人喜欢待在家里啊",
+     "pinyin": "Méi yǒu rén xǐ huan dāi zài jiā lǐ a",
+     "en": "Nobody likes staying at home.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
     }
    ],
    "audio": {
@@ -16741,6 +20613,34 @@
    "words": [],
    "examples": [
     {
+     "trad": "……妳想再看一下貓咪嗎？",
+     "simp": "……你想再看一下猫咪吗？",
+     "pinyin": "……Nǐ xiǎng zài kàn yī xià māo mī ma",
+     "en": "...Do you want to look at the cat a bit more?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d14",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "妳想再看一下貓咪嗎",
+     "simp": "你想再看一下猫咪吗",
+     "pinyin": "Nǐ xiǎng zài kàn yī xià māo mī ma",
+     "en": "Do you want to look at the cat a bit more?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p15",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
      "trad": "等一下！我還沒喝……喔！好喝！",
      "simp": "等一下！我还没喝……喔！好喝！",
      "pinyin": "Děng yī xià Wǒ hái méi hē…… Ō Hǎo hē",
@@ -16749,34 +20649,6 @@
      "href": "#/lesson/mftgu_s1_l06",
      "sourceId": "mftgu_s1_l06",
      "itemId": "d13",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
-     "words": []
-    },
-    {
-     "trad": "還沒，等一下",
-     "simp": "还没，等一下",
-     "pinyin": "Hái méi děng yī xià",
-     "en": "Not yet, in a sec.",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "d7",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
-     "words": []
-    },
-    {
-     "trad": "等一下！我還沒喝",
-     "simp": "等一下！我还没喝",
-     "pinyin": "Děng yī xià Wǒ hái méi hē",
-     "en": "Hang on! I haven't drunk it yet.",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "p14",
      "origin": "lesson",
      "kind": "podcast",
      "short": "MFTGU L06 我還在等",
@@ -16823,6 +20695,34 @@
    "words": [],
    "examples": [
     {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
      "trad": "跟妳的中文名字一樣！",
      "simp": "跟你的中文名字一样！",
      "pinyin": "Gēn nǐ de zhōng wén míng zi yī yàng!",
@@ -16831,20 +20731,6 @@
      "href": "#/lesson/mftgu_s1_l04",
      "sourceId": "mftgu_s1_l04",
      "itemId": "d12",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L04 你叫什麼名字",
-     "words": []
-    },
-    {
-     "trad": "跟妳的中文名字一樣",
-     "simp": "跟你的中文名字一样",
-     "pinyin": "Gēn nǐ de zhōng wén míng zi yī yàng",
-     "en": "Same as your Chinese name!",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l04",
-     "sourceId": "mftgu_s1_l04",
-     "itemId": "p12",
      "origin": "lesson",
      "kind": "podcast",
      "short": "MFTGU L04 你叫什麼名字",
@@ -17387,6 +21273,69 @@
    }
   },
   {
+   "id": "pb-zai-仔",
+   "kind": "word",
+   "trad": "仔",
+   "simp": "仔",
+   "pinyin": "zǎi",
+   "pinyinPlain": "zai",
+   "senses": [
+    {
+     "id": "boy-young-guy",
+     "gloss": "boy; young guy",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v04",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "靚仔",
+     "simp": "靓仔",
+     "pinyin": "Liàng zǎi",
+     "en": "Handsome guy.",
+     "note": "Slang from Cantonese (leng3 zai2), something like “good-looking dude” or “pretty boy.” Very common in Hong Kong and Guangdong; mainland internet slang picked it up too. People often use it playfully, even with strangers, the way you’d say “hey, handsome” or “hey bro.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s03",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "靚",
+       "simp": "靓",
+       "pinyin": "liàng",
+       "en": "pretty; good-looking"
+      },
+      {
+       "trad": "仔",
+       "simp": "仔",
+       "pinyin": "zǎi",
+       "en": "boy; young guy"
+      }
+     ]
+    }
+   ],
+   "audio": null
+  },
+  {
    "id": "pb-zai-再",
    "kind": "word",
    "trad": "再",
@@ -17476,10 +21425,84 @@
        "note": "z = Position 3, no puff"
       }
      ]
+    },
+    {
+     "id": "currently-ing",
+     "gloss": "currently; -ing",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v19",
+       "group": "Words",
+       "note": ""
+      }
+     ]
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "妳在喝咖啡還是茶？",
+     "simp": "你在喝咖啡还是茶？",
+     "pinyin": "Nǐ zài hē kā fēi hái shì chá",
+     "en": "Are you drinking coffee or tea (right now)?",
+     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s12",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "在",
+       "simp": "在",
+       "pinyin": "zài",
+       "en": "currently; -ing"
+      },
+      {
+       "trad": "喝",
+       "simp": "喝",
+       "pinyin": "hē",
+       "en": "to drink"
+      },
+      {
+       "trad": "咖啡",
+       "simp": "咖啡",
+       "pinyin": "kāfēi",
+       "en": "coffee"
+      },
+      {
+       "trad": "還是",
+       "simp": "还是",
+       "pinyin": "háishì",
+       "en": "or (in questions)"
+      },
+      {
+       "trad": "茶",
+       "simp": "茶",
+       "pinyin": "chá",
+       "en": "tea"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l05/audio/Vv4.mp3",
     "label": "在 · synthetic",
@@ -17656,6 +21679,248 @@
     "label": "在台灣哪裡？ · ⚡ natural",
     "real": true
    }
+  },
+  {
+   "id": "pb-zao-shang-早上",
+   "kind": "word",
+   "trad": "早上",
+   "simp": "早上",
+   "pinyin": "Zǎo shang",
+   "pinyinPlain": "zaoshang",
+   "senses": [
+    {
+     "id": "morning",
+     "gloss": "Morning.",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "lines",
+       "sectionTitle": "Lines",
+       "itemId": "s07",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "morning-2",
+     "gloss": "morning",
+     "sources": [
+      {
+       "origin": "conversation",
+       "id": "cp_2026_11_10_chat",
+       "kind": "conversation",
+       "title": "摸摸, 靓仔, morning, coffee or tea",
+       "short": "Nov 9–10 chat",
+       "source": "Conversation Practice",
+       "date": "2026-11-10T12:00:00-05:00",
+       "href": "#/practice/cp_2026_11_10_chat",
+       "script": "hans",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v09",
+       "group": "Words",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "早上",
+     "simp": "早上",
+     "pinyin": "zǎoshang",
+     "en": "morning"
+    }
+   ],
+   "examples": [
+    {
+     "trad": "妳那邊是早上。妳累嗎？",
+     "simp": "你那边是早上。你累吗？",
+     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+     "en": "It's morning where you are. Are you tired?",
+     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s09",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    },
+    {
+     "trad": "妳那邊是早上吧？累不累？",
+     "simp": "你那边是早上吧？累不累？",
+     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+     "en": "It's morning there, right? Tired?",
+     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s10",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "那邊",
+       "simp": "那边",
+       "pinyin": "nàbiān",
+       "en": "over there; your side"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "softens a guess"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "不",
+       "simp": "不",
+       "pinyin": "bu",
+       "en": "not"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      }
+     ]
+    },
+    {
+     "trad": "臺灣現在是早上。妳累嗎？",
+     "simp": "台湾现在是早上。你累吗？",
+     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+     "en": "It's morning in Taiwan right now. Are you tired?",
+     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+     "href": "#/practice/cp_2026_11_10_chat",
+     "sourceId": "cp_2026_11_10_chat",
+     "itemId": "s11",
+     "origin": "conversation",
+     "kind": "conversation",
+     "short": "Nov 9–10 chat",
+     "words": [
+      {
+       "trad": "臺灣",
+       "simp": "台湾",
+       "pinyin": "táiwān",
+       "en": "Taiwan"
+      },
+      {
+       "trad": "現在",
+       "simp": "现在",
+       "pinyin": "xiànzài",
+       "en": "now"
+      },
+      {
+       "trad": "是",
+       "simp": "是",
+       "pinyin": "shì",
+       "en": "is"
+      },
+      {
+       "trad": "早上",
+       "simp": "早上",
+       "pinyin": "zǎoshang",
+       "en": "morning"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "累",
+       "simp": "累",
+       "pinyin": "lèi",
+       "en": "tired"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question word"
+      }
+     ]
+    }
+   ],
+   "audio": null
   },
   {
    "id": "pb-zen-me-怎么",
@@ -18015,10 +22280,60 @@
        "note": ""
       }
      ]
+    },
+    {
+     "id": "this-one",
+     "gloss": "this one",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v14",
+       "group": "",
+       "note": "4 + light 個"
+      }
+     ]
     }
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "這個嘛……",
+     "simp": "这个嘛……",
+     "pinyin": "Zhè ge ma……",
+     "en": "Well, this one...",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "這個嘛",
+     "simp": "这个嘛",
+     "pinyin": "Zhè ge ma",
+     "en": "Well, this one...",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p11",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
     {
      "trad": "這個句子聽起來很怪。",
      "simp": "这个句子听起来很怪。",
@@ -18066,8 +22381,8 @@
     }
    ],
    "audio": {
-    "src": "conversations/cp_2026_11_07/audio/v41.mp3",
-    "label": "这个 · synthetic",
+    "src": "lessons/mftgu_s1_l07/audio/Vv14.mp3",
+    "label": "這個 · synthetic",
     "real": false
    }
   },
@@ -18139,6 +22454,45 @@
     "src": "conversations/cp_2026_11_07/audio/s27.mp3",
     "label": "这个句子听起来很怪。 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-zhe-ge-ma-这个嘛",
+   "kind": "phrase",
+   "trad": "這個嘛……",
+   "simp": "这个嘛……",
+   "pinyin": "Zhè ge ma",
+   "pinyinPlain": "zhegema",
+   "senses": [
+    {
+     "id": "well-this-one",
+     "gloss": "Well, this one...",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p11",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Np11.mp3",
+    "label": "這個嘛 · ⚡ natural",
+    "real": true
    }
   },
   {
@@ -19056,6 +23410,74 @@
    "audio": {
     "src": "conversations/cp_2026_11_07/audio/s07.mp3",
     "label": "棕色的鞋 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-zuo-tian-昨天",
+   "kind": "word",
+   "trad": "昨天",
+   "simp": "昨天",
+   "pinyin": "zuó tiān",
+   "pinyinPlain": "zuotian",
+   "senses": [
+    {
+     "id": "yesterday",
+     "gloss": "yesterday",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l07",
+       "kind": "podcast",
+       "title": "MFTGU L07 · You ask me why… 你問我為什麼",
+       "short": "MFTGU L07 你問我為什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-09T08:06-05:00",
+       "href": "#/lesson/mftgu_s1_l07",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v3",
+       "group": "",
+       "note": "2+1: rise then high plateau; z = no puff"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    },
+    {
+     "trad": "但是，今天的咖啡店跟昨天的不一樣",
+     "simp": "但是，今天的咖啡店跟昨天的不一样",
+     "pinyin": "Dàn shì jīn tiān de kā fēi diàn gēn zuó tiān de bù yī yàng",
+     "en": "But today's coffee shop is different from yesterday's.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l07",
+     "sourceId": "mftgu_s1_l07",
+     "itemId": "p3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L07 你問我為什麼",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l07/audio/Vv3.mp3",
+    "label": "昨天 · synthetic",
     "real": false
    }
   }

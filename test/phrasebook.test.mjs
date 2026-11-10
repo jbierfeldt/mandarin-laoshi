@@ -9,7 +9,7 @@ import { cardHtml, shortMeaning } from "../phrasebook/card.mjs";
 import { foldPinyin, searchEntries, stripPunct } from "../phrasebook/search.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
-const OLD = ["lm_b1_l01", "lm_b1_l02", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06"];
+const OLD = ["lm_b1_l01", "lm_b1_l02", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06", "mftgu_s1_l07"];
 
 function loadIndex() {
   return JSON.parse(fs.readFileSync(path.join(root, "phrasebook/index.json"), "utf8"));
@@ -166,20 +166,20 @@ test("real index counts, merges, and conversation provenance", () => {
   assert.equal(index.schema, 1);
   assert.equal(index.regen, "node phrasebook/build.mjs");
   assert.deepEqual(index.counts, {
-    lessons: 8,
-    conversations: 2,
-    entries: 279,
-    words: 126,
-    phrases: 153,
-    senses: 346,
-    withAudio: 266,
-    withExamples: 114,
-    withBreakdown: 33,
-    multiSource: 32,
+    lessons: 9,
+    conversations: 3,
+    entries: 326,
+    words: 148,
+    phrases: 178,
+    senses: 409,
+    withAudio: 294,
+    withExamples: 139,
+    withBreakdown: 46,
+    multiSource: 42,
     incorrectExcluded: 1,
   });
   assert.equal(index.charMapConflicts.length, 0);
-  assert.deepEqual(index.sources.map((s) => s.id).sort(), [...OLD, "cp_2026_11_07", "cp_2026_11_07_smoking"].sort());
+  assert.deepEqual(index.sources.map((s) => s.id).sort(), [...OLD, "cp_2026_11_07", "cp_2026_11_07_smoking", "cp_2026_11_10_chat"].sort());
   const shoesIn = index.inputs.conversations.find((c) => c.id === "cp_2026_11_07");
   assert.equal(shoesIn.vocab, 44);
   assert.equal(shoesIn.lines, 27);
@@ -193,6 +193,13 @@ test("real index counts, merges, and conversation provenance", () => {
   const cough = index.entries.find((e) => stripPunct(e.simp) === "抽烟会咳嗽");
   assert.match(cough.senses[0].sources[0].note, /fully Chinese version/);
   assert.match(cough.senses[0].sources[0].note, /抽烟会 cough/);
+
+  const momo = index.entries.find((e) => stripPunct(e.simp) === "摸摸");
+  assert.equal(momo.kind, "word");
+  assert.equal(momo.senses[0].sources[0].href, "#/practice/cp_2026_11_10_chat");
+  const haishi = index.entries.find((e) => stripPunct(e.simp) === "还是");
+  assert.equal(haishi.kind, "word");
+  assert.match(haishi.senses[0].gloss, /or/i);
 
   const shenme = findEntry(index, "什么", "shenme");
   assert.equal(shenme.kind, "word");
@@ -382,6 +389,7 @@ test("existing lesson ids, practice route, and phrasebook route stay in place", 
   const nowCatalog = JSON.parse(fs.readFileSync(path.join(root, "conversations/index.json"), "utf8"));
   assert.deepEqual(nowCatalog.entries.find((e) => e.id === "cp_2026_11_07"), oldCatalog.entries.find((e) => e.id === "cp_2026_11_07"));
   assert.equal(nowCatalog.entries.filter((e) => e.id === "cp_2026_11_07_smoking").length, 1);
+  assert.equal(nowCatalog.entries.filter((e) => e.id === "cp_2026_11_10_chat").length, 1);
   const lessons = JSON.parse(fs.readFileSync(path.join(root, "lessons/index.json"), "utf8"));
   assert.deepEqual(lessons.lessons.map((l) => l.id).sort(), [...OLD].sort());
   const app = fs.readFileSync(path.join(root, "app.js"), "utf8");
@@ -399,7 +407,7 @@ test("existing lesson ids, practice route, and phrasebook route stay in place", 
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*font-size:16px/);
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*min-height:44px/);
   const sw = fs.readFileSync(path.join(root, "sw.js"), "utf8");
-  assert.match(sw, /laoshi-20261108pb2/);
+  assert.match(sw, /laoshi-20261110chat/);
   assert.match(sw, /phrasebook\/page\.js/);
   for (const file of ["phrasebook/page.js", "phrasebook/page.css", "phrasebook/SCHEMA.md", "README.md"]) {
     const text = fs.readFileSync(path.join(root, file), "utf8");

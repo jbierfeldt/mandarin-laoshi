@@ -1,0 +1,3865 @@
+{
+  "schema": 1,
+  "id": "cp_2026_11_10_chat",
+  "kind": "conversation",
+  "script": "hans",
+  "source": "Conversation Practice",
+  "title": "摸摸, 靓仔, morning, coffee or tea",
+  "short": "Nov 9–10 chat",
+  "subtitle": "Chat with 老师, Nov 9–10, 2026",
+  "date": "2026-11-10T12:00:00-05:00",
+  "emoji": "💬",
+  "color": "#0B7285",
+  "kick": "Conversation Practice · readable text first · audio optional",
+  "focus": "摸摸 · 靓仔 · 你累吗 · 还是",
+  "key": "<span class=\"syn\">synthetic</span> audio is optional. This page is readable without clips. When a clip is added later, it is computer speech and the label says synthetic. Simplified characters are the main script on this page. Grey characters are traditional. ☰ Options flips the script and can hide pinyin or English. The pinyin line under the English is the dictionary reading with tone marks.",
+  "foot": "Study cards. Personal names, contact details, and screenshots are not included. Audio is not required to publish the entry.",
+  "sections": [
+    {
+      "type": "lines",
+      "title": "Lines",
+      "kick": "Tone-mark pinyin, English, and a word breakdown on every line",
+      "items": [
+        {
+          "id": "s01",
+          "en": "To pat, stroke, or pet gently.",
+          "py": "Mō mo",
+          "note": "摸 mō (“to touch”) said twice. Doubling a verb like this makes it softer and more casual, so it comes across as “a little pat” or “give it a pet.” The second 摸 usually goes light and toneless, so it sounds like MŌ-mo. Common when petting an animal, or as a comforting pat on the head.",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "Mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s02",
+          "en": "Pat on the head.",
+          "py": "Mō mo tóu",
+          "note": "A common, cute use of 摸摸: a comforting pat on the head.",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "Mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            },
+            {
+              "ch": "頭",
+              "py": "tóu",
+              "t": 2,
+              "s": "头"
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            },
+            {
+              "t": "頭",
+              "py": "tóu",
+              "en": "head",
+              "s": "头"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s03",
+          "en": "Handsome guy.",
+          "py": "Liàng zǎi",
+          "note": "Slang from Cantonese (leng3 zai2), something like “good-looking dude” or “pretty boy.” Very common in Hong Kong and Guangdong; mainland internet slang picked it up too. People often use it playfully, even with strangers, the way you’d say “hey, handsome” or “hey bro.”",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "Liàng",
+              "t": 4,
+              "s": "靓"
+            },
+            {
+              "ch": "仔",
+              "py": "zǎi",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            },
+            {
+              "t": "仔",
+              "py": "zǎi",
+              "en": "boy; young guy"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s04",
+          "en": "Pretty girl.",
+          "py": "Liàng nǚ",
+          "note": "The female counterpart of 靓仔.",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "Liàng",
+              "t": 4,
+              "s": "靓"
+            },
+            {
+              "ch": "女",
+              "py": "nǚ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            },
+            {
+              "t": "女",
+              "py": "nǚ",
+              "en": "girl; woman"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s05",
+          "en": "Handsome guy.",
+          "py": "Shuài gē",
+          "note": "More common in Taiwan than 靓仔.",
+          "cells": [
+            {
+              "ch": "帥",
+              "py": "Shuài",
+              "t": 4,
+              "s": "帅"
+            },
+            {
+              "ch": "哥",
+              "py": "gē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "帥",
+              "py": "shuài",
+              "en": "handsome",
+              "s": "帅"
+            },
+            {
+              "t": "哥",
+              "py": "gē",
+              "en": "older brother; guy"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s06",
+          "en": "Over there; your side.",
+          "py": "Nà biān",
+          "note": "In messages, 你那边 often means “where you are” or “on your side.”",
+          "cells": [
+            {
+              "ch": "那",
+              "py": "Nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            }
+          ],
+          "words": [
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s07",
+          "en": "Morning.",
+          "py": "Zǎo shang",
+          "cells": [
+            {
+              "ch": "早",
+              "py": "Zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s08",
+          "en": "Or (in questions).",
+          "py": "Hái shì",
+          "note": "Use 还是 for “or” in questions. These questions already have 还是, so you don’t add 吗 at the end.",
+          "cells": [
+            {
+              "ch": "還",
+              "py": "Hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s09",
+          "en": "It's morning where you are. Are you tired?",
+          "py": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+          "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5,
+              "pz": "。"
+            },
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗",
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s10",
+          "en": "It's morning there, right? Tired?",
+          "py": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+          "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            },
+            {
+              "ch": "吧",
+              "py": "ba",
+              "t": 5,
+              "pz": "？"
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "不",
+              "py": "bu",
+              "t": 5
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "吧",
+              "py": "ba",
+              "en": "softens a guess"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "不",
+              "py": "bu",
+              "en": "not"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s11",
+          "en": "It's morning in Taiwan right now. Are you tired?",
+          "py": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+          "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+          "cells": [
+            {
+              "ch": "臺",
+              "py": "Tái",
+              "t": 2,
+              "s": "台"
+            },
+            {
+              "ch": "灣",
+              "py": "wān",
+              "t": 1,
+              "s": "湾"
+            },
+            {
+              "ch": "現",
+              "py": "xiàn",
+              "t": 4,
+              "s": "现"
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5,
+              "pz": "。"
+            },
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗",
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "臺灣",
+              "py": "táiwān",
+              "en": "Taiwan",
+              "s": "台湾"
+            },
+            {
+              "t": "現在",
+              "py": "xiànzài",
+              "en": "now",
+              "s": "现在"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s12",
+          "en": "Are you drinking coffee or tea (right now)?",
+          "py": "Nǐ zài hē kā fēi hái shì chá",
+          "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            },
+            {
+              "ch": "喝",
+              "py": "hē",
+              "t": 1
+            },
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            },
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "在",
+              "py": "zài",
+              "en": "currently; -ing"
+            },
+            {
+              "t": "喝",
+              "py": "hē",
+              "en": "to drink"
+            },
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            },
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            },
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "s13",
+          "en": "Do you like coffee or tea?",
+          "py": "Nǐ xǐ huan kā fēi hái shì chá",
+          "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "喜",
+              "py": "xǐ",
+              "t": 3
+            },
+            {
+              "ch": "歡",
+              "py": "huan",
+              "t": 5,
+              "s": "欢"
+            },
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            },
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "喜歡",
+              "py": "xǐhuan",
+              "en": "to like",
+              "s": "喜欢"
+            },
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            },
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            },
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ],
+          "cues": []
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Vocabulary",
+      "zh": {
+        "t": "生詞",
+        "s": "生词"
+      },
+      "kick": "First-seen words. A repeated word stays one card.",
+      "items": [
+        {
+          "id": "v01",
+          "grp": "Words",
+          "en": "to pat/stroke gently",
+          "py": "mōmo",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v02",
+          "grp": "Words",
+          "en": "head",
+          "py": "tóu",
+          "cells": [
+            {
+              "ch": "頭",
+              "py": "tóu",
+              "t": 2,
+              "s": "头"
+            }
+          ],
+          "words": [
+            {
+              "t": "頭",
+              "py": "tóu",
+              "en": "head",
+              "s": "头"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v03",
+          "grp": "Words",
+          "en": "pretty; good-looking",
+          "py": "liàng",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "liàng",
+              "t": 4,
+              "s": "靓"
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v04",
+          "grp": "Words",
+          "en": "boy; young guy",
+          "py": "zǎi",
+          "cells": [
+            {
+              "ch": "仔",
+              "py": "zǎi",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "仔",
+              "py": "zǎi",
+              "en": "boy; young guy"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v05",
+          "grp": "Words",
+          "en": "girl; woman",
+          "py": "nǚ",
+          "cells": [
+            {
+              "ch": "女",
+              "py": "nǚ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "女",
+              "py": "nǚ",
+              "en": "girl; woman"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v06",
+          "grp": "Words",
+          "en": "handsome",
+          "py": "shuài",
+          "cells": [
+            {
+              "ch": "帥",
+              "py": "shuài",
+              "t": 4,
+              "s": "帅"
+            }
+          ],
+          "words": [
+            {
+              "t": "帥",
+              "py": "shuài",
+              "en": "handsome",
+              "s": "帅"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v07",
+          "grp": "Words",
+          "en": "older brother; guy",
+          "py": "gē",
+          "cells": [
+            {
+              "ch": "哥",
+              "py": "gē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "哥",
+              "py": "gē",
+              "en": "older brother; guy"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v08",
+          "grp": "Words",
+          "en": "over there; your side",
+          "py": "nàbiān",
+          "cells": [
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            }
+          ],
+          "words": [
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v09",
+          "grp": "Words",
+          "en": "morning",
+          "py": "zǎoshang",
+          "cells": [
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v10",
+          "grp": "Words",
+          "en": "or (in questions)",
+          "py": "háishì",
+          "cells": [
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v11",
+          "grp": "Words",
+          "en": "you",
+          "py": "nǐ",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v12",
+          "grp": "Words",
+          "en": "is",
+          "py": "shì",
+          "cells": [
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v13",
+          "grp": "Words",
+          "en": "tired",
+          "py": "lèi",
+          "cells": [
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v14",
+          "grp": "Words",
+          "en": "question word",
+          "py": "ma",
+          "cells": [
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗"
+            }
+          ],
+          "words": [
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v15",
+          "grp": "Words",
+          "en": "softens a guess",
+          "py": "ba",
+          "cells": [
+            {
+              "ch": "吧",
+              "py": "ba",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "吧",
+              "py": "ba",
+              "en": "softens a guess"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v16",
+          "grp": "Words",
+          "en": "not",
+          "py": "bu",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "bu",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "不",
+              "py": "bu",
+              "en": "not"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v17",
+          "grp": "Words",
+          "en": "Taiwan",
+          "py": "táiwān",
+          "cells": [
+            {
+              "ch": "臺",
+              "py": "tái",
+              "t": 2,
+              "s": "台"
+            },
+            {
+              "ch": "灣",
+              "py": "wān",
+              "t": 1,
+              "s": "湾"
+            }
+          ],
+          "words": [
+            {
+              "t": "臺灣",
+              "py": "táiwān",
+              "en": "Taiwan",
+              "s": "台湾"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v18",
+          "grp": "Words",
+          "en": "now",
+          "py": "xiànzài",
+          "cells": [
+            {
+              "ch": "現",
+              "py": "xiàn",
+              "t": 4,
+              "s": "现"
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "現在",
+              "py": "xiànzài",
+              "en": "now",
+              "s": "现在"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v19",
+          "grp": "Words",
+          "en": "currently; -ing",
+          "py": "zài",
+          "cells": [
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "在",
+              "py": "zài",
+              "en": "currently; -ing"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v20",
+          "grp": "Words",
+          "en": "to drink",
+          "py": "hē",
+          "cells": [
+            {
+              "ch": "喝",
+              "py": "hē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喝",
+              "py": "hē",
+              "en": "to drink"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v21",
+          "grp": "Words",
+          "en": "coffee",
+          "py": "kāfēi",
+          "cells": [
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v22",
+          "grp": "Words",
+          "en": "tea",
+          "py": "chá",
+          "cells": [
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2
+            }
+          ],
+          "words": [
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ],
+          "cues": []
+        },
+        {
+          "id": "v23",
+          "grp": "Words",
+          "en": "to like",
+          "py": "xǐhuan",
+          "cells": [
+            {
+              "ch": "喜",
+              "py": "xǐ",
+              "t": 3
+            },
+            {
+              "ch": "歡",
+              "py": "huan",
+              "t": 5,
+              "s": "欢"
+            }
+          ],
+          "words": [
+            {
+              "t": "喜歡",
+              "py": "xǐhuan",
+              "en": "to like",
+              "s": "喜欢"
+            }
+          ],
+          "cues": []
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Vocabulary recall",
+      "lead": "Read the English. Say the Chinese. Then reveal characters, pinyin, and the meaning.",
+      "items": [
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "to pat/stroke gently",
+          "en": "to pat/stroke gently",
+          "py": "mōmo",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "head",
+          "en": "head",
+          "py": "tóu",
+          "cells": [
+            {
+              "ch": "頭",
+              "py": "tóu",
+              "t": 2,
+              "s": "头"
+            }
+          ],
+          "words": [
+            {
+              "t": "頭",
+              "py": "tóu",
+              "en": "head",
+              "s": "头"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "pretty; good-looking",
+          "en": "pretty; good-looking",
+          "py": "liàng",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "liàng",
+              "t": 4,
+              "s": "靓"
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "boy; young guy",
+          "en": "boy; young guy",
+          "py": "zǎi",
+          "cells": [
+            {
+              "ch": "仔",
+              "py": "zǎi",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "仔",
+              "py": "zǎi",
+              "en": "boy; young guy"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "girl; woman",
+          "en": "girl; woman",
+          "py": "nǚ",
+          "cells": [
+            {
+              "ch": "女",
+              "py": "nǚ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "女",
+              "py": "nǚ",
+              "en": "girl; woman"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "handsome",
+          "en": "handsome",
+          "py": "shuài",
+          "cells": [
+            {
+              "ch": "帥",
+              "py": "shuài",
+              "t": 4,
+              "s": "帅"
+            }
+          ],
+          "words": [
+            {
+              "t": "帥",
+              "py": "shuài",
+              "en": "handsome",
+              "s": "帅"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "older brother; guy",
+          "en": "older brother; guy",
+          "py": "gē",
+          "cells": [
+            {
+              "ch": "哥",
+              "py": "gē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "哥",
+              "py": "gē",
+              "en": "older brother; guy"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "over there; your side",
+          "en": "over there; your side",
+          "py": "nàbiān",
+          "cells": [
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            }
+          ],
+          "words": [
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "morning",
+          "en": "morning",
+          "py": "zǎoshang",
+          "cells": [
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "or (in questions)",
+          "en": "or (in questions)",
+          "py": "háishì",
+          "cells": [
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "you",
+          "en": "you",
+          "py": "nǐ",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "is",
+          "en": "is",
+          "py": "shì",
+          "cells": [
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "tired",
+          "en": "tired",
+          "py": "lèi",
+          "cells": [
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "question word",
+          "en": "question word",
+          "py": "ma",
+          "cells": [
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗"
+            }
+          ],
+          "words": [
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "softens a guess",
+          "en": "softens a guess",
+          "py": "ba",
+          "cells": [
+            {
+              "ch": "吧",
+              "py": "ba",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "吧",
+              "py": "ba",
+              "en": "softens a guess"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "not",
+          "en": "not",
+          "py": "bu",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "bu",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "不",
+              "py": "bu",
+              "en": "not"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "Taiwan",
+          "en": "Taiwan",
+          "py": "táiwān",
+          "cells": [
+            {
+              "ch": "臺",
+              "py": "tái",
+              "t": 2,
+              "s": "台"
+            },
+            {
+              "ch": "灣",
+              "py": "wān",
+              "t": 1,
+              "s": "湾"
+            }
+          ],
+          "words": [
+            {
+              "t": "臺灣",
+              "py": "táiwān",
+              "en": "Taiwan",
+              "s": "台湾"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "now",
+          "en": "now",
+          "py": "xiànzài",
+          "cells": [
+            {
+              "ch": "現",
+              "py": "xiàn",
+              "t": 4,
+              "s": "现"
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "現在",
+              "py": "xiànzài",
+              "en": "now",
+              "s": "现在"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "currently; -ing",
+          "en": "currently; -ing",
+          "py": "zài",
+          "cells": [
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "在",
+              "py": "zài",
+              "en": "currently; -ing"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "to drink",
+          "en": "to drink",
+          "py": "hē",
+          "cells": [
+            {
+              "ch": "喝",
+              "py": "hē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喝",
+              "py": "hē",
+              "en": "to drink"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "coffee",
+          "en": "coffee",
+          "py": "kāfēi",
+          "cells": [
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "tea",
+          "en": "tea",
+          "py": "chá",
+          "cells": [
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2
+            }
+          ],
+          "words": [
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Vocabulary recall",
+          "prompt": "to like",
+          "en": "to like",
+          "py": "xǐhuan",
+          "cells": [
+            {
+              "ch": "喜",
+              "py": "xǐ",
+              "t": 3
+            },
+            {
+              "ch": "歡",
+              "py": "huan",
+              "t": 5,
+              "s": "欢"
+            }
+          ],
+          "words": [
+            {
+              "t": "喜歡",
+              "py": "xǐhuan",
+              "en": "to like",
+              "s": "喜欢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Vocabulary flip",
+      "lead": "Read the characters. Say the English. Then reveal.",
+      "items": [
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "to pat/stroke gently",
+          "en": "to pat/stroke gently",
+          "py": "mōmo",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "head",
+          "en": "head",
+          "py": "tóu",
+          "cells": [
+            {
+              "ch": "頭",
+              "py": "tóu",
+              "t": 2,
+              "s": "头"
+            }
+          ],
+          "words": [
+            {
+              "t": "頭",
+              "py": "tóu",
+              "en": "head",
+              "s": "头"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "pretty; good-looking",
+          "en": "pretty; good-looking",
+          "py": "liàng",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "liàng",
+              "t": 4,
+              "s": "靓"
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "boy; young guy",
+          "en": "boy; young guy",
+          "py": "zǎi",
+          "cells": [
+            {
+              "ch": "仔",
+              "py": "zǎi",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "仔",
+              "py": "zǎi",
+              "en": "boy; young guy"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "girl; woman",
+          "en": "girl; woman",
+          "py": "nǚ",
+          "cells": [
+            {
+              "ch": "女",
+              "py": "nǚ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "女",
+              "py": "nǚ",
+              "en": "girl; woman"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "handsome",
+          "en": "handsome",
+          "py": "shuài",
+          "cells": [
+            {
+              "ch": "帥",
+              "py": "shuài",
+              "t": 4,
+              "s": "帅"
+            }
+          ],
+          "words": [
+            {
+              "t": "帥",
+              "py": "shuài",
+              "en": "handsome",
+              "s": "帅"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "older brother; guy",
+          "en": "older brother; guy",
+          "py": "gē",
+          "cells": [
+            {
+              "ch": "哥",
+              "py": "gē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "哥",
+              "py": "gē",
+              "en": "older brother; guy"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "over there; your side",
+          "en": "over there; your side",
+          "py": "nàbiān",
+          "cells": [
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            }
+          ],
+          "words": [
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "morning",
+          "en": "morning",
+          "py": "zǎoshang",
+          "cells": [
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "or (in questions)",
+          "en": "or (in questions)",
+          "py": "háishì",
+          "cells": [
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "you",
+          "en": "you",
+          "py": "nǐ",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "is",
+          "en": "is",
+          "py": "shì",
+          "cells": [
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "tired",
+          "en": "tired",
+          "py": "lèi",
+          "cells": [
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "question word",
+          "en": "question word",
+          "py": "ma",
+          "cells": [
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗"
+            }
+          ],
+          "words": [
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "softens a guess",
+          "en": "softens a guess",
+          "py": "ba",
+          "cells": [
+            {
+              "ch": "吧",
+              "py": "ba",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "吧",
+              "py": "ba",
+              "en": "softens a guess"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "not",
+          "en": "not",
+          "py": "bu",
+          "cells": [
+            {
+              "ch": "不",
+              "py": "bu",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "不",
+              "py": "bu",
+              "en": "not"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "Taiwan",
+          "en": "Taiwan",
+          "py": "táiwān",
+          "cells": [
+            {
+              "ch": "臺",
+              "py": "tái",
+              "t": 2,
+              "s": "台"
+            },
+            {
+              "ch": "灣",
+              "py": "wān",
+              "t": 1,
+              "s": "湾"
+            }
+          ],
+          "words": [
+            {
+              "t": "臺灣",
+              "py": "táiwān",
+              "en": "Taiwan",
+              "s": "台湾"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "now",
+          "en": "now",
+          "py": "xiànzài",
+          "cells": [
+            {
+              "ch": "現",
+              "py": "xiàn",
+              "t": 4,
+              "s": "现"
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "現在",
+              "py": "xiànzài",
+              "en": "now",
+              "s": "现在"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "currently; -ing",
+          "en": "currently; -ing",
+          "py": "zài",
+          "cells": [
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "在",
+              "py": "zài",
+              "en": "currently; -ing"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "to drink",
+          "en": "to drink",
+          "py": "hē",
+          "cells": [
+            {
+              "ch": "喝",
+              "py": "hē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "喝",
+              "py": "hē",
+              "en": "to drink"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "coffee",
+          "en": "coffee",
+          "py": "kāfēi",
+          "cells": [
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "tea",
+          "en": "tea",
+          "py": "chá",
+          "cells": [
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2
+            }
+          ],
+          "words": [
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Vocabulary flip",
+          "prompt": "to like",
+          "en": "to like",
+          "py": "xǐhuan",
+          "cells": [
+            {
+              "ch": "喜",
+              "py": "xǐ",
+              "t": 3
+            },
+            {
+              "ch": "歡",
+              "py": "huan",
+              "t": 5,
+              "s": "欢"
+            }
+          ],
+          "words": [
+            {
+              "t": "喜歡",
+              "py": "xǐhuan",
+              "en": "to like",
+              "s": "喜欢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Phrase recall",
+      "lead": "Read the English. Say the sentence. Then reveal the score, the dictionary pinyin, and each word.",
+      "items": [
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "To pat, stroke, or pet gently.",
+          "en": "To pat, stroke, or pet gently.",
+          "py": "Mō mo",
+          "note": "摸 mō (“to touch”) said twice. Doubling a verb like this makes it softer and more casual, so it comes across as “a little pat” or “give it a pet.” The second 摸 usually goes light and toneless, so it sounds like MŌ-mo. Common when petting an animal, or as a comforting pat on the head.",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "Mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Pat on the head.",
+          "en": "Pat on the head.",
+          "py": "Mō mo tóu",
+          "note": "A common, cute use of 摸摸: a comforting pat on the head.",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "Mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            },
+            {
+              "ch": "頭",
+              "py": "tóu",
+              "t": 2,
+              "s": "头"
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            },
+            {
+              "t": "頭",
+              "py": "tóu",
+              "en": "head",
+              "s": "头"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Handsome guy.",
+          "en": "Handsome guy.",
+          "py": "Liàng zǎi",
+          "note": "Slang from Cantonese (leng3 zai2), something like “good-looking dude” or “pretty boy.” Very common in Hong Kong and Guangdong; mainland internet slang picked it up too. People often use it playfully, even with strangers, the way you’d say “hey, handsome” or “hey bro.”",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "Liàng",
+              "t": 4,
+              "s": "靓"
+            },
+            {
+              "ch": "仔",
+              "py": "zǎi",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            },
+            {
+              "t": "仔",
+              "py": "zǎi",
+              "en": "boy; young guy"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Pretty girl.",
+          "en": "Pretty girl.",
+          "py": "Liàng nǚ",
+          "note": "The female counterpart of 靓仔.",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "Liàng",
+              "t": 4,
+              "s": "靓"
+            },
+            {
+              "ch": "女",
+              "py": "nǚ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            },
+            {
+              "t": "女",
+              "py": "nǚ",
+              "en": "girl; woman"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Handsome guy.",
+          "en": "Handsome guy.",
+          "py": "Shuài gē",
+          "note": "More common in Taiwan than 靓仔.",
+          "cells": [
+            {
+              "ch": "帥",
+              "py": "Shuài",
+              "t": 4,
+              "s": "帅"
+            },
+            {
+              "ch": "哥",
+              "py": "gē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "帥",
+              "py": "shuài",
+              "en": "handsome",
+              "s": "帅"
+            },
+            {
+              "t": "哥",
+              "py": "gē",
+              "en": "older brother; guy"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Over there; your side.",
+          "en": "Over there; your side.",
+          "py": "Nà biān",
+          "note": "In messages, 你那边 often means “where you are” or “on your side.”",
+          "cells": [
+            {
+              "ch": "那",
+              "py": "Nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            }
+          ],
+          "words": [
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Morning.",
+          "en": "Morning.",
+          "py": "Zǎo shang",
+          "cells": [
+            {
+              "ch": "早",
+              "py": "Zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Or (in questions).",
+          "en": "Or (in questions).",
+          "py": "Hái shì",
+          "note": "Use 还是 for “or” in questions. These questions already have 还是, so you don’t add 吗 at the end.",
+          "cells": [
+            {
+              "ch": "還",
+              "py": "Hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "It's morning where you are. Are you tired?",
+          "en": "It's morning where you are. Are you tired?",
+          "py": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+          "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5,
+              "pz": "。"
+            },
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗",
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "It's morning there, right? Tired?",
+          "en": "It's morning there, right? Tired?",
+          "py": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+          "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            },
+            {
+              "ch": "吧",
+              "py": "ba",
+              "t": 5,
+              "pz": "？"
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "不",
+              "py": "bu",
+              "t": 5
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "吧",
+              "py": "ba",
+              "en": "softens a guess"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "不",
+              "py": "bu",
+              "en": "not"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "It's morning in Taiwan right now. Are you tired?",
+          "en": "It's morning in Taiwan right now. Are you tired?",
+          "py": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+          "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+          "cells": [
+            {
+              "ch": "臺",
+              "py": "Tái",
+              "t": 2,
+              "s": "台"
+            },
+            {
+              "ch": "灣",
+              "py": "wān",
+              "t": 1,
+              "s": "湾"
+            },
+            {
+              "ch": "現",
+              "py": "xiàn",
+              "t": 4,
+              "s": "现"
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5,
+              "pz": "。"
+            },
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗",
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "臺灣",
+              "py": "táiwān",
+              "en": "Taiwan",
+              "s": "台湾"
+            },
+            {
+              "t": "現在",
+              "py": "xiànzài",
+              "en": "now",
+              "s": "现在"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Are you drinking coffee or tea (right now)?",
+          "en": "Are you drinking coffee or tea (right now)?",
+          "py": "Nǐ zài hē kā fēi hái shì chá",
+          "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            },
+            {
+              "ch": "喝",
+              "py": "hē",
+              "t": 1
+            },
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            },
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "在",
+              "py": "zài",
+              "en": "currently; -ing"
+            },
+            {
+              "t": "喝",
+              "py": "hē",
+              "en": "to drink"
+            },
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            },
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            },
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ]
+        },
+        {
+          "kind": "en",
+          "tag": "Phrase recall",
+          "prompt": "Do you like coffee or tea?",
+          "en": "Do you like coffee or tea?",
+          "py": "Nǐ xǐ huan kā fēi hái shì chá",
+          "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "喜",
+              "py": "xǐ",
+              "t": 3
+            },
+            {
+              "ch": "歡",
+              "py": "huan",
+              "t": 5,
+              "s": "欢"
+            },
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            },
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "喜歡",
+              "py": "xǐhuan",
+              "en": "to like",
+              "s": "喜欢"
+            },
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            },
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            },
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "drill",
+      "title": "Phrase flip",
+      "lead": "Read the characters. Say the English. Then reveal.",
+      "items": [
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "To pat, stroke, or pet gently.",
+          "en": "To pat, stroke, or pet gently.",
+          "py": "Mō mo",
+          "note": "摸 mō (“to touch”) said twice. Doubling a verb like this makes it softer and more casual, so it comes across as “a little pat” or “give it a pet.” The second 摸 usually goes light and toneless, so it sounds like MŌ-mo. Common when petting an animal, or as a comforting pat on the head.",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "Mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Pat on the head.",
+          "en": "Pat on the head.",
+          "py": "Mō mo tóu",
+          "note": "A common, cute use of 摸摸: a comforting pat on the head.",
+          "cells": [
+            {
+              "ch": "摸",
+              "py": "Mō",
+              "t": 1
+            },
+            {
+              "ch": "摸",
+              "py": "mo",
+              "t": 5
+            },
+            {
+              "ch": "頭",
+              "py": "tóu",
+              "t": 2,
+              "s": "头"
+            }
+          ],
+          "words": [
+            {
+              "t": "摸摸",
+              "py": "mōmo",
+              "en": "to pat/stroke gently"
+            },
+            {
+              "t": "頭",
+              "py": "tóu",
+              "en": "head",
+              "s": "头"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Handsome guy.",
+          "en": "Handsome guy.",
+          "py": "Liàng zǎi",
+          "note": "Slang from Cantonese (leng3 zai2), something like “good-looking dude” or “pretty boy.” Very common in Hong Kong and Guangdong; mainland internet slang picked it up too. People often use it playfully, even with strangers, the way you’d say “hey, handsome” or “hey bro.”",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "Liàng",
+              "t": 4,
+              "s": "靓"
+            },
+            {
+              "ch": "仔",
+              "py": "zǎi",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            },
+            {
+              "t": "仔",
+              "py": "zǎi",
+              "en": "boy; young guy"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Pretty girl.",
+          "en": "Pretty girl.",
+          "py": "Liàng nǚ",
+          "note": "The female counterpart of 靓仔.",
+          "cells": [
+            {
+              "ch": "靚",
+              "py": "Liàng",
+              "t": 4,
+              "s": "靓"
+            },
+            {
+              "ch": "女",
+              "py": "nǚ",
+              "t": 3
+            }
+          ],
+          "words": [
+            {
+              "t": "靚",
+              "py": "liàng",
+              "en": "pretty; good-looking",
+              "s": "靓"
+            },
+            {
+              "t": "女",
+              "py": "nǚ",
+              "en": "girl; woman"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Handsome guy.",
+          "en": "Handsome guy.",
+          "py": "Shuài gē",
+          "note": "More common in Taiwan than 靓仔.",
+          "cells": [
+            {
+              "ch": "帥",
+              "py": "Shuài",
+              "t": 4,
+              "s": "帅"
+            },
+            {
+              "ch": "哥",
+              "py": "gē",
+              "t": 1
+            }
+          ],
+          "words": [
+            {
+              "t": "帥",
+              "py": "shuài",
+              "en": "handsome",
+              "s": "帅"
+            },
+            {
+              "t": "哥",
+              "py": "gē",
+              "en": "older brother; guy"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Over there; your side.",
+          "en": "Over there; your side.",
+          "py": "Nà biān",
+          "note": "In messages, 你那边 often means “where you are” or “on your side.”",
+          "cells": [
+            {
+              "ch": "那",
+              "py": "Nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            }
+          ],
+          "words": [
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Morning.",
+          "en": "Morning.",
+          "py": "Zǎo shang",
+          "cells": [
+            {
+              "ch": "早",
+              "py": "Zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            }
+          ],
+          "words": [
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Or (in questions).",
+          "en": "Or (in questions).",
+          "py": "Hái shì",
+          "note": "Use 还是 for “or” in questions. These questions already have 还是, so you don’t add 吗 at the end.",
+          "cells": [
+            {
+              "ch": "還",
+              "py": "Hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            }
+          ],
+          "words": [
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "It's morning where you are. Are you tired?",
+          "en": "It's morning where you are. Are you tired?",
+          "py": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
+          "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5,
+              "pz": "。"
+            },
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗",
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "It's morning there, right? Tired?",
+          "en": "It's morning there, right? Tired?",
+          "py": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
+          "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "那",
+              "py": "nà",
+              "t": 4
+            },
+            {
+              "ch": "邊",
+              "py": "biān",
+              "t": 1,
+              "s": "边"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5
+            },
+            {
+              "ch": "吧",
+              "py": "ba",
+              "t": 5,
+              "pz": "？"
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "不",
+              "py": "bu",
+              "t": 5
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "那邊",
+              "py": "nàbiān",
+              "en": "over there; your side",
+              "s": "那边"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "吧",
+              "py": "ba",
+              "en": "softens a guess"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "不",
+              "py": "bu",
+              "en": "not"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "It's morning in Taiwan right now. Are you tired?",
+          "en": "It's morning in Taiwan right now. Are you tired?",
+          "py": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
+          "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+          "cells": [
+            {
+              "ch": "臺",
+              "py": "Tái",
+              "t": 2,
+              "s": "台"
+            },
+            {
+              "ch": "灣",
+              "py": "wān",
+              "t": 1,
+              "s": "湾"
+            },
+            {
+              "ch": "現",
+              "py": "xiàn",
+              "t": 4,
+              "s": "现"
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "早",
+              "py": "zǎo",
+              "t": 3
+            },
+            {
+              "ch": "上",
+              "py": "shang",
+              "t": 5,
+              "pz": "。"
+            },
+            {
+              "ch": "你",
+              "py": "nǐ",
+              "t": 3
+            },
+            {
+              "ch": "累",
+              "py": "lèi",
+              "t": 4
+            },
+            {
+              "ch": "嗎",
+              "py": "ma",
+              "t": 5,
+              "s": "吗",
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "臺灣",
+              "py": "táiwān",
+              "en": "Taiwan",
+              "s": "台湾"
+            },
+            {
+              "t": "現在",
+              "py": "xiànzài",
+              "en": "now",
+              "s": "现在"
+            },
+            {
+              "t": "是",
+              "py": "shì",
+              "en": "is"
+            },
+            {
+              "t": "早上",
+              "py": "zǎoshang",
+              "en": "morning"
+            },
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "累",
+              "py": "lèi",
+              "en": "tired"
+            },
+            {
+              "t": "嗎",
+              "py": "ma",
+              "en": "question word",
+              "s": "吗"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Are you drinking coffee or tea (right now)?",
+          "en": "Are you drinking coffee or tea (right now)?",
+          "py": "Nǐ zài hē kā fēi hái shì chá",
+          "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "在",
+              "py": "zài",
+              "t": 4
+            },
+            {
+              "ch": "喝",
+              "py": "hē",
+              "t": 1
+            },
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            },
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "在",
+              "py": "zài",
+              "en": "currently; -ing"
+            },
+            {
+              "t": "喝",
+              "py": "hē",
+              "en": "to drink"
+            },
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            },
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            },
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ]
+        },
+        {
+          "kind": "zh",
+          "tag": "Phrase flip",
+          "prompt": "Do you like coffee or tea?",
+          "en": "Do you like coffee or tea?",
+          "py": "Nǐ xǐ huan kā fēi hái shì chá",
+          "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+          "cells": [
+            {
+              "ch": "你",
+              "py": "Nǐ",
+              "t": 3
+            },
+            {
+              "ch": "喜",
+              "py": "xǐ",
+              "t": 3
+            },
+            {
+              "ch": "歡",
+              "py": "huan",
+              "t": 5,
+              "s": "欢"
+            },
+            {
+              "ch": "咖",
+              "py": "kā",
+              "t": 1
+            },
+            {
+              "ch": "啡",
+              "py": "fēi",
+              "t": 1
+            },
+            {
+              "ch": "還",
+              "py": "hái",
+              "t": 2,
+              "s": "还"
+            },
+            {
+              "ch": "是",
+              "py": "shì",
+              "t": 4
+            },
+            {
+              "ch": "茶",
+              "py": "chá",
+              "t": 2,
+              "pz": "？"
+            }
+          ],
+          "words": [
+            {
+              "t": "你",
+              "py": "nǐ",
+              "en": "you"
+            },
+            {
+              "t": "喜歡",
+              "py": "xǐhuan",
+              "en": "to like",
+              "s": "喜欢"
+            },
+            {
+              "t": "咖啡",
+              "py": "kāfēi",
+              "en": "coffee"
+            },
+            {
+              "t": "還是",
+              "py": "háishì",
+              "en": "or (in questions)",
+              "s": "还是"
+            },
+            {
+              "t": "茶",
+              "py": "chá",
+              "en": "tea"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

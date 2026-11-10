@@ -1,6 +1,21 @@
 {
   "entries": [
     {
+      "id": "cp_2026_11_10_chat",
+      "title": "摸摸, 靓仔, morning, coffee or tea",
+      "subtitle": "Chat with 老师, Nov 9–10, 2026",
+      "short": "Nov 9–10 chat",
+      "source": "Conversation Practice",
+      "kind": "conversation",
+      "date": "2026-11-10T12:00:00-05:00",
+      "emoji": "💬",
+      "color": "#0B7285",
+      "tags": [
+        "conversation",
+        "2026-11-10"
+      ]
+    },
+    {
       "id": "cp_2026_11_07_smoking",
       "title": "Smoke less — playful replies",
       "subtitle": "Private chat · no names",

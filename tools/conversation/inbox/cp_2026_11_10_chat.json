@@ -1,0 +1,164 @@
+{
+  "id": "cp_2026_11_10_chat",
+  "date": "2026-11-10T12:00:00-05:00",
+  "title": "摸摸, 靓仔, morning, coffee or tea",
+  "subtitle": "Chat with 老师, Nov 9–10, 2026",
+  "short": "Nov 9–10 chat",
+  "focus": "摸摸 · 靓仔 · 你累吗 · 还是",
+  "emoji": "💬",
+  "color": "#0B7285",
+  "tags": ["conversation", "2026-11-10"],
+  "lines": [
+    {
+      "zh": "摸摸",
+      "py": "Mō mo",
+      "en": "To pat, stroke, or pet gently.",
+      "note": "摸 mō (“to touch”) said twice. Doubling a verb like this makes it softer and more casual, so it comes across as “a little pat” or “give it a pet.” The second 摸 usually goes light and toneless, so it sounds like MŌ-mo. Common when petting an animal, or as a comforting pat on the head.",
+      "words": [
+        { "zh": "摸摸", "py": "mō mo", "en": "to pat/stroke gently" }
+      ]
+    },
+    {
+      "zh": "摸摸头",
+      "py": "Mō mo tóu",
+      "en": "Pat on the head.",
+      "note": "A common, cute use of 摸摸: a comforting pat on the head.",
+      "words": [
+        { "zh": "摸摸", "py": "mō mo", "en": "to pat/stroke gently" },
+        { "zh": "头", "py": "tóu", "trad": "頭", "en": "head" }
+      ]
+    },
+    {
+      "zh": "靓仔",
+      "py": "Liàng zǎi",
+      "en": "Handsome guy.",
+      "note": "Slang from Cantonese (leng3 zai2), something like “good-looking dude” or “pretty boy.” Very common in Hong Kong and Guangdong; mainland internet slang picked it up too. People often use it playfully, even with strangers, the way you’d say “hey, handsome” or “hey bro.”",
+      "words": [
+        { "zh": "靓", "py": "liàng", "trad": "靚", "en": "pretty; good-looking" },
+        { "zh": "仔", "py": "zǎi", "en": "boy; young guy" }
+      ]
+    },
+    {
+      "zh": "靓女",
+      "py": "Liàng nǚ",
+      "en": "Pretty girl.",
+      "note": "The female counterpart of 靓仔.",
+      "words": [
+        { "zh": "靓", "py": "liàng", "trad": "靚", "en": "pretty; good-looking" },
+        { "zh": "女", "py": "nǚ", "en": "girl; woman" }
+      ]
+    },
+    {
+      "zh": "帅哥",
+      "py": "Shuài gē",
+      "en": "Handsome guy.",
+      "note": "More common in Taiwan than 靓仔.",
+      "words": [
+        { "zh": "帅", "py": "shuài", "trad": "帥", "en": "handsome" },
+        { "zh": "哥", "py": "gē", "en": "older brother; guy" }
+      ]
+    },
+    {
+      "zh": "那边",
+      "py": "Nà biān",
+      "en": "Over there; your side.",
+      "note": "In messages, 你那边 often means “where you are” or “on your side.”",
+      "words": [
+        { "zh": "那边", "py": "nà biān", "trad": "那邊", "en": "over there; your side" }
+      ]
+    },
+    {
+      "zh": "早上",
+      "py": "Zǎo shang",
+      "en": "Morning.",
+      "words": [
+        { "zh": "早上", "py": "zǎo shang", "en": "morning" }
+      ]
+    },
+    {
+      "zh": "还是",
+      "py": "Hái shì",
+      "en": "Or (in questions).",
+      "note": "Use 还是 for “or” in questions. These questions already have 还是, so you don’t add 吗 at the end.",
+      "words": [
+        { "zh": "还是", "py": "hái shì", "trad": "還是", "en": "or (in questions)" }
+      ]
+    },
+    {
+      "zh": "你那边是早上。你累吗？",
+      "py": "Nǐ nà biān shì zǎo shang. Nǐ lèi ma?",
+      "en": "It's morning where you are. Are you tired?",
+      "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
+      "words": [
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "那边", "py": "nà biān", "trad": "那邊", "en": "over there; your side" },
+        { "zh": "是", "py": "shì", "en": "is" },
+        { "zh": "早上", "py": "zǎo shang", "en": "morning" },
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "累", "py": "lèi", "en": "tired" },
+        { "zh": "吗", "py": "ma", "trad": "嗎", "en": "question word" }
+      ]
+    },
+    {
+      "zh": "你那边是早上吧？累不累？",
+      "py": "Nǐ nà biān shì zǎo shang ba? Lèi bu lèi?",
+      "en": "It's morning there, right? Tired?",
+      "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
+      "words": [
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "那边", "py": "nà biān", "trad": "那邊", "en": "over there; your side" },
+        { "zh": "是", "py": "shì", "en": "is" },
+        { "zh": "早上", "py": "zǎo shang", "en": "morning" },
+        { "zh": "吧", "py": "ba", "en": "softens a guess" },
+        { "zh": "累", "py": "lèi", "en": "tired" },
+        { "zh": "不", "py": "bu", "en": "not" },
+        { "zh": "累", "py": "lèi", "en": "tired" }
+      ]
+    },
+    {
+      "zh": "台湾现在是早上。你累吗？",
+      "py": "Tái wān xiàn zài shì zǎo shang. Nǐ lèi ma?",
+      "en": "It's morning in Taiwan right now. Are you tired?",
+      "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
+      "trad": "臺灣現在是早上。你累嗎？",
+      "words": [
+        { "zh": "台湾", "py": "Tái wān", "trad": "臺灣", "en": "Taiwan" },
+        { "zh": "现在", "py": "xiàn zài", "trad": "現在", "en": "now" },
+        { "zh": "是", "py": "shì", "en": "is" },
+        { "zh": "早上", "py": "zǎo shang", "en": "morning" },
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "累", "py": "lèi", "en": "tired" },
+        { "zh": "吗", "py": "ma", "trad": "嗎", "en": "question word" }
+      ]
+    },
+    {
+      "zh": "你在喝咖啡还是茶？",
+      "py": "Nǐ zài hē kā fēi hái shì chá?",
+      "en": "Are you drinking coffee or tea (right now)?",
+      "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你在喝咖啡還是茶？",
+      "trad": "你在喝咖啡還是茶？",
+      "words": [
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "在", "py": "zài", "en": "currently; -ing" },
+        { "zh": "喝", "py": "hē", "en": "to drink" },
+        { "zh": "咖啡", "py": "kā fēi", "en": "coffee" },
+        { "zh": "还是", "py": "hái shì", "trad": "還是", "en": "or (in questions)" },
+        { "zh": "茶", "py": "chá", "en": "tea" }
+      ]
+    },
+    {
+      "zh": "你喜欢咖啡还是茶？",
+      "py": "Nǐ xǐ huan kā fēi hái shì chá?",
+      "en": "Do you like coffee or tea?",
+      "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
+      "trad": "你喜歡咖啡還是茶？",
+      "words": [
+        { "zh": "你", "py": "nǐ", "en": "you" },
+        { "zh": "喜欢", "py": "xǐ huan", "trad": "喜歡", "en": "to like" },
+        { "zh": "咖啡", "py": "kā fēi", "en": "coffee" },
+        { "zh": "还是", "py": "hái shì", "trad": "還是", "en": "or (in questions)" },
+        { "zh": "茶", "py": "chá", "en": "tea" }
+      ]
+    }
+  ]
+}
