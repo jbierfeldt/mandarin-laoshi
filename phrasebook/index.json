@@ -4,20 +4,25 @@
  "regen": "node phrasebook/build.mjs",
  "description": "Words and phrases copied from lesson files and conversation entries. No extra dictionary, and no record of how well a word is known.",
  "counts": {
-  "lessons": 9,
+  "lessons": 10,
   "conversations": 3,
-  "entries": 326,
-  "words": 148,
-  "phrases": 178,
-  "senses": 409,
-  "withAudio": 294,
-  "withExamples": 139,
-  "withBreakdown": 46,
-  "multiSource": 42,
+  "entries": 358,
+  "words": 163,
+  "phrases": 195,
+  "senses": 444,
+  "withAudio": 326,
+  "withExamples": 160,
+  "withBreakdown": 63,
+  "multiSource": 44,
   "incorrectExcluded": 1
  },
  "inputs": {
   "lessons": [
+   {
+    "id": "mftgu_s1_l08",
+    "vocab": 18,
+    "lines": 28
+   },
    {
     "id": "mftgu_s1_l07",
     "vocab": 15,
@@ -93,6 +98,22 @@
  },
  "charMapConflicts": [],
  "sources": [
+  {
+   "origin": "lesson",
+   "id": "mftgu_s1_l08",
+   "kind": "podcast",
+   "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+   "short": "MFTGU L08 你最喜歡吃什麼",
+   "source": "Podcast: Mandarin From the Ground Up",
+   "date": "2026-11-17T09:00-05:00",
+   "href": "#/lesson/mftgu_s1_l08",
+   "script": "",
+   "sectionType": "",
+   "sectionTitle": "",
+   "itemId": "",
+   "group": "",
+   "note": ""
+  },
   {
    "origin": "conversation",
    "id": "cp_2026_11_10_chat",
@@ -301,8 +322,10 @@
   "學": "学",
   "對": "对",
   "帥": "帅",
+  "廳": "厅",
   "張": "张",
   "換": "换",
+  "時": "时",
   "會": "会",
   "東": "东",
   "樣": "样",
@@ -328,12 +351,16 @@
   "識": "识",
   "貓": "猫",
   "貴": "贵",
+  "車": "车",
   "這": "这",
   "還": "还",
   "邊": "边",
   "開": "开",
   "靚": "靓",
+  "韓": "韩",
   "頭": "头",
+  "餓": "饿",
+  "麵": "面",
   "麼": "么",
   "點": "点",
   "龍": "龙"
@@ -371,7 +398,143 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "有啊",
+     "simp": "有啊",
+     "pinyin": "Yǒu a",
+     "en": "Sure.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d12",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "有",
+       "simp": "有",
+       "pinyin": "yǒu",
+       "en": "have"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "(yeah)"
+      }
+     ]
+    },
+    {
+     "trad": "好啊，但妳要去哪吃？",
+     "simp": "好啊，但你要去哪吃？",
+     "pinyin": "Hǎo a dàn nǐ yào qù nǎ chī",
+     "en": "OK, but where are you going to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d5",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "want"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "哪",
+       "simp": "哪",
+       "pinyin": "nǎ",
+       "en": "where"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      }
+     ]
+    },
+    {
+     "trad": "好啊，妳開車嗎？",
+     "simp": "好啊，你开车吗？",
+     "pinyin": "Hǎo a nǐ kāi chē ma",
+     "en": "OK, are you driving?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "to drive"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l03/audio/Np7.mp3",
     "label": "啊？ · ⚡ natural",
@@ -472,6 +635,132 @@
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p15",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
     {
      "trad": "妳那邊是早上吧？累不累？",
      "simp": "你那边是早上吧？累不累？",
@@ -913,6 +1202,20 @@
    "words": [],
    "examples": [
     {
+     "trad": "要不要",
+     "simp": "要不要",
+     "pinyin": "yào bù yào",
+     "en": "do you want...?",
+     "note": "Say yào bú yào. 不 rises before the 4th 要. A-not-A question, beside 嗎.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "v7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": []
+    },
+    {
      "trad": "不要學我。",
      "simp": "不要学我。",
      "pinyin": "Bù yào xué wǒ",
@@ -1071,6 +1374,437 @@
    }
   },
   {
+   "id": "pb-cai-菜",
+   "kind": "word",
+   "trad": "菜",
+   "simp": "菜",
+   "pinyin": "cài",
+   "pinyinPlain": "cai",
+   "senses": [
+    {
+     "id": "vegetables-cuisine",
+     "gloss": "vegetables / cuisine",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v4",
+       "group": "",
+       "note": "4th. c is aspirated (a puff), the pair of unaspirated z."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
+      }
+     ]
+    },
+    {
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    },
+    {
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p2",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv4.mp3",
+    "label": "菜 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-can-ting-餐厅",
+   "kind": "word",
+   "trad": "餐廳",
+   "simp": "餐厅",
+   "pinyin": "cān tīng",
+   "pinyinPlain": "canting",
+   "senses": [
+    {
+     "id": "restaurant",
+     "gloss": "restaurant",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v9",
+       "group": "",
+       "note": "1+1 plateau. t is aspirated; -ng is the back nasal."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    },
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p8",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv9.mp3",
+    "label": "餐廳 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-cha-茶",
    "kind": "word",
    "trad": "茶",
@@ -1219,6 +1953,286 @@
    "audio": {
     "src": "lessons/mftgu_s1_l05/audio/Vv10.mp3",
     "label": "茶 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-che-车",
+   "kind": "word",
+   "trad": "車",
+   "simp": "车",
+   "pinyin": "chē",
+   "pinyinPlain": "che",
+   "senses": [
+    {
+     "id": "car",
+     "gloss": "car",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v11",
+       "group": "",
+       "note": "1st. ch retroflex."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv11.mp3",
+    "label": "車 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-chi-吃",
+   "kind": "word",
+   "trad": "吃",
+   "simp": "吃",
+   "pinyin": "chī",
+   "pinyinPlain": "chi",
+   "senses": [
+    {
+     "id": "to-eat",
+     "gloss": "to eat",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v2",
+       "group": "",
+       "note": "1st. ch is retroflex (Position 2) and aspirated."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "小李，妳最喜歡吃什麼？",
+     "simp": "小李，你最喜欢吃什么？",
+     "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
+     "en": "Xiao Li, what's your favorite thing to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "小李",
+       "simp": "小李",
+       "pinyin": "xiáo Lǐ",
+       "en": "Xiao Li (a name)"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
+      }
+     ]
+    },
+    {
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
+      }
+     ]
+    },
+    {
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv2.mp3",
+    "label": "吃 · synthetic",
     "real": false
    }
   },
@@ -1556,7 +2570,209 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    },
+    {
+     "trad": "好啊，但妳要去哪吃？",
+     "simp": "好啊，但你要去哪吃？",
+     "pinyin": "Hǎo a dàn nǐ yào qù nǎ chī",
+     "en": "OK, but where are you going to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d5",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "want"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "哪",
+       "simp": "哪",
+       "pinyin": "nǎ",
+       "en": "where"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      }
+     ]
+    },
+    {
+     "trad": "但我最喜歡吃拉麵",
+     "simp": "但我最喜欢吃拉面",
+     "pinyin": "Dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "But my favorite is ramen.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l07/audio/Vv1.mp3",
     "label": "但 · synthetic",
@@ -1938,6 +3154,82 @@
    "audio": {
     "src": "lessons/mftgu_s1_l07/audio/Np10.mp3",
     "label": "但我每天要待在家裡 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-dan-wo-zui-xi-huan-chi-la-mian-但我最喜欢吃拉面",
+   "kind": "phrase",
+   "trad": "但我最喜歡吃拉麵",
+   "simp": "但我最喜欢吃拉面",
+   "pinyin": "Dàn wǒ zuì xǐ huan chī lā miàn",
+   "pinyinPlain": "danwozuixihuanchilamian",
+   "senses": [
+    {
+     "id": "but-my-favorite-is-ramen",
+     "gloss": "But my favorite is ramen.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p4",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "但",
+     "simp": "但",
+     "pinyin": "dàn",
+     "en": "but"
+    },
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "最",
+     "simp": "最",
+     "pinyin": "zuì",
+     "en": "most"
+    },
+    {
+     "trad": "喜歡",
+     "simp": "喜欢",
+     "pinyin": "xǐhuan",
+     "en": "to like"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "拉麵",
+     "simp": "拉面",
+     "pinyin": "lā miàn",
+     "en": "ramen"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np4.mp3",
+    "label": "但我最喜歡吃拉麵 · ⚡ natural",
     "real": true
    }
   },
@@ -2336,6 +3628,76 @@
    }
   },
   {
+   "id": "pb-deng-yi-xia-jiu-yao-qu-le-等一下就要去了",
+   "kind": "phrase",
+   "trad": "等一下就要去了",
+   "simp": "等一下就要去了",
+   "pinyin": "Děng yī xià jiù yào qù le",
+   "pinyinPlain": "dengyixiajiuyaoqule",
+   "senses": [
+    {
+     "id": "we-re-going-in-just-a-second",
+     "gloss": "We're going in just a second.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p12",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "等一下",
+     "simp": "等一下",
+     "pinyin": "děng yí xià",
+     "en": "in a moment"
+    },
+    {
+     "trad": "就",
+     "simp": "就",
+     "pinyin": "jiù",
+     "en": "right then"
+    },
+    {
+     "trad": "要",
+     "simp": "要",
+     "pinyin": "yào",
+     "en": "going to"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "go"
+    },
+    {
+     "trad": "了",
+     "simp": "了",
+     "pinyin": "le",
+     "en": "particle"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np12.mp3",
+    "label": "等一下就要去了 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-deng-yi-xia-wo-hai-mei-he-等一下我还没喝",
    "kind": "phrase",
    "trad": "等一下！我還沒喝",
@@ -2726,6 +4088,96 @@
    "words": [],
    "examples": [
     {
+     "trad": "對啊，我開車去",
+     "simp": "对啊，我开车去",
+     "pinyin": "Duì a wǒ kāi chē qù",
+     "en": "Yeah, I'm going to drive there.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d8",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "對",
+       "simp": "对",
+       "pinyin": "duì",
+       "en": "yeah"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "drive"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "there"
+      }
+     ]
+    },
+    {
+     "trad": "對啊，我開車去",
+     "simp": "对啊，我开车去",
+     "pinyin": "Duì a wǒ kāi chē qù",
+     "en": "Yeah, I'm going to drive there.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "對",
+       "simp": "对",
+       "pinyin": "duì",
+       "en": "yeah"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "drive"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "there"
+      }
+     ]
+    },
+    {
      "trad": "對，我有。",
      "simp": "对，我有。",
      "pinyin": "Duì, wǒ yǒu",
@@ -2977,6 +4429,76 @@
    "audio": {
     "src": "lessons/mftgu_s1_l06/audio/Np10.mp3",
     "label": "對啊，我還在等 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-dui-a-wo-kai-che-qu-对啊我开车去",
+   "kind": "phrase",
+   "trad": "對啊，我開車去",
+   "simp": "对啊，我开车去",
+   "pinyin": "Duì a wǒ kāi chē qù",
+   "pinyinPlain": "duiawokaichequ",
+   "senses": [
+    {
+     "id": "yeah-i-m-going-to-drive-there",
+     "gloss": "Yeah, I'm going to drive there.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p10",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "對",
+     "simp": "对",
+     "pinyin": "duì",
+     "en": "yeah"
+    },
+    {
+     "trad": "啊",
+     "simp": "啊",
+     "pinyin": "a",
+     "en": "particle"
+    },
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "開車",
+     "simp": "开车",
+     "pinyin": "kāi chē",
+     "en": "drive"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "there"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np10.mp3",
+    "label": "對啊，我開車去 · ⚡ natural",
     "real": true
    }
   },
@@ -3441,6 +4963,172 @@
    }
   },
   {
+   "id": "pb-e-饿",
+   "kind": "word",
+   "trad": "餓",
+   "simp": "饿",
+   "pinyin": "è",
+   "pinyinPlain": "e",
+   "senses": [
+    {
+     "id": "hungry",
+     "gloss": "hungry",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v17",
+       "group": "",
+       "note": "4th, full fall."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p15",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv17.mp3",
+    "label": "餓 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-ei-you-dong-xi-lai-le-欸有东西来了",
    "kind": "phrase",
    "trad": "欸！有東西來了！",
@@ -3802,7 +5490,146 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    },
+    {
+     "trad": "妳要不要跟我一起去？",
+     "simp": "你要不要跟我一起去？",
+     "pinyin": "Nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l04/audio/Vv9.mp3",
     "label": "跟 · synthetic",
@@ -4506,6 +6333,265 @@
    }
   },
   {
+   "id": "pb-han-guo-韩国",
+   "kind": "word",
+   "trad": "韓國",
+   "simp": "韩国",
+   "pinyin": "hán guó",
+   "pinyinPlain": "hanguo",
+   "senses": [
+    {
+     "id": "korea",
+     "gloss": "Korea",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v3",
+       "group": "",
+       "note": "2+2: both rise. No sandhi."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
+      }
+     ]
+    },
+    {
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    },
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv3.mp3",
+    "label": "韓國 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-hao-好",
    "kind": "word",
    "trad": "好",
@@ -4581,10 +6667,340 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "好啊，但妳要去哪吃？",
+     "simp": "好啊，但你要去哪吃？",
+     "pinyin": "Hǎo a dàn nǐ yào qù nǎ chī",
+     "en": "OK, but where are you going to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d5",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "want"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "哪",
+       "simp": "哪",
+       "pinyin": "nǎ",
+       "en": "where"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      }
+     ]
+    },
+    {
+     "trad": "好啊，妳開車嗎？",
+     "simp": "好啊，你开车吗？",
+     "pinyin": "Hǎo a nǐ kāi chē ma",
+     "en": "OK, are you driving?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "to drive"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
+      }
+     ]
+    },
+    {
+     "trad": "好啊，但妳要去哪吃？",
+     "simp": "好啊，但你要去哪吃？",
+     "pinyin": "Hǎo a dàn nǐ yào qù nǎ chī",
+     "en": "OK, but where are you going to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "want"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "哪",
+       "simp": "哪",
+       "pinyin": "nǎ",
+       "en": "where"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/lm_b1_l01/audio/v2.mp3",
     "label": "好 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-hao-a-dan-ni-yao-qu-na-chi-好啊但你要去哪吃",
+   "kind": "phrase",
+   "trad": "好啊，但妳要去哪吃？",
+   "simp": "好啊，但你要去哪吃？",
+   "pinyin": "Hǎo a dàn nǐ yào qù nǎ chī",
+   "pinyinPlain": "haoadanniyaoqunachi",
+   "senses": [
+    {
+     "id": "ok-but-where-are-you-going-to-eat",
+     "gloss": "OK, but where are you going to eat?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p7",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "好",
+     "simp": "好",
+     "pinyin": "hǎo",
+     "en": "OK"
+    },
+    {
+     "trad": "啊",
+     "simp": "啊",
+     "pinyin": "a",
+     "en": "particle"
+    },
+    {
+     "trad": "但",
+     "simp": "但",
+     "pinyin": "dàn",
+     "en": "but"
+    },
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "要",
+     "simp": "要",
+     "pinyin": "yào",
+     "en": "want"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "to go"
+    },
+    {
+     "trad": "哪",
+     "simp": "哪",
+     "pinyin": "nǎ",
+     "en": "where"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np7.mp3",
+    "label": "好啊，但你要去哪吃？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-hao-a-ni-kai-che-ma-好啊你开车吗",
+   "kind": "phrase",
+   "trad": "好啊，妳開車嗎？",
+   "simp": "好啊，你开车吗？",
+   "pinyin": "Hǎo a nǐ kāi chē ma",
+   "pinyinPlain": "haoanikaichema",
+   "senses": [
+    {
+     "id": "ok-are-you-driving",
+     "gloss": "OK, are you driving?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p9",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "好",
+     "simp": "好",
+     "pinyin": "hǎo",
+     "en": "OK"
+    },
+    {
+     "trad": "啊",
+     "simp": "啊",
+     "pinyin": "a",
+     "en": "particle"
+    },
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "開車",
+     "simp": "开车",
+     "pinyin": "kāi chē",
+     "en": "to drive"
+    },
+    {
+     "trad": "嗎",
+     "simp": "吗",
+     "pinyin": "ma",
+     "en": "question"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np9.mp3",
+    "label": "好啊，你開車嗎？ · ⚡ natural",
     "real": true
    }
   },
@@ -5212,6 +7628,144 @@
    "words": [],
    "examples": [
     {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    },
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p8",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    },
+    {
      "trad": "我很累。",
      "simp": "我很累。",
      "pinyin": "Wǒ hěn lèi",
@@ -5241,96 +7795,6 @@
        "simp": "累",
        "pinyin": "lèi",
        "en": "tired"
-      }
-     ]
-    },
-    {
-     "trad": "妳的腳很好看。",
-     "simp": "你的脚很好看。",
-     "pinyin": "Nǐ de jiǎo hěn hǎokàn",
-     "en": "Your feet look nice.",
-     "note": "Your feet look nice. 你的 means your. 的 marks possession. 好看 is one word, good-looking. No 是. This is a playful compliment, stored as a sentence pattern.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s12",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "的",
-       "simp": "的",
-       "pinyin": "de",
-       "en": "possession marker; 你的 = your"
-      },
-      {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
-      },
-      {
-       "trad": "很",
-       "simp": "很",
-       "pinyin": "hěn",
-       "en": "degree link before an adjective"
-      },
-      {
-       "trad": "好看",
-       "simp": "好看",
-       "pinyin": "hǎokàn",
-       "en": "good-looking"
-      }
-     ]
-    },
-    {
-     "trad": "這個句子聽起來很怪。",
-     "simp": "这个句子听起来很怪。",
-     "pinyin": "Zhège jùzi tīng qǐlai hěn guài",
-     "en": "This sentence sounds very strange.",
-     "note": "This sentence sounds very strange. 这个: 个 is usually neutral in speech. Its citation tone is gè. 句子: 子 is neutral. The u in 句 is ü: say “ee”, then round the lips. After j, q, x, and y the two dots are not written. 听起来 means “sounds”, the impression when you hear something. Do not read 起来 here as the verb “get up”. 来 in this pattern is usually neutral. Citation tone of 来 is lái. 怪 means strange. No 是 before 怪.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s27",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "這個",
-       "simp": "这个",
-       "pinyin": "zhège",
-       "en": "this (个 is usually neutral; citation tone gè)"
-      },
-      {
-       "trad": "句子",
-       "simp": "句子",
-       "pinyin": "jùzi",
-       "en": "sentence (子 is neutral)"
-      },
-      {
-       "trad": "聽起來",
-       "simp": "听起来",
-       "pinyin": "tīng qǐlai",
-       "en": "sounds; seems when heard (来 is usually neutral; not the verb “get up”)"
-      },
-      {
-       "trad": "很",
-       "simp": "很",
-       "pinyin": "hěn",
-       "en": "very"
-      },
-      {
-       "trad": "怪",
-       "simp": "怪",
-       "pinyin": "guài",
-       "en": "strange; odd"
       }
      ]
     }
@@ -6907,6 +9371,184 @@
    }
   },
   {
+   "id": "pb-jiu-久",
+   "kind": "word",
+   "trad": "久",
+   "simp": "久",
+   "pinyin": "jiǔ",
+   "pinyinPlain": "jiu",
+   "senses": [
+    {
+     "id": "a-long-time",
+     "gloss": "a long time",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v10",
+       "group": "",
+       "note": "3rd alone. In 很久, 很 rises: hén jiǔ."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    },
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p8",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv10.mp3",
+    "label": "久 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-jiu-就",
    "kind": "word",
    "trad": "就",
@@ -6914,6 +9556,28 @@
    "pinyin": "jiù",
    "pinyinPlain": "jiu",
    "senses": [
+    {
+     "id": "right-then-about-to",
+     "gloss": "right then / about to",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v18",
+       "group": "",
+       "note": "4th. Show notes give no single gloss ('keep an eye on this word'). Here 就要 is about to, right then. The host says 就 often marks something earlier or more than expected, and that it returns in later lessons."
+      }
+     ]
+    },
     {
      "id": "then-as-soon-as",
      "gloss": "then; as soon as",
@@ -6939,6 +9603,96 @@
    ],
    "words": [],
    "examples": [
+    {
+     "trad": "等一下就要去了",
+     "simp": "等一下就要去了",
+     "pinyin": "Děng yī xià jiù yào qù le",
+     "en": "We're going in just a second.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "等一下",
+       "simp": "等一下",
+       "pinyin": "děng yí xià",
+       "en": "in a moment"
+      },
+      {
+       "trad": "就",
+       "simp": "就",
+       "pinyin": "jiù",
+       "en": "right then"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "particle"
+      }
+     ]
+    },
+    {
+     "trad": "等一下就要去了",
+     "simp": "等一下就要去了",
+     "pinyin": "Děng yī xià jiù yào qù le",
+     "en": "We're going in just a second.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p12",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "等一下",
+       "simp": "等一下",
+       "pinyin": "děng yí xià",
+       "en": "in a moment"
+      },
+      {
+       "trad": "就",
+       "simp": "就",
+       "pinyin": "jiù",
+       "en": "right then"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "particle"
+      }
+     ]
+    },
     {
      "trad": "見到妳就會晃的尾巴",
      "simp": "见到你就会晃的尾巴",
@@ -6998,7 +9752,7 @@
     }
    ],
    "audio": {
-    "src": "conversations/cp_2026_11_07/audio/v32.mp3",
+    "src": "lessons/mftgu_s1_l08/audio/Vv18.mp3",
     "label": "就 · synthetic",
     "real": false
    }
@@ -7273,6 +10027,220 @@
    "audio": {
     "src": "lessons/mftgu_s1_l05/audio/Vv8.mp3",
     "label": "咖啡 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-kai-开",
+   "kind": "word",
+   "trad": "開",
+   "simp": "开",
+   "pinyin": "kāi",
+   "pinyinPlain": "kai",
+   "senses": [
+    {
+     "id": "to-open",
+     "gloss": "to open",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v12",
+       "group": "",
+       "note": "1st. k is aspirated. With 車 it means to drive."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv12.mp3",
+    "label": "開 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-kai-che-开车",
+   "kind": "word",
+   "trad": "開車",
+   "simp": "开车",
+   "pinyin": "kāi chē",
+   "pinyinPlain": "kaiche",
+   "senses": [
+    {
+     "id": "to-drive-a-car",
+     "gloss": "to drive a car",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v13",
+       "group": "",
+       "note": "1+1. 開 'open' + 車 'car'."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "好啊，妳開車嗎？",
+     "simp": "好啊，你开车吗？",
+     "pinyin": "Hǎo a nǐ kāi chē ma",
+     "en": "OK, are you driving?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "to drive"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
+      }
+     ]
+    },
+    {
+     "trad": "對啊，我開車去",
+     "simp": "对啊，我开车去",
+     "pinyin": "Duì a wǒ kāi chē qù",
+     "en": "Yeah, I'm going to drive there.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d8",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "對",
+       "simp": "对",
+       "pinyin": "duì",
+       "en": "yeah"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "drive"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "there"
+      }
+     ]
+    },
+    {
+     "trad": "對啊，我開車去",
+     "simp": "对啊，我开车去",
+     "pinyin": "Duì a wǒ kāi chē qù",
+     "en": "Yeah, I'm going to drive there.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "對",
+       "simp": "对",
+       "pinyin": "duì",
+       "en": "yeah"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "drive"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "there"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv13.mp3",
+    "label": "開車 · synthetic",
     "real": false
    }
   },
@@ -7621,6 +10589,184 @@
    }
   },
   {
+   "id": "pb-la-mian-拉面",
+   "kind": "word",
+   "trad": "拉麵",
+   "simp": "拉面",
+   "pinyin": "lā miàn",
+   "pinyinPlain": "lamian",
+   "senses": [
+    {
+     "id": "ramen",
+     "gloss": "ramen",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v5",
+       "group": "",
+       "note": "1+4. 麵 ends in -n."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    },
+    {
+     "trad": "但我最喜歡吃拉麵",
+     "simp": "但我最喜欢吃拉面",
+     "pinyin": "Dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "But my favorite is ramen.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv5.mp3",
+    "label": "拉麵 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-le-了",
    "kind": "word",
    "trad": "了",
@@ -7698,35 +10844,197 @@
    "words": [],
    "examples": [
     {
-     "trad": "我累了。",
-     "simp": "我累了。",
-     "pinyin": "Wǒ lèi le",
-     "en": "I'm tired. / I've gotten tired.",
-     "note": "Change of state. 了 le says the situation is new: you have gotten tired. It does not mean English “have”. 我 is a low half-third before 累 (4th). 了 is neutral, and it sits light and low after a 4th tone.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s01",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "trad": "等一下就要去了",
+     "simp": "等一下就要去了",
+     "pinyin": "Děng yī xià jiù yào qù le",
+     "en": "We're going in just a second.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
+       "trad": "等一下",
+       "simp": "等一下",
+       "pinyin": "děng yí xià",
+       "en": "in a moment"
       },
       {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
+       "trad": "就",
+       "simp": "就",
+       "pinyin": "jiù",
+       "en": "right then"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
       },
       {
        "trad": "了",
        "simp": "了",
        "pinyin": "le",
-       "en": "change-of-state particle: a new situation, not English “have”"
+       "en": "particle"
+      }
+     ]
+    },
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
+    {
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
       }
      ]
     }
@@ -8311,155 +11619,137 @@
    "words": [],
    "examples": [
     {
-     "trad": "妳那邊是早上。妳累嗎？",
-     "simp": "你那边是早上。你累吗？",
-     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
-     "en": "It's morning where you are. Are you tired?",
-     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
-     "href": "#/practice/cp_2026_11_10_chat",
-     "sourceId": "cp_2026_11_10_chat",
-     "itemId": "s09",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 9–10 chat",
+     "trad": "他們也有麵嗎？",
+     "simp": "他们也有面吗？",
+     "pinyin": "Tā men yě yǒu miàn ma",
+     "en": "Do they have noodles too?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d11",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "那邊",
-       "simp": "那边",
-       "pinyin": "nàbiān",
-       "en": "over there; your side"
-      },
-      {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is"
-      },
-      {
-       "trad": "早上",
-       "simp": "早上",
-       "pinyin": "zǎoshang",
-       "en": "morning"
-      },
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
-      },
-      {
-       "trad": "嗎",
-       "simp": "吗",
-       "pinyin": "ma",
-       "en": "question word"
-      }
-     ]
-    },
-    {
-     "trad": "臺灣現在是早上。妳累嗎？",
-     "simp": "台湾现在是早上。你累吗？",
-     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
-     "en": "It's morning in Taiwan right now. Are you tired?",
-     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
-     "href": "#/practice/cp_2026_11_10_chat",
-     "sourceId": "cp_2026_11_10_chat",
-     "itemId": "s11",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 9–10 chat",
-     "words": [
-      {
-       "trad": "臺灣",
-       "simp": "台湾",
-       "pinyin": "táiwān",
-       "en": "Taiwan"
-      },
-      {
-       "trad": "現在",
-       "simp": "现在",
-       "pinyin": "xiànzài",
-       "en": "now"
-      },
-      {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is"
-      },
-      {
-       "trad": "早上",
-       "simp": "早上",
-       "pinyin": "zǎoshang",
-       "en": "morning"
-      },
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
-      },
-      {
-       "trad": "嗎",
-       "simp": "吗",
-       "pinyin": "ma",
-       "en": "question word"
-      }
-     ]
-    },
-    {
-     "trad": "妳也喜歡嗎？",
-     "simp": "你也喜欢吗？",
-     "pinyin": "Nǐ yě xǐhuan ma?",
-     "en": "Do you like them too?",
-     "note": "Question pattern: Do you like them too? The shoes are the object, and they are understood. 吗 sits at the end and makes a yes/no question. Word order stays subject 你, then 也, then 喜欢, then 吗. This asks whether you like them. The message that was actually sent is the next card, a statement, with no 吗.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s15",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
+       "trad": "他們",
+       "simp": "他们",
+       "pinyin": "tāmen",
+       "en": "they"
       },
       {
        "trad": "也",
        "simp": "也",
-       "pinyin": "yě",
-       "en": "also; too"
+       "pinyin": "yé",
+       "en": "also"
       },
       {
-       "trad": "喜歡",
-       "simp": "喜欢",
-       "pinyin": "xǐhuan",
-       "en": "to like (the shoes are understood, not repeated)"
+       "trad": "有",
+       "simp": "有",
+       "pinyin": "yǒu",
+       "en": "have"
+      },
+      {
+       "trad": "麵",
+       "simp": "面",
+       "pinyin": "miàn",
+       "en": "noodles"
       },
       {
        "trad": "嗎",
        "simp": "吗",
        "pinyin": "ma",
-       "en": "yes/no question particle"
+       "en": "question"
+      }
+     ]
+    },
+    {
+     "trad": "好啊，妳開車嗎？",
+     "simp": "好啊，你开车吗？",
+     "pinyin": "Hǎo a nǐ kāi chē ma",
+     "en": "OK, are you driving?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "開車",
+       "simp": "开车",
+       "pinyin": "kāi chē",
+       "en": "to drive"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
+      }
+     ]
+    },
+    {
+     "trad": "他們也有麵嗎？",
+     "simp": "他们也有面吗？",
+     "pinyin": "Tā men yě yǒu miàn ma",
+     "en": "Do they have noodles too?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "他們",
+       "simp": "他们",
+       "pinyin": "tāmen",
+       "en": "they"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yé",
+       "en": "also"
+      },
+      {
+       "trad": "有",
+       "simp": "有",
+       "pinyin": "yǒu",
+       "en": "have"
+      },
+      {
+       "trad": "麵",
+       "simp": "面",
+       "pinyin": "miàn",
+       "en": "noodles"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
       }
      ]
     }
@@ -8721,7 +12011,146 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    },
+    {
+     "trad": "我要去韓國餐廳，很久沒去",
+     "simp": "我要去韩国餐厅，很久没去",
+     "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+     "en": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p8",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korean"
+      },
+      {
+       "trad": "餐廳",
+       "simp": "餐厅",
+       "pinyin": "cān tīng",
+       "en": "restaurant"
+      },
+      {
+       "trad": "很",
+       "simp": "很",
+       "pinyin": "hén",
+       "en": "very"
+      },
+      {
+       "trad": "久",
+       "simp": "久",
+       "pinyin": "jiǔ",
+       "en": "a long time"
+      },
+      {
+       "trad": "沒",
+       "simp": "没",
+       "pinyin": "méi",
+       "en": "have not"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "gone"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/lm_b1_l02/audio/v11.mp3",
     "label": "沒 · REAL",
@@ -9878,6 +13307,94 @@
    }
   },
   {
+   "id": "pb-na-hao-wo-men-yi-qi-qu-ba-wo-e-le-那好我们一起去吧我饿了",
+   "kind": "phrase",
+   "trad": "那好，我們一起去吧，我餓了！",
+   "simp": "那好，我们一起去吧，我饿了！",
+   "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+   "pinyinPlain": "nahaowomenyiqiqubawoele",
+   "senses": [
+    {
+     "id": "all-right-then-let-s-go-together-i-m-hungry",
+     "gloss": "All right then. Let's go together. I'm hungry.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p15",
+       "group": "",
+       "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "那好",
+     "simp": "那好",
+     "pinyin": "nà hǎo",
+     "en": "all right then"
+    },
+    {
+     "trad": "我們",
+     "simp": "我们",
+     "pinyin": "wǒmen",
+     "en": "we"
+    },
+    {
+     "trad": "一起",
+     "simp": "一起",
+     "pinyin": "yì qǐ",
+     "en": "together"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "go"
+    },
+    {
+     "trad": "吧",
+     "simp": "吧",
+     "pinyin": "ba",
+     "en": "let's"
+    },
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "餓",
+     "simp": "饿",
+     "pinyin": "è",
+     "en": "hungry"
+    },
+    {
+     "trad": "了",
+     "simp": "了",
+     "pinyin": "le",
+     "en": "now / change"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np15.mp3",
+    "label": "那好，我們一起去吧，我餓了！ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-na-li-哪里",
    "kind": "word",
    "trad": "哪裡",
@@ -10263,41 +13780,23 @@
    "words": [],
    "examples": [
     {
-     "trad": "妳那邊是早上。妳累嗎？",
-     "simp": "你那边是早上。你累吗？",
-     "pinyin": "Nǐ nà biān shì zǎo shang nǐ lèi ma",
-     "en": "It's morning where you are. Are you tired?",
-     "note": "A more casual way to say it is 你那边是早上吧？累不累？ Here 吧 softens the guess, and 累不累 means “tired or not tired.”",
-     "href": "#/practice/cp_2026_11_10_chat",
-     "sourceId": "cp_2026_11_10_chat",
-     "itemId": "s09",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 9–10 chat",
+     "trad": "小李，妳最喜歡吃什麼？",
+     "simp": "小李，你最喜欢吃什么？",
+     "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
+     "en": "Xiao Li, what's your favorite thing to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "那邊",
-       "simp": "那边",
-       "pinyin": "nàbiān",
-       "en": "over there; your side"
-      },
-      {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is"
-      },
-      {
-       "trad": "早上",
-       "simp": "早上",
-       "pinyin": "zǎoshang",
-       "en": "morning"
+       "trad": "小李",
+       "simp": "小李",
+       "pinyin": "xiáo Lǐ",
+       "en": "Xiao Li (a name)"
       },
       {
        "trad": "妳",
@@ -10306,32 +13805,80 @@
        "en": "you"
       },
       {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
       },
       {
-       "trad": "嗎",
-       "simp": "吗",
-       "pinyin": "ma",
-       "en": "question word"
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
       }
      ]
     },
     {
-     "trad": "妳那邊是早上吧？累不累？",
-     "simp": "你那边是早上吧？累不累？",
-     "pinyin": "Nǐ nà biān shì zǎo shang ba lèi bu lèi",
-     "en": "It's morning there, right? Tired?",
-     "note": "A more casual version of 你那边是早上。你累吗？ 吧 softens the guess, and 累不累 means “tired or not tired.” 不 is often said lightly here: lèi bu lèi.",
-     "href": "#/practice/cp_2026_11_10_chat",
-     "sourceId": "cp_2026_11_10_chat",
-     "itemId": "s10",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 9–10 chat",
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
       {
        "trad": "妳",
        "simp": "你",
@@ -10339,85 +13886,61 @@
        "en": "you"
       },
       {
-       "trad": "那邊",
-       "simp": "那边",
-       "pinyin": "nàbiān",
-       "en": "over there; your side"
-      },
-      {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is"
-      },
-      {
-       "trad": "早上",
-       "simp": "早上",
-       "pinyin": "zǎoshang",
-       "en": "morning"
-      },
-      {
-       "trad": "吧",
-       "simp": "吧",
-       "pinyin": "ba",
-       "en": "softens a guess"
-      },
-      {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
-      },
-      {
-       "trad": "不",
-       "simp": "不",
-       "pinyin": "bu",
-       "en": "not"
-      },
-      {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
       }
      ]
     },
     {
-     "trad": "臺灣現在是早上。妳累嗎？",
-     "simp": "台湾现在是早上。你累吗？",
-     "pinyin": "Tái wān xiàn zài shì zǎo shang nǐ lèi ma",
-     "en": "It's morning in Taiwan right now. Are you tired?",
-     "note": "If you're texting someone in Taiwan, they'll usually write it in traditional characters: 台灣現在是早上。你累嗎？",
-     "href": "#/practice/cp_2026_11_10_chat",
-     "sourceId": "cp_2026_11_10_chat",
-     "itemId": "s11",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 9–10 chat",
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "臺灣",
-       "simp": "台湾",
-       "pinyin": "táiwān",
-       "en": "Taiwan"
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
       },
       {
-       "trad": "現在",
-       "simp": "现在",
-       "pinyin": "xiànzài",
-       "en": "now"
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
       },
       {
-       "trad": "是",
-       "simp": "是",
-       "pinyin": "shì",
-       "en": "is"
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
       },
       {
-       "trad": "早上",
-       "simp": "早上",
-       "pinyin": "zǎoshang",
-       "en": "morning"
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
       },
       {
        "trad": "妳",
@@ -10426,16 +13949,34 @@
        "en": "you"
       },
       {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
       },
       {
-       "trad": "嗎",
-       "simp": "吗",
-       "pinyin": "ma",
-       "en": "question word"
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
       }
      ]
     }
@@ -12208,6 +15749,82 @@
    }
   },
   {
+   "id": "pb-ni-yao-bu-yao-gen-wo-yi-qi-qu-你要不要跟我一起去",
+   "kind": "phrase",
+   "trad": "妳要不要跟我一起去？",
+   "simp": "你要不要跟我一起去？",
+   "pinyin": "Nǐ yào bù yào gēn wǒ yī qǐ qù",
+   "pinyinPlain": "niyaobuyaogenwoyiqiqu",
+   "senses": [
+    {
+     "id": "do-you-want-to-come-with-me",
+     "gloss": "Do you want to come with me?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p6",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "要不要",
+     "simp": "要不要",
+     "pinyin": "yào bú yào",
+     "en": "do you want"
+    },
+    {
+     "trad": "跟",
+     "simp": "跟",
+     "pinyin": "gēn",
+     "en": "with"
+    },
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "me"
+    },
+    {
+     "trad": "一起",
+     "simp": "一起",
+     "pinyin": "yì qǐ",
+     "en": "together"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "to go"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np6.mp3",
+    "label": "你要不要跟我一起去？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-ni-ye-lei-le-你也累了",
    "kind": "phrase",
    "trad": "妳也累了？",
@@ -13729,7 +17346,203 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "等一下就要去了",
+     "simp": "等一下就要去了",
+     "pinyin": "Děng yī xià jiù yào qù le",
+     "en": "We're going in just a second.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "等一下",
+       "simp": "等一下",
+       "pinyin": "děng yí xià",
+       "en": "in a moment"
+      },
+      {
+       "trad": "就",
+       "simp": "就",
+       "pinyin": "jiù",
+       "en": "right then"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "particle"
+      }
+     ]
+    },
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
+    {
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l07/audio/Vv10.mp3",
     "label": "去 · synthetic",
@@ -14045,51 +17858,212 @@
    "words": [],
    "examples": [
     {
-     "trad": "為什麼！妳跟我說！",
-     "simp": "为什么！你跟我说！",
-     "pinyin": "Wèi shén me Nǐ gēn wǒ shuō",
-     "en": "Why?! Tell me!",
+     "trad": "小李，妳最喜歡吃什麼？",
+     "simp": "小李，你最喜欢吃什么？",
+     "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
+     "en": "Xiao Li, what's your favorite thing to eat?",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l07",
-     "sourceId": "mftgu_s1_l07",
-     "itemId": "d11",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d1",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L07 你問我為什麼",
-     "words": []
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "小李",
+       "simp": "小李",
+       "pinyin": "xiáo Lǐ",
+       "en": "Xiao Li (a name)"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
+      }
+     ]
     },
     {
-     "trad": "為什麼？",
-     "simp": "为什么？",
-     "pinyin": "Wèi shén me",
-     "en": "Why?",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l07",
-     "sourceId": "mftgu_s1_l07",
-     "itemId": "d5",
+     "trad": "什麼時候？",
+     "simp": "什么时候？",
+     "pinyin": "Shén me shí hòu",
+     "en": "When?",
+     "note": "候: show notes print shíhòu (4th). In running speech 時候 is often shíhou, with a neutral 候. This take was not measured, so the cell keeps the show-note 4th.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d9",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L07 你問我為什麼",
-     "words": []
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
+      },
+      {
+       "trad": "時候",
+       "simp": "时候",
+       "pinyin": "shíhòu",
+       "en": "time"
+      }
+     ]
     },
     {
-     "trad": "沒有為什麼啊",
-     "simp": "没有为什么啊",
-     "pinyin": "Méi yǒu wèi shén me a",
-     "en": "There's no why.",
+     "trad": "小李，妳最喜歡吃什麼？",
+     "simp": "小李，你最喜欢吃什么？",
+     "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
+     "en": "Xiao Li, what's your favorite thing to eat?",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l07",
-     "sourceId": "mftgu_s1_l07",
-     "itemId": "d6",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p1",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L07 你問我為什麼",
-     "words": []
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "小李",
+       "simp": "小李",
+       "pinyin": "xiáo Lǐ",
+       "en": "Xiao Li (a name)"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
+      }
+     ]
     }
    ],
    "audio": {
     "src": "lessons/lm_b1_l01/audio/v7.mp3",
     "label": "什麼 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-shen-me-shi-hou-什么时候",
+   "kind": "word",
+   "trad": "什麼時候？",
+   "simp": "什么时候？",
+   "pinyin": "Shén me shí hòu",
+   "pinyinPlain": "shenmeshihou",
+   "senses": [
+    {
+     "id": "when",
+     "gloss": "When?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p11",
+       "group": "",
+       "note": "候: show notes print shíhòu (4th). In running speech 時候 is often shíhou, with a neutral 候. This take was not measured, so the cell keeps the show-note 4th."
+      }
+     ]
+    },
+    {
+     "id": "when-2",
+     "gloss": "when",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v15",
+       "group": "",
+       "note": "什麼 is a rise plus light 麼, then 時候. Same 候 caution as the word 時候."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "什麼",
+     "simp": "什么",
+     "pinyin": "shénme",
+     "en": "what"
+    },
+    {
+     "trad": "時候",
+     "simp": "时候",
+     "pinyin": "shíhòu",
+     "en": "time"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np11.mp3",
+    "label": "什麼時候？ · ⚡ natural",
     "real": true
    }
   },
@@ -14371,6 +18345,100 @@
    }
   },
   {
+   "id": "pb-shi-hou-时候",
+   "kind": "word",
+   "trad": "時候",
+   "simp": "时候",
+   "pinyin": "shí hòu",
+   "pinyinPlain": "shihou",
+   "senses": [
+    {
+     "id": "time",
+     "gloss": "time",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v14",
+       "group": "",
+       "note": "Show notes: shíhòu (2+4). Speech often lightens 候 (shíhou). Cells keep the printed 4th; the pitch was not measured."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "什麼時候？",
+     "simp": "什么时候？",
+     "pinyin": "Shén me shí hòu",
+     "en": "When?",
+     "note": "候: show notes print shíhòu (4th). In running speech 時候 is often shíhou, with a neutral 候. This take was not measured, so the cell keeps the show-note 4th.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
+      },
+      {
+       "trad": "時候",
+       "simp": "时候",
+       "pinyin": "shíhòu",
+       "en": "time"
+      }
+     ]
+    },
+    {
+     "trad": "什麼時候？",
+     "simp": "什么时候？",
+     "pinyin": "Shén me shí hòu",
+     "en": "When?",
+     "note": "候: show notes print shíhòu (4th). In running speech 時候 is often shíhou, with a neutral 候. This take was not measured, so the cell keeps the show-note 4th.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p11",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
+      },
+      {
+       "trad": "時候",
+       "simp": "时候",
+       "pinyin": "shíhòu",
+       "en": "time"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv14.mp3",
+    "label": "時候 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-shuai-帅",
    "kind": "word",
    "trad": "帥",
@@ -14528,6 +18596,28 @@
    "pinyin": "tā",
    "pinyinPlain": "ta",
    "senses": [
+    {
+     "id": "he-she",
+     "gloss": "he / she",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v16",
+       "group": "",
+       "note": "1st. Third person singular. Plural 他們: 們 is neutral (tāmen)."
+      }
+     ]
+    },
     {
      "id": "he-him-supplementary",
      "gloss": "he, him (supplementary)",
@@ -14984,6 +19074,76 @@
    "audio": null
   },
   {
+   "id": "pb-ta-men-ye-you-mian-ma-他们也有面吗",
+   "kind": "phrase",
+   "trad": "他們也有麵嗎？",
+   "simp": "他们也有面吗？",
+   "pinyin": "Tā men yě yǒu miàn ma",
+   "pinyinPlain": "tamenyeyoumianma",
+   "senses": [
+    {
+     "id": "do-they-have-noodles-too",
+     "gloss": "Do they have noodles too?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p13",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "他們",
+     "simp": "他们",
+     "pinyin": "tāmen",
+     "en": "they"
+    },
+    {
+     "trad": "也",
+     "simp": "也",
+     "pinyin": "yé",
+     "en": "also"
+    },
+    {
+     "trad": "有",
+     "simp": "有",
+     "pinyin": "yǒu",
+     "en": "have"
+    },
+    {
+     "trad": "麵",
+     "simp": "面",
+     "pinyin": "miàn",
+     "en": "noodles"
+    },
+    {
+     "trad": "嗎",
+     "simp": "吗",
+     "pinyin": "ma",
+     "en": "question"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np13.mp3",
+    "label": "他們也有麵嗎？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-ting-听",
    "kind": "word",
    "trad": "聽",
@@ -15191,6 +19351,184 @@
     }
    ],
    "audio": null
+  },
+  {
+   "id": "pb-wan-can-晚餐",
+   "kind": "word",
+   "trad": "晚餐",
+   "simp": "晚餐",
+   "pinyin": "wǎn cān",
+   "pinyinPlain": "wancan",
+   "senses": [
+    {
+     "id": "dinner-evening-meal",
+     "gloss": "dinner (\"evening meal\")",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v6",
+       "group": "",
+       "note": "3+1: 晚 stays a low half-third before the high 餐."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    },
+    {
+     "trad": "我要去吃晚餐了",
+     "simp": "我要去吃晚餐了",
+     "pinyin": "Wǒ yào qù chī wǎn cān le",
+     "en": "I'm going to go have dinner.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p5",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv6.mp3",
+    "label": "晚餐 · synthetic",
+    "real": false
+   }
   },
   {
    "id": "pb-wang-王",
@@ -15952,101 +20290,215 @@
    "words": [],
    "examples": [
     {
-     "trad": "不要學我。",
-     "simp": "不要学我。",
-     "pinyin": "Bù yào xué wǒ",
-     "en": "Don't copy me.",
-     "note": "Dictionary reading is bù yào. Spoken before the fourth tone of 要, 不 is bú: bú yào.",
-     "href": "#/practice/cp_2026_11_07_smoking",
-     "sourceId": "cp_2026_11_07_smoking",
-     "itemId": "s05",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Smoke less",
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "不要",
-       "simp": "不要",
-       "pinyin": "bùyào",
-       "en": "do not"
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
       },
       {
-       "trad": "學",
-       "simp": "学",
-       "pinyin": "xué",
-       "en": "to imitate; to learn from"
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
       },
       {
        "trad": "我",
        "simp": "我",
        "pinyin": "wǒ",
-       "en": "I; me"
-      }
-     ]
-    },
-    {
-     "trad": "我累了。",
-     "simp": "我累了。",
-     "pinyin": "Wǒ lèi le",
-     "en": "I'm tired. / I've gotten tired.",
-     "note": "Change of state. 了 le says the situation is new: you have gotten tired. It does not mean English “have”. 我 is a low half-third before 累 (4th). 了 is neutral, and it sits light and low after a 4th tone.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s01",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
+       "en": "I"
       },
       {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
       },
       {
        "trad": "了",
        "simp": "了",
        "pinyin": "le",
-       "en": "change-of-state particle: a new situation, not English “have”"
+       "en": "now / change"
       }
      ]
     },
     {
-     "trad": "我很累。",
-     "simp": "我很累。",
-     "pinyin": "Wǒ hěn lèi",
-     "en": "I'm tired.",
-     "note": "A state: I'm tired. An adjective does not take 是. Say 我很累. The next card shows the form to avoid. 很 is the usual link before an adjective. Here it can be light, not a strong “very”. 我很 are two 3rd tones, so this page marks 我 as wó, and 很 stays low before 累.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s02",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
        "trad": "我",
        "simp": "我",
        "pinyin": "wǒ",
-       "en": "I; me"
+       "en": "I"
       },
       {
-       "trad": "很",
-       "simp": "很",
-       "pinyin": "hěn",
-       "en": "very; the usual link before an adjective"
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
       },
       {
-       "trad": "累",
-       "simp": "累",
-       "pinyin": "lèi",
-       "en": "tired"
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
+      }
+     ]
+    },
+    {
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
       }
      ]
     }
@@ -17058,6 +21510,132 @@
    "words": [],
    "examples": [
     {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p15",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
+    {
      "trad": "那，我們開始說中文吧！",
      "simp": "那，我们开始说中文吧！",
      "pinyin": "Nà wǒ men kāi shǐ shuō zhōng wén ba",
@@ -17066,34 +21644,6 @@
      "href": "#/lesson/mftgu_s1_l05",
      "sourceId": "mftgu_s1_l05",
      "itemId": "d4",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L05 你聽得到嗎",
-     "words": []
-    },
-    {
-     "trad": "呃。我們在說中文啊",
-     "simp": "呃。我们在说中文啊",
-     "pinyin": "È wǒ men zài shuō zhōng wén a",
-     "en": "Uh… we are speaking Chinese.",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l05",
-     "sourceId": "mftgu_s1_l05",
-     "itemId": "d5",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L05 你聽得到嗎",
-     "words": []
-    },
-    {
-     "trad": "那，我們開始說中文吧！",
-     "simp": "那，我们开始说中文吧！",
-     "pinyin": "Nà wǒ men kāi shǐ shuō zhōng wén ba",
-     "en": "OK, let’s start speaking Chinese!",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l05",
-     "sourceId": "mftgu_s1_l05",
-     "itemId": "p5",
      "origin": "lesson",
      "kind": "podcast",
      "short": "MFTGU L05 你聽得到嗎",
@@ -17842,6 +22392,288 @@
    }
   },
   {
+   "id": "pb-wo-yao-qu-chi-wan-can-le-我要去吃晚餐了",
+   "kind": "phrase",
+   "trad": "我要去吃晚餐了",
+   "simp": "我要去吃晚餐了",
+   "pinyin": "Wǒ yào qù chī wǎn cān le",
+   "pinyinPlain": "woyaoquchiwancanle",
+   "senses": [
+    {
+     "id": "i-m-going-to-go-have-dinner",
+     "gloss": "I'm going to go have dinner.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p5",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "要",
+     "simp": "要",
+     "pinyin": "yào",
+     "en": "going to"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "to go"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "晚餐",
+     "simp": "晚餐",
+     "pinyin": "wǎn cān",
+     "en": "dinner"
+    },
+    {
+     "trad": "了",
+     "simp": "了",
+     "pinyin": "le",
+     "en": "change of state"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np5.mp3",
+    "label": "我要去吃晚餐了 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wo-yao-qu-chi-wan-can-le-ni-yao-bu-yao-gen-wo-yi-qi-qu-我要去吃晚餐了你要不要跟我一起去",
+   "kind": "phrase",
+   "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+   "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+   "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+   "pinyinPlain": "woyaoquchiwancanleniyaobuyaogenwoyiqiqu",
+   "senses": [
+    {
+     "id": "i-m-going-to-go-have-dinner-do-you-want-to-come-",
+     "gloss": "I'm going to go have dinner. Do you want to come with me?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d4",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "要",
+     "simp": "要",
+     "pinyin": "yào",
+     "en": "going to"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "to go"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "晚餐",
+     "simp": "晚餐",
+     "pinyin": "wǎn cān",
+     "en": "dinner"
+    },
+    {
+     "trad": "了",
+     "simp": "了",
+     "pinyin": "le",
+     "en": "change of state"
+    },
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "要不要",
+     "simp": "要不要",
+     "pinyin": "yào bú yào",
+     "en": "do you want"
+    },
+    {
+     "trad": "跟",
+     "simp": "跟",
+     "pinyin": "gēn",
+     "en": "with"
+    },
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "me"
+    },
+    {
+     "trad": "一起",
+     "simp": "一起",
+     "pinyin": "yì qǐ",
+     "en": "together"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "to go"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Fd4.mp3",
+    "label": "我要去吃晚餐了，你要不要跟我一起去？ · dialogue (natural)",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wo-yao-qu-han-guo-can-ting-hen-jiu-mei-qu-我要去韩国餐厅很久没去",
+   "kind": "phrase",
+   "trad": "我要去韓國餐廳，很久沒去",
+   "simp": "我要去韩国餐厅，很久没去",
+   "pinyin": "Wǒ yào qù hán guó cān tīng hěn jiǔ méi qù",
+   "pinyinPlain": "woyaoquhanguocantinghenjiumeiqu",
+   "senses": [
+    {
+     "id": "i-m-going-to-a-korean-restaurant-i-haven-t-been-",
+     "gloss": "I'm going to a Korean restaurant. I haven't been in a long time.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p8",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "要",
+     "simp": "要",
+     "pinyin": "yào",
+     "en": "going to"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "to go"
+    },
+    {
+     "trad": "韓國",
+     "simp": "韩国",
+     "pinyin": "Hán guó",
+     "en": "Korean"
+    },
+    {
+     "trad": "餐廳",
+     "simp": "餐厅",
+     "pinyin": "cān tīng",
+     "en": "restaurant"
+    },
+    {
+     "trad": "很",
+     "simp": "很",
+     "pinyin": "hén",
+     "en": "very"
+    },
+    {
+     "trad": "久",
+     "simp": "久",
+     "pinyin": "jiǔ",
+     "en": "a long time"
+    },
+    {
+     "trad": "沒",
+     "simp": "没",
+     "pinyin": "méi",
+     "en": "have not"
+    },
+    {
+     "trad": "去",
+     "simp": "去",
+     "pinyin": "qù",
+     "en": "gone"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np8.mp3",
+    "label": "我要去韓國餐廳，很久沒去 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-wo-ye-shi-我也是",
    "kind": "phrase",
    "trad": "我也是",
@@ -17932,6 +22764,194 @@
     "src": "lessons/lm_b1_l02/audio/y4.mp3",
     "label": "我也是美國人。 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-wo-ye-xi-huan-chi-han-guo-cai-我也喜欢吃韩国菜",
+   "kind": "phrase",
+   "trad": "我也喜歡吃韓國菜",
+   "simp": "我也喜欢吃韩国菜",
+   "pinyin": "Wǒ yě xǐ huan chī hán guó cài",
+   "pinyinPlain": "woyexihuanchihanguocai",
+   "senses": [
+    {
+     "id": "i-also-like-to-eat-korean-food",
+     "gloss": "I also like to eat Korean food.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p3",
+       "group": "",
+       "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wó",
+     "en": "I"
+    },
+    {
+     "trad": "也",
+     "simp": "也",
+     "pinyin": "yě",
+     "en": "also"
+    },
+    {
+     "trad": "喜歡",
+     "simp": "喜欢",
+     "pinyin": "xǐhuan",
+     "en": "to like"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "韓國",
+     "simp": "韩国",
+     "pinyin": "Hán guó",
+     "en": "Korea"
+    },
+    {
+     "trad": "菜",
+     "simp": "菜",
+     "pinyin": "cài",
+     "en": "cuisine"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np3.mp3",
+    "label": "我也喜歡吃韓國菜 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wo-ye-xi-huan-chi-han-guo-cai-dan-wo-zui-xi-huan-chi-la-mian-我也喜欢吃韩国菜但我最喜欢吃拉面",
+   "kind": "phrase",
+   "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+   "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+   "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+   "pinyinPlain": "woyexihuanchihanguocaidanwozuixihuanchilamian",
+   "senses": [
+    {
+     "id": "i-also-like-to-eat-korean-food-but-my-favorite-i",
+     "gloss": "I also like to eat Korean food, but my favorite is ramen.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d3",
+       "group": "",
+       "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take."
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wó",
+     "en": "I"
+    },
+    {
+     "trad": "也",
+     "simp": "也",
+     "pinyin": "yě",
+     "en": "also"
+    },
+    {
+     "trad": "喜歡",
+     "simp": "喜欢",
+     "pinyin": "xǐhuan",
+     "en": "to like"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "韓國",
+     "simp": "韩国",
+     "pinyin": "Hán guó",
+     "en": "Korea"
+    },
+    {
+     "trad": "菜",
+     "simp": "菜",
+     "pinyin": "cài",
+     "en": "cuisine"
+    },
+    {
+     "trad": "但",
+     "simp": "但",
+     "pinyin": "dàn",
+     "en": "but"
+    },
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "最",
+     "simp": "最",
+     "pinyin": "zuì",
+     "en": "most"
+    },
+    {
+     "trad": "喜歡",
+     "simp": "喜欢",
+     "pinyin": "xǐhuan",
+     "en": "to like"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "拉麵",
+     "simp": "拉面",
+     "pinyin": "lā miàn",
+     "en": "ramen"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Fd3.mp3",
+    "label": "我也喜歡吃韓國菜，但我最喜歡吃拉麵 · dialogue (natural)",
+    "real": true
    }
   },
   {
@@ -18520,6 +23540,94 @@
    }
   },
   {
+   "id": "pb-wo-zui-xi-huan-chi-han-guo-cai-ni-ne-我最喜欢吃韩国菜你呢",
+   "kind": "phrase",
+   "trad": "我最喜歡吃韓國菜，妳呢？",
+   "simp": "我最喜欢吃韩国菜，你呢？",
+   "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+   "pinyinPlain": "wozuixihuanchihanguocainine",
+   "senses": [
+    {
+     "id": "my-favorite-is-korean-food-what-about-you",
+     "gloss": "My favorite is Korean food. What about you?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p2",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "我",
+     "simp": "我",
+     "pinyin": "wǒ",
+     "en": "I"
+    },
+    {
+     "trad": "最",
+     "simp": "最",
+     "pinyin": "zuì",
+     "en": "most"
+    },
+    {
+     "trad": "喜歡",
+     "simp": "喜欢",
+     "pinyin": "xǐhuan",
+     "en": "to like"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "韓國",
+     "simp": "韩国",
+     "pinyin": "Hán guó",
+     "en": "Korea"
+    },
+    {
+     "trad": "菜",
+     "simp": "菜",
+     "pinyin": "cài",
+     "en": "cuisine"
+    },
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "呢",
+     "simp": "呢",
+     "pinyin": "ne",
+     "en": "and you?"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np2.mp3",
+    "label": "我最喜歡吃韓國菜，你呢？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
    "id": "pb-xiang-想",
    "kind": "word",
    "trad": "想",
@@ -18697,6 +23805,82 @@
     "src": "lessons/mftgu_s1_l05/audio/Vv13.mp3",
     "label": "現在 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-xiao-li-ni-zui-xi-huan-chi-shen-me-小李你最喜欢吃什么",
+   "kind": "phrase",
+   "trad": "小李，妳最喜歡吃什麼？",
+   "simp": "小李，你最喜欢吃什么？",
+   "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
+   "pinyinPlain": "xiaolinizuixihuanchishenme",
+   "senses": [
+    {
+     "id": "xiao-li-what-s-your-favorite-thing-to-eat",
+     "gloss": "Xiao Li, what's your favorite thing to eat?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p1",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "小李",
+     "simp": "小李",
+     "pinyin": "xiáo Lǐ",
+     "en": "Xiao Li (a name)"
+    },
+    {
+     "trad": "妳",
+     "simp": "你",
+     "pinyin": "nǐ",
+     "en": "you"
+    },
+    {
+     "trad": "最",
+     "simp": "最",
+     "pinyin": "zuì",
+     "en": "most"
+    },
+    {
+     "trad": "喜歡",
+     "simp": "喜欢",
+     "pinyin": "xǐhuan",
+     "en": "to like"
+    },
+    {
+     "trad": "吃",
+     "simp": "吃",
+     "pinyin": "chī",
+     "en": "to eat"
+    },
+    {
+     "trad": "什麼",
+     "simp": "什么",
+     "pinyin": "shénme",
+     "en": "what"
+    }
+   ],
+   "examples": [],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np1.mp3",
+    "label": "小李，你最喜歡吃什麼？ · ⚡ natural",
+    "real": true
    }
   },
   {
@@ -19230,23 +24414,35 @@
    "words": [],
    "examples": [
     {
-     "trad": "妳喜歡咖啡還是茶？",
-     "simp": "你喜欢咖啡还是茶？",
-     "pinyin": "Nǐ xǐ huan kā fēi hái shì chá",
-     "en": "Do you like coffee or tea?",
-     "note": "还是 already makes this a question, so you don't add 吗 at the end. In Taiwan's traditional characters: 你喜歡咖啡還是茶？",
-     "href": "#/practice/cp_2026_11_10_chat",
-     "sourceId": "cp_2026_11_10_chat",
-     "itemId": "s13",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 9–10 chat",
+     "trad": "小李，妳最喜歡吃什麼？",
+     "simp": "小李，你最喜欢吃什么？",
+     "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
+     "en": "Xiao Li, what's your favorite thing to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
+      {
+       "trad": "小李",
+       "simp": "小李",
+       "pinyin": "xiáo Lǐ",
+       "en": "Xiao Li (a name)"
+      },
       {
        "trad": "妳",
        "simp": "你",
        "pinyin": "nǐ",
        "en": "you"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
       },
       {
        "trad": "喜歡",
@@ -19255,52 +24451,168 @@
        "en": "to like"
       },
       {
-       "trad": "咖啡",
-       "simp": "咖啡",
-       "pinyin": "kāfēi",
-       "en": "coffee"
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
       },
       {
-       "trad": "還是",
-       "simp": "还是",
-       "pinyin": "háishì",
-       "en": "or (in questions)"
-      },
-      {
-       "trad": "茶",
-       "simp": "茶",
-       "pinyin": "chá",
-       "en": "tea"
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
       }
      ]
     },
     {
-     "trad": "……妳不喜歡待在家裡？",
-     "simp": "……你不喜欢待在家里？",
-     "pinyin": "……Nǐ bù xǐ huan dāi zài jiā lǐ",
-     "en": "...You don't like staying at home?",
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l07",
-     "sourceId": "mftgu_s1_l07",
-     "itemId": "d12",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d2",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L07 你問我為什麼",
-     "words": []
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
+      }
+     ]
     },
     {
-     "trad": "沒有人喜歡待在家裡啊",
-     "simp": "没有人喜欢待在家里啊",
-     "pinyin": "Méi yǒu rén xǐ huan dāi zài jiā lǐ a",
-     "en": "Nobody likes staying at home.",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l07",
-     "sourceId": "mftgu_s1_l07",
-     "itemId": "d13",
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
      "origin": "lesson",
      "kind": "podcast",
-     "short": "MFTGU L07 你問我為什麼",
-     "words": []
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
     }
    ],
    "audio": {
@@ -19940,10 +25252,384 @@
     }
    ],
    "words": [],
-   "examples": [],
+   "examples": [
+    {
+     "trad": "等一下就要去了",
+     "simp": "等一下就要去了",
+     "pinyin": "Děng yī xià jiù yào qù le",
+     "en": "We're going in just a second.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d10",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "等一下",
+       "simp": "等一下",
+       "pinyin": "děng yí xià",
+       "en": "in a moment"
+      },
+      {
+       "trad": "就",
+       "simp": "就",
+       "pinyin": "jiù",
+       "en": "right then"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "particle"
+      }
+     ]
+    },
+    {
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    },
+    {
+     "trad": "好啊，但妳要去哪吃？",
+     "simp": "好啊，但你要去哪吃？",
+     "pinyin": "Hǎo a dàn nǐ yào qù nǎ chī",
+     "en": "OK, but where are you going to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d5",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "好",
+       "simp": "好",
+       "pinyin": "hǎo",
+       "en": "OK"
+      },
+      {
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "particle"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "want"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "哪",
+       "simp": "哪",
+       "pinyin": "nǎ",
+       "en": "where"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      }
+     ]
+    }
+   ],
    "audio": {
     "src": "lessons/mftgu_s1_l06/audio/Vv12.mp3",
     "label": "要 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-yao-bu-yao-要不要",
+   "kind": "phrase",
+   "trad": "要不要",
+   "simp": "要不要",
+   "pinyin": "yào bù yào",
+   "pinyinPlain": "yaobuyao",
+   "senses": [
+    {
+     "id": "do-you-want",
+     "gloss": "do you want...?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v7",
+       "group": "",
+       "note": "Say yào bú yào. 不 rises before the 4th 要. A-not-A question, beside 嗎."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    },
+    {
+     "trad": "妳要不要跟我一起去？",
+     "simp": "你要不要跟我一起去？",
+     "pinyin": "Nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p6",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv7.mp3",
+    "label": "要不要 · synthetic",
     "real": false
    }
   },
@@ -20019,29 +25705,29 @@
    "words": [],
    "examples": [
     {
-     "trad": "妳也有腳。",
-     "simp": "你也有脚。",
-     "pinyin": "Nǐ yě yǒu jiǎo",
-     "en": "You have feet too.",
-     "note": "You have feet too. 也 means also or too, and it goes before the verb 有. Dictionary tones: nǐ yě yǒu jiǎo. One reading for this row of 3rd tones: ní yé yóu jiǎo.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s11",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "trad": "他們也有麵嗎？",
+     "simp": "他们也有面吗？",
+     "pinyin": "Tā men yě yǒu miàn ma",
+     "en": "Do they have noodles too?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d11",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
+       "trad": "他們",
+       "simp": "他们",
+       "pinyin": "tāmen",
+       "en": "they"
       },
       {
        "trad": "也",
        "simp": "也",
-       "pinyin": "yě",
-       "en": "also; too"
+       "pinyin": "yé",
+       "en": "also"
       },
       {
        "trad": "有",
@@ -20050,82 +25736,148 @@
        "en": "have"
       },
       {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
-      }
-     ]
-    },
-    {
-     "trad": "妳也喜歡嗎？",
-     "simp": "你也喜欢吗？",
-     "pinyin": "Nǐ yě xǐhuan ma?",
-     "en": "Do you like them too?",
-     "note": "Question pattern: Do you like them too? The shoes are the object, and they are understood. 吗 sits at the end and makes a yes/no question. Word order stays subject 你, then 也, then 喜欢, then 吗. This asks whether you like them. The message that was actually sent is the next card, a statement, with no 吗.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s15",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
-      },
-      {
-       "trad": "也",
-       "simp": "也",
-       "pinyin": "yě",
-       "en": "also; too"
-      },
-      {
-       "trad": "喜歡",
-       "simp": "喜欢",
-       "pinyin": "xǐhuan",
-       "en": "to like (the shoes are understood, not repeated)"
+       "trad": "麵",
+       "simp": "面",
+       "pinyin": "miàn",
+       "en": "noodles"
       },
       {
        "trad": "嗎",
        "simp": "吗",
        "pinyin": "ma",
-       "en": "yes/no question particle"
+       "en": "question"
       }
      ]
     },
     {
-     "trad": "妳也喜歡！",
-     "simp": "你也喜欢！",
-     "pinyin": "Nǐ yě xǐhuan!",
-     "en": "You like them too!",
-     "note": "This is the line that was sent. Meaning: You like them too. 你 is the subject. The sentence that means “I like you too” is 我也喜欢你, on the next card. In that sentence 你 comes after 喜欢 and is the object. It was a different sentence, added here for comparison.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s16",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you (the subject)"
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
       },
       {
        "trad": "也",
        "simp": "也",
        "pinyin": "yě",
-       "en": "also; too"
+       "en": "also"
       },
       {
        "trad": "喜歡",
        "simp": "喜欢",
        "pinyin": "xǐhuan",
-       "en": "to like (them; the object is understood)"
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    },
+    {
+     "trad": "他們也有麵嗎？",
+     "simp": "他们也有面吗？",
+     "pinyin": "Tā men yě yǒu miàn ma",
+     "en": "Do they have noodles too?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "他們",
+       "simp": "他们",
+       "pinyin": "tāmen",
+       "en": "they"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yé",
+       "en": "also"
+      },
+      {
+       "trad": "有",
+       "simp": "有",
+       "pinyin": "yǒu",
+       "en": "have"
+      },
+      {
+       "trad": "麵",
+       "simp": "面",
+       "pinyin": "miàn",
+       "en": "noodles"
+      },
+      {
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
       }
      ]
     }
@@ -20512,6 +26264,259 @@
    }
   },
   {
+   "id": "pb-yi-qi-一起",
+   "kind": "word",
+   "trad": "一起",
+   "simp": "一起",
+   "pinyin": "yī qǐ",
+   "pinyinPlain": "yiqi",
+   "senses": [
+    {
+     "id": "together",
+     "gloss": "together",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v8",
+       "group": "",
+       "note": "Show notes print yīqǐ. Say yì qǐ: 一 falls before the 3rd 起."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    },
+    {
+     "trad": "我要去吃晚餐了，妳要不要跟我一起去？",
+     "simp": "我要去吃晚餐了，你要不要跟我一起去？",
+     "pinyin": "Wǒ yào qù chī wǎn cān le nǐ yào bù yào gēn wǒ yī qǐ qù",
+     "en": "I'm going to go have dinner. Do you want to come with me?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "要",
+       "simp": "要",
+       "pinyin": "yào",
+       "en": "going to"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "晚餐",
+       "simp": "晚餐",
+       "pinyin": "wǎn cān",
+       "en": "dinner"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "change of state"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "要不要",
+       "simp": "要不要",
+       "pinyin": "yào bú yào",
+       "en": "do you want"
+      },
+      {
+       "trad": "跟",
+       "simp": "跟",
+       "pinyin": "gēn",
+       "en": "with"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "me"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "to go"
+      }
+     ]
+    },
+    {
+     "trad": "那好，我們一起去吧，我餓了！",
+     "simp": "那好，我们一起去吧，我饿了！",
+     "pinyin": "Nà hǎo wǒ men yī qǐ qù ba wǒ è le",
+     "en": "All right then. Let's go together. I'm hungry.",
+     "note": "那好: show notes write 那好 (nà hǎo). A second transcription sometimes hears 哪好; 那 and 哪 are close here. Kept the show-note wording.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p15",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "那好",
+       "simp": "那好",
+       "pinyin": "nà hǎo",
+       "en": "all right then"
+      },
+      {
+       "trad": "我們",
+       "simp": "我们",
+       "pinyin": "wǒmen",
+       "en": "we"
+      },
+      {
+       "trad": "一起",
+       "simp": "一起",
+       "pinyin": "yì qǐ",
+       "en": "together"
+      },
+      {
+       "trad": "去",
+       "simp": "去",
+       "pinyin": "qù",
+       "en": "go"
+      },
+      {
+       "trad": "吧",
+       "simp": "吧",
+       "pinyin": "ba",
+       "en": "let's"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "餓",
+       "simp": "饿",
+       "pinyin": "è",
+       "en": "hungry"
+      },
+      {
+       "trad": "了",
+       "simp": "了",
+       "pinyin": "le",
+       "en": "now / change"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv8.mp3",
+    "label": "一起 · synthetic",
+    "real": false
+   }
+  },
+  {
    "id": "pb-yi-wei-以为",
    "kind": "word",
    "trad": "以為",
@@ -20859,29 +26864,29 @@
    "words": [],
    "examples": [
     {
-     "trad": "但是我有新鞋。",
-     "simp": "但是我有新鞋。",
-     "pinyin": "Dànshì wǒ yǒu xīn xié",
-     "en": "But I have new shoes.",
-     "note": "但是 is one word, “but”. Do not translate the 是 inside it as “is”. 有 here really means “have”. 鞋 is shoe or shoes; Chinese does not mark a plural. Some speakers say 是 in 但是 with a neutral tone (dànshi). This card keeps the full 4th, shì, the form you were given.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s05",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "trad": "他們也有麵嗎？",
+     "simp": "他们也有面吗？",
+     "pinyin": "Tā men yě yǒu miàn ma",
+     "en": "Do they have noodles too?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d11",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "但是",
-       "simp": "但是",
-       "pinyin": "dànshì",
-       "en": "but (one word; the 是 inside it is not the verb “to be”)"
+       "trad": "他們",
+       "simp": "他们",
+       "pinyin": "tāmen",
+       "en": "they"
       },
       {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yé",
+       "en": "also"
       },
       {
        "trad": "有",
@@ -20890,43 +26895,70 @@
        "en": "have"
       },
       {
-       "trad": "新",
-       "simp": "新",
-       "pinyin": "xīn",
-       "en": "new"
+       "trad": "麵",
+       "simp": "面",
+       "pinyin": "miàn",
+       "en": "noodles"
       },
       {
-       "trad": "鞋",
-       "simp": "鞋",
-       "pinyin": "xié",
-       "en": "shoe; shoes"
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
       }
      ]
     },
     {
-     "trad": "但是妳有腳。",
-     "simp": "但是你有脚。",
-     "pinyin": "Dànshì nǐ yǒu jiǎo",
-     "en": "But you have feet.",
-     "note": "Playful reply: But you have feet. 脚 is foot or feet. This card is language practice.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s09",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
+     "trad": "有啊",
+     "simp": "有啊",
+     "pinyin": "Yǒu a",
+     "en": "Sure.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d12",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
      "words": [
       {
-       "trad": "但是",
-       "simp": "但是",
-       "pinyin": "dànshì",
-       "en": "but"
+       "trad": "有",
+       "simp": "有",
+       "pinyin": "yǒu",
+       "en": "have"
       },
       {
-       "trad": "妳",
-       "simp": "你",
-       "pinyin": "nǐ",
-       "en": "you"
+       "trad": "啊",
+       "simp": "啊",
+       "pinyin": "a",
+       "en": "(yeah)"
+      }
+     ]
+    },
+    {
+     "trad": "他們也有麵嗎？",
+     "simp": "他们也有面吗？",
+     "pinyin": "Tā men yě yǒu miàn ma",
+     "en": "Do they have noodles too?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "p13",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "他們",
+       "simp": "他们",
+       "pinyin": "tāmen",
+       "en": "they"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yé",
+       "en": "also"
       },
       {
        "trad": "有",
@@ -20935,43 +26967,16 @@
        "en": "have"
       },
       {
-       "trad": "腳",
-       "simp": "脚",
-       "pinyin": "jiǎo",
-       "en": "foot; feet"
-      }
-     ]
-    },
-    {
-     "trad": "對，我有。",
-     "simp": "对，我有。",
-     "pinyin": "Duì, wǒ yǒu",
-     "en": "Yes, I do.",
-     "note": "Yes, I do. 对 here means yes, or that's right. 有 means have. The thing you have, 脚, is understood from the line before. It is not stated again.",
-     "href": "#/practice/cp_2026_11_07",
-     "sourceId": "cp_2026_11_07",
-     "itemId": "s10",
-     "origin": "conversation",
-     "kind": "conversation",
-     "short": "Nov 7 · New shoes",
-     "words": [
-      {
-       "trad": "對",
-       "simp": "对",
-       "pinyin": "duì",
-       "en": "yes; correct"
+       "trad": "麵",
+       "simp": "面",
+       "pinyin": "miàn",
+       "en": "noodles"
       },
       {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I; me"
-      },
-      {
-       "trad": "有",
-       "simp": "有",
-       "pinyin": "yǒu",
-       "en": "have (脚, feet, is understood from the line before)"
+       "trad": "嗎",
+       "simp": "吗",
+       "pinyin": "ma",
+       "en": "question"
       }
      ]
     }
@@ -20979,6 +26984,101 @@
    "audio": {
     "src": "lessons/lm_b1_l02/audio/v1.mp3",
     "label": "有 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-you-a-有啊",
+   "kind": "phrase",
+   "trad": "有啊",
+   "simp": "有啊",
+   "pinyin": "Yǒu a",
+   "pinyinPlain": "youa",
+   "senses": [
+    {
+     "id": "sure",
+     "gloss": "Sure.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Listen & repeat",
+       "itemId": "p14",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [
+    {
+     "trad": "有",
+     "simp": "有",
+     "pinyin": "yǒu",
+     "en": "have"
+    },
+    {
+     "trad": "啊",
+     "simp": "啊",
+     "pinyin": "a",
+     "en": "(yeah)"
+    }
+   ],
+   "examples": [
+    {
+     "trad": "有啊，我在喝東西",
+     "simp": "有啊，我在喝东西",
+     "pinyin": "Yǒu a wǒ zài hē dōng xi",
+     "en": "Yeah, I’m drinking something.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l05",
+     "sourceId": "mftgu_s1_l05",
+     "itemId": "d8",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L05 你聽得到嗎",
+     "words": []
+    },
+    {
+     "trad": "有啊，我在喝東西",
+     "simp": "有啊，我在喝东西",
+     "pinyin": "Yǒu a wǒ zài hē dōng xi",
+     "en": "Yeah, I’m drinking something.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l05",
+     "sourceId": "mftgu_s1_l05",
+     "itemId": "p9",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L05 你聽得到嗎",
+     "words": []
+    },
+    {
+     "trad": "有啊！我的英文名字叫",
+     "simp": "有啊！我的英文名字叫",
+     "pinyin": "Yǒu a Wǒ de yīng wén míng zi jiào",
+     "en": "Yes! My English name is Lee.",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l04",
+     "sourceId": "mftgu_s1_l04",
+     "itemId": "d11",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L04 你叫什麼名字",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Np14.mp3",
+    "label": "有啊 · ⚡ natural",
     "real": true
    }
   },
@@ -23410,6 +29510,247 @@
    "audio": {
     "src": "conversations/cp_2026_11_07/audio/s07.mp3",
     "label": "棕色的鞋 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-zui-最",
+   "kind": "word",
+   "trad": "最",
+   "simp": "最",
+   "pinyin": "zuì",
+   "pinyinPlain": "zui",
+   "senses": [
+    {
+     "id": "most",
+     "gloss": "most",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "mftgu_s1_l08",
+       "kind": "podcast",
+       "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
+       "short": "MFTGU L08 你最喜歡吃什麼",
+       "source": "Podcast: Mandarin From the Ground Up",
+       "date": "2026-11-17T09:00-05:00",
+       "href": "#/lesson/mftgu_s1_l08",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v1",
+       "group": "",
+       "note": "4th, full fall. z = no puff (Position 3)."
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "小李，妳最喜歡吃什麼？",
+     "simp": "小李，你最喜欢吃什么？",
+     "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
+     "en": "Xiao Li, what's your favorite thing to eat?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "小李",
+       "simp": "小李",
+       "pinyin": "xiáo Lǐ",
+       "en": "Xiao Li (a name)"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "什麼",
+       "simp": "什么",
+       "pinyin": "shénme",
+       "en": "what"
+      }
+     ]
+    },
+    {
+     "trad": "我最喜歡吃韓國菜，妳呢？",
+     "simp": "我最喜欢吃韩国菜，你呢？",
+     "pinyin": "Wǒ zuì xǐ huan chī hán guó cài nǐ ne",
+     "en": "My favorite is Korean food. What about you?",
+     "note": "",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "妳",
+       "simp": "你",
+       "pinyin": "nǐ",
+       "en": "you"
+      },
+      {
+       "trad": "呢",
+       "simp": "呢",
+       "pinyin": "ne",
+       "en": "and you?"
+      }
+     ]
+    },
+    {
+     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
+     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
+     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
+     "en": "I also like to eat Korean food, but my favorite is ramen.",
+     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
+     "href": "#/lesson/mftgu_s1_l08",
+     "sourceId": "mftgu_s1_l08",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "podcast",
+     "short": "MFTGU L08 你最喜歡吃什麼",
+     "words": [
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wó",
+       "en": "I"
+      },
+      {
+       "trad": "也",
+       "simp": "也",
+       "pinyin": "yě",
+       "en": "also"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "韓國",
+       "simp": "韩国",
+       "pinyin": "Hán guó",
+       "en": "Korea"
+      },
+      {
+       "trad": "菜",
+       "simp": "菜",
+       "pinyin": "cài",
+       "en": "cuisine"
+      },
+      {
+       "trad": "但",
+       "simp": "但",
+       "pinyin": "dàn",
+       "en": "but"
+      },
+      {
+       "trad": "我",
+       "simp": "我",
+       "pinyin": "wǒ",
+       "en": "I"
+      },
+      {
+       "trad": "最",
+       "simp": "最",
+       "pinyin": "zuì",
+       "en": "most"
+      },
+      {
+       "trad": "喜歡",
+       "simp": "喜欢",
+       "pinyin": "xǐhuan",
+       "en": "to like"
+      },
+      {
+       "trad": "吃",
+       "simp": "吃",
+       "pinyin": "chī",
+       "en": "to eat"
+      },
+      {
+       "trad": "拉麵",
+       "simp": "拉面",
+       "pinyin": "lā miàn",
+       "en": "ramen"
+      }
+     ]
+    }
+   ],
+   "audio": {
+    "src": "lessons/mftgu_s1_l08/audio/Vv1.mp3",
+    "label": "最 · synthetic",
     "real": false
    }
   },

@@ -9,7 +9,7 @@ import { cardHtml, shortMeaning } from "../phrasebook/card.mjs";
 import { foldPinyin, searchEntries, stripPunct } from "../phrasebook/search.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
-const OLD = ["lm_b1_l01", "lm_b1_l02", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06", "mftgu_s1_l07"];
+const OLD = ["lm_b1_l01", "lm_b1_l02", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06", "mftgu_s1_l07", "mftgu_s1_l08"];
 
 function loadIndex() {
   return JSON.parse(fs.readFileSync(path.join(root, "phrasebook/index.json"), "utf8"));
@@ -166,16 +166,16 @@ test("real index counts, merges, and conversation provenance", () => {
   assert.equal(index.schema, 1);
   assert.equal(index.regen, "node phrasebook/build.mjs");
   assert.deepEqual(index.counts, {
-    lessons: 9,
+    lessons: 10,
     conversations: 3,
-    entries: 326,
-    words: 148,
-    phrases: 178,
-    senses: 409,
-    withAudio: 294,
-    withExamples: 139,
-    withBreakdown: 46,
-    multiSource: 42,
+    entries: 358,
+    words: 163,
+    phrases: 195,
+    senses: 444,
+    withAudio: 326,
+    withExamples: 160,
+    withBreakdown: 63,
+    multiSource: 44,
     incorrectExcluded: 1,
   });
   assert.equal(index.charMapConflicts.length, 0);
@@ -383,8 +383,8 @@ test("list cards stay closed and keep the full meaning in the panel", () => {
 });
 
 test("existing lesson ids, practice route, and phrasebook route stay in place", () => {
-  const diff = execSync("git diff --name-only origin/main -- lessons conversations/cp_2026_11_07/entry.json scripts/build_conversation.py standalone", { cwd: root }).toString().trim();
-  assert.equal(diff, "");
+  const diff = execSync("git diff --name-only origin/main -- lessons conversations/cp_2026_11_07/entry.json scripts/build_conversation.py standalone", { cwd: root }).toString().trim().split("\n").filter(Boolean);
+  for (const file of diff) assert.ok(file === "lessons/index.json" || file.startsWith("lessons/mftgu_s1_l08/"), file);
   const oldCatalog = JSON.parse(execSync("git show origin/main:conversations/index.json", { cwd: root }).toString());
   const nowCatalog = JSON.parse(fs.readFileSync(path.join(root, "conversations/index.json"), "utf8"));
   assert.deepEqual(nowCatalog.entries.find((e) => e.id === "cp_2026_11_07"), oldCatalog.entries.find((e) => e.id === "cp_2026_11_07"));
@@ -407,7 +407,7 @@ test("existing lesson ids, practice route, and phrasebook route stay in place", 
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*font-size:16px/);
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*min-height:44px/);
   const sw = fs.readFileSync(path.join(root, "sw.js"), "utf8");
-  assert.match(sw, /laoshi-20261110chat/);
+  assert.match(sw, /laoshi-20261117l08/);
   assert.match(sw, /phrasebook\/page\.js/);
   for (const file of ["phrasebook/page.js", "phrasebook/page.css", "phrasebook/SCHEMA.md", "README.md"]) {
     const text = fs.readFileSync(path.join(root, file), "utf8");
