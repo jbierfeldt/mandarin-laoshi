@@ -4,20 +4,30 @@
  "regen": "node phrasebook/build.mjs",
  "description": "Words and phrases copied from lesson files and conversation entries. No extra dictionary, and no record of how well a word is known.",
  "counts": {
-  "lessons": 10,
+  "lessons": 12,
   "conversations": 3,
-  "entries": 358,
-  "words": 163,
-  "phrases": 195,
-  "senses": 444,
-  "withAudio": 326,
-  "withExamples": 160,
+  "entries": 405,
+  "words": 186,
+  "phrases": 219,
+  "senses": 500,
+  "withAudio": 373,
+  "withExamples": 185,
   "withBreakdown": 63,
-  "multiSource": 44,
+  "multiSource": 57,
   "incorrectExcluded": 1
  },
  "inputs": {
   "lessons": [
+   {
+    "id": "lm_b1_l04",
+    "vocab": 15,
+    "lines": 17
+   },
+   {
+    "id": "lm_b1_l03",
+    "vocab": 23,
+    "lines": 16
+   },
    {
     "id": "mftgu_s1_l08",
     "vocab": 18,
@@ -98,6 +108,38 @@
  },
  "charMapConflicts": [],
  "sources": [
+  {
+   "origin": "lesson",
+   "id": "lm_b1_l04",
+   "kind": "textbook",
+   "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+   "short": "L04 電腦公司 · prep",
+   "source": "Textbook: Let's Learn Mandarin Book 1",
+   "date": "2026-11-17T09:41-05:00",
+   "href": "#/lesson/lm_b1_l04",
+   "script": "",
+   "sectionType": "",
+   "sectionTitle": "",
+   "itemId": "",
+   "group": "",
+   "note": ""
+  },
+  {
+   "origin": "lesson",
+   "id": "lm_b1_l03",
+   "kind": "textbook",
+   "title": "Lesson 03 · She Is Not a Student 她不是學生",
+   "short": "L03 她不是學生 · prep",
+   "source": "Textbook: Let's Learn Mandarin Book 1",
+   "date": "2026-11-17T09:40-05:00",
+   "href": "#/lesson/lm_b1_l03",
+   "script": "",
+   "sectionType": "",
+   "sectionTitle": "",
+   "itemId": "",
+   "group": "",
+   "note": ""
+  },
   {
    "origin": "lesson",
    "id": "mftgu_s1_l08",
@@ -311,6 +353,7 @@
   "來": "来",
   "個": "个",
   "們": "们",
+  "兒": "儿",
   "兩": "两",
   "問": "问",
   "嗎": "吗",
@@ -319,15 +362,19 @@
   "壞": "坏",
   "妳": "你",
   "姊": "姐",
+  "媽": "妈",
   "學": "学",
   "對": "对",
   "帥": "帅",
+  "師": "师",
   "廳": "厅",
   "張": "张",
   "換": "换",
   "時": "时",
+  "書": "书",
   "會": "会",
   "東": "东",
+  "業": "业",
   "樣": "样",
   "歡": "欢",
   "沒": "没",
@@ -337,7 +384,10 @@
   "煙": "烟",
   "牠": "它",
   "現": "现",
+  "畢": "毕",
+  "結": "结",
   "聽": "听",
+  "腦": "脑",
   "腳": "脚",
   "臺": "台",
   "興": "兴",
@@ -355,7 +405,9 @@
   "這": "这",
   "還": "还",
   "邊": "边",
+  "銀": "银",
   "開": "开",
+  "電": "电",
   "靚": "靓",
   "韓": "韩",
   "頭": "头",
@@ -832,6 +884,88 @@
    }
   },
   {
+   "id": "pb-ba-ba-爸爸",
+   "kind": "word",
+   "trad": "爸爸",
+   "simp": "爸爸",
+   "pinyin": "bà ba",
+   "pinyinPlain": "baba",
+   "senses": [
+    {
+     "id": "father-dad",
+     "gloss": "father, dad",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v1",
+       "group": "Words 1-12",
+       "note": "second 爸 is neutral, short and light"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "明文，請問，妳爸爸，媽媽在哪裡工作？",
+     "simp": "明文，请问，你爸爸，妈妈在哪里工作？",
+     "pinyin": "Míng wén qǐng wèn nǐ bà ba mā ma zài nǎ lǐ gōng zuò",
+     "en": "Mingwen, may I ask, where do your father and mother work?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "妳爸爸的工作忙不忙？",
+     "simp": "你爸爸的工作忙不忙？",
+     "pinyin": "Nǐ bà ba de gōng zuò máng bù máng",
+     "en": "Is your father’s work busy?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v1.mp3",
+    "label": "爸爸 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-bang-棒",
    "kind": "word",
    "trad": "棒",
@@ -968,6 +1102,74 @@
    "audio": null
   },
   {
+   "id": "pb-bi-ye-le-毕业了",
+   "kind": "phrase",
+   "trad": "畢業了",
+   "simp": "毕业了",
+   "pinyin": "bì yè le",
+   "pinyinPlain": "biyele",
+   "senses": [
+    {
+     "id": "graduated",
+     "gloss": "graduated",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v18",
+       "group": "Phrases 18-21",
+       "note": "了 is neutral and light"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "她不是學生，她大學畢業了。",
+     "simp": "她不是学生，她大学毕业了。",
+     "pinyin": "Tā bú shì xué shēng tā dà xué bì yè le",
+     "en": "She isn’t a student; she graduated from college.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "她不是學生，她大學畢業了。",
+     "simp": "她不是学生，她大学毕业了。",
+     "pinyin": "Tā bú shì xué shēng tā dà xué bì yè le",
+     "en": "She isn’t a student; she graduated from college.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v18.mp3",
+    "label": "畢業了 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-bu-不",
    "kind": "word",
    "trad": "不",
@@ -975,6 +1177,28 @@
    "pinyin": "bu",
    "pinyinPlain": "bu",
    "senses": [
+    {
+     "id": "no-not",
+     "gloss": "no, not",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v2",
+       "group": "Words 1-17",
+       "note": "bú before a 4th tone (不是 bú shì); bù before 1st/2nd/3rd (不工作 bù gōngzuò)"
+      }
+     ]
+    },
     {
      "id": "not",
      "gloss": "not",
@@ -1081,9 +1305,9 @@
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l01/audio/Vv7.mp3",
-    "label": "不 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l03/audio/v2.mp3",
+    "label": "不 · REAL",
+    "real": true
    }
   },
   {
@@ -3234,6 +3458,88 @@
    }
   },
   {
+   "id": "pb-da-xue-大学",
+   "kind": "word",
+   "trad": "大學",
+   "simp": "大学",
+   "pinyin": "dà xué",
+   "pinyinPlain": "daxue",
+   "senses": [
+    {
+     "id": "university-college",
+     "gloss": "university, college",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v4",
+       "group": "Words 1-17",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸也是老師，他在大學教法文。",
+     "simp": "我爸爸也是老师，他在大学教法文。",
+     "pinyin": "Wǒ bà ba yě shì lǎo shī tā zài dà xué jiāo Fǎ wén",
+     "en": "My father is also a teacher; he teaches French at a college.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "她不是學生，她大學畢業了。",
+     "simp": "她不是学生，她大学毕业了。",
+     "pinyin": "Tā bú shì xué shēng tā dà xué bì yè le",
+     "en": "She isn’t a student; she graduated from college.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸也是老師，他在大學教法文。",
+     "simp": "我爸爸也是老师，他在大学教法文。",
+     "pinyin": "Wǒ bà ba yě shì lǎo shī tā zài dà xué jiāo Fǎ wén",
+     "en": "My father is also a teacher. He teaches French at a college. (template / from the dialogue)",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "y6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v4.mp3",
+    "label": "大學 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-de-的",
    "kind": "word",
    "trad": "的",
@@ -3830,6 +4136,88 @@
    }
   },
   {
+   "id": "pb-dian-nao-电脑",
+   "kind": "word",
+   "trad": "電腦",
+   "simp": "电脑",
+   "pinyin": "diàn nǎo",
+   "pinyinPlain": "diannao",
+   "senses": [
+    {
+     "id": "computer",
+     "gloss": "computer",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v10",
+       "group": "Words 1-17",
+       "note": "nao: n + ao (‘ow’)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸在電腦公司工作。",
+     "simp": "我爸爸在电脑公司工作。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò",
+     "en": "My father works at a computer company. (template: swap in your real family)",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "y1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v10.mp3",
+    "label": "電腦 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-di-di-弟弟",
    "kind": "word",
    "trad": "弟弟",
@@ -3868,6 +4256,20 @@
      "pinyin": "Wǒ yǒu yī ge jiě jie liǎng ge dì di Nǐ ne",
      "en": "I have one older sister and two younger brothers. And you?",
      "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "r2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
+     "trad": "我有一個姊姊，兩個弟弟。妳呢？",
+     "simp": "我有一个姐姐，两个弟弟。你呢？",
+     "pinyin": "Wǒ yǒu yī ge jiě jie liǎng ge dì di Nǐ ne",
+     "en": "I have one older sister and two younger brothers. And you?",
+     "note": "",
      "href": "#/lesson/lm_b1_l02",
      "sourceId": "lm_b1_l02",
      "itemId": "d4",
@@ -3885,20 +4287,6 @@
      "href": "#/lesson/lm_b1_l02",
      "sourceId": "lm_b1_l02",
      "itemId": "d7",
-     "origin": "lesson",
-     "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
-     "words": []
-    },
-    {
-     "trad": "我沒有弟弟，也沒有妹妹。",
-     "simp": "我没有弟弟，也没有妹妹。",
-     "pinyin": "Wǒ méi yǒu dì di yě méi yǒu mèi mei",
-     "en": "I have no younger brother and no younger sister. (template)",
-     "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "y6",
      "origin": "lesson",
      "kind": "textbook",
      "short": "L02 兩個弟弟 · prep",
@@ -4022,14 +4410,36 @@
        "note": ""
       }
      ]
+    },
+    {
+     "id": "both-all",
+     "gloss": "both, all",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v16",
+       "group": "Words 1-17",
+       "note": "goes in front of the verb"
+      }
+     ]
     }
    ],
    "words": [],
    "examples": [],
    "audio": {
-    "src": "lessons/mftgu_s1_l02/audio/Vv9.mp3",
-    "label": "都 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l03/audio/v16.mp3",
+    "label": "都 · REAL",
+    "real": true
    }
   },
   {
@@ -5168,6 +5578,60 @@
    }
   },
   {
+   "id": "pb-er-zi-儿子",
+   "kind": "word",
+   "trad": "兒子",
+   "simp": "儿子",
+   "pinyin": "ér zi",
+   "pinyinPlain": "erzi",
+   "senses": [
+    {
+     "id": "son",
+     "gloss": "son",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v13",
+       "group": "Words 1-17",
+       "note": "子 is neutral"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v13.mp3",
+    "label": "兒子 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-e-wo-men-zai-shuo-zhong-wen-a-呃我们在说中文啊",
    "kind": "phrase",
    "trad": "呃。我們在說中文啊",
@@ -5203,6 +5667,113 @@
    "audio": {
     "src": "lessons/mftgu_s1_l05/audio/Np6.mp3",
     "label": "呃。。。我們在說中文啊 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-fa-guo-法国",
+   "kind": "word",
+   "trad": "法國",
+   "simp": "法国",
+   "pinyin": "Fǎ guó",
+   "pinyinPlain": "faguo",
+   "senses": [
+    {
+     "id": "france",
+     "gloss": "France",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v22",
+       "group": "Supplementary 22-23",
+       "note": "法 is a half-third ↓ before 國"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v22.mp3",
+    "label": "法國 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-fa-wen-法文",
+   "kind": "word",
+   "trad": "法文",
+   "simp": "法文",
+   "pinyin": "Fǎ wén",
+   "pinyinPlain": "fawen",
+   "senses": [
+    {
+     "id": "french-language",
+     "gloss": "French language",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v12",
+       "group": "Words 1-12",
+       "note": "法 is a half-third ↓ before 文"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸也是老師，他在大學教法文。",
+     "simp": "我爸爸也是老师，他在大学教法文。",
+     "pinyin": "Wǒ bà ba yě shì lǎo shī tā zài dà xué jiāo Fǎ wén",
+     "en": "My father is also a teacher; he teaches French at a college.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸也是老師，他在大學教法文。",
+     "simp": "我爸爸也是老师，他在大学教法文。",
+     "pinyin": "Wǒ bà ba yě shì lǎo shī tā zài dà xué jiāo Fǎ wén",
+     "en": "My father is also a teacher. He teaches French at a college. (template / from the dialogue)",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "y6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v12.mp3",
+    "label": "法文 · REAL",
     "real": true
    }
   },
@@ -5415,6 +5986,20 @@
      "pinyin": "Nǐ yǒu gē ge ma",
      "en": "Do you have an older brother?",
      "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "r4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
+     "trad": "妳有哥哥嗎？",
+     "simp": "你有哥哥吗？",
+     "pinyin": "Nǐ yǒu gē ge ma",
+     "en": "Do you have an older brother?",
+     "note": "",
      "href": "#/lesson/lm_b1_l02",
      "sourceId": "lm_b1_l02",
      "itemId": "d6",
@@ -5432,20 +6017,6 @@
      "href": "#/lesson/lm_b1_l02",
      "sourceId": "lm_b1_l02",
      "itemId": "d7",
-     "origin": "lesson",
-     "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
-     "words": []
-    },
-    {
-     "trad": "我有一個哥哥。",
-     "simp": "我有一个哥哥。",
-     "pinyin": "Wǒ yǒu yī ge gē ge",
-     "en": "I have one older brother. (template: swap in your real family)",
-     "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "y5",
      "origin": "lesson",
      "kind": "textbook",
      "short": "L02 兩個弟弟 · prep",
@@ -5672,6 +6243,170 @@
    "audio": {
     "src": "lessons/mftgu_s1_l04/audio/Np12.mp3",
     "label": "跟你的中文名字一樣 · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-gong-si-公司",
+   "kind": "word",
+   "trad": "公司",
+   "simp": "公司",
+   "pinyin": "gōng sī",
+   "pinyinPlain": "gongsi",
+   "senses": [
+    {
+     "id": "company",
+     "gloss": "company",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v11",
+       "group": "Words 1-17",
+       "note": "s = Position 3 (tip on the top teeth)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸在電腦公司工作。",
+     "simp": "我爸爸在电脑公司工作。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò",
+     "en": "My father works at a computer company. (template: swap in your real family)",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "y1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v11.mp3",
+    "label": "公司 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-gong-zuo-工作",
+   "kind": "word",
+   "trad": "工作",
+   "simp": "工作",
+   "pinyin": "gōng zuò",
+   "pinyinPlain": "gongzuo",
+   "senses": [
+    {
+     "id": "to-work-work",
+     "gloss": "to work; work",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v7",
+       "group": "Words 1-17",
+       "note": "g = no puff (sKill)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "明文，請問，妳爸爸，媽媽在哪裡工作？",
+     "simp": "明文，请问，你爸爸，妈妈在哪里工作？",
+     "pinyin": "Míng wén qǐng wèn nǐ bà ba mā ma zài nǎ lǐ gōng zuò",
+     "en": "Mingwen, may I ask, where do your father and mother work?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "妳爸爸的工作忙不忙？",
+     "simp": "你爸爸的工作忙不忙？",
+     "pinyin": "Nǐ bà ba de gōng zuò máng bù máng",
+     "en": "Is your father’s work busy?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v7.mp3",
+    "label": "工作 · REAL",
     "real": true
    }
   },
@@ -6330,6 +7065,127 @@
     "src": "lessons/mftgu_s1_l06/audio/Vv7.mp3",
     "label": "還在 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-hai-zi-孩子",
+   "kind": "word",
+   "trad": "孩子",
+   "simp": "孩子",
+   "pinyin": "hái zi",
+   "pinyinPlain": "haizi",
+   "senses": [
+    {
+     "id": "child",
+     "gloss": "child",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v12",
+       "group": "Words 1-17",
+       "note": "子 is neutral"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "她喜歡小孩子，她說教書不累。",
+     "simp": "她喜欢小孩子，她说教书不累。",
+     "pinyin": "Tā xǐ huān xiǎo hái zi tā shuō jiāo shū bú lèi",
+     "en": "She likes kids; she says teaching isn’t tiring.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "妳姊姊結婚了，他們有孩子嗎？",
+     "simp": "你姐姐结婚了，他们有孩子吗？",
+     "pinyin": "Nǐ jiě jie jié hūn le tā men yǒu hái zi ma",
+     "en": "Your older sister is married — do they have children?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d5",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v12.mp3",
+    "label": "孩子 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-han-和",
+   "kind": "word",
+   "trad": "和",
+   "simp": "和",
+   "pinyin": "hàn",
+   "pinyinPlain": "han",
+   "senses": [
+    {
+     "id": "and",
+     "gloss": "and",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v23",
+       "group": "Supplementary 22-23",
+       "note": "textbook lists hàn / hé; Taiwan often says hàn"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v23.mp3",
+    "label": "和 · REAL",
+    "real": true
    }
   },
   {
@@ -7563,20 +8419,20 @@
      "gloss": "very",
      "sources": [
       {
-       "origin": "conversation",
-       "id": "cp_2026_11_07",
-       "kind": "conversation",
-       "title": "New shoes & playful replies",
-       "short": "Nov 7 · New shoes",
-       "source": "Conversation Practice",
-       "date": "2026-11-07T12:00:00-05:00",
-       "href": "#/practice/cp_2026_11_07",
-       "script": "hans",
-       "sectionType": "lines",
-       "sectionTitle": "Tail, whether, and a strange sentence",
-       "itemId": "s27",
-       "group": "",
-       "note": ""
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v5",
+       "group": "Words 1-12",
+       "note": "usually a half-third ↓ before the next word (很忙, 很累)"
       }
      ]
     },
@@ -7800,9 +8656,9 @@
     }
    ],
    "audio": {
-    "src": "conversations/cp_2026_11_07/audio/v03.mp3",
-    "label": "很 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l04/audio/v5.mp3",
+    "label": "很 · REAL",
+    "real": true
    }
   },
   {
@@ -8821,6 +9677,45 @@
    }
   },
   {
+   "id": "pb-jiao-教",
+   "kind": "word",
+   "trad": "教",
+   "simp": "教",
+   "pinyin": "jiāo",
+   "pinyinPlain": "jiao",
+   "senses": [
+    {
+     "id": "to-teach",
+     "gloss": "to teach",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v11",
+       "group": "Words 1-12",
+       "note": "j = Position 1, no puff; iao ≈ ‘ee-ow’"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v11.mp3",
+    "label": "教 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-jiao-脚",
    "kind": "word",
    "trad": "腳",
@@ -9048,6 +9943,60 @@
    }
   },
   {
+   "id": "pb-jiao-shu-教书",
+   "kind": "phrase",
+   "trad": "教書",
+   "simp": "教书",
+   "pinyin": "jiāo shū",
+   "pinyinPlain": "jiaoshu",
+   "senses": [
+    {
+     "id": "the-job-of-teaching",
+     "gloss": "the job of teaching",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v13",
+       "group": "Phrases 13",
+       "note": "教 + 書, ‘to teach’ as an occupation"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "她喜歡小孩子，她說教書不累。",
+     "simp": "她喜欢小孩子，她说教书不累。",
+     "pinyin": "Tā xǐ huān xiǎo hái zi tā shuō jiāo shū bú lèi",
+     "en": "She likes kids; she says teaching isn’t tiring.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v13.mp3",
+    "label": "教書 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-jia-sen-佳森",
    "kind": "word",
    "trad": "佳森",
@@ -9081,6 +10030,20 @@
    "words": [],
    "examples": [
     {
+     "trad": "我不是學生。我叫田佳森。",
+     "simp": "我不是学生。我叫田佳森。",
+     "pinyin": "Wǒ bú shì xué shēng Wǒ jiào Tián Jiā sēn",
+     "en": "I’m not a student. I’m Tian Jiasen.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "y1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
      "trad": "我叫田佳森。我是美國人。",
      "simp": "我叫田佳森。我是美国人。",
      "pinyin": "Wǒ jiào Tián Jiā sēn Wǒ shì Měi guó rén",
@@ -9103,20 +10066,6 @@
      "href": "#/lesson/lm_b1_l01",
      "sourceId": "lm_b1_l01",
      "itemId": "y1",
-     "origin": "lesson",
-     "kind": "textbook",
-     "short": "L01 您好 · prep",
-     "words": []
-    },
-    {
-     "trad": "我姓田，叫佳森。",
-     "simp": "我姓田，叫佳森。",
-     "pinyin": "Wǒ xìng Tián jiào Jiā sēn",
-     "en": "My surname is Tian, I’m called Jiasen.",
-     "note": "",
-     "href": "#/lesson/lm_b1_l01",
-     "sourceId": "lm_b1_l01",
-     "itemId": "y2",
      "origin": "lesson",
      "kind": "textbook",
      "short": "L01 您好 · prep",
@@ -9191,6 +10140,60 @@
    }
   },
   {
+   "id": "pb-jie-hun-le-结婚了",
+   "kind": "phrase",
+   "trad": "結婚了",
+   "simp": "结婚了",
+   "pinyin": "jié hūn le",
+   "pinyinPlain": "jiehunle",
+   "senses": [
+    {
+     "id": "married",
+     "gloss": "married",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v19",
+       "group": "Phrases 18-21",
+       "note": "了 is neutral and light"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "妳姊姊結婚了，他們有孩子嗎？",
+     "simp": "你姐姐结婚了，他们有孩子吗？",
+     "pinyin": "Nǐ jiě jie jié hūn le tā men yǒu hái zi ma",
+     "en": "Your older sister is married — do they have children?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d5",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v19.mp3",
+    "label": "結婚了 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-jie-jie-姐姐",
    "kind": "word",
    "trad": "姊姊",
@@ -9224,45 +10227,45 @@
    "words": [],
    "examples": [
     {
-     "trad": "我有一個姊姊，兩個弟弟。妳呢？",
-     "simp": "我有一个姐姐，两个弟弟。你呢？",
-     "pinyin": "Wǒ yǒu yī ge jiě jie liǎng ge dì di Nǐ ne",
-     "en": "I have one older sister and two younger brothers. And you?",
+     "trad": "，妳姊姊是學生嗎？",
+     "simp": "，你姐姐是学生吗？",
+     "pinyin": "nǐ jiě jie shì xué shēng ma",
+     "en": "Gloria, is your older sister a student?",
      "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "d4",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r1",
      "origin": "lesson",
      "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
+     "short": "L04 電腦公司 · prep",
      "words": []
     },
     {
-     "trad": "我也有一個姊姊。",
-     "simp": "我也有一个姐姐。",
-     "pinyin": "Wǒ yě yǒu yī ge jiě jie",
-     "en": "I also have one older sister.",
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
      "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "d5",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r4",
      "origin": "lesson",
      "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
+     "short": "L04 電腦公司 · prep",
      "words": []
     },
     {
-     "trad": "我沒有哥哥，也沒有弟弟。我只有一個姊姊。",
-     "simp": "我没有哥哥，也没有弟弟。我只有一个姐姐。",
-     "pinyin": "Wǒ méi yǒu gē ge yě méi yǒu dì di Wǒ zhǐ yǒu yī ge jiě jie",
-     "en": "I don’t have an older brother or a younger brother. I only have one older sister.",
+     "trad": "，妳姊姊是學生嗎？",
+     "simp": "，你姐姐是学生吗？",
+     "pinyin": "nǐ jiě jie shì xué shēng ma",
+     "en": "Gloria, is your older sister a student?",
      "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "d7",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d1",
      "origin": "lesson",
      "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
+     "short": "L03 她不是學生 · prep",
      "words": []
     }
    ],
@@ -9284,6 +10287,22 @@
      "id": "today",
      "gloss": "today",
      "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v15",
+       "group": "Supplementary 14-15",
+       "note": ""
+      },
       {
        "origin": "lesson",
        "id": "mftgu_s1_l06",
@@ -9365,9 +10384,9 @@
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l06/audio/Vv1.mp3",
-    "label": "今天 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l04/audio/v15.mp3",
+    "label": "今天 · REAL",
+    "real": true
    }
   },
   {
@@ -10767,6 +11786,88 @@
    }
   },
   {
+   "id": "pb-lao-shi-老师",
+   "kind": "word",
+   "trad": "老師",
+   "simp": "老师",
+   "pinyin": "lǎo shī",
+   "pinyinPlain": "laoshi",
+   "senses": [
+    {
+     "id": "teacher",
+     "gloss": "teacher",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v3",
+       "group": "Words 1-12",
+       "note": "老 is a half-third ↓ before 師; sh = Position 2"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸也是老師，他在大學教法文。",
+     "simp": "我爸爸也是老师，他在大学教法文。",
+     "pinyin": "Wǒ bà ba yě shì lǎo shī tā zài dà xué jiāo Fǎ wén",
+     "en": "My father is also a teacher; he teaches French at a college.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d7",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我媽媽是小學老師。",
+     "simp": "我妈妈是小学老师。",
+     "pinyin": "Wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My mother is an elementary-school teacher. (template)",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "y5",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v3.mp3",
+    "label": "老師 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-le-了",
    "kind": "word",
    "trad": "了",
@@ -11106,6 +12207,28 @@
        "note": ""
       }
      ]
+    },
+    {
+     "id": "tired-tiring",
+     "gloss": "tired, tiring",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v7",
+       "group": "Words 1-12",
+       "note": "ei like ‘vein’; 不累 is bú lèi (不→bú before 4th)"
+      }
+     ]
     }
    ],
    "words": [],
@@ -11289,9 +12412,48 @@
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l02/audio/Vv6.mp3",
-    "label": "累 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l04/audio/v7.mp3",
+    "label": "累 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-li-李",
+   "kind": "word",
+   "trad": "李",
+   "simp": "李",
+   "pinyin": "Lǐ",
+   "pinyinPlain": "li",
+   "senses": [
+    {
+     "id": "an-example-of-a-surname",
+     "gloss": "an example of a surname",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v14",
+       "group": "Supplementary 14-15",
+       "note": "3rd tone; contrast 里 lǐ / 裡"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v14.mp3",
+    "label": "李 · REAL",
+    "real": true
    }
   },
   {
@@ -11422,6 +12584,60 @@
     }
    ],
    "audio": null
+  },
+  {
+   "id": "pb-liang-ge-xiao-hai-dou-zai-xiao-xue-nian-shu-两个小孩都在小学念书",
+   "kind": "phrase",
+   "trad": "兩個小孩都在小學念書。",
+   "simp": "两个小孩都在小学念书。",
+   "pinyin": "Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+   "pinyinPlain": "lianggexiaohaidouzaixiaoxuenianshu",
+   "senses": [
+    {
+     "id": "both-kids-go-to-elementary-school",
+     "gloss": "Both kids go to elementary school.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y6",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/y6.mp3",
+    "label": "兩個小孩都在小學念書。 · synthetic",
+    "real": false
+   }
   },
   {
    "id": "pb-liang-nv-靓女",
@@ -11757,6 +12973,127 @@
    "audio": {
     "src": "lessons/lm_b1_l02/audio/v6.mp3",
     "label": "嗎 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ma-ma-妈妈",
+   "kind": "word",
+   "trad": "媽媽",
+   "simp": "妈妈",
+   "pinyin": "mā ma",
+   "pinyinPlain": "mama",
+   "senses": [
+    {
+     "id": "mother-mom",
+     "gloss": "mother, mom",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v2",
+       "group": "Words 1-12",
+       "note": "second 媽 is neutral"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "明文，請問，妳爸爸，媽媽在哪裡工作？",
+     "simp": "明文，请问，你爸爸，妈妈在哪里工作？",
+     "pinyin": "Míng wén qǐng wèn nǐ bà ba mā ma zài nǎ lǐ gōng zuò",
+     "en": "Mingwen, may I ask, where do your father and mother work?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "妳媽媽呢？",
+     "simp": "你妈妈呢？",
+     "pinyin": "Nǐ mā ma ne",
+     "en": "How about your mom?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d5",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v2.mp3",
+    "label": "媽媽 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-mang-忙",
+   "kind": "word",
+   "trad": "忙",
+   "simp": "忙",
+   "pinyin": "máng",
+   "pinyinPlain": "mang",
+   "senses": [
+    {
+     "id": "busy",
+     "gloss": "busy",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v4",
+       "group": "Words 1-12",
+       "note": "-ng ending; 忙不忙 = A-not-A question"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v4.mp3",
+    "label": "忙 · REAL",
     "real": true
    }
   },
@@ -12411,6 +13748,22 @@
      "sources": [
       {
        "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v6",
+       "group": "Words 1-12",
+       "note": "每 is a half-third ↓ before 天"
+      },
+      {
+       "origin": "lesson",
        "id": "mftgu_s1_l07",
        "kind": "podcast",
        "title": "MFTGU L07 · You ask me why… 你問我為什麼",
@@ -12431,6 +13784,34 @@
    "words": [],
    "examples": [
     {
+     "trad": "他的工作很忙，他每天都很累。",
+     "simp": "他的工作很忙，他每天都很累。",
+     "pinyin": "Tā de gōng zuò hěn máng tā měi tiān dōu hěn lèi",
+     "en": "His work is very busy; he’s tired every day.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "他的工作很忙，他每天都很累。",
+     "simp": "他的工作很忙，他每天都很累。",
+     "pinyin": "Tā de gōng zuò hěn máng tā měi tiān dōu hěn lèi",
+     "en": "His work is very busy. He is tired every day.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "y3",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
      "trad": "為什麼妳每天都去咖啡店？",
      "simp": "为什么你每天都去咖啡店？",
      "pinyin": "Wèi shén me nǐ měi tiān dōu qù kā fēi diàn",
@@ -12443,40 +13824,12 @@
      "kind": "podcast",
      "short": "MFTGU L07 你問我為什麼",
      "words": []
-    },
-    {
-     "trad": "為什麼妳可以每天出去，但我每天要待在家裡！",
-     "simp": "为什么你可以每天出去，但我每天要待在家里！",
-     "pinyin": "Wèi shén me nǐ kě yǐ měi tiān chū qù dàn wǒ měi tiān yào dāi zài jiā lǐ",
-     "en": "Why can you go out every day, but I have to stay home every day?!",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l07",
-     "sourceId": "mftgu_s1_l07",
-     "itemId": "d9",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L07 你問我為什麼",
-     "words": []
-    },
-    {
-     "trad": "但我每天要待在家裡",
-     "simp": "但我每天要待在家里",
-     "pinyin": "Dàn wǒ měi tiān yào dāi zài jiā lǐ",
-     "en": "But I have to stay home every day.",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l07",
-     "sourceId": "mftgu_s1_l07",
-     "itemId": "p10",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L07 你問我為什麼",
-     "words": []
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l07/audio/Vv7.mp3",
-    "label": "每天 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l04/audio/v6.mp3",
+    "label": "每天 · REAL",
+    "real": true
    }
   },
   {
@@ -12812,6 +14165,45 @@
    "audio": {
     "src": "lessons/lm_b1_l02/audio/d3.mp3",
     "label": "明文，你有兄弟姊妹嗎？ · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ming-wen-qing-wen-ni-ba-ba-ma-ma-zai-na-li-gong-zuo-明文请问你爸爸妈妈在哪里工作",
+   "kind": "phrase",
+   "trad": "明文，請問，妳爸爸，媽媽在哪裡工作？",
+   "simp": "明文，请问，你爸爸，妈妈在哪里工作？",
+   "pinyin": "Míng wén qǐng wèn nǐ bà ba mā ma zài nǎ lǐ gōng zuò",
+   "pinyinPlain": "mingwenqingwennibabamamazainaligongzuo",
+   "senses": [
+    {
+     "id": "mingwen-may-i-ask-where-do-your-father-and-mothe",
+     "gloss": "Mingwen, may I ask, where do your father and mother work?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d1",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/d1.mp3",
+    "label": "明文，請問，你爸爸，媽媽在哪裡工作？ · REAL",
     "real": true
    }
   },
@@ -13408,6 +14800,22 @@
      "sources": [
       {
        "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v6",
+       "group": "Words 1-17",
+       "note": "also 哪兒 nǎr; 哪裡 is 3+3 → ná lǐ"
+      },
+      {
+       "origin": "lesson",
        "id": "mftgu_s1_l03",
        "kind": "podcast",
        "title": "MFTGU L03 · Where are you again? 你在哪裡？",
@@ -13428,52 +14836,52 @@
    "words": [],
    "examples": [
     {
-     "trad": "我今天還啊，妳呢？妳在哪裡啊？",
-     "simp": "我今天还啊，你呢？你在哪里啊？",
-     "pinyin": "Wǒ jīn tiān hái a nǐ ne Nǐ zài nǎ lǐ a",
-     "en": "I'm pretty OK today. You? Where are you?",
+     "trad": "明文，請問，妳爸爸，媽媽在哪裡工作？",
+     "simp": "明文，请问，你爸爸，妈妈在哪里工作？",
+     "pinyin": "Míng wén qǐng wèn nǐ bà ba mā ma zài nǎ lǐ gōng zuò",
+     "en": "Mingwen, may I ask, where do your father and mother work?",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "d2",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
-     "words": []
-    },
-    {
-     "trad": "妳在哪裡啊？",
-     "simp": "你在哪里啊？",
-     "pinyin": "Nǐ zài nǎ lǐ a",
-     "en": "Where are you?",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "p3",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
-     "words": []
-    },
-    {
-     "trad": "嘿，妳在哪裡？",
-     "simp": "嘿，你在哪里？",
-     "pinyin": "Hēi nǐ zài nǎ lǐ",
-     "en": "Hey, where are you?",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l03",
-     "sourceId": "mftgu_s1_l03",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
      "itemId": "d1",
      "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L03 你在哪裡",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "她在哪裡工作？",
+     "simp": "她在哪里工作？",
+     "pinyin": "Tā zài nǎ lǐ gōng zuò",
+     "en": "Where does she work?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r3",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "她在哪裡工作？",
+     "simp": "她在哪里工作？",
+     "pinyin": "Tā zài nǎ lǐ gōng zuò",
+     "en": "Where does she work?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d3",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
      "words": []
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l03/audio/Vv1.mp3",
-    "label": "哪裡 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l03/audio/v6.mp3",
+    "label": "哪裡 · REAL",
+    "real": true
    }
   },
   {
@@ -13984,6 +15392,113 @@
    "audio": {
     "src": "lessons/lm_b1_l02/audio/v5.mp3",
     "label": "你 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-nian-shu-念书",
+   "kind": "phrase",
+   "trad": "念書",
+   "simp": "念书",
+   "pinyin": "niàn shū",
+   "pinyinPlain": "nianshu",
+   "senses": [
+    {
+     "id": "to-study",
+     "gloss": "to study",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v21",
+       "group": "Phrases 18-21",
+       "note": "to attend school / study (literally ‘read books’)"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
+     "trad": "兩個小孩都在小學念書。",
+     "simp": "两个小孩都在小学念书。",
+     "pinyin": "Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "y6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v21.mp3",
+    "label": "念書 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ni-ba-ba-de-gong-zuo-mang-bu-mang-你爸爸的工作忙不忙",
+   "kind": "phrase",
+   "trad": "妳爸爸的工作忙不忙？",
+   "simp": "你爸爸的工作忙不忙？",
+   "pinyin": "Nǐ bà ba de gōng zuò máng bù máng",
+   "pinyinPlain": "nibabadegongzuomangbumang",
+   "senses": [
+    {
+     "id": "is-your-father-s-work-busy",
+     "gloss": "Is your father’s work busy?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d3",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/d3.mp3",
+    "label": "你爸爸的工作忙不忙？ · REAL",
     "real": true
    }
   },
@@ -14589,6 +16104,122 @@
    }
   },
   {
+   "id": "pb-ni-jie-jie-jie-hun-le-ta-men-you-hai-zi-ma-你姐姐结婚了他们有孩子吗",
+   "kind": "phrase",
+   "trad": "妳姊姊結婚了，他們有孩子嗎？",
+   "simp": "你姐姐结婚了，他们有孩子吗？",
+   "pinyin": "Nǐ jiě jie jié hūn le tā men yǒu hái zi ma",
+   "pinyinPlain": "nijiejiejiehunletamenyouhaizima",
+   "senses": [
+    {
+     "id": "your-older-sister-is-married-do-they-have-childr",
+     "gloss": "Your older sister is married — do they have children?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d5",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/d5.mp3",
+    "label": "妳姊姊結婚了，他們有孩子嗎？ · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ni-jie-jie-shi-xue-sheng-ma-你姐姐是学生吗",
+   "kind": "phrase",
+   "trad": "，妳姊姊是學生嗎？",
+   "simp": "，你姐姐是学生吗？",
+   "pinyin": "Nǐ jiě jie shì xué shēng ma",
+   "pinyinPlain": "nijiejieshixueshengma",
+   "senses": [
+    {
+     "id": "gloria-is-your-older-sister-a-student",
+     "gloss": "Gloria, is your older sister a student?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 3",
+       "itemId": "r1",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d1",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "is-your-older-sister-a-student",
+     "gloss": "Is your older sister a student?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y2",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/r1.mp3",
+    "label": "Gloria，妳姊姊是學生嗎？ · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-ni-jin-tian-ye-zai-ka-fei-dian-你今天也在咖啡店",
    "kind": "phrase",
    "trad": "妳今天也在咖啡店？",
@@ -14624,6 +16255,45 @@
    "audio": {
     "src": "lessons/mftgu_s1_l07/audio/Np1.mp3",
     "label": "你今天也在咖啡店？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ni-ma-ma-ne-你妈妈呢",
+   "kind": "phrase",
+   "trad": "妳媽媽呢？",
+   "simp": "你妈妈呢？",
+   "pinyin": "Nǐ mā ma ne",
+   "pinyinPlain": "nimamane",
+   "senses": [
+    {
+     "id": "how-about-your-mom",
+     "gloss": "How about your mom?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d5",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/d5.mp3",
+    "label": "你媽媽呢？ · REAL",
     "real": true
    }
   },
@@ -16117,6 +17787,22 @@
      "sources": [
       {
        "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 2",
+       "itemId": "r4",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
        "id": "lm_b1_l02",
        "kind": "textbook",
        "title": "Lesson 02 · I Have Two Younger Brothers 我有兩個弟弟",
@@ -16137,7 +17823,7 @@
    "words": [],
    "examples": [],
    "audio": {
-    "src": "lessons/lm_b1_l02/audio/d6.mp3",
+    "src": "lessons/lm_b1_l03/audio/r4.mp3",
     "label": "妳有哥哥嗎？ · REAL",
     "real": true
    }
@@ -16150,6 +17836,28 @@
    "pinyin": "Nǐ yǒu xiōng dì jiě mèi ma",
    "pinyinPlain": "niyouxiongdijiemeima",
    "senses": [
+    {
+     "id": "do-you-have-siblings",
+     "gloss": "Do you have siblings?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 2",
+       "itemId": "r1",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
     {
      "id": "do-you-have-siblings-to-ask-your-taiwan-host",
      "gloss": "Do you have siblings? (to ask your Taiwan host)",
@@ -16191,9 +17899,9 @@
     }
    ],
    "audio": {
-    "src": "lessons/lm_b1_l02/audio/y2.mp3",
-    "label": "你有兄弟姊妹嗎？ · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l03/audio/r1.mp3",
+    "label": "你有兄弟姊妹嗎？ · REAL",
+    "real": true
    }
   },
   {
@@ -16813,6 +18521,60 @@
    "audio": null
   },
   {
+   "id": "pb-nv-er-女儿",
+   "kind": "word",
+   "trad": "女兒",
+   "simp": "女儿",
+   "pinyin": "nǚ ér",
+   "pinyinPlain": "nver",
+   "senses": [
+    {
+     "id": "daughter",
+     "gloss": "daughter",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v14",
+       "group": "Words 1-17",
+       "note": "nǚ: ü = say ‘ee’, round the lips"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v14.mp3",
+    "label": "女兒 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-o-喔",
    "kind": "phrase",
    "trad": "喔…",
@@ -17227,6 +18989,20 @@
    "words": [],
    "examples": [
     {
+     "trad": "明文，請問，妳爸爸，媽媽在哪裡工作？",
+     "simp": "明文，请问，你爸爸，妈妈在哪里工作？",
+     "pinyin": "Míng wén qǐng wèn nǐ bà ba mā ma zài nǎ lǐ gōng zuò",
+     "en": "Mingwen, may I ask, where do your father and mother work?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
      "trad": "我姓王，請問，您貴姓？",
      "simp": "我姓王，请问，您贵姓？",
      "pinyin": "Wǒ xìng Wáng qǐng wèn nín guì xìng",
@@ -17252,20 +19028,6 @@
      "origin": "lesson",
      "kind": "textbook",
      "short": "L02 兩個弟弟 · prep",
-     "words": []
-    },
-    {
-     "trad": "我姓王，請問，您貴姓？",
-     "simp": "我姓王，请问，您贵姓？",
-     "pinyin": "Wǒ xìng Wáng qǐng wèn nín guì xìng",
-     "en": "My surname is Wang. May I ask your surname?",
-     "note": "",
-     "href": "#/lesson/lm_b1_l01",
-     "sourceId": "lm_b1_l01",
-     "itemId": "d3",
-     "origin": "lesson",
-     "kind": "textbook",
-     "short": "L01 您好 · prep",
      "words": []
     }
    ],
@@ -18558,6 +20320,28 @@
    "pinyinPlain": "shuo",
    "senses": [
     {
+     "id": "to-say",
+     "gloss": "to say",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v10",
+       "group": "Words 1-12",
+       "note": "sh = Position 2; -uo = ‘oo-oh’"
+      }
+     ]
+    },
+    {
      "id": "to-say-to-speak",
      "gloss": "to say, to speak",
      "sources": [
@@ -18583,9 +20367,9 @@
    "words": [],
    "examples": [],
    "audio": {
-    "src": "lessons/mftgu_s1_l01/audio/Vv5.mp3",
-    "label": "說 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l04/audio/v10.mp3",
+    "label": "說 · REAL",
+    "real": true
    }
   },
   {
@@ -18686,6 +20470,122 @@
     "src": "lessons/lm_b1_l01/audio/v26.mp3",
     "label": "他，她，牠 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-ta-bu-shi-xue-sheng-ta-da-xue-bi-ye-le-她不是学生她大学毕业了",
+   "kind": "phrase",
+   "trad": "她不是學生，她大學畢業了。",
+   "simp": "她不是学生，她大学毕业了。",
+   "pinyin": "Tā bú shì xué shēng tā dà xué bì yè le",
+   "pinyinPlain": "tabushixueshengtadaxuebiyele",
+   "senses": [
+    {
+     "id": "she-isn-t-a-student-she-graduated-from-college",
+     "gloss": "She isn’t a student; she graduated from college.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 3",
+       "itemId": "r2",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d2",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/r2.mp3",
+    "label": "她不是學生，她大學畢業了。 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ta-de-gong-zuo-hen-mang-ta-mei-tian-dou-hen-lei-他的工作很忙他每天都很累",
+   "kind": "phrase",
+   "trad": "他的工作很忙，他每天都很累。",
+   "simp": "他的工作很忙，他每天都很累。",
+   "pinyin": "Tā de gōng zuò hěn máng tā měi tiān dōu hěn lèi",
+   "pinyinPlain": "tadegongzuohenmangtameitiandouhenlei",
+   "senses": [
+    {
+     "id": "his-work-is-very-busy-he-is-tired-every-day",
+     "gloss": "His work is very busy. He is tired every day.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y3",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "his-work-is-very-busy-he-s-tired-every-day",
+     "gloss": "His work is very busy; he’s tired every day.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d4",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/d4.mp3",
+    "label": "他的工作很忙，他每天都很累。 · REAL",
+    "real": true
    }
   },
   {
@@ -19074,6 +20974,45 @@
    "audio": null
   },
   {
+   "id": "pb-ta-men-ta-men-他们她们",
+   "kind": "phrase",
+   "trad": "他們/她們",
+   "simp": "他们/她们",
+   "pinyin": "tā men tā men",
+   "pinyinPlain": "tamentamen",
+   "senses": [
+    {
+     "id": "they",
+     "gloss": "they",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v20",
+       "group": "Phrases 18-21",
+       "note": "們 is neutral; 他們 he/they, 她們 she/they"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v20.mp3",
+    "label": "他們/她們 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-ta-men-ye-you-mian-ma-他们也有面吗",
    "kind": "phrase",
    "trad": "他們也有麵嗎？",
@@ -19140,6 +21079,217 @@
    "audio": {
     "src": "lessons/mftgu_s1_l08/audio/Np13.mp3",
     "label": "他們也有麵嗎？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ta-men-you-liang-ge-hai-zi-ma-他们有两个孩子吗",
+   "kind": "phrase",
+   "trad": "他們有兩個孩子嗎？",
+   "simp": "他们有两个孩子吗？",
+   "pinyin": "Tā men yǒu liǎng ge hái zi ma",
+   "pinyinPlain": "tamenyoulianggehaizima",
+   "senses": [
+    {
+     "id": "do-they-have-two-children",
+     "gloss": "Do they have two children?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y5",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/y5.mp3",
+    "label": "他們有兩個孩子嗎？ · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-ta-men-you-liang-ge-hai-zi-yi-ge-er-zi-yi-ge-nv-er-liang-ge-xiao-hai-dou-zai-xiao-xue-nian-shu-他们有两个孩子一个儿子一个女儿两个小孩都在小学念书",
+   "kind": "phrase",
+   "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+   "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+   "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+   "pinyinPlain": "tamenyoulianggehaiziyigeerziyigenverlianggexiaohaidouzaixiaoxuenianshu",
+   "senses": [
+    {
+     "id": "they-have-two-children-one-son-and-one-daughter-",
+     "gloss": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d6",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/d6.mp3",
+    "label": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ta-ta-她他",
+   "kind": "word",
+   "trad": "她/他",
+   "simp": "她/他",
+   "pinyin": "tā tā",
+   "pinyinPlain": "tata",
+   "senses": [
+    {
+     "id": "she-her-he-him",
+     "gloss": "she, her / he, him",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v1",
+       "group": "Words 1-17",
+       "note": "same sound; 她 = she, 他 = he"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v1.mp3",
+    "label": "她/他 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ta-xi-huan-xiao-hai-zi-ta-shuo-jiao-shu-bu-lei-她喜欢小孩子她说教书不累",
+   "kind": "phrase",
+   "trad": "她喜歡小孩子，她說教書不累。",
+   "simp": "她喜欢小孩子，她说教书不累。",
+   "pinyin": "Tā xǐ huān xiǎo hái zi tā shuō jiāo shū bú lèi",
+   "pinyinPlain": "taxihuanxiaohaizitashuojiaoshubulei",
+   "senses": [
+    {
+     "id": "she-likes-kids-she-says-teaching-isn-t-tiring",
+     "gloss": "She likes kids; she says teaching isn’t tiring.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d6",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/d6.mp3",
+    "label": "她喜歡小孩子，她說教書不累。 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-ta-zai-na-li-gong-zuo-她在哪里工作",
+   "kind": "phrase",
+   "trad": "她在哪裡工作？",
+   "simp": "她在哪里工作？",
+   "pinyin": "Tā zài nǎ lǐ gōng zuò",
+   "pinyinPlain": "tazainaligongzuo",
+   "senses": [
+    {
+     "id": "where-does-she-work",
+     "gloss": "Where does she work?",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 3",
+       "itemId": "r3",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d3",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/r3.mp3",
+    "label": "她在哪裡工作？ · REAL",
     "real": true
    }
   },
@@ -20510,6 +22660,160 @@
    }
   },
   {
+   "id": "pb-wo-ba-ba-ye-shi-lao-shi-ta-zai-da-xue-jiao-fa-wen-我爸爸也是老师他在大学教法文",
+   "kind": "phrase",
+   "trad": "我爸爸也是老師，他在大學教法文。",
+   "simp": "我爸爸也是老师，他在大学教法文。",
+   "pinyin": "Wǒ bà ba yě shì lǎo shī tā zài dà xué jiāo Fǎ wén",
+   "pinyinPlain": "wobabayeshilaoshitazaidaxuejiaofawen",
+   "senses": [
+    {
+     "id": "my-father-is-also-a-teacher-he-teaches-french-at",
+     "gloss": "My father is also a teacher. He teaches French at a college. (template / from the dialogue)",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y6",
+       "group": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "my-father-is-also-a-teacher-he-teaches-french-at-2",
+     "gloss": "My father is also a teacher; he teaches French at a college.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d7",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/d7.mp3",
+    "label": "我爸爸也是老師，他在大學教法文。 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wo-ba-ba-zai-dian-nao-gong-si-gong-zuo-我爸爸在电脑公司工作",
+   "kind": "phrase",
+   "trad": "我爸爸在電腦公司工作。",
+   "simp": "我爸爸在电脑公司工作。",
+   "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò",
+   "pinyinPlain": "wobabazaidiannaogongsigongzuo",
+   "senses": [
+    {
+     "id": "my-father-works-at-a-computer-company-template-s",
+     "gloss": "My father works at a computer company. (template: swap in your real family)",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y1",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/y1.mp3",
+    "label": "我爸爸在電腦公司工作。 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-wo-ba-ba-zai-dian-nao-gong-si-gong-zuo-wo-ma-ma-shi-xiao-xue-lao-shi-我爸爸在电脑公司工作我妈妈是小学老师",
+   "kind": "phrase",
+   "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+   "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+   "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+   "pinyinPlain": "wobabazaidiannaogongsigongzuowomamashixiaoxuelaoshi",
+   "senses": [
+    {
+     "id": "my-father-works-at-a-computer-company-and-my-mot",
+     "gloss": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d2",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/d2.mp3",
+    "label": "我爸爸在電腦公司工作，我媽媽是小學老師。 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-wo-bu-hui-我不会",
    "kind": "phrase",
    "trad": "我不會",
@@ -20546,6 +22850,45 @@
     "src": "lessons/mftgu_s1_l01/audio/Np6.mp3",
     "label": "我不會 · ⚡ natural",
     "real": true
+   }
+  },
+  {
+   "id": "pb-wo-bu-shi-xue-sheng-wo-jiao-tian-jia-sen-我不是学生我叫田佳森",
+   "kind": "phrase",
+   "trad": "我不是學生。我叫田佳森。",
+   "simp": "我不是学生。我叫田佳森。",
+   "pinyin": "Wǒ bú shì xué shēng Wǒ jiào Tián Jiā sēn",
+   "pinyinPlain": "wobushixueshengwojiaotianjiasen",
+   "senses": [
+    {
+     "id": "i-m-not-a-student-i-m-tian-jiasen",
+     "gloss": "I’m not a student. I’m Tian Jiasen.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y1",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/y1.mp3",
+    "label": "我不是學生。我叫田佳森。 · synthetic",
+    "real": false
    }
   },
   {
@@ -20984,6 +23327,20 @@
    "words": [],
    "examples": [
     {
+     "trad": "我不是學生。我叫田佳森。",
+     "simp": "我不是学生。我叫田佳森。",
+     "pinyin": "Wǒ bú shì xué shēng Wǒ jiào Tián Jiā sēn",
+     "en": "I’m not a student. I’m Tian Jiasen.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "y1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
      "trad": "我叫田佳森。我是美國人。",
      "simp": "我叫田佳森。我是美国人。",
      "pinyin": "Wǒ jiào Tián Jiā sēn Wǒ shì Měi guó rén",
@@ -21079,6 +23436,129 @@
    "audio": {
     "src": "lessons/mftgu_s1_l04/audio/Np2.mp3",
     "label": "我叫小李，你呢？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-wo-jie-jie-zai-yin-hang-gong-zuo-我姐姐在银行工作",
+   "kind": "phrase",
+   "trad": "我姊姊在銀行工作。",
+   "simp": "我姐姐在银行工作。",
+   "pinyin": "Wǒ jiě jie zài yín háng gōng zuò",
+   "pinyinPlain": "wojiejiezaiyinhanggongzuo",
+   "senses": [
+    {
+     "id": "my-older-sister-works-at-a-bank-template-swap-in",
+     "gloss": "My older sister works at a bank. (template: swap in your real family)",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y4",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/y4.mp3",
+    "label": "我姊姊在銀行工作。 · synthetic",
+    "real": false
+   }
+  },
+  {
+   "id": "pb-wo-jie-jie-zai-yin-hang-gong-zuo-ta-xian-sheng-zai-dian-nao-gong-si-gong-zuo-我姐姐在银行工作她先生在电脑公司工作",
+   "kind": "phrase",
+   "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+   "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+   "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+   "pinyinPlain": "wojiejiezaiyinhanggongzuotaxianshengzaidiannaogongsigongzuo",
+   "senses": [
+    {
+     "id": "my-older-sister-works-at-a-bank-and-her-husband-",
+     "gloss": "My older sister works at a bank, and her husband works at a computer company.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 3",
+       "itemId": "r4",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Dialogue",
+       "itemId": "d4",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/r4.mp3",
+    "label": "我姊姊在銀行工作，她先生在電腦公司工作。 · REAL",
     "real": true
    }
   },
@@ -21299,6 +23779,60 @@
     "src": "lessons/mftgu_s1_l02/audio/Np2.mp3",
     "label": "我嗎？ · ⚡ natural",
     "real": true
+   }
+  },
+  {
+   "id": "pb-wo-ma-ma-shi-xiao-xue-lao-shi-我妈妈是小学老师",
+   "kind": "phrase",
+   "trad": "我媽媽是小學老師。",
+   "simp": "我妈妈是小学老师。",
+   "pinyin": "Wǒ mā ma shì xiǎo xué lǎo shī",
+   "pinyinPlain": "womamashixiaoxuelaoshi",
+   "senses": [
+    {
+     "id": "my-mother-is-an-elementary-school-teacher-templa",
+     "gloss": "My mother is an elementary-school teacher. (template)",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Your turn",
+       "itemId": "y5",
+       "group": "",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/y5.mp3",
+    "label": "我媽媽是小學老師。 · synthetic",
+    "real": false
    }
   },
   {
@@ -23110,6 +25644,22 @@
      "sources": [
       {
        "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 2",
+       "itemId": "r3",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
        "id": "lm_b1_l02",
        "kind": "textbook",
        "title": "Lesson 02 · I Have Two Younger Brothers 我有兩個弟弟",
@@ -23130,7 +25680,7 @@
    "words": [],
    "examples": [],
    "audio": {
-    "src": "lessons/lm_b1_l02/audio/d5.mp3",
+    "src": "lessons/lm_b1_l03/audio/r3.mp3",
     "label": "我也有一個姊姊。 · REAL",
     "real": true
    }
@@ -23382,6 +25932,22 @@
      "sources": [
       {
        "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "lines",
+       "sectionTitle": "Review from Lesson 2",
+       "itemId": "r2",
+       "group": "",
+       "note": ""
+      },
+      {
+       "origin": "lesson",
        "id": "lm_b1_l02",
        "kind": "textbook",
        "title": "Lesson 02 · I Have Two Younger Brothers 我有兩個弟弟",
@@ -23402,7 +25968,7 @@
    "words": [],
    "examples": [],
    "audio": {
-    "src": "lessons/lm_b1_l02/audio/d4.mp3",
+    "src": "lessons/lm_b1_l03/audio/r2.mp3",
     "label": "我有一個姊姊，兩個弟弟。妳呢？ · REAL",
     "real": true
    }
@@ -23667,6 +26233,74 @@
    }
   },
   {
+   "id": "pb-xian-sheng-先生",
+   "kind": "word",
+   "trad": "先生",
+   "simp": "先生",
+   "pinyin": "xiān sheng",
+   "pinyinPlain": "xiansheng",
+   "senses": [
+    {
+     "id": "husband-mr",
+     "gloss": "husband; Mr.",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v9",
+       "group": "Words 1-17",
+       "note": "生 is neutral here"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v9.mp3",
+    "label": "先生 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-xian-zai-现在",
    "kind": "word",
    "trad": "現在",
@@ -23808,6 +26442,142 @@
    }
   },
   {
+   "id": "pb-xiao-hai-小孩",
+   "kind": "word",
+   "trad": "小孩",
+   "simp": "小孩",
+   "pinyin": "xiǎo hái",
+   "pinyinPlain": "xiaohai",
+   "senses": [
+    {
+     "id": "child",
+     "gloss": "child",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v15",
+       "group": "Words 1-17",
+       "note": "also 孩子, 小孩子"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "她喜歡小孩子，她說教書不累。",
+     "simp": "她喜欢小孩子，她说教书不累。",
+     "pinyin": "Tā xǐ huān xiǎo hái zi tā shuō jiāo shū bú lèi",
+     "en": "She likes kids; she says teaching isn’t tiring.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
+     "trad": "兩個小孩都在小學念書。",
+     "simp": "两个小孩都在小学念书。",
+     "pinyin": "Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "y6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v15.mp3",
+    "label": "小孩 · REAL",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-xiao-hai-zi-小孩子",
+   "kind": "word",
+   "trad": "小孩子",
+   "simp": "小孩子",
+   "pinyin": "xiǎo hái zi",
+   "pinyinPlain": "xiaohaizi",
+   "senses": [
+    {
+     "id": "children-kids",
+     "gloss": "children, kids",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v9",
+       "group": "Words 1-12",
+       "note": "子 is neutral; cf. Lesson 3 小孩 / 孩子"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "她喜歡小孩子，她說教書不累。",
+     "simp": "她喜欢小孩子，她说教书不累。",
+     "pinyin": "Tā xǐ huān xiǎo hái zi tā shuō jiāo shū bú lèi",
+     "en": "She likes kids; she says teaching isn’t tiring.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l04/audio/v9.mp3",
+    "label": "小孩子 · REAL",
+    "real": true
+   }
+  },
+  {
    "id": "pb-xiao-li-ni-zui-xi-huan-chi-shen-me-小李你最喜欢吃什么",
    "kind": "phrase",
    "trad": "小李，妳最喜歡吃什麼？",
@@ -23880,6 +26650,88 @@
    "audio": {
     "src": "lessons/mftgu_s1_l08/audio/Np1.mp3",
     "label": "小李，你最喜歡吃什麼？ · ⚡ natural",
+    "real": true
+   }
+  },
+  {
+   "id": "pb-xiao-xue-小学",
+   "kind": "word",
+   "trad": "小學",
+   "simp": "小学",
+   "pinyin": "xiǎo xué",
+   "pinyinPlain": "xiaoxue",
+   "senses": [
+    {
+     "id": "elementary-school",
+     "gloss": "elementary school",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v17",
+       "group": "Words 1-17",
+       "note": "小 is a half-third ↓ before 學"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我爸爸在電腦公司工作，我媽媽是小學老師。",
+     "simp": "我爸爸在电脑公司工作，我妈妈是小学老师。",
+     "pinyin": "Wǒ bà ba zài diàn nǎo gōng sī gōng zuò wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My father works at a computer company, and my mother is an elementary-school teacher.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我媽媽是小學老師。",
+     "simp": "我妈妈是小学老师。",
+     "pinyin": "Wǒ mā ma shì xiǎo xué lǎo shī",
+     "en": "My mother is an elementary-school teacher. (template)",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "y5",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v17.mp3",
+    "label": "小學 · REAL",
     "real": true
    }
   },
@@ -24295,6 +27147,22 @@
      "gloss": "to like",
      "sources": [
       {
+       "origin": "lesson",
+       "id": "lm_b1_l04",
+       "kind": "textbook",
+       "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+       "short": "L04 電腦公司 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:41-05:00",
+       "href": "#/lesson/lm_b1_l04",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v8",
+       "group": "Words 1-12",
+       "note": "歡 is 1st, not neutral. 喜歡不喜歡 = A-not-A"
+      },
+      {
        "origin": "conversation",
        "id": "cp_2026_11_10_chat",
        "kind": "conversation",
@@ -24414,6 +27282,20 @@
    "words": [],
    "examples": [
     {
+     "trad": "她喜歡小孩子，她說教書不累。",
+     "simp": "她喜欢小孩子，她说教书不累。",
+     "pinyin": "Tā xǐ huān xiǎo hái zi tā shuō jiāo shū bú lèi",
+     "en": "She likes kids; she says teaching isn’t tiring.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "d6",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
      "trad": "小李，妳最喜歡吃什麼？",
      "simp": "小李，你最喜欢吃什么？",
      "pinyin": "Xiǎo lǐ nǐ zuì xǐ huan chī shén me",
@@ -24526,99 +27408,12 @@
        "en": "and you?"
       }
      ]
-    },
-    {
-     "trad": "我也喜歡吃韓國菜，但我最喜歡吃拉麵",
-     "simp": "我也喜欢吃韩国菜，但我最喜欢吃拉面",
-     "pinyin": "Wǒ yě xǐ huan chī hán guó cài dàn wǒ zuì xǐ huan chī lā miàn",
-     "en": "I also like to eat Korean food, but my favorite is ramen.",
-     "note": "我也 before 喜歡: 我 and 也 are both 3rd, and 喜 is a 3rd before neutral 歡. Marked like 我也累: 我 → wó, 也 stays yě. A tighter phrasing also raises 也 (wó yé xǐ). Not measured on this take.",
-     "href": "#/lesson/mftgu_s1_l08",
-     "sourceId": "mftgu_s1_l08",
-     "itemId": "d3",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L08 你最喜歡吃什麼",
-     "words": [
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wó",
-       "en": "I"
-      },
-      {
-       "trad": "也",
-       "simp": "也",
-       "pinyin": "yě",
-       "en": "also"
-      },
-      {
-       "trad": "喜歡",
-       "simp": "喜欢",
-       "pinyin": "xǐhuan",
-       "en": "to like"
-      },
-      {
-       "trad": "吃",
-       "simp": "吃",
-       "pinyin": "chī",
-       "en": "to eat"
-      },
-      {
-       "trad": "韓國",
-       "simp": "韩国",
-       "pinyin": "Hán guó",
-       "en": "Korea"
-      },
-      {
-       "trad": "菜",
-       "simp": "菜",
-       "pinyin": "cài",
-       "en": "cuisine"
-      },
-      {
-       "trad": "但",
-       "simp": "但",
-       "pinyin": "dàn",
-       "en": "but"
-      },
-      {
-       "trad": "我",
-       "simp": "我",
-       "pinyin": "wǒ",
-       "en": "I"
-      },
-      {
-       "trad": "最",
-       "simp": "最",
-       "pinyin": "zuì",
-       "en": "most"
-      },
-      {
-       "trad": "喜歡",
-       "simp": "喜欢",
-       "pinyin": "xǐhuan",
-       "en": "to like"
-      },
-      {
-       "trad": "吃",
-       "simp": "吃",
-       "pinyin": "chī",
-       "en": "to eat"
-      },
-      {
-       "trad": "拉麵",
-       "simp": "拉面",
-       "pinyin": "lā miàn",
-       "en": "ramen"
-      }
-     ]
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l05/audio/Vv9.mp3",
-    "label": "喜歡 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l04/audio/v8.mp3",
+    "label": "喜歡 · REAL",
+    "real": true
    }
   },
   {
@@ -24957,6 +27752,20 @@
    "words": [],
    "examples": [
     {
+     "trad": "妳有兄弟姊妹嗎？",
+     "simp": "你有兄弟姐妹吗？",
+     "pinyin": "Nǐ yǒu xiōng dì jiě mèi ma",
+     "en": "Do you have siblings?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "r1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
      "trad": "明文，妳有兄弟姊妹嗎？",
      "simp": "明文，你有兄弟姐妹吗？",
      "pinyin": "Míng wén nǐ yǒu xiōng dì jiě mèi ma",
@@ -25219,6 +28028,88 @@
     }
    ],
    "audio": null
+  },
+  {
+   "id": "pb-xue-sheng-学生",
+   "kind": "word",
+   "trad": "學生",
+   "simp": "学生",
+   "pinyin": "xué shēng",
+   "pinyinPlain": "xuesheng",
+   "senses": [
+    {
+     "id": "student",
+     "gloss": "student",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v3",
+       "group": "Words 1-17",
+       "note": ""
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "，妳姊姊是學生嗎？",
+     "simp": "，你姐姐是学生吗？",
+     "pinyin": "nǐ jiě jie shì xué shēng ma",
+     "en": "Gloria, is your older sister a student?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "她不是學生，她大學畢業了。",
+     "simp": "她不是学生，她大学毕业了。",
+     "pinyin": "Tā bú shì xué shēng tā dà xué bì yè le",
+     "en": "She isn’t a student; she graduated from college.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r2",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "，妳姊姊是學生嗎？",
+     "simp": "，你姐姐是学生吗？",
+     "pinyin": "nǐ jiě jie shì xué shēng ma",
+     "en": "Gloria, is your older sister a student?",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d1",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v3.mp3",
+    "label": "學生 · REAL",
+    "real": true
+   }
   },
   {
    "id": "pb-yao-要",
@@ -26111,31 +29002,17 @@
    "words": [],
    "examples": [
     {
-     "trad": "我也要一個！",
-     "simp": "我也要一个！",
-     "pinyin": "Wǒ yě yào yī gè",
-     "en": "I want one too!",
+     "trad": "他們有兩個孩子，一個兒子，一個女兒。兩個小孩都在小學念書。",
+     "simp": "他们有两个孩子，一个儿子，一个女儿。两个小孩都在小学念书。",
+     "pinyin": "Tā men yǒu liǎng ge hái zi yī ge ér zi yī ge nǚ ér Liǎng ge xiǎo hái dōu zài xiǎo xué niàn shū",
+     "en": "They have two children, one son and one daughter. Both kids go to elementary school.",
      "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "d14",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d6",
      "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
-     "words": []
-    },
-    {
-     "trad": "我也要一個！",
-     "simp": "我也要一个！",
-     "pinyin": "Wǒ yě yào yī gè",
-     "en": "I want one too!",
-     "note": "",
-     "href": "#/lesson/mftgu_s1_l06",
-     "sourceId": "mftgu_s1_l06",
-     "itemId": "p16",
-     "origin": "lesson",
-     "kind": "podcast",
-     "short": "MFTGU L06 我還在等",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
      "words": []
     },
     {
@@ -26144,12 +29021,26 @@
      "pinyin": "Wǒ yǒu yī ge jiě jie liǎng ge dì di Nǐ ne",
      "en": "I have one older sister and two younger brothers. And you?",
      "note": "",
-     "href": "#/lesson/lm_b1_l02",
-     "sourceId": "lm_b1_l02",
-     "itemId": "d4",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "r2",
      "origin": "lesson",
      "kind": "textbook",
-     "short": "L02 兩個弟弟 · prep",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
+     "trad": "我也有一個姊姊。",
+     "simp": "我也有一个姐姐。",
+     "pinyin": "Wǒ yě yǒu yī ge jiě jie",
+     "en": "I also have one older sister.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "r3",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
      "words": []
     }
    ],
@@ -26261,6 +29152,88 @@
     "src": "lessons/mftgu_s1_l04/audio/Vv7.mp3",
     "label": "英文 · synthetic",
     "real": false
+   }
+  },
+  {
+   "id": "pb-yin-hang-银行",
+   "kind": "word",
+   "trad": "銀行",
+   "simp": "银行",
+   "pinyin": "yín háng",
+   "pinyinPlain": "yinhang",
+   "senses": [
+    {
+     "id": "bank",
+     "gloss": "bank",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v8",
+       "group": "Words 1-17",
+       "note": "h = light scratch; -ng at the end of 行"
+      }
+     ]
+    }
+   ],
+   "words": [],
+   "examples": [
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l04",
+     "sourceId": "lm_b1_l04",
+     "itemId": "r4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L04 電腦公司 · prep",
+     "words": []
+    },
+    {
+     "trad": "我姊姊在銀行工作，她先生在電腦公司工作。",
+     "simp": "我姐姐在银行工作，她先生在电脑公司工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò tā xiān sheng zài diàn nǎo gōng sī gōng zuò",
+     "en": "My older sister works at a bank, and her husband works at a computer company.",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "d4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    },
+    {
+     "trad": "我姊姊在銀行工作。",
+     "simp": "我姐姐在银行工作。",
+     "pinyin": "Wǒ jiě jie zài yín háng gōng zuò",
+     "en": "My older sister works at a bank. (template: swap in your real family)",
+     "note": "",
+     "href": "#/lesson/lm_b1_l03",
+     "sourceId": "lm_b1_l03",
+     "itemId": "y4",
+     "origin": "lesson",
+     "kind": "textbook",
+     "short": "L03 她不是學生 · prep",
+     "words": []
+    }
+   ],
+   "audio": {
+    "src": "lessons/lm_b1_l03/audio/v8.mp3",
+    "label": "銀行 · REAL",
+    "real": true
    }
   },
   {
@@ -27547,6 +30520,28 @@
        "note": ""
       }
      ]
+    },
+    {
+     "id": "in-on-at",
+     "gloss": "in, on, at",
+     "sources": [
+      {
+       "origin": "lesson",
+       "id": "lm_b1_l03",
+       "kind": "textbook",
+       "title": "Lesson 03 · She Is Not a Student 她不是學生",
+       "short": "L03 她不是學生 · prep",
+       "source": "Textbook: Let's Learn Mandarin Book 1",
+       "date": "2026-11-17T09:40-05:00",
+       "href": "#/lesson/lm_b1_l03",
+       "script": "",
+       "sectionType": "vocab",
+       "sectionTitle": "Vocabulary",
+       "itemId": "v5",
+       "group": "Words 1-17",
+       "note": "place word comes right after 在"
+      }
+     ]
     }
    ],
    "words": [],
@@ -27604,9 +30599,9 @@
     }
    ],
    "audio": {
-    "src": "lessons/mftgu_s1_l05/audio/Vv4.mp3",
-    "label": "在 · synthetic",
-    "real": false
+    "src": "lessons/lm_b1_l03/audio/v5.mp3",
+    "label": "在 · REAL",
+    "real": true
    }
   },
   {

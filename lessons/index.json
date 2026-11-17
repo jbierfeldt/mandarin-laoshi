@@ -1,6 +1,30 @@
 {
  "lessons": [
   {
+   "id": "lm_b1_l04",
+   "title": "Lesson 04 · My Father Works at a Computer Company 我爸爸在電腦公司工作",
+   "subtitle": "Let's Learn Mandarin B1 · occupations",
+   "short": "L04 電腦公司 · prep",
+   "source": "Textbook: Let's Learn Mandarin Book 1",
+   "kind": "textbook",
+   "date": "2026-11-17T09:41-05:00",
+   "emoji": "📘",
+   "color": "#3B5BDB",
+   "tags": []
+  },
+  {
+   "id": "lm_b1_l03",
+   "title": "Lesson 03 · She Is Not a Student 她不是學生",
+   "subtitle": "Let's Learn Mandarin B1 · occupations",
+   "short": "L03 她不是學生 · prep",
+   "source": "Textbook: Let's Learn Mandarin Book 1",
+   "kind": "textbook",
+   "date": "2026-11-17T09:40-05:00",
+   "emoji": "📘",
+   "color": "#3B5BDB",
+   "tags": []
+  },
+  {
    "id": "mftgu_s1_l08",
    "title": "MFTGU L08 · What's your favorite food? 你最喜歡吃什麼？",
    "subtitle": "小李 → xiáo lǐ · 一 → yì in 一起 / yí in 一下 · 不 → bú in 要不要 · 3+3 in 很久 / 我也 · neutral 歡 / 們 / 了",
