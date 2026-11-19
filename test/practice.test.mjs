@@ -5,12 +5,12 @@ import path from "node:path";
 import { execSync } from "node:child_process";
 
 const root = path.resolve(import.meta.dirname, "..");
-const OLD = ["lm_b1_l01", "lm_b1_l02", "lm_b1_l03", "lm_b1_l04", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06", "mftgu_s1_l07", "mftgu_s1_l08"];
+const OLD = ["lm_b1_l01", "lm_b1_l02", "lm_b1_l03", "lm_b1_l04", "mftgu_s1_l01", "mftgu_s1_l02", "mftgu_s1_l03", "mftgu_s1_l04", "mftgu_s1_l05", "mftgu_s1_l06", "mftgu_s1_l07", "mftgu_s1_l08", "mftgu_s1_l09"];
 const TONE = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/i;
 
 test("textbook and podcast lesson ids are unchanged", () => {
   const diff = execSync("git diff --name-only origin/main -- lessons", { cwd: root }).toString().trim().split("\n").filter(Boolean);
-  for (const file of diff) assert.ok(file === "lessons/index.json" || file.startsWith("lessons/mftgu_s1_l08/") || file.startsWith("lessons/lm_b1_l03/") || file.startsWith("lessons/lm_b1_l04/"), file);
+  for (const file of diff) assert.ok(file === "lessons/index.json" || file.startsWith("lessons/mftgu_s1_l08/") || file.startsWith("lessons/mftgu_s1_l09/") || file.startsWith("lessons/lm_b1_l03/") || file.startsWith("lessons/lm_b1_l04/"), file);
   const idx = JSON.parse(fs.readFileSync(path.join(root, "lessons/index.json"), "utf8"));
   assert.deepEqual(idx.lessons.map((l) => l.id).sort(), [...OLD].sort());
   for (const id of OLD) {
