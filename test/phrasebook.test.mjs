@@ -407,7 +407,7 @@ test("existing lesson ids, practice route, and phrasebook route stay in place", 
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*font-size:16px/);
   assert.match(css, /\.phrase-q,\.phrase-srcpick\{[^}]*min-height:44px/);
   const sw = fs.readFileSync(path.join(root, "sw.js"), "utf8");
-  assert.match(sw, /laoshi-20261119140000/);
+  assert.match(sw, /laoshi-20261120133000/);
   assert.match(sw, /phrasebook\/page\.js/);
   for (const file of ["phrasebook/page.js", "phrasebook/page.css", "phrasebook/SCHEMA.md", "README.md"]) {
     const text = fs.readFileSync(path.join(root, file), "utf8");

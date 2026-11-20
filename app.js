@@ -70,8 +70,10 @@ function section(s,L){
 // ---------- player (port of lesson_ui.js) ----------
 const fmt=t=>{t=isFinite(t)?Math.max(0,t):0;return Math.floor(t/60)+":"+String(Math.floor(t%60)).padStart(2,"0")};
 const mark=on=>{if(curEl)curEl.classList.toggle("playing",on)};
-function play(k,el){if(curK===k&&!au.paused){au.pause();return}
- if(curK!==k){mark(false);au.src=A[k];curK=k}curEl=el;au.playbackRate=rate;au.preservesPitch=true;mark(true);
+const abs=u=>{try{return new URL(u,document.baseURI).href}catch(e){return String(u??"")}};
+function play(k,el){const url=A[k],same=curK===k&&!!au.src&&abs(au.src)===abs(url);
+ if(same&&!au.paused){au.pause();return}
+ if(!same){mark(false);au.src=url;curK=k}curEl=el;au.playbackRate=rate;au.preservesPitch=true;mark(true);
  $("fpl").textContent=LBL[k]||k;$("fp").classList.add("show");document.body.classList.add("fpon");
  const p=au.play();if(p&&p.catch)p.catch(()=>{});
  if("mediaSession"in navigator){try{navigator.mediaSession.metadata=new MediaMetadata({title:LBL[k]||k,artist:"Mandarin 老師"})}catch(e){}}}
@@ -136,7 +138,11 @@ function renderIndex(j,conv){pageSimp=null;const ls=j.lessons.slice().sort((a,b)
 function renderPractice(j){pageSimp=null;const es=(j.entries||[]).slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
  $("app").innerHTML=`<div class="hero"><h1>Conversation Practice</h1><p>Dated exchanges for reference, vocabulary, and phrase recall. Textbook and podcast lessons stay on the home list.</p></div>
  <div class="cards" id="practice-cards">${es.map(practiceCard).join("")||"<p class='kick'>No conversation entries yet.</p>"}</div>${OWN}`;apply()}
-function renderLesson(L,basePath){A={};LBL={};pageSimp=L.script==="hans"?true:null;base=basePath||`lessons/${encodeURIComponent(L.id)}/`;
+function renderLesson(L,basePath){au.pause();mark(false);curK=null;curEl=null;
+ $("fp").classList.remove("show");document.body.classList.remove("fpon");
+ $("fpl").textContent="—";$("fpp").textContent="▶";$("fpt").textContent="0:00";$("fpd").textContent="0:00";$("fps").value=0;
+ try{au.removeAttribute("src");au.load()}catch(e){}
+ A={};LBL={};pageSimp=L.script==="hans"?true:null;base=basePath||`lessons/${encodeURIComponent(L.id)}/`;
  $("app").innerHTML=`<article class="lesson" data-id="${esc(L.id)}" data-kind="${esc(L.kind||"")}" data-script="${esc(L.script||"")}"><div class="kick">${esc(L.kick)}</div><h1>${L.h1||esc(L.title)}</h1>${L.focus?`<div class="kick">Focus: ${esc(L.focus)}</div>`:""}
  ${window.LEGEND}<div class="key">${L.key||""}</div>${L.sections.map(s=>section(s,L)).join("")}
  <p class="kick">${esc(L.foot||"")} Markers 1 2 3 ʰ ° ~ ü ↗ ↓ and cues = house A3 Marker style; teal final chips are an HTML-only extension. Contours/sandhi idealized by rule, not measured.</p>${OWN}</article>`;apply()}
