@@ -1,0 +1,943 @@
+{
+  "id": "cp_2026_11_20_chat",
+  "date": "2026-11-20T19:00:00-05:00",
+  "title": "亲亲, 举高高, 想得挺美",
+  "subtitle": "Texting with Scarlett, Nov 2026",
+  "short": "Nov 20 texting",
+  "focus": "亲亲 · 吻 · 举高高 · 想得挺美 · 不急",
+  "emoji": "💬",
+  "color": "#0B7285",
+  "tags": [
+    "conversation",
+    "2026-11-20",
+    "texting"
+  ],
+  "lines": [
+    {
+      "zh": "亲",
+      "py": "Qīn",
+      "en": "To kiss.",
+      "note": "The verb. 吻 is the noun for a kiss. In texts, 亲 is the usual casual choice.",
+      "words": [
+        {
+          "zh": "亲",
+          "py": "qīn",
+          "en": "to kiss"
+        }
+      ]
+    },
+    {
+      "zh": "亲亲",
+      "py": "Qīn qīn",
+      "en": "Kisses (cutesy).",
+      "note": "A playful, baby-talk way to say kisses. Sweeter than 吻 in a text.",
+      "words": [
+        {
+          "zh": "亲亲",
+          "py": "qīn qīn",
+          "en": "kisses (cutesy)"
+        }
+      ]
+    },
+    {
+      "zh": "吻",
+      "py": "Wěn",
+      "en": "A kiss (noun).",
+      "note": "The noun. For a casual text, 亲 or 亲亲 often sounds more natural than 吻.",
+      "words": [
+        {
+          "zh": "吻",
+          "py": "wěn",
+          "en": "a kiss"
+        }
+      ]
+    },
+    {
+      "zh": "我想亲你。",
+      "py": "Wǒ xiǎng qīn nǐ.",
+      "en": "I want to kiss you.",
+      "words": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to want; to think"
+        },
+        {
+          "zh": "亲",
+          "py": "qīn",
+          "en": "to kiss"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        }
+      ]
+    },
+    {
+      "zh": "想亲亲你",
+      "py": "Xiǎng qīn qīn nǐ",
+      "en": "(I) want to give you kisses (cutesy).",
+      "words": [
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to want; to think"
+        },
+        {
+          "zh": "亲亲",
+          "py": "qīn qīn",
+          "en": "kisses (cutesy)"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        }
+      ]
+    },
+    {
+      "zh": "我想给你八个吻。",
+      "py": "Wǒ xiǎng gěi nǐ bā ge wěn.",
+      "en": "I want to give you eight kisses.",
+      "words": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to want; to think"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        },
+        {
+          "zh": "吻",
+          "py": "wěn",
+          "en": "a kiss"
+        }
+      ]
+    },
+    {
+      "zh": "我想亲你八下。",
+      "py": "Wǒ xiǎng qīn nǐ bā xià.",
+      "en": "I want to kiss you eight times.",
+      "note": "下 counts how many times an action happens.",
+      "words": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to want; to think"
+        },
+        {
+          "zh": "亲",
+          "py": "qīn",
+          "en": "to kiss"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "下",
+          "py": "xià",
+          "en": "times (verb-measure)"
+        }
+      ]
+    },
+    {
+      "zh": "你叫李佳吻",
+      "py": "Nǐ jiào Lǐ Jiā wěn",
+      "en": "You should be called 李佳吻 (a pun on 李佳雯).",
+      "note": "Playful pun: 吻 wěn sounds almost like 雯 wén in her name 李佳雯. Not a real name change.",
+      "words": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "李",
+          "py": "Lǐ",
+          "en": "Lǐ (surname)"
+        },
+        {
+          "zh": "佳",
+          "py": "Jiā",
+          "en": "Jiā (from the given name)"
+        },
+        {
+          "zh": "吻",
+          "py": "wěn",
+          "en": "a kiss"
+        }
+      ]
+    },
+    {
+      "zh": "原来如此",
+      "py": "Yuán lái rú cǐ",
+      "en": "Oh, I see; so that's how it is.",
+      "words": [
+        {
+          "zh": "原来",
+          "py": "yuán lái",
+          "en": "as it turns out"
+        },
+        {
+          "zh": "如此",
+          "py": "rú cǐ",
+          "en": "like this; so"
+        }
+      ]
+    },
+    {
+      "zh": "有道理",
+      "py": "Yǒu dào lǐ",
+      "en": "That makes sense.",
+      "words": [
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have; there is"
+        },
+        {
+          "zh": "道理",
+          "py": "dào lǐ",
+          "en": "reason; sense"
+        }
+      ]
+    },
+    {
+      "zh": "啊，原来如此",
+      "py": "A, yuán lái rú cǐ",
+      "en": "Ah, so that's how it is.",
+      "words": [
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "ah; interjection"
+        },
+        {
+          "zh": "原来",
+          "py": "yuán lái",
+          "en": "as it turns out"
+        },
+        {
+          "zh": "如此",
+          "py": "rú cǐ",
+          "en": "like this; so"
+        }
+      ]
+    },
+    {
+      "zh": "啊，有道理",
+      "py": "A, yǒu dào lǐ",
+      "en": "Ah, that makes sense.",
+      "words": [
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "ah; interjection"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have; there is"
+        },
+        {
+          "zh": "道理",
+          "py": "dào lǐ",
+          "en": "reason; sense"
+        }
+      ]
+    },
+    {
+      "zh": "啊啊啊啊，有道理",
+      "py": "A a a a, yǒu dào lǐ",
+      "en": "Ahhh, that makes sense (playful).",
+      "note": "Repeating 啊 is natural and playful in casual texting, like a drawn-out \"ahhh.\"",
+      "words": [
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "ah; interjection"
+        },
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "ah; interjection"
+        },
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "ah; interjection"
+        },
+        {
+          "zh": "啊",
+          "py": "a",
+          "en": "ah; interjection"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have; there is"
+        },
+        {
+          "zh": "道理",
+          "py": "dào lǐ",
+          "en": "reason; sense"
+        }
+      ]
+    },
+    {
+      "zh": "你可以给我六个吻吗？",
+      "py": "Nǐ kě yǐ gěi wǒ liù ge wěn ma?",
+      "en": "Can you give me six kisses?",
+      "words": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "can; may"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        },
+        {
+          "zh": "吻",
+          "py": "wěn",
+          "en": "a kiss"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question marker"
+        }
+      ]
+    },
+    {
+      "zh": "你可以给我六个亲亲吗？",
+      "py": "Nǐ kě yǐ gěi wǒ liù ge qīn qīn ma?",
+      "en": "Can you give me six kisses? (cutesy)",
+      "note": "Sweeter and more playful than the version with 吻.",
+      "words": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "can; may"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        },
+        {
+          "zh": "亲亲",
+          "py": "qīn qīn",
+          "en": "kisses (cutesy)"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question marker"
+        }
+      ]
+    },
+    {
+      "zh": "亲我六下嘛",
+      "py": "Qīn wǒ liù xià ma",
+      "en": "Kiss me six times~ (coaxing).",
+      "note": "下 counts the times. 嘛 (not 吗) adds a coaxing, pleading tone.",
+      "words": [
+        {
+          "zh": "亲",
+          "py": "qīn",
+          "en": "to kiss"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "下",
+          "py": "xià",
+          "en": "times (verb-measure)"
+        },
+        {
+          "zh": "嘛",
+          "py": "ma",
+          "en": "coaxing particle"
+        }
+      ]
+    },
+    {
+      "zh": "给我六个亲亲嘛～",
+      "py": "Gěi wǒ liù ge qīn qīn ma",
+      "en": "Gimme six kisses~ (coaxing).",
+      "note": "嘛 adds a coaxing tone, softer than a plain request with 吗.",
+      "words": [
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        },
+        {
+          "zh": "亲亲",
+          "py": "qīn qīn",
+          "en": "kisses (cutesy)"
+        },
+        {
+          "zh": "嘛",
+          "py": "ma",
+          "en": "coaxing particle"
+        }
+      ]
+    },
+    {
+      "zh": "你很喜欢六，是不是？",
+      "py": "Nǐ hěn xǐ huan liù, shì bu shì?",
+      "en": "You really like six, don't you?",
+      "note": "Teasing. 是不是 at the end is a tag question, like \"right?\"",
+      "words": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very; really"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐ huan",
+          "en": "to like"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "是不是",
+          "py": "shì bu shì",
+          "en": "isn't it; right?"
+        }
+      ]
+    },
+    {
+      "zh": "每次都是六个",
+      "py": "Měi cì dōu shì liù ge",
+      "en": "It's always six (every time).",
+      "words": [
+        {
+          "zh": "每次",
+          "py": "měi cì",
+          "en": "every time"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "always; all"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        }
+      ]
+    },
+    {
+      "zh": "六六大顺",
+      "py": "Liù liù dà shùn",
+      "en": "May everything go smoothly (lucky-sixes saying).",
+      "note": "A set phrase. 六 sounds lucky here because of this saying, which is why \"six is 顺\" is a cheeky reply.",
+      "words": [
+        {
+          "zh": "六六大顺",
+          "py": "liù liù dà shùn",
+          "en": "may everything go smoothly (saying)"
+        }
+      ]
+    },
+    {
+      "zh": "因为六很顺！",
+      "py": "Yīn wèi liù hěn shùn!",
+      "en": "Because six is lucky / smooth!",
+      "note": "A playful reply to being teased about always picking six, nodding to 六六大顺.",
+      "words": [
+        {
+          "zh": "因为",
+          "py": "yīn wèi",
+          "en": "because"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very; really"
+        },
+        {
+          "zh": "顺",
+          "py": "shùn",
+          "en": "smooth; lucky"
+        }
+      ]
+    },
+    {
+      "zh": "那今天给我七个吧",
+      "py": "Nà jīn tiān gěi wǒ qī ge ba",
+      "en": "Then give me seven today.",
+      "note": "吧 softens it into a suggestion.",
+      "words": [
+        {
+          "zh": "那",
+          "py": "nà",
+          "en": "then; in that case"
+        },
+        {
+          "zh": "今天",
+          "py": "jīn tiān",
+          "en": "today"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "七",
+          "py": "qī",
+          "en": "seven"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        },
+        {
+          "zh": "吧",
+          "py": "ba",
+          "en": "suggestion particle"
+        }
+      ]
+    },
+    {
+      "zh": "不行",
+      "py": "Bù xíng",
+      "en": "No way; not allowed.",
+      "words": [
+        {
+          "zh": "不行",
+          "py": "bù xíng",
+          "en": "no way; not allowed"
+        }
+      ]
+    },
+    {
+      "zh": "可以给你六个吻",
+      "py": "Kě yǐ gěi nǐ liù ge wěn",
+      "en": "I can give you six kisses.",
+      "note": "A turn-down of seven that still offers six.",
+      "words": [
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "can; may"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to give"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        },
+        {
+          "zh": "吻",
+          "py": "wěn",
+          "en": "a kiss"
+        }
+      ]
+    },
+    {
+      "zh": "好吧，六个也很好",
+      "py": "Hǎo ba, liù ge yě hěn hǎo",
+      "en": "Okay, six is great too.",
+      "words": [
+        {
+          "zh": "好吧",
+          "py": "hǎo ba",
+          "en": "okay then"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "measure word"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also; too"
+        },
+        {
+          "zh": "很好",
+          "py": "hěn hǎo",
+          "en": "very good"
+        }
+      ]
+    },
+    {
+      "zh": "抱抱",
+      "py": "Bào bào",
+      "en": "Hug (cutesy).",
+      "note": "The doubled form makes it cute, like a kid asking for a hug.",
+      "words": [
+        {
+          "zh": "抱抱",
+          "py": "bào bào",
+          "en": "hug (cutesy)"
+        }
+      ]
+    },
+    {
+      "zh": "举高高",
+      "py": "Jǔ gāo gāo",
+      "en": "Lift me up high (cutesy).",
+      "note": "Baby-talk, like a kid asking to be picked up and lifted in the air. 高高 is doubled for cuteness.",
+      "words": [
+        {
+          "zh": "举",
+          "py": "jǔ",
+          "en": "to lift; to raise"
+        },
+        {
+          "zh": "高高",
+          "py": "gāo gāo",
+          "en": "up high (cutesy)"
+        }
+      ]
+    },
+    {
+      "zh": "来，抱抱，举高高！",
+      "py": "Lái, bào bào, jǔ gāo gāo!",
+      "en": "Come here, hug, up you go!",
+      "words": [
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "抱抱",
+          "py": "bào bào",
+          "en": "hug (cutesy)"
+        },
+        {
+          "zh": "举",
+          "py": "jǔ",
+          "en": "to lift; to raise"
+        },
+        {
+          "zh": "高高",
+          "py": "gāo gāo",
+          "en": "up high (cutesy)"
+        }
+      ]
+    },
+    {
+      "zh": "想得挺美",
+      "py": "Xiǎng de tǐng měi",
+      "en": "Dream on; you wish.",
+      "note": "A playful brush-off, literally \"you're imagining it pretty beautifully,\" like \"aren't you getting ahead of yourself.\"",
+      "words": [
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "to want; to think"
+        },
+        {
+          "zh": "得",
+          "py": "de",
+          "en": "links the verb to how it's done"
+        },
+        {
+          "zh": "挺",
+          "py": "tǐng",
+          "en": "quite; pretty"
+        },
+        {
+          "zh": "美",
+          "py": "měi",
+          "en": "beautiful; nice"
+        }
+      ]
+    },
+    {
+      "zh": "挑剔",
+      "py": "Tiāo tì",
+      "en": "Picky.",
+      "words": [
+        {
+          "zh": "挑剔",
+          "py": "tiāo tì",
+          "en": "picky"
+        }
+      ]
+    },
+    {
+      "zh": "我就是挑剔",
+      "py": "Wǒ jiù shì tiāo tì",
+      "en": "I'm just picky.",
+      "words": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "就是",
+          "py": "jiù shì",
+          "en": "just am; simply am"
+        },
+        {
+          "zh": "挑剔",
+          "py": "tiāo tì",
+          "en": "picky"
+        }
+      ]
+    },
+    {
+      "zh": "不急",
+      "py": "Bù jí",
+      "en": "No rush.",
+      "words": [
+        {
+          "zh": "不急",
+          "py": "bù jí",
+          "en": "no rush"
+        }
+      ]
+    },
+    {
+      "zh": "慢慢来",
+      "py": "Màn màn lái",
+      "en": "Take your time.",
+      "words": [
+        {
+          "zh": "慢慢来",
+          "py": "màn màn lái",
+          "en": "take your time"
+        }
+      ]
+    },
+    {
+      "zh": "我坐在外面",
+      "py": "Wǒ zuò zài wài miàn",
+      "en": "I'm sitting outside.",
+      "words": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at; in"
+        },
+        {
+          "zh": "外面",
+          "py": "wài miàn",
+          "trad": "外面",
+          "en": "outside"
+        }
+      ]
+    },
+    {
+      "zh": "我在外面坐着呢",
+      "py": "Wǒ zài wài miàn zuò zhe ne",
+      "en": "I'm sitting outside (right now).",
+      "note": "着 shows the sitting is ongoing. 呢 adds a \"just so you know\" feel.",
+      "words": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I; me"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at; in"
+        },
+        {
+          "zh": "外面",
+          "py": "wài miàn",
+          "trad": "外面",
+          "en": "outside"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "着",
+          "py": "zhe",
+          "trad": "著",
+          "en": "ongoing aspect"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "en": "softening particle"
+        }
+      ]
+    }
+  ]
+}

@@ -167,19 +167,28 @@ test("real index counts, merges, and conversation provenance", () => {
   assert.equal(index.regen, "node phrasebook/build.mjs");
   assert.deepEqual(index.counts, {
     lessons: 13,
-    conversations: 3,
-    entries: 447,
-    words: 201,
-    phrases: 246,
-    senses: 546,
+    conversations: 4,
+    entries: 507,
+    words: 237,
+    phrases: 270,
+    senses: 628,
     withAudio: 415,
-    withExamples: 201,
-    withBreakdown: 91,
-    multiSource: 60,
+    withExamples: 237,
+    withBreakdown: 126,
+    multiSource: 66,
     incorrectExcluded: 1,
   });
   assert.equal(index.charMapConflicts.length, 0);
-  assert.deepEqual(index.sources.map((s) => s.id).sort(), [...OLD, "cp_2026_11_07", "cp_2026_11_07_smoking", "cp_2026_11_10_chat"].sort());
+  assert.deepEqual(index.sources.map((s) => s.id).sort(), [...OLD, "cp_2026_11_07", "cp_2026_11_07_smoking", "cp_2026_11_10_chat", "cp_2026_11_20_chat"].sort());
+  const outside = findEntry(index, "外面", "waimian");
+  assert.equal(outside.trad, "外面");
+  assert.equal(outside.pinyin, "wàimiàn");
+  const noodles = findEntry(index, "拉面", "lamian");
+  assert.equal(stripPunct(noodles.trad), "拉麵");
+  const kiss = findEntry(index, "亲亲", "qinqin");
+  assert.equal(kiss.simp, "亲亲");
+  assert.equal(kiss.pinyin, "Qīn qīn");
+  assert.equal(findEntry(index, "想得挺美", "xiangdetingmei").pinyin, "Xiǎng de tǐng měi");
   const shoesIn = index.inputs.conversations.find((c) => c.id === "cp_2026_11_07");
   assert.equal(shoesIn.vocab, 44);
   assert.equal(shoesIn.lines, 27);

@@ -68,7 +68,10 @@ export function applyPair(tradStr, simpStr, map, rev) {
       simp += map[ch];
       continue;
     }
-    if (rev[ch]) {
+    // reverseMap stores one traditional character per simplified character.
+    // 麵 wins for 面 because the noodle entries differ, but 外面 is 面 in
+    // both scripts. A source that already wrote 面 keeps it.
+    if (rev[ch] && ch !== "面") {
       trad += rev[ch];
       simp += ch;
       continue;

@@ -59,7 +59,7 @@ The id is `pb-` plus hyphenated tone-less syllables plus `-` plus the simplified
 
 Top level: `schema` (1), `title`, `regen`, `description`, `counts`, `inputs`, `charMapConflicts`, `sources`, `charMap`, `entries`.
 
-`charMap` is traditional to simplified for pairs that actually occur in the sources. Search uses it so either form matches.
+`charMap` is traditional to simplified for pairs that actually occur in the sources. Search uses it so either form matches. It keeps one traditional character per simplified character, and that character is what a simplified-only cell is shown as. `面` is the exception: a source that wrote `面` (外面) stays `面` in both scripts, and `麵` is kept only where the source stored `麵` (noodles).
 
 Each entry:
 

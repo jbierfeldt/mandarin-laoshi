@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "cp_2026_11_20_chat",
+      "title": "亲亲, 举高高, 想得挺美",
+      "subtitle": "Texting with Scarlett, Nov 2026",
+      "short": "Nov 20 texting",
+      "source": "Conversation Practice",
+      "kind": "conversation",
+      "date": "2026-11-20T19:00:00-05:00",
+      "emoji": "💬",
+      "color": "#0B7285",
+      "tags": [
+        "conversation",
+        "2026-11-20",
+        "texting"
+      ]
+    },
+    {
       "id": "cp_2026_11_10_chat",
       "title": "摸摸, 靓仔, morning, coffee or tea",
       "subtitle": "Chat with 老师, Nov 9–10, 2026",
