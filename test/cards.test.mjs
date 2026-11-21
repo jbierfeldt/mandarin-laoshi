@@ -170,3 +170,24 @@ test("service worker shell includes the card modules", () => {
     assert.ok(fs.existsSync(path.join(root, file)), file);
   }
 });
+
+test("updates bypass the HTTP cache and reload the open page once", () => {
+  const sw = fs.readFileSync(path.join(root, "sw.js"), "utf8");
+  const app = fs.readFileSync(path.join(root, "app.js"), "utf8");
+  assert.match(sw, /laoshi-20261121023000/);
+  assert.match(sw, /new Request\([\s\S]*?cache:\s*"reload"/);
+  assert.equal(sw.includes("addAll"), false);
+  assert.equal((sw.match(/cache:\s*"reload"/g) || []).length >= 2, true);
+  assert.match(sw, /function isEntry/);
+  assert.ok(sw.indexOf("networkFirst") < sw.indexOf("caches.match(e.request"));
+  assert.match(sw, /laoshi-audio/);
+  assert.equal(sw.includes("indexedDB"), false);
+  assert.equal(app.includes("indexedDB.deleteDatabase"), false);
+  assert.match(app, /updateViaCache:\s*"none"/);
+  assert.match(app, /reg\.update\(\)/);
+  assert.match(app, /visibilitychange/);
+  assert.match(app, /controllerchange/);
+  assert.match(app, /location\.reload\(\)/);
+  assert.match(app, /if\(!hadController\|\|reloaded\)return/);
+  assert.match(app, /laoshiReloadedAt/);
+});

@@ -167,5 +167,18 @@ async function route(){const h=location.hash||"#/";const m=h.match(/^#\/lesson\/
  catch(e){$("app").innerHTML=`<div class="err">Couldn’t load: ${esc(e.message)}. <a href="#/">All lessons</a></div>`}
  markTabs()}
 $("back").onclick=()=>{location.hash=/^#\/practice\/.+/.test(location.hash)?"#/practice":"#/"};window.addEventListener("hashchange",route);route();
-if("serviceWorker"in navigator&&location.protocol!=="file:")navigator.serviceWorker.register("sw.js").catch(()=>{});
+if("serviceWorker"in navigator&&location.protocol!=="file:"){
+ const hadController=!!navigator.serviceWorker.controller;let reloaded=false;
+ navigator.serviceWorker.addEventListener("controllerchange",()=>{
+  if(!hadController||reloaded)return;
+  const stamp=sessionStorage.getItem("laoshiReloadedAt");const t=Date.now();
+  if(stamp&&t-Number(stamp)<10000)return;
+  sessionStorage.setItem("laoshiReloadedAt",String(t));reloaded=true;location.reload();
+ });
+ navigator.serviceWorker.register("sw.js",{updateViaCache:"none"}).then(reg=>{
+  const update=()=>reg.update().catch(()=>{});
+  update();
+  document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")update()});
+ }).catch(()=>{});
+}
 })();
