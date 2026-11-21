@@ -1,0 +1,59 @@
+/* Flashcards and settings. Mobile first, thumb reach at the bottom of the card. */
+.fc{max-width:640px;margin:0 auto}
+.fc h1{font-size:1.6rem;margin:0 0 12px;border:0}
+.fc-kicker,.fc-quiet{color:var(--mute);font-size:14px;margin:0 0 10px}
+.fc-kicker{text-transform:uppercase;letter-spacing:.04em;font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:0 0 16px}
+.stat{background:var(--paper,#fff);border:1px solid var(--line);border-radius:14px;padding:10px 4px;text-align:center}
+.stat b{display:block;font-size:1.35rem;font-weight:700;line-height:1.2}
+.stat span{display:block;color:var(--mute);font-size:12px;margin-top:2px}
+.fc-go{display:block;width:100%;min-height:52px;border:0;border-radius:14px;background:var(--ink);color:#fff;font-size:17px;font-weight:700}
+.fc-go:disabled{opacity:.45}
+.fc-go:focus-visible,.fc-face:focus-visible,.grade:focus-visible,.fc-play:focus-visible,.fc-text:focus-visible{outline:2px solid #0B7285;outline-offset:2px}
+.fc-links{font-size:15px;margin:14px 0}
+.fc-links a{color:#0B7285}
+.fc-warn{background:#FFF3BF;color:#212529;border-radius:10px;padding:8px 10px;font-size:14px}
+.fc-run{display:flex;flex-direction:column;min-height:calc(100dvh - 120px - env(safe-area-inset-top))}
+.fc-top{display:flex;align-items:center;gap:8px;color:var(--mute);font-size:14px}
+.fc-top span{flex:1}
+.fc-text{min-height:44px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--paper,#fff);color:var(--ink);font-size:15px}
+.fc-toggles{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.fc-face{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;border:0;background:transparent;color:inherit;font:inherit;text-align:center;padding:8px;cursor:pointer}
+.fc-stage{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:0}
+.han{margin:0;font-weight:600;line-height:1.25;letter-spacing:.02em}
+.han[data-len="s"]{font-size:4.25rem}
+.han[data-len="m"]{font-size:2.5rem}
+.han[data-len="l"]{font-size:1.55rem}
+.fc-py{margin:10px 0 0;font-size:1.2rem}
+.fc-en{margin:18px 0 0;font-size:1.35rem;line-height:1.35;max-width:28rem}
+.fc-also,.fc-trad,.fc-hint{margin:8px 0 0;color:var(--mute);font-size:14px}
+.fc-play{align-self:center;min-height:44px;min-width:88px;margin:0 0 8px;border-radius:16px;border:1px solid #ADB5BD;background:var(--paper,#fff);color:var(--ink);font-size:16px}
+.grades{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:12px}
+.grade{min-height:56px;border:0;border-radius:14px;color:#fff;font-size:14px;font-weight:700;padding:6px 2px}
+.grade small{display:block;font-weight:560;font-size:12px;opacity:.92}
+.g-again{background:#C92A2A}
+.g-hard{background:#495057}
+.g-good{background:#0B7285}
+.g-easy{background:#364FC7}
+.tone.t1{color:#C2410C}
+.tone.t2{color:#0F766E}
+.tone.t3{color:#364FC7}
+.tone.t4{color:#862E9C}
+.tone.t5{color:#495057}
+.fc-set fieldset{border:1px solid var(--line);border-radius:14px;margin:0 0 12px;padding:8px 12px 12px}
+.fc-set legend{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);padding:0 4px}
+.fc-field,.fc-check{display:flex;flex-direction:column;gap:4px;font-size:15px;margin:8px 0}
+.fc-check{flex-direction:row;align-items:center;gap:8px;min-height:44px}
+.fc-field input,.fc-field select{font-size:16px;min-height:44px;border:1px solid #ADB5BD;border-radius:12px;padding:8px 12px;color:var(--ink);background:var(--paper,#fff);width:100%;box-sizing:border-box}
+.fc-row{display:flex;flex-wrap:wrap;gap:8px}
+.fc-file{position:relative;overflow:hidden;display:inline-flex;align-items:center}
+.fc-file input{position:absolute;inset:0;opacity:0}
+.fc-status{min-height:1.2em;font-size:14px}
+html.dark .tone.t1{color:#FF8A65}
+html.dark .tone.t2{color:#5EEAD4}
+html.dark .tone.t3{color:#91A7FF}
+html.dark .tone.t4{color:#E599F7}
+html.dark .tone.t5{color:#CED4DA}
+html.dark .fc-go{background:#f1f3f5;color:#14161a}
+html.dark .g-hard{background:#868E96;color:#14161a}
+html.dark .fc-links a{color:#99E9F2}

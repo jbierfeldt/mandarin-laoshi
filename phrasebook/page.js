@@ -2,8 +2,9 @@
 import { cardHtml, esc } from "./card.mjs";
 import { searchEntries } from "./search.mjs";
 
-const state = { q: "", kind: "all", sourceId: "", focus: "" };
+const state = { q: "", kind: "all", sourceId: "", pack: "all", focus: "" };
 let index = null;
+let packDoc = null;
 let clip = null;
 let clipBtn = null;
 
@@ -19,19 +20,48 @@ async function loadIndex() {
   return index;
 }
 
+async function loadPacks() {
+  if (packDoc) return packDoc;
+  try {
+    const res = await fetch("phrasebook/packs.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(String(res.status));
+    packDoc = await res.json();
+  } catch {
+    packDoc = { packs: [] };
+  }
+  return packDoc;
+}
+
+function packTitle(id) {
+  for (const pack of packDoc?.packs || []) if (pack.ids.includes(id)) return pack.title;
+  return "";
+}
+
+function packIds() {
+  const packs = packDoc?.packs || [];
+  if (state.pack === "all") return null;
+  if (state.pack === "other") {
+    const known = new Set(packs.flatMap((pack) => pack.ids));
+    return new Set((index.entries || []).filter((entry) => !known.has(entry.id)).map((entry) => entry.id));
+  }
+  const pack = packs.find((item) => item.id === state.pack);
+  return new Set(pack ? pack.ids : []);
+}
+
 
 function drawList() {
   const list = document.getElementById("phrase-list");
   const count = document.getElementById("phrase-count");
   if (!list || !index) return;
-  const shown = searchEntries(index, state.q, { kind: state.kind, sourceId: state.sourceId });
+  const shown = searchEntries(index, state.q, { kind: state.kind, sourceId: state.sourceId, ids: packIds() });
   count.textContent = shown.length ? `${shown.length} shown` : "";
   if (!shown.length) {
     list.innerHTML = `<p class="phrase-empty" role="status">Nothing in your lessons matches that. Try English, pinyin with or without tone marks, or Chinese characters.</p>`;
     return;
   }
-  list.innerHTML = shown.map((entry) => cardHtml(entry, state.focus)).join("");
+  list.innerHTML = shown.map((entry) => cardHtml(entry, state.focus, { pack: packTitle(entry.id) })).join("");
   document.querySelectorAll("#phrase-kinds .phrase-chip").forEach((btn) => btn.classList.toggle("on", btn.dataset.kind === state.kind));
+  document.querySelectorAll("#phrase-packs .phrase-chip").forEach((btn) => btn.classList.toggle("on", btn.dataset.pack === state.pack));
   if (state.focus) {
     const el = document.getElementById(state.focus);
     if (el) el.scrollIntoView({ block: "nearest" });
@@ -62,12 +92,16 @@ function sourceOptions(data) {
 
 function drawShell() {
   const counts = index.counts || {};
-  const conv = counts.conversations === 1 ? "1 conversation" : `${counts.conversations || 0} conversations`;
   const app = document.getElementById("app");
-  app.innerHTML = `<div class="phrase"><p class="phrase-intro">Only words and phrases from your class lessons, podcast lessons, and conversation notes. Not a full dictionary, and not a score of what you have memorized. ${esc(counts.words)} words and ${esc(counts.phrases)} phrases from ${esc(counts.lessons)} lessons and ${esc(conv)}.</p>
+  const packChips = [`<button type="button" class="phrase-chip" data-pack="all">All</button>`]
+    .concat((packDoc?.packs || []).map((pack) => `<button type="button" class="phrase-chip" data-pack="${esc(pack.id)}">${esc(pack.title)}</button>`))
+    .concat(`<button type="button" class="phrase-chip" data-pack="other">Not in a pack</button>`)
+    .join("");
+  app.innerHTML = `<div class="phrase"><p class="phrase-intro">From your lessons and chats. Chinese, pinyin, and a short meaning. Tap a row for the note. ${esc(counts.words)} words and ${esc(counts.phrases)} phrases.</p>
   <div class="phrase-bar"><label class="phrase-sr" for="phrase-q">Search words and phrases</label>
   <input id="phrase-q" class="phrase-q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="English, pinyin, or characters" value="${esc(state.q)}">
   <div class="phrase-chips" id="phrase-kinds"><button type="button" class="phrase-chip" data-kind="all">All</button><button type="button" class="phrase-chip" data-kind="word">Words</button><button type="button" class="phrase-chip" data-kind="phrase">Phrases</button></div>
+  <div class="phrase-chips" id="phrase-packs">${packChips}</div>
   <label class="phrase-sr" for="phrase-src">Source</label>
   <select id="phrase-src" class="phrase-srcpick">${sourceOptions(index)}</select>
   <p class="phrase-count" id="phrase-count" aria-live="polite"></p></div>
@@ -88,6 +122,13 @@ function drawShell() {
     const btn = event.target.closest(".phrase-chip");
     if (!btn) return;
     state.kind = btn.dataset.kind || "all";
+    state.focus = "";
+    drawList();
+  });
+  document.getElementById("phrase-packs").addEventListener("click", (event) => {
+    const btn = event.target.closest(".phrase-chip");
+    if (!btn) return;
+    state.pack = btn.dataset.pack || "all";
     state.focus = "";
     drawList();
   });
@@ -131,9 +172,11 @@ window.renderPhrasebook = async function renderPhrasebook(focus) {
     state.q = "";
     state.kind = "all";
     state.sourceId = "";
+    state.pack = "all";
     state.focus = focus;
   }
   await loadIndex();
+  await loadPacks();
   if (!/^#\/phrasebook(?:\/|$)/.test(location.hash || "")) return;
   if (!document.getElementById("phrase-q")) drawShell();
   else drawList();

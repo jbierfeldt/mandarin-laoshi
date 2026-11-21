@@ -1,5 +1,5 @@
 /* Service worker: app shell cache-first (versioned), JSON network-first, audio cached on first play (Range-aware). */
-const V="laoshi-20261120133000",SHELL=["./","index.html","app.js","app.css","viewer.css","legend.js","manifest.webmanifest","icons/icon-180.png","icons/icon-192.png","icons/icon-512.png","phrasebook/page.js","phrasebook/page.css","phrasebook/card.mjs","phrasebook/search.mjs"];
+const V="laoshi-20261121153000",SHELL=["./","index.html","app.js","app.css","viewer.css","legend.js","manifest.webmanifest","icons/icon-180.png","icons/icon-192.png","icons/icon-512.png","phrasebook/page.js","phrasebook/page.css","phrasebook/card.mjs","phrasebook/search.mjs","phrasebook/packs.json","cards/page.js","cards/page.css","cards/fsrs.mjs","cards/tones.mjs","cards/queue.mjs","cards/settings.mjs","cards/storage.mjs","cards/sync.mjs","tools/conversation/pinyin.mjs"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V&&k!=="laoshi-audio").map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 async function audio(req){const c=await caches.open("laoshi-audio");const url=req.url.split("#")[0];

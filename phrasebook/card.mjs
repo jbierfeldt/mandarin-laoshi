@@ -39,7 +39,7 @@ function wordsHtml(words) {
   }).join("")}</ul>`;
 }
 
-export function cardHtml(entry, focusId = "") {
+export function cardHtml(entry, focusId = "", options = {}) {
   const senses = entry.senses || [];
   const first = senses[0]?.gloss || "";
   const summaryEn = shortMeaning(first);
@@ -60,8 +60,9 @@ export function cardHtml(entry, focusId = "") {
   }).join("")}` : "";
   const src = safeSrc(entry.audio && entry.audio.src);
   const audio = src ? `<p class="phrase-audio"><button type="button" class="phrase-play" data-src="${esc(src)}">Play clip</button><span class="phrase-clip">${esc(entry.audio.label || (entry.audio.real ? "Lesson clip" : "Computer voice"))}</span></p>` : "";
+  const pack = options && options.pack ? `<p class="phrase-pack">${esc(options.pack)}</p>` : "";
   const open = focusId && focusId === entry.id ? " open" : "";
   const focus = open ? " phrase-focus" : "";
   const kind = entry.kind === "phrase" ? "Phrase" : "Word";
-  return `<article class="phrase-card${focus}" id="${esc(entry.id)}" data-kind="${esc(entry.kind)}"><details${open}><summary><span class="phrase-simp">${esc(entry.simp)}</span><span class="phrase-line"><span class="phrase-py">${esc(entry.pinyin)}</span><span class="phrase-sum-en">${esc(summaryEn)}${more}</span></span><span class="phrase-more" aria-hidden="true"></span><span class="phrase-sr">Details</span></summary><div class="phrase-detail"><p class="phrase-kind">${kind}</p><p class="phrase-py-full">${esc(entry.pinyin)}</p>${trad}<h3 class="phrase-exh">Meanings</h3>${senseHtml}${wordsHtml(entry.words)}${examples}${audio}</div></details></article>`;
+  return `<article class="phrase-card${focus}" id="${esc(entry.id)}" data-kind="${esc(entry.kind)}"><details${open}><summary><span class="phrase-simp">${esc(entry.simp)}</span><span class="phrase-line"><span class="phrase-py">${esc(entry.pinyin)}</span><span class="phrase-sum-en">${esc(summaryEn)}${more}</span></span><span class="phrase-more" aria-hidden="true"></span><span class="phrase-sr">Details</span></summary><div class="phrase-detail">${pack}<p class="phrase-kind">${kind}</p><p class="phrase-py-full">${esc(entry.pinyin)}</p>${trad}<h3 class="phrase-exh">Meanings</h3>${senseHtml}${wordsHtml(entry.words)}${examples}${audio}</div></details></article>`;
 }

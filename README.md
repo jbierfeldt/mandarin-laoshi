@@ -24,3 +24,13 @@ node phrasebook/build.mjs --check
 ```
 
 `--check` fails when the index does not match the lessons and conversations on disk. Fields are in `phrasebook/SCHEMA.md`.
+
+## Flashcards
+
+`#/cards` is spaced repetition over `phrasebook/packs.json`. Essentials is on from the start. Everyday and Phrases & texting turn on in `#/settings`. Grades are Again, Hard, Good, and Easy. The scheduler is FSRS-5, with a 1-minute then 10-minute step before a Good card graduates. Progress stays in IndexedDB on the phone. Settings exports and imports a JSON backup. The browser is asked to persist storage so iOS is less likely to evict it.
+
+Sync is off until Settings has an https URL and a secret. The optional worker is in `sync/`. It is not required.
+
+Words that are not in a pack stay in the phrasebook and are not quizzed. The phrasebook list is Chinese, pinyin, and a short meaning. Tap a row for the note. Filters include pack and source.
+
+The card screen borrows a few habits from other study apps: Pleco’s compact headword, pinyin, and gloss; Anki’s reveal then Again/Hard/Good/Easy; HelloChinese’s tone colors (the same hues as the lesson viewer, darkened a little so pinyin stays readable); Du Chinese’s tap-for-detail reading list. No notifications.

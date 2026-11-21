@@ -1,4 +1,4 @@
-/* Mandarin 老師 — no-build SPA. Routes: #/ (index) · #/lesson/<id> · #/practice · #/practice/<id> · #/phrasebook.
+/* Mandarin 老師 — no-build SPA. Routes: #/ (index) · #/cards · #/settings · #/lesson/<id> · #/practice · #/practice/<id> · #/phrasebook.
    Lessons: lessons/<id>/lesson.json. Conversation practice: conversations/<id>/entry.json (same score schema).
    Phrasebook: phrasebook/index.json via phrasebook/page.js. It does not load lesson or practice JSON. */
 (()=>{"use strict";
@@ -128,6 +128,7 @@ function renderIndex(j,conv){pageSimp=null;const ls=j.lessons.slice().sort((a,b)
  const shown=ls.filter(l=>filt==="all"||l.source===filt);
  const entries=(conv&&conv.entries?conv.entries:[]).slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
  $("app").innerHTML=`<div class="hero"><h1>Mandarin 老師</h1><p>Textbook lessons, podcast lessons, and conversation practice · newest first · tap a card</p></div>
+ <a class="study-entry" href="#/cards"><strong>Study cards</strong><span>Essentials · 10 new a day</span></a>
  <section id="practice" data-section="conversation"><h2 class="grp">Conversation Practice</h2>
  <p class="kick">Dated chat notes for later review. Separate from textbook and podcast lessons. Filters below apply to lessons only.</p>
  <div class="cards" id="practice-cards">${entries.map(practiceCard).join("")||"<p class='kick'>No conversation entries yet.</p>"}</div></section>
@@ -146,11 +147,16 @@ function renderLesson(L,basePath){au.pause();mark(false);curK=null;curEl=null;
  $("app").innerHTML=`<article class="lesson" data-id="${esc(L.id)}" data-kind="${esc(L.kind||"")}" data-script="${esc(L.script||"")}"><div class="kick">${esc(L.kick)}</div><h1>${L.h1||esc(L.title)}</h1>${L.focus?`<div class="kick">Focus: ${esc(L.focus)}</div>`:""}
  ${window.LEGEND}<div class="key">${L.key||""}</div>${L.sections.map(s=>section(s,L)).join("")}
  <p class="kick">${esc(L.foot||"")} Markers 1 2 3 ʰ ° ~ ü ↗ ↓ and cues = house A3 Marker style; teal final chips are an HTML-only extension. Contours/sandhi idealized by rule, not measured.</p>${OWN}</article>`;apply()}
-async function route(){const h=location.hash||"#/";const m=h.match(/^#\/lesson\/([^/?]+)/);const pm=h.match(/^#\/practice\/([^/?]+)/);const pi=/^#\/practice\/?$/.test(h);const bm=h.match(/^#\/phrasebook(?:\/([^/?]+))?\/?$/);dr(false);
+function markTabs(){const h=location.hash||"#/";const tab=/^#\/cards/.test(h)?"cards":/^#\/phrasebook/.test(h)?"words":/^#\/practice/.test(h)?"chat":/^#\/?$/.test(h)?"home":"";
+ document.querySelectorAll(".tabbar a").forEach(a=>a.setAttribute("aria-current",tab&&a.dataset.tab===tab?"page":"false"))}
+async function route(){const h=location.hash||"#/";const m=h.match(/^#\/lesson\/([^/?]+)/);const pm=h.match(/^#\/practice\/([^/?]+)/);const pi=/^#\/practice\/?$/.test(h);const bm=h.match(/^#\/phrasebook(?:\/([^/?]+))?\/?$/);const cards=/^#\/cards\/?$/.test(h);const settings=/^#\/settings\/?$/.test(h);dr(false);
  if(curK){au.pause();mark(false)}
  try{if(bm){const focus=bm[1]?decodeURIComponent(bm[1]):"";$("back").hidden=false;$("dbtn").hidden=true;$("tt").textContent="Phrasebook";document.title="Phrasebook · Mandarin 老師";
    const show=()=>{if(!/^#\/phrasebook(?:\/|$)/.test(location.hash||"#"))return;if(!window.renderPhrasebook)return;Promise.resolve(window.renderPhrasebook(focus)).catch(err=>{$("app").innerHTML=`<div class="err">Couldn’t load phrasebook: ${esc(err.message)}. <a href="#/">All lessons</a></div>`})};
    if(window.renderPhrasebook)show();else window.addEventListener("phrasebook-ready",show,{once:true});window.scrollTo(0,0)}
+  else if(cards||settings){$("back").hidden=false;$("dbtn").hidden=true;$("tt").textContent=settings?"Settings":"Cards";document.title=(settings?"Settings":"Cards")+" · Mandarin 老師";
+   const show=()=>{const now=location.hash||"";if(cards&&!/^#\/cards\/?$/.test(now))return;if(settings&&!/^#\/settings\/?$/.test(now))return;if(!window.renderStudy)return;Promise.resolve(window.renderStudy(settings?"settings":"cards")).catch(err=>{$("app").innerHTML=`<div class="err">Couldn’t load cards: ${esc(err.message)}. <a href="#/">All lessons</a></div>`})};
+   if(window.renderStudy)show();else window.addEventListener("study-ready",show,{once:true});window.scrollTo(0,0)}
   else if(m){const id=decodeURIComponent(m[1]);$("back").hidden=false;$("dbtn").hidden=false;$("tt").textContent="…";
    const L=await getJSON(`lessons/${encodeURIComponent(id)}/lesson.json`);document.title=(L.short||L.title)+" · Mandarin 老師";$("tt").textContent=L.short||L.title;renderLesson(L);window.scrollTo(0,0)}
   else if(pm){const id=decodeURIComponent(pm[1]);$("back").hidden=false;$("dbtn").hidden=false;$("tt").textContent="…";
@@ -158,7 +164,8 @@ async function route(){const h=location.hash||"#/";const m=h.match(/^#\/lesson\/
   else if(pi){$("back").hidden=false;$("dbtn").hidden=true;$("tt").textContent="Conversation Practice";document.title="Conversation Practice · Mandarin 老師";renderPractice(await pidx());window.scrollTo(0,0)}
   else{$("back").hidden=true;$("dbtn").hidden=true;$("tt").textContent="Mandarin 老師";document.title="Mandarin 老師";
    const lessons=await idx();let conv={entries:[]};try{conv=await pidx()}catch(e){}renderIndex(lessons,conv)}}
- catch(e){$("app").innerHTML=`<div class="err">Couldn’t load: ${esc(e.message)}. <a href="#/">All lessons</a></div>`}}
+ catch(e){$("app").innerHTML=`<div class="err">Couldn’t load: ${esc(e.message)}. <a href="#/">All lessons</a></div>`}
+ markTabs()}
 $("back").onclick=()=>{location.hash=/^#\/practice\/.+/.test(location.hash)?"#/practice":"#/"};window.addEventListener("hashchange",route);route();
 if("serviceWorker"in navigator&&location.protocol!=="file:")navigator.serviceWorker.register("sw.js").catch(()=>{});
 })();

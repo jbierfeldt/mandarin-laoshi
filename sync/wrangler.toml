@@ -1,0 +1,8 @@
+name = "laoshi-sync"
+main = "worker.js"
+compatibility_date = "2026-11-21"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "laoshi"
+database_id = "replace-after-wrangler-d1-create"

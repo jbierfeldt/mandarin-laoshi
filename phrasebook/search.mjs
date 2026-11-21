@@ -112,6 +112,7 @@ export function searchEntries(index, query, filter = {}) {
     list = list.filter((entry) => (entry.senses || []).some((sense) =>
       (sense.sources || []).some((src) => src.id === sourceId)));
   }
+  if (filter.ids instanceof Set) list = list.filter((entry) => filter.ids.has(entry.id));
   const q = String(query ?? "").trim();
   if (!q) return list;
   const charMap = index.charMap || {};
